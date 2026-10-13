@@ -16,14 +16,14 @@ The existence assertion requires an infinite abstract group with this property, 
 >
 > ```math
 > G_p=\ker\!\left[
-> \operatorname{St}_{12}(R(p))
-> \longrightarrow\operatorname{St}_{12}(\mathbb F_p)
+> \mathrm{St}_{12}(R(p))
+> \longrightarrow\mathrm{St}_{12}(\mathbb F_p)
 > \right]
 > ```
 >
 > has all four properties. The same assertion holds with any fixed rank $`n\ge12`$ in place of twelve.
 
-Here finite presentation means finitely many generators and relators in the category of abstract groups. Residual finiteness means that every nonidentity element survives in a finite group. The group may depend on $`p`$, and the exponent may depend on the element. The notation $`\operatorname{St}(R)`$ denotes the stable Steinberg group, and $`E(R)`$ its elementary matrix image.
+Here finite presentation means finitely many generators and relators in the category of abstract groups. Residual finiteness means that every nonidentity element survives in a finite group. The group may depend on $`p`$, and the exponent may depend on the element. The notation $`\mathrm{St}(R)`$ denotes the stable Steinberg group, and $`E(R)`$ its elementary matrix image.
 
 This repository presents a proposed paper proof for formalization. A proof sketch follows; the [PDF manuscript](PDF/all-prime-residually-finite-p-groups.pdf) contains the detailed argument, including the finite algebra construction and stable separation for that same algebra. These two steps are proved in Sections 16–22 rather than assumed in the main theorem.
 
@@ -92,7 +92,7 @@ p^{v_p(2^m+1)}\le C_pm
 
 shows that the prime-to-$`p`$ parts $`\ell_d=Q_d/p^{v_p(Q_d)}`$ are unbounded. The phase identities remain valid modulo $`\ell_d`$.
 
-Let $`z`$ be killed by every degree truncation of $`\operatorname{St}(R(p))`$. Its matrix image is the identity and its degree-zero reduction is trivial. Graded block substitution and removal of the wrap entry of a cyclic shift give
+Let $`z`$ be killed by every degree truncation of $`\mathrm{St}(R(p))`$. Its matrix image is the identity and its degree-zero reduction is trivial. Graded block substitution and removal of the wrap entry of a cyclic shift give
 
 ```math
 z^{p^a}=1\quad\text{for some }a,
@@ -109,8 +109,8 @@ Both identities concern the same element. Since $`\gcd(p^a,\ell)=1`$, they imply
 
 ```math
 \bigcap_{d\ge1}\ker\!\left[
-\operatorname{St}(R(p))
-\longrightarrow\operatorname{St}(R(p)/I(p)_{\ge d})
+\mathrm{St}(R(p))
+\longrightarrow\mathrm{St}(R(p)/I(p)_{\ge d})
 \right]=\{1\}
 ```
 
@@ -123,13 +123,13 @@ A finite presentation of the algebra gives a finite presentation of its Steinber
 Matrix nilpotence makes a matrix invertible exactly when its degree-zero reduction is invertible. A presentation by matrix relations on at most five coordinates proves centrality of the matrix kernel. The integral complex of ordered frames and the central extensions of its stabilizers then give injectivity
 
 ```math
-\operatorname{St}_n(R(p))\longrightarrow\operatorname{St}(R(p))
+\mathrm{St}_n(R(p))\longrightarrow\mathrm{St}(R(p))
 \qquad(n\ge12)
 ```
 
 (Theorem 12.1).
 
-Every degree truncation is a finite ring. Its Steinberg group is finitely generated and perfect, with a central subgroup of finite index. A coset-transfer argument proves that this group is finite (Corollary 13.3). In particular, $`\operatorname{St}_{12}(\mathbb F_p)`$ is finite, so finite-index rewriting gives an ordinary finite presentation of $`G_p`$.
+Every degree truncation is a finite ring. Its Steinberg group is finitely generated and perfect, with a central subgroup of finite index. A coset-transfer argument proves that this group is finite (Corollary 13.3). In particular, $`\mathrm{St}_{12}(\mathbb F_p)`$ is finite, so finite-index rewriting gives an ordinary finite presentation of $`G_p`$.
 
 ### 5. Obtain all four properties in the same group
 
