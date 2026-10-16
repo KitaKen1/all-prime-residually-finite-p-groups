@@ -1,0 +1,11 @@
+{
+  "commit": "01db1d7049cf9668bda1e9e106875ee1278b43e6",
+  "retrieved": "2026-10-15",
+  "files": [
+    {
+      "path": "LeanPool/BrauerGroupNew/Mathlib/RepresentationTheory/Homological/GroupCohomology/LowDegree.lean",
+      "sha256": "31863d49b106850fe33d12e835cfe3e212ec06c19bc1d0d36b6ede8116b4e861",
+      "url": "https://github.com/Vilin97/lean-pool/blob/01db1d7049cf9668bda1e9e106875ee1278b43e6/LeanPool/BrauerGroupNew/Mathlib/RepresentationTheory/Homological/GroupCohomology/LowDegree.lean"
+    }
+  ]
+}

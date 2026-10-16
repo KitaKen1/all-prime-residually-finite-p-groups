@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "repository": "KitaKen1/ci-test-sandbox",
+  "branch": "ci/all-prime-groups-lean4341",
+  "run_id": 38856485805,
+  "run_attempt": 1,
+  "run_url": "https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38856485805",
+  "tested_commit": "986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d",
+  "archive": "verification/private-ci-38856485805-attempt1",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "compiled_project_modules": 204,
+  "comparator_targets": 3,
+  "core_axiom_audits": 494,
+  "connection_axiom_audits": 5,
+  "comparator_builtin_kernel_replay": true,
+  "separate_fresh_lean_kernel_replay": true,
+  "external_kernel_run": false,
+  "public_ci_run": false,
+  "archive_provenance_sha256": "4fb941166292c7c7bf6369f50a0959ede296e305b60248297c86ed89f2b30d9d",
+  "scope": "Private GitHub-hosted Linux CI; the three target proofs and pinned checker inputs match this publication. Original ZIPs, complete logs, API metadata and extracted receipts are retained. Public CI remains separate."
+}

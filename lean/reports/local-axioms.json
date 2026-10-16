@@ -1,0 +1,2443 @@
+{
+  "AllPrimeGroups.exists_prime_free_hierarchy": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.phasePeriod_coprime": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.phasePeriod_ge_two_pow": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.exists_large_prime_free_period": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.matrix_symmetrization_eq_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.one_add_nilpotent_pow_prime": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.units_congruence_isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.RootFamily.move_cut": [
+    "propext"
+  ],
+  "AllPrimeGroups.RootFamily.opposite_commutator_centralizes": [
+    "propext"
+  ],
+  "AllPrimeGroups.RootFamily.root_pow_char": [
+    "propext"
+  ],
+  "AllPrimeGroups.RootFamily.opposite_commutator_pow_char": [
+    "propext"
+  ],
+  "AllPrimeGroups.finite_of_perfect_finite_center_quotient": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.separated_of_prime_power_and_cyclic_detection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.residuallyFinite_of_separating_family": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Steinberg.move_cut": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Steinberg.opposite_commutator_pow_char": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Elementary.x_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Elementary.steinberg_infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.strip_faithful": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.supported_kernel_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.stabilized_kernel_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Steinberg.isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.isUnit_iff_augmentation_ne_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.isLocalRing_of_nil_augmentation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.unitStableRangeOne_of_nil_augmentation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Chain.of_eq_one_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Chain.of_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.kernel_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.of_injective_iff_kernelMap_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.root_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.stageImage_finite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.detector_kernel_finiteIndex": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.HierarchyGrowth.stopping_index": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.HierarchyGrowth.stopping_index_char": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Candidate.finiteIndex": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Candidate.infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Candidate.matrixImage_isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.finite_of_fg_freeGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.isFinitelyPresented_of_finiteIndex": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.map_of": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.map_comp": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Candidate.finitelyPresented": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Candidate.isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Candidate.residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.target_of_obligations": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MonomialCompletion.poly_product": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FiniteSteinbergPresentation.free_finitelyPresented": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.SteinbergQuotient.finitelyPresented": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.steinberg_finitelyPresented": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.triangular_evaluation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.wrap_removal": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.stable_basis_change": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Elementary.realized_of_det_eq_one": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.stable_numerical_similarity": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.cyclic_triangularization": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.stable_copy_to_standard": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.polynomial_kernel_standard_torsion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.relative_torsion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PhasedWords.cutValue_eq_one_of_mul_eq_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PhasedWords.cutValue_eq_of_mul_eq": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PhasedWords.cutValue_index": [
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.cyclic_evaluation_eq_one": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.eq_one_of_cyclic_evaluation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.pad_mem_rootsIn": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.SteinbergQuotient.mem_normal_of_map_eq_one": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.exists_long_representative": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.list_prod_interchange": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.CyclicPhases.cyclic_eval_eq_offsets": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.of_coordinatePerm": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.cyclic_eval_eq_offset_pow": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.exists_rootWord_of_mem_rootsIn": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.eq_one_of_cyclicEvalHom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.cyclicEvalHom_eq_pow": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.eq_one_of_phases": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.relocate_mul": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.frameWord_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeCancellation.direct_vanish_finite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeMatrixNil.matrix_nil": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.charP": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrix_nil": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.steinberg_finitelyPresented": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.relative_torsion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.coefficientObligations_of_open": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.target_of_open": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.frameWord_spread": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.stable_frameWord_ones_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.root_mem_normalizer": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.gens_commute": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.correction_faithful": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Kernel.PhaseGrading.relocates": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.eq_one_of_phaseGradings": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.WordBasis.linearIndependent_words": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.WordBasis.filterMap_word": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.TokenData.step": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.phases": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.period_coprime": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.phase_reach": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.oppositeCommute": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.cutIndependent": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.linearIndependent": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.phaseGrading": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.finite_trunc": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.Hierarchy.eq_zero_of_forall_mem": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.separation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.separation_obligation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Phases.target_of_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.ColumnComplex.simply_connected": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.ColumnComplex.TransportData.mem_range": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.ColumnComplex.TransportData.\u03c0_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.LocalGL.replaceCol_single": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.LocalGL.eq_pad": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.LocalGL.mem_GE": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.mk_eq_of_ev_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c0_injective_of_le": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c0_surjective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c0_shift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.tri_smul": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03b9_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.exists_\u03b9": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.shift_conj_rowLift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c0_\u03c3": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.conj_swap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.swap_sq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c3_val": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.mem_genSub_fixTwo": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.stab_conj": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.triangle_mem": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c0_injective_succ": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.\u03c0_injective_all": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLAct.actGL_representation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLAct.kernel_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.ev_relabel_eq_one_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GLPres.exists_relabel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.K1.mem_N_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.K1.E_normal": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.K1.mem_E_of_pad": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.K1.exists_mul_d_mem_E": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Central.lift_commute": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Central.exists_splitting": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Central.exists_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Central.lift_unique": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.bd_bd": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.bd_cone": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.bd_relabelC": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_relabelC": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.proj_faces_appF": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.proj_bd": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.finrank_le_fq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.rel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exact_of_finrank": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exact_of_independent": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.representation_rowLift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.pad_conj_rowLift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.representation_toSteinberg": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.toMatrix_eq_one_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.row_single_bracket": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.kernelInclusion_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.range_kernelInclusion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.kernel_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.exists_of_fixes_last": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.toLastColumn_surjective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.lastColumnExtension": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.lastColumn_isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockProjection_surjective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockProjection_eq_one_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockKernelInclusion_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.range_blockKernelInclusion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockExtension": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockCover_isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockStabilizer_isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.blockKernel_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Central.compatible_lift_kills_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Central.injective_of_character_extensions": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.toSteinberg_injective_of_characters": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameStabilizer.pad_injective_of_characters": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.Extension.instGroup": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.groupExtension": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.inl_range_le_center": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.mapExtension": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.nonempty_groupExtensionEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GroupExtension.isMulCocycle\u2082_factorSetFun": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GroupExtension.factorSetToGroupExtensionEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GroupExtension.exists_factorSet": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GroupExtension.isMulCoboundary\u2082_div": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.cohomologyClass_eq_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.exists_cohomologyClass_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.cohomologyClassEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.nonempty_splitting_iff_cohomologyClass_eq_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.GroupExtension.nonempty_equiv_iff_cohomologyClass_factorSet_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.toCocycles\u2082_product": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.cohomologyClass_product": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Chain.connect_injective_from": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Chain.of_injective_from": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Stable.of_injective_of_characters": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.augmentation_kernel_nil": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.unit_of_augmentation_ne_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.target_of_character_extensions": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "GroupExtension.surjective_of_comp_inl_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixGeometry.embed_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixGeometry.rightFixer_shape": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixGeometry.rightFixer_decomposition": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixCoordinates.\u03c0_presMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixCoordinates.D_presMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixCoordinates.representation_coordinateMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixCoordinates.mem_E_of_embed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.fullMatrix_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.exists_fullMatrix": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.matrixMap_mem_E": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.toStabilizer_surjective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.stabilizerEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.stabilizerExtension": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameBlocks.stabilizer_isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.extendRow_toSteinberg": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceCover": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceCover_inr": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceCover_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceBase": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceBase_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faces_agree_on_steinberg": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faces_agree_on_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceCoordinates": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.coverMatrix_face": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.faceBase_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.actualFace": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.actualFace_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.actualFace_val": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.actualFace_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixGeometry.singleDiagonal_conj_entry": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.scaleRow_act": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.scaleRowsAt_act": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.scaleCover": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.coverMatrix_scaleCover": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.scaledFaceBase_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.scaledFaceCover_inr": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.scaledFaces_agree_on_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.coverMatrix_scaledFace": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.swap_conjugates_matrix": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.signedSwap_eq_diagonal_swap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.signedSwap_mem_E": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.pairNormalizer": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.unsignedPair_matrix": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.firstFace_matrix": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.signedPair_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.signedPair_matrix": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.signedPair_agrees_on_steinberg": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.signedPair_agrees_on_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.actualFirstFace_inclusion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FrameFaces.actualSignedPair_conjugation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.IsFrame.map_of_linear": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.reducedLinear_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.columnFrameMulAction": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.elementaryFrameMulAction": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.face_elementaryFrame_smul": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.columnChainAct_mul": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.bd_columnChainAct": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.deg_columnChainAct": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardColumn_independent": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardFrame": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.pairNormalizer_basis": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.firstFace_standardFrame": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.signedSecondFace_standardFrame": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameStabilizerEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.blockFrameStabilizerEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardFrameExtension": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardFrameStabilizer_isPerfect": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.firstActionFace_inclusion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.signedActionFace_conjugation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameRepresentation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameBoundary_equivariant": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameBoundary_comp": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameChains_bound": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameBoundary_exact": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameBoundary_zero_surjective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixLifting.isUnit_iff_of_split_nil": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.MatrixLifting.isUnit_iff_matrix_reduction": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_linearEquiv_on_independent": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.linearEquivMatrix_mulVec": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_field_matrix_columns": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_split_matrix_columns": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_split_elementary_columns": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.IsFrame.linearIndependent_get": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameTuple_independent": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameTuple_ofFn": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.stabilizer_standardLengthFrame": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_split_elementary_from_standard": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.exists_split_elementary_between": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.lengthFrame_isPretransitive": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.cosetFrame_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.cosetFrame_equivariant": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.cosetFrame_surjective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameQuotientEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameQuotientEquiv_mk": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameQuotientEquiv_equivariant": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.augmentation_split": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrix_isUnit_iff_reduction": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.exists_frame_transport": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frame_isPretransitive": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frame_isPretransitive_of_lt": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameQuotientEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameQuotientEquiv_equivariant": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.HomologicalComplex.homologyUnop_inv_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "CategoryTheory.ProjectiveResolution.isoExt_hom_comp_homologyMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Rep.barComplex.resHom_single": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Rep.barComplex.d_comp_resHom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Rep.barComplex.resChainMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Rep.barComplex.resChainMap_f_zero_comp_\u03c0": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Rep.groupCohomologyIso_inv_eq_homologyMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.groupCohomology.coindIso_hom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.groupCohomology.coindIso_hom_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.groupCohomology.map_resCoindToHom_comp_coindIso_hom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.groupCohomology.map_unit_comp_coindIso_hom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "groupCohomology.map_id_eq_zero_iff_of_comp_eq_resCoindToHom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.functionPullback": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.functionIso": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.cosetCoindEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.cosetCoindIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.orbitCoindIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.orbitCoindIso_hom_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.orbitEvaluation_adjunct": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.orbitShapiroIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.orbitShapiroIso_hom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.orbitShapiroIso_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.lengthFace_equivariant": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameFacePullback_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoefficientsCoindIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoefficientsCoindIso_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameShapiroIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameShapiroIso_hom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.firstFaceStabilizer_le": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.firstActionFace_eq_inclusion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.firstFaceShapiro_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.firstActionFaceShapiro_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.perfect_hom_eq_one": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.perfect_addHom_eq_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.perfect_H1_subsingleton": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardFrameStabilizer_H1_subsingleton": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoefficient_H1_subsingleton": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCoefficientShapiroIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCoefficientShapiroIso_hom": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.firstFrameFaceShapiro_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCoefficient_H1_subsingleton": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CohomologyConjugation.innerCoefficient": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CohomologyConjugation.innerCocycle_difference": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CohomologyConjugation.inner_map_H2": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CohomologyConjugation.conjugate_map_H2": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.signedSecondLengthFace_standardFrame": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.signedSecondFaceShapiro_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.centralRestriction": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FactorSet.cohomologyClass_comp_eq_of_lifts": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.characterData": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.characterData_cocycle_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.CharacterData.pullback_class_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardFrameExtension_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standardFrameExtension_central": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standard_firstCover_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standard_signedCover_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.standard_face_lifts_agree_on_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCharacterData": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCharacterClass": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCharacterClass_faces": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.equal_preimages_of_squares": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCharacterPreclass": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCharacterPreclass_faces": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.secondFrameFaceShapiro_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCharacterCycle": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCharacterCycle_faces": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.injective_dual_exact": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.divisible_dual_exact": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cochain_boundary_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cochain_class_eq_iff": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cochain_map_cocycle": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cochain_primitive_of_subsingleton": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cochainsIso\u2080_hom_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cochain_zero_invariant": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.low_degree_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.cohomology_map_sub": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.invariant_function_eq": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Homogeneous.functionInvariantsEquiv": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameChainsEquivFinsupp": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameChainSingle": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameChainsEquivFinsupp_symm_single": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameDualEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameDualEquiv_symm_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameDualEquiv_single": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameLinear_ext": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameBoundary_single": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameDualEquiv_coboundary": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary_comp": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary_exact": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary_zero_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCochainsCoboundary": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCochainsCoboundary_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCochainsCoboundary_comm": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCochainsCoboundary_comp": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCochainsCoboundary_exact": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCochainsCoboundary_zero_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameH0Equiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary_invariant_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameH0Equiv_coboundary": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frame_zero_cochain_eq_zero": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frame_low_degree_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.emptyLengthFrame": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.lengthFrame_zero_eq": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameEmptyEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameAugmentationIso": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameAugmentation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameAugmentation_apply": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameH2_lift_empty": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameH2_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameCoboundary_one": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.frameH2_cycle_of_faces": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameAugmentationShapiro_naturality": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCharacterCycle_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.frameCharacterClass_restriction_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.rationalCircle_frameCharacterClass_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.pullback": [
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.pullbackMap": [
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.pullback_class": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.CentralCocycles.CharacterData.exists_lift": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.rowInclusion_one_left": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.rowInclusion_one_matrix": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.rowInclusion_standard_projection": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.rowInclusion_kernel": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Frames.kernelCenterInclusion": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.block_character_realization": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.kernel_character_realization": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.character_extensions": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.stabilization_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.primeCharacterExtensions": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.all_prime_groups": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Steinberg.finite_of_local_augmentation": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.Steinberg.finite_of_finite_field": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.subgroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.G": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.le_candidate": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finiteIndex": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finitelyPresented": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.candidate_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.properties": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.range_isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.finite_image_card": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.finite_quotient_card": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.separate_pair": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.separate_one": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.separate_finset": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.unbounded_quotients": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.quotientProductMap": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.FinitePQuotients.quotientProductMap_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finite_quotient_card": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finite_p_quotient_separates": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finite_p_quotient_injective_on": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finite_p_quotients_unbounded": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeGroups.finite_quotient_embedding_injective": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.Group": [
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.kernelEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.card": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.kernel_infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.units_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.card_eq_pow_finrank": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.card_eq_prime_pow_finrank": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.properties": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.MatrixGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrixKernelEquiv": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_card": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_card_eq_pow_finrank": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_card_eq_prime_pow_finrank": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_units_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.NilCongruence.matrix_properties": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.CongruenceUnits": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.MatrixCongruenceUnits": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.truncations_separate": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.units_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.congruenceUnits_infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.congruenceUnits_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.congruenceUnits_isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.congruenceUnits_properties": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrixUnits_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_infinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_residuallyFinite": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_isPGroup": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_properties": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_finite_quotients_unbounded": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}

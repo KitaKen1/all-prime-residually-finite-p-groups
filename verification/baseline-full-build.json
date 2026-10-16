@@ -1,0 +1,4039 @@
+{
+  "started_at_utc": "2026-10-15T02:54:30.812945+00:00",
+  "finished_at_utc": "2026-10-15T04:39:25.195195+00:00",
+  "full_project": true,
+  "complete": true,
+  "closure_complete": true,
+  "main_checked": true,
+  "status": "passed",
+  "total": 195,
+  "context_sha256": "251c5f796f56cc95f0d00e1c484691a434ca54ecc9b39c1f68691a0d119b6acf",
+  "record_kind": "Public summary of a producer-side fresh-output build; not a new recipient build.",
+  "original_state_sha256": "004ccd5150a38fbc302b56a139f33f460b7c5f457e7fc98037fe20a0521f1c46",
+  "scope": "195-source baseline, 129 local modules and 446 local audit declarations; same macOS host, pinned toolchain and package caches reused.",
+  "context": {
+    "toolchain": "leanprover/lean4:v4.34.1",
+    "lean_version": "Lean (version 4.34.1, arm64-apple-darwin24.6.0, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+    "lean_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "sources": {
+      "AllPrimeGroups.Assembly": "fc670d8f7479c3fea90cf0cd3adbd5a23f9576b14806cad6fac65dd42bc61cd6",
+      "AllPrimeGroups.BandFactorization": "254d4090492408a893a66d21ac5649118701799a0997cbda9f2e9dea03ab95d8",
+      "AllPrimeGroups.BarRestriction": "4c771ce3ea9d32763ee456e9e0c150634c1959f51c09577e84e01e303f2c2156",
+      "AllPrimeGroups.BlockEmbeddings": "1d75facb000657619537c7971b343e496fa3ead3892da3ae62e0faff716d5938",
+      "AllPrimeGroups.BlockFaceMaps": "6d09e5a36396e5cf19d6b91f3f92e601da8c7a59519044bea7b5f17ab1ae5c33",
+      "AllPrimeGroups.Candidate": "4fdce1be826462ab4ae898db9a5c3cf7dae0a019671b2f50c04662ce7f0397c7",
+      "AllPrimeGroups.CentralClassLifts": "b8ddc91b7a6915a5696db79eb427cb32db5fab9b7a04c9cfa88729a88a617bc1",
+      "AllPrimeGroups.CentralClosed": "4165161025744e967dd664cd27da71563f21ae0f7457c488aa81659e86f78e10",
+      "AllPrimeGroups.CentralExtensionCharacters": "21be0813df2c5f9da7dc50e244aece8a0867b824ebe83a76127192af297f66f2",
+      "AllPrimeGroups.ChainLimit": "86336077f2341e3ad8b378aa58b7e8a66816e9f29f3ad2752749a23d641a35ba",
+      "AllPrimeGroups.CochainExactness": "6fd86b29db25e9a3d85b8e93831350b35fc0b095234f21ea7d821a9a852f4162",
+      "AllPrimeGroups.CocycleExtension": "0a6bbe6ce8f4c2d0f485bfe75615e901821b17ced48e4be730127bd55b330f32",
+      "AllPrimeGroups.CocycleProducts": "653c3e46636ad97555c86e4a7dc0c068195c0d8942e8659be9d4ce59161b07a3",
+      "AllPrimeGroups.CohomologyComparison": "742d276906e27c421d6ef75d2e73d93763470b6dc0ee027f908f10a3bebc2844",
+      "AllPrimeGroups.CohomologyConjugation": "bbdd37b3f7c14fc912978ce786b45bb9c8fa35c768624878e95632fe14cca372",
+      "AllPrimeGroups.ColumnComplex": "806d7096be8a80e9fc607427bc6e649f55a39149e67ab4dfca81409c7b359744",
+      "AllPrimeGroups.CongruencePGroup": "a453d5ad12d2d4f6797442ace5568bb43bb872acf6c42b0a155cbd79de4fc27e",
+      "AllPrimeGroups.CoordinateStability": "8a0de45431e01c1def5a630b74026a9f2aebd5132a11bc19a6f97cc1f58d45a8",
+      "AllPrimeGroups.CorrectionFaithful": "1d1b989645ee5b4fbde1ef6be2083c3360f383745ef5d417f3d12749dbb86cb3",
+      "AllPrimeGroups.CorrectionSubgroup": "f6eecb4047fd14ee2dac4f247402b868649b0fec9234bd9b78a129ec3d5b9ea9",
+      "AllPrimeGroups.CosetTransport": "321253a961fb8771b20acc53e6a2f4b47520e268702008682a897bb5ea68c547",
+      "AllPrimeGroups.CyclicTriangularization": "39bdc90a0e16794a2904938dc9a755cb4a1b765b808e1222450b2f0097153cde",
+      "AllPrimeGroups.ExplicitShapiro": "71ff73cd54d62bb8e026b577f0381a2fdee6b389f32bf95330b9854d36924443",
+      "AllPrimeGroups.ExtensionCohomology": "3b004bc727e75c9ed0e0a123bfc4f27cbaf29685edf8a4c764032f4351a6ddd7",
+      "AllPrimeGroups.ExtensionFactorSet": "cde9a37aa7872077bee3bda59d77156ea0ff1daec8deb7ced8a16aef4c8fca68",
+      "AllPrimeGroups.ExtensionOperations": "3780a5bd8d570fe6cbe1990393266d27e398595a2f8c42e21695029621fa209e",
+      "AllPrimeGroups.FactorSetPullback": "cecc20c9ff89dd7ead817697a782a70da991ff2f616bd2366e1e79678551097d",
+      "AllPrimeGroups.FaithfulStrip": "6371fc0bf56262b24acd8adcd190028c2b87d355a6476cedde7f100642a75a52",
+      "AllPrimeGroups.FieldFrameCompletion": "e67ed2b9f546bda46584f77ae67a949a477c3791dd18774e092215b9bd5cd914",
+      "AllPrimeGroups.FiniteIndexPresentation": "53dae6950c6f0f47e72c0d3e1e6d6c1a350b0a4e6b6dc7ec45315141d64805f8",
+      "AllPrimeGroups.FiniteLocal": "4a305eb7508502ce686536cc3cce61f030d17760afe020ba3b4b94e009266e47",
+      "AllPrimeGroups.FinitePerfect": "161daee9cc6a6a88dc6b92df9970231da4b8fdd0fb7b1901f343b288dd12300a",
+      "AllPrimeGroups.FiniteStage": "c4d0ed6a53fdc4cb3f1851df4939efb6bf708a47d89bd94c822d1660dec3b442",
+      "AllPrimeGroups.FrameActionStabilizers": "7e289d77dbc68bf731f1326ab509b0e76ed430e42a0ce156dd4c91d88a8e8788",
+      "AllPrimeGroups.FrameActions": "78baddd574dd61b36a1f062d55442a913fd6161e9d2b3d28ea9ac62f8ef37ba1",
+      "AllPrimeGroups.FrameAugmentation": "b81f794266047a7c4fe0ee3232da912a81414a3cf43e1edbd9fcaac589303616",
+      "AllPrimeGroups.FrameBlockMatrices": "3502f3f3422675acc4e62ed6cf1c3fb918f84c267a4f722cb7e61fbc40ad5dce",
+      "AllPrimeGroups.FrameChainDuality": "597f18656c79505eb704f51f0aeaa1350c5ef510deb01728d2b33ebc239ade1a",
+      "AllPrimeGroups.FrameCharacterClasses": "3249f56ff33e71dbff4f7ae2f7e6514a166966ceb3f7f500586c55b09d0f46b4",
+      "AllPrimeGroups.FrameCharacterCocycle": "573ee227bf8b3c8dfaa13a5ba75523687e692772779e113da1f436b1d9b2ee43",
+      "AllPrimeGroups.FrameCochainRows": "4ead1af23e0f11a3011d0a3c794e6826825dda13a26533620055202a9f7b94dc",
+      "AllPrimeGroups.FrameCochains": "0fd07f3bf8dd6f6bb1197baebdeff7178142147856a190c5f09a4bbfb3b46a5d",
+      "AllPrimeGroups.FrameCoefficientComplex": "9f78b1eaf35a7d971b309a9ed76adbefe416e2bf65aff95a2eee57ee4c636f6d",
+      "AllPrimeGroups.FrameCoefficientH0": "54ac6d63a26a2a749954e61fd7c04f997a9d3fb0d69e7c538194b3b60536bfd6",
+      "AllPrimeGroups.FrameComplex": "bddd9aba181e8646fd69a9d3005bc6d0643043630c28469830dc2d8ec4553260",
+      "AllPrimeGroups.FrameCosets": "99bade0433e60bb0ff0b5742df03ce5b4e9c8f89caf36b86815fe82745c48832",
+      "AllPrimeGroups.FrameExactness": "bf821a2a5d3c353ddaa8b48a96bc408756323848a83091a7417c5c0c006bd3fa",
+      "AllPrimeGroups.FrameFaceGeometry": "73e909d7063d6538b68a2e71d6dbd4849cbd2d4d3f31f388e4b133fff7c09f01",
+      "AllPrimeGroups.FrameH2Lift": "545be11a95612d7e91b03e33cdb8b308cb3ab31a3e4580de98329d8ac54a4c8f",
+      "AllPrimeGroups.FrameLemma": "2785be280d5545d2218b4eab8f5fb5da118d962907106f1af42ab9a5a6835fc9",
+      "AllPrimeGroups.FrameLowDegree": "3c9ccf78d2c3729d7c512c483ecc0fe49ad8e85fe999608223813b833eb6220d",
+      "AllPrimeGroups.FrameLowDegreeLift": "f44e767e26c20d643b37e6250190058a1d3bcecaa15621e674e3cd71e646bc1f",
+      "AllPrimeGroups.FrameRepresentations": "b69d6ccefd72b202183bea0a62246bc43be661275426c3e4e8918c15a6f5c861",
+      "AllPrimeGroups.FrameShapiro": "de55e719545b7a76e65233fb14e334fd0b32e2e50a18750cb0b5a72fe7afcd7b",
+      "AllPrimeGroups.FrameSplit": "3476036f9361f816e096b3f051e88b6fc2aa32e27d54ab4ccdfc7b29249a9ce8",
+      "AllPrimeGroups.FrameTheorem": "2ae379aab5951024ec9f92b931557e437ed90acaad46af311428c29e4a28cc3f",
+      "AllPrimeGroups.FrameTransitivity": "d078aa26a7acad271d01d78612a60df1338b01f1fccdebe66649f06549d2e4c8",
+      "AllPrimeGroups.FunctionCoinduction": "a0111538b13855eb46638d12bff0eb453d9fc44dea57358eab278fe298810b5b",
+      "AllPrimeGroups.GLAction": "5199698ba640cee37230806afbed0a6b33e4e655b8487de6cabe61d1bde178ce",
+      "AllPrimeGroups.GLInduction": "2a41bb0021e2cccdb1b0dedaf38ef0998762b539c63624e56c69a4e2679dc47d",
+      "AllPrimeGroups.GLLift": "b9386b136e337c2cb215ce51ed9a48ef6e2ef14cc2176f98a024b71e43e73803",
+      "AllPrimeGroups.GLPresentation": "fb8b592426b8f528f8f6099af8a0b038e7bcbe34c0e2a624ba5ea8369c3bdb89",
+      "AllPrimeGroups.GLRelabel": "ab09bb2d353860be4ab6c0906e88b987b608277061d76691c8edc440365d8ea6",
+      "AllPrimeGroups.GLSection": "ff56ad2d752125cd49325d6c94e9d34757530a7f24543748287787b579898b5f",
+      "AllPrimeGroups.GLSwap": "7c829ddacd1756fade95120f583b509d8357af32d465eb0f03d2b05927f0bd2d",
+      "AllPrimeGroups.GLTransport": "063c3fda9f75d1f987eee3d6f20d56771828568f91fa59453e8d7d0bf7ee90d7",
+      "AllPrimeGroups.HierarchyGrading": "3befb3a80f6ce7c247128f0ace7c5280f6a673695a535d8990104bc7f993d1a5",
+      "AllPrimeGroups.HierarchyGrowth": "a72659b386125adfb8be01166ccac15593ff887adf12b017d2e73b01b6688136",
+      "AllPrimeGroups.HierarchyPhases": "6f29cb00a4a6035accc0ce5c64db9243091d752787468e7824224233a49d8a0a",
+      "AllPrimeGroups.HomogeneousShapiro": "2d3c0bfe3adc39b82c44792323c2be179cd7d07d4f7a9cbf6ecc2fae348f032b",
+      "AllPrimeGroups.HomologyUnop": "43c936e7b0d43d11930bb0429eea93f07565189f81c21be36cc5b10fc33ced2b",
+      "AllPrimeGroups.InjectiveDualExact": "42d63fecd604535d51334ff839a9935b8035f0e00d18a1c1d83ed57993cd2377",
+      "AllPrimeGroups.K1Stability": "0d66cc2a83f27419a40dca432b46ae7c5a251b558a95bd11755beb2f184166fd",
+      "AllPrimeGroups.KernelExtras": "ea54eb6f973d4201c14a2e31576c3c06639aa7d16d8d86f781da402467daae0e",
+      "AllPrimeGroups.LocalColumns": "7632b06758d3607ca8dfbd16d6f3508740759b1151c3ee3f46302252671520e1",
+      "AllPrimeGroups.LongRepresentatives": "b76c208c4b388a2c466556cdcd1087a836cd2374b8d41ffdd7dd16c3e29d4ec2",
+      "AllPrimeGroups.LowDegreeChase": "7725a2f607656e8860013509c210a6a0db360f2400b0c8dfb6cf18a2b89f4319",
+      "AllPrimeGroups.MatrixGeometry": "c5882d46c0aa5c8f8c56001aa33009914588e70092c00ffc019b58166593b30b",
+      "AllPrimeGroups.MatrixModel": "80c413c0423542835b87bf887218aea299c4ceb050e7eb4fc197508d46fdb6f6",
+      "AllPrimeGroups.MonomialPresentation": "38dac2605bab651de1cd7f8ba8910bd06f19b7f789f383fa7e6f4be9c97a6e79",
+      "AllPrimeGroups.MultiRowStabilizer": "a2f6a3ec37af3feabd265cd7aa703053999d8779411466eb9f2cfd396616ea87",
+      "AllPrimeGroups.NilAugmentation": "05abaecacb0fcb9823d38f72cf71eff275887c1cc9d0d001b8a2049bec4c956a",
+      "AllPrimeGroups.NilMatrixLift": "af123ef483c465221092baa5e9213516fd2bce8f1be2975077b088d9a9242e03",
+      "AllPrimeGroups.NumericalSimilarity": "b157cf2e866411413281c9555d1363a9cd9c2b29eece566659bcc6f245595ea2",
+      "AllPrimeGroups.OffsetCollection": "dc20031d5e05c4030438084f667e003079d96f641d2b54819355fa9182c902bb",
+      "AllPrimeGroups.OneRowFrameCover": "78b3808e73b4bd58a5c22bdefa99c750e1a0b5adb72e181939af709381eb6dcd",
+      "AllPrimeGroups.PhaseCommutators": "9df55752dec287233e0137e2752ee824ec436408b27efdf51ddcc241e1150097",
+      "AllPrimeGroups.PhaseConstruction": "ab557d8bc2f885cc8882fe7e1f6c7692cce66e4fbfa99db62c3a6ab7cf193c9a",
+      "AllPrimeGroups.PhaseSeparation": "6f903e27fa48c9f47a9afd762eeeda83620e6c9b0aaf16de8c12e879dbd0874d",
+      "AllPrimeGroups.PolynomialTorsion": "d21af047fe91d33673ab8c7dfb6782a48d1173475146cf771de9b2107ec72b90",
+      "AllPrimeGroups.PrimeAlgebra": "8287bbefb0d5fe07562a83f5a9d795dbbf5a3f2a958de7b617b2b2b268ab6d96",
+      "AllPrimeGroups.PrimeCancellation": "26cb8fd4746cd11bf22416d783298818a38916ebbffab9ff77a5b96d34ffb57c",
+      "AllPrimeGroups.PrimeCharacterExtensions": "c7a210898511fc37475f0a5d80b909c5673d1ca2c4c56a0c8680cf1dcb8eda97",
+      "AllPrimeGroups.PrimeCharacterRealization": "cf7ba6ed2c21726d8d6c6197b5d91d69adf7fd4e3777676cdaa074056cbe5d74",
+      "AllPrimeGroups.PrimeCharacterReduction": "470bce29e8ecfd9ce3d184bc11532e85658d2c09ffc188f96007d0ec13b6befd",
+      "AllPrimeGroups.PrimeFrameCharacterClasses": "74e705e6c6fdebddfa10e5904e9cac4f5c4644e6e7224dec5f3ed1c63228d145",
+      "AllPrimeGroups.PrimeFrameH2Lift": "799d22050ccefb1a985aa23eff2d09f9395f853b3443f2ae0b05f97beb6c5725",
+      "AllPrimeGroups.PrimeFrameShapiro": "cf647854a23f8345859254c53d9bfbc41060d76c9297095462fcffac1f2af345",
+      "AllPrimeGroups.PrimeFrameTransitivity": "0c6dba62afb16562d9b17be00dff1061feff98c70b86fa5f8cb62a5370cdeac0",
+      "AllPrimeGroups.PrimeGroups": "1c018b0f9210f78e3d0cb1ea91ce7381dd1aa65a4da2be6fab521cfc529a73d6",
+      "AllPrimeGroups.PrimeMatrixNil": "9e85355482fc612168c8b515de62b0ae546ae22191a39e0c6aef4390e8d6cc41",
+      "AllPrimeGroups.PrimePeriods": "b673a2d786eb957d9d4c11639b550f6b3c7560b9d91e65384eb2a7a17ee1af72",
+      "AllPrimeGroups.PrimeReduction": "6a1ea2518baff4b87c97a74a306fcfe1b2ffb81d3440b9f2522b3a4c2c8d42e2",
+      "AllPrimeGroups.PrimeSeparation": "08ec10d66c226accd0c0e62a750ec4d5cabf63b49b7fbe818923f853817478da",
+      "AllPrimeGroups.ProjectiveComparison": "c9866731e6382e8bf176c39eb963c3fb7810edc1a60d28b328b755768f932de6",
+      "AllPrimeGroups.RelativeTorsion": "46cf27f621532535bf298924cc427c427555875fe1e04af5a0589db2aab77866",
+      "AllPrimeGroups.Relocation": "d5af30eb7cbb6030ecaeba5dcf27f64fd23bcab0218465654e8fa4b2919172ae",
+      "AllPrimeGroups.RelocationFrames": "4ebbf8c57946df9b0b0b6101e6c2d8c1c76a0b18c6a2d9f5ec2cf28e018348b8",
+      "AllPrimeGroups.RelocationMoves": "2394c584ac8693a1d09709ea533f90cc723061245167d31321fa02b88d690ae7",
+      "AllPrimeGroups.RootCalculus": "847a7cae28815c23a76092f9c42e363bbd567cd4adbdaf9be5b12c62ed8211c6",
+      "AllPrimeGroups.RowStabilizer": "a8c7af5459af879e58268f4fdc65c88b2a6c6283485881ac810356cd50e24951",
+      "AllPrimeGroups.ScaledFrameFaces": "56d8c717391a3a4149db82fd83af800b174b5760954b4bae610ec3cf31459712",
+      "AllPrimeGroups.Separation": "64451d2aa9da8f80d99edd39cae05c91b1f4d47bcfa7cab1ac80ae637dfb93b9",
+      "AllPrimeGroups.SeparationCriterion": "33612ddc080e272f7f0389c2ea0ff564c37d0b739b101f82628953b4a4a8f51e",
+      "AllPrimeGroups.SignedFacePair": "f703074df7b1e86e1aa02d574b66aab479c401667f5301480ecae021e151194e",
+      "AllPrimeGroups.SignedFrameShapiro": "e531dab9516d9ef2eb51e4237a22139f07e2351aa3096072fc366ab519697b25",
+      "AllPrimeGroups.SpecialLinearLift": "5a9621d7e519ab85b77ebc60b0e7761404301c45aeb347f322a57ca3a3077ccc",
+      "AllPrimeGroups.SpecialLinearRealization": "2321ae1aadab9b833741cc92466f193fc8e20d4439af1b61b2844e604aea2db2",
+      "AllPrimeGroups.SplitFrameCompletion": "86194d29a94e36dc6fa44d7df6c5a71fab12ec1d4148d60253f7bd388fd7f928",
+      "AllPrimeGroups.StabilityCharacters": "acdd264f3dda0d6ce40d3a279c1d38050b6be59e5612e0888ecf460d55c30666",
+      "AllPrimeGroups.Stabilization": "cebe356b6c4c91afc476394bf441f57125903884ddb01a42ab626a216a826bbc",
+      "AllPrimeGroups.StableGroup": "38975a1e302948d9b02b0d847a293e802795f7b44130cc4f045d2cfb5f0169b3",
+      "AllPrimeGroups.StableMap": "13f9f00aa7de1f72e782ecf64461f4f06d63a4a0f20062deb2344e8e70ca4326",
+      "AllPrimeGroups.StablePermutation": "a416049b32046501c0a07381b095d72fb5723ec5919400524b43a83cf16d0c4a",
+      "AllPrimeGroups.SteinbergCore": "55a8c885e6f18c8efb81c740fd83a4a56233531c4630dfbc518f3479642beeec",
+      "AllPrimeGroups.SteinbergPresentation": "a43aff97ba290a8524858f98d23f7ba18c6cb7cafa33eb7a86c1751065ba9d60",
+      "AllPrimeGroups.Symmetrization": "444a6e0477d6a6ddc21492fde715af99e4cb3b10e83be96909b217f0da9eec55",
+      "AllPrimeGroups.Target": "61fb419a8c8cf452398e72b439edf505d2235dd476b324a938662b5b67cbf473",
+      "AllPrimeGroups.WordBasis": "7913c4e76db4b94d271b4d4cf5c86a58cb03c669682b0027c764da88797f6f60",
+      "OAI.GroupTheory.PeriodicGroups.Algebra.DirectCancellation": "a2b2bb667cd9f248a69b62c92377a13da4b0c4088ac029525a2d931d88589b9e",
+      "OAI.GroupTheory.PeriodicGroups.Algebra.HierarchyGrowth": "a6c152e6d6b19c9d06a14f277b544eb4638148f37130059a93fd92924fd7b42b",
+      "OAI.GroupTheory.PeriodicGroups.Algebra.MatrixTests": "8c5d7654c77d8f9fd642ecff27ab63707343acd4fe6a9d27a9d0112256ed9c5b",
+      "OAI.GroupTheory.PeriodicGroups.Algebra.PacketIntervals": "ccc9926fce91684513aaf8b515c4236b9a02db181a95992c8022792399d8c335",
+      "OAI.GroupTheory.PeriodicGroups.Algebra.WordAlgebra": "e102b677781e9c2d7078f92b5b406c83413136f793a1290e48deb087f77fa388",
+      "OAI.GroupTheory.PeriodicGroups.Formulas.Addressable": "e2199ca3e4b19edae09760d1ed0af6802234955f10949bb8eef67e5a75eed9df",
+      "OAI.GroupTheory.PeriodicGroups.Formulas.BooleanCircuits": "407f81a24bffad54b8e953cc568c490fb0edca456010dfb8654d80733e72da6f",
+      "OAI.GroupTheory.PeriodicGroups.Formulas.ClauseEncoding": "149168a4a091887394d1207489d9afa60a629e389509b08967fce03d969f2136",
+      "OAI.GroupTheory.PeriodicGroups.Formulas.LocalPredicates": "3c10b0f458fcff6c5415adbe46102b5bb046ff8fa72354e1e0140d560401ccaa",
+      "OAI.GroupTheory.PeriodicGroups.Formulas.PredicateCompilation": "e9cd41917630448ea2ab035d04e8175b9428dec89248620cdd247a8f664c4ed4",
+      "OAI.GroupTheory.PeriodicGroups.Formulas.Tableaux": "063279d0e02524bd5f70e02c512efcd81e70264f6f1127723c4bfbc1e51e7152",
+      "OAI.GroupTheory.PeriodicGroups.Frames.AcyclicFrameEdge": "a403aaaf15b2d09147b1cbc33a2966e82f407ea540a49ef9b8e6e2f8ee434ff6",
+      "OAI.GroupTheory.PeriodicGroups.Frames.ElementaryFrames": "5303769d253832c7984ee5a630d5a28032b80b105f0d7cffa063232e98e2dbc4",
+      "OAI.GroupTheory.PeriodicGroups.Frames.ExteriorComplex": "e713ca1e12542b0726806d0a63a019653933bd47cd77f8a2136fdb7fd77098f7",
+      "OAI.GroupTheory.PeriodicGroups.Homology.FiniteExtensions": "7344ac9a321b741a8fc74ee507171b33ebabdb253942618966f9e274f1701ae5",
+      "OAI.GroupTheory.PeriodicGroups.Homology.FiniteNormalHomology": "f85280cb4fc1febe9e07dffb8feb2de21703924209d886c5873799eea2525dca",
+      "OAI.GroupTheory.PeriodicGroups.Homology.KernelStability": "4818df9ff71bc65c11b3c412bdbc785b45285afbcc32d070612cadff5c730a3f",
+      "OAI.GroupTheory.PeriodicGroups.Homology.LocallyFiniteActions": "fd5fc14f35bfd3d75c87f19283afffcfd1a5479e69a0189c302322d1dc0fd51f",
+      "OAI.GroupTheory.PeriodicGroups.Homology.RelativeHomology": "2a2940f8546667671d0ed7a497049971e983274aadcefa5d9f9e27cd0932bd9c",
+      "OAI.GroupTheory.PeriodicGroups.Machines.ArithmeticDevices": "401af54064fa88ce89d30fdcd3ab27baf771c9ca40c4d8c3227c9feb22278de7",
+      "OAI.GroupTheory.PeriodicGroups.Machines.BinaryRegisters": "1c7a3a5da8ec811690c91deb5580a0da85fd9ef1426667eff53367e92f4849eb",
+      "OAI.GroupTheory.PeriodicGroups.Machines.Compilation": "20853cac5bee64554a9c8eba06dc6e48ea6ef2ae721ca2d77c396440736b578b",
+      "OAI.GroupTheory.PeriodicGroups.Machines.InputEncoding": "5c6bc6c9565c01af5a3765c581202bb03f378393ec3ed31afef8a479ca5de298",
+      "OAI.GroupTheory.PeriodicGroups.Machines.ProgramAssembly": "1404c6b18c0cab5482d750fd6243796819b9c17606bc62d6b6890dfdb7f29214",
+      "OAI.GroupTheory.PeriodicGroups.Machines.ProgramFixedPoint": "e61e0098b6cc3ecb4f5c936a5a58a7b4aa7bd1beb1134c0c7738d4ce58240878",
+      "OAI.GroupTheory.PeriodicGroups.Machines.RegisterLoops": "41db474871aa2c75c0eaf82e8e60e3ab11fcbd7c1eb9aaeb9ce763303e4b698c",
+      "OAI.GroupTheory.PeriodicGroups.Machines.RegisterOperators": "7871047b3e9c432a8db1ad34bfb661b38e41d79791b23ae851278ed50ff04b0f",
+      "OAI.GroupTheory.PeriodicGroups.Machines.StackCompression": "79165803c4415956d3dd72f1c2f3165d32b7ef8333b725d2568562ef63faa0eb",
+      "OAI.GroupTheory.PeriodicGroups.Machines.TapePrograms": "01f8ec39fcd612f8bc35d1ef5d420fb7619217c2555d908edde2c5ecd68aa149",
+      "OAI.GroupTheory.PeriodicGroups.Machines.TimedExecution": "aec9d26ee4b18e1aa53742298a819ab767b3df67ce0dcae14839b34047f85afb",
+      "OAI.GroupTheory.PeriodicGroups.Machines.UniversalInput": "f4dd8e1f3fcf755bc85736fb324615e62da418d9bb859ed07b961b2c38e7ae0a",
+      "OAI.GroupTheory.PeriodicGroups.Machines.UniversalStack": "f35f0656898bdd7a0865134a6c43acc71879793d02c676e0bc19fbcd7e4ca8e6",
+      "OAI.GroupTheory.PeriodicGroups.Main": "c10549fce81b0c9b4c0da5f3980bb49796c0e4c9651a0cf87f9309d2013b7f90",
+      "OAI.GroupTheory.PeriodicGroups.Matrices.ElementaryGenerators": "fd7afd54e53c626bfc7199df8506d571524cec8128d7932b9f03618102d16b33",
+      "OAI.GroupTheory.PeriodicGroups.Periodicity.KernelTorsion": "2537c2cf6186b9d2803fc7224930cb0aa8f63dc8efe5194790a2cb6023af519d",
+      "OAI.GroupTheory.PeriodicGroups.Presentation.FinitePresentation": "aa71b90a9bee269df07a3f0132f0d1b75dffc282cc8725b4511da1062a2e828d",
+      "OAI.GroupTheory.PeriodicGroups.Presentation.MatrixStabilizers": "08a7d248c41237c970fa10d8765edcc193800a7115178b366ec47be04249131e",
+      "OAI.GroupTheory.PeriodicGroups.Presentation.SmallFaithful": "ecda6bc8501fe38f0d096c8fffced488967c9aabe64553c5a69048007b243442",
+      "OAI.GroupTheory.PeriodicGroups.Presentation.SmallSwapActions": "82efae5e445ae3f2a60ee5a503fce9e6d5f7ebd1e3664c63ae12470af3ecf091",
+      "OAI.GroupTheory.PeriodicGroups.Rules.BoundaryCell": "e2a7761d4a6f45b819a771a48f0c778ed91c6c3649af2f7fcdd2787b07936f99",
+      "OAI.GroupTheory.PeriodicGroups.Rules.CommittedWords": "30a2559af37495cbc06d550bb93b7e418afb916723a440deb70151fd35fdfc28",
+      "OAI.GroupTheory.PeriodicGroups.Rules.ConnectedWords": "616db6858b21828a98dafff2d7d7de82857d55849fb1f73bd73753256646f58a",
+      "OAI.GroupTheory.PeriodicGroups.Rules.DataWords": "cb9330d46efbe445ad1a64a82f76be4f867caca34789399aa2f7290227c86244",
+      "OAI.GroupTheory.PeriodicGroups.Rules.GeometricRelations": "695ab829b5ef377ee207087a8226afedb98eac23838d7712379b9245ae6b2a45",
+      "OAI.GroupTheory.PeriodicGroups.Rules.HeadTour": "0ac2917787210067ca8e20e316f627bdaa97e9c6af08d2f2d7c93a6cb3b1208c",
+      "OAI.GroupTheory.PeriodicGroups.Rules.LocalSyntax": "4c900835796ee5d756bf47067a0c18a219fe3475d0bbab1daad850b3a77add26",
+      "OAI.GroupTheory.PeriodicGroups.Rules.Palette": "79ee942cdd754f95b5416da5947262c94924ab5490b2d1276a5403ee7f1fca34",
+      "OAI.GroupTheory.PeriodicGroups.Rules.PrefixRewriting": "ed3c889c22bd464a36ae9264261cf7d9cab94c69b77fd132b20b14e93c2d344d",
+      "OAI.GroupTheory.PeriodicGroups.Rules.Recognizer": "cb1978ba2d05c662b24d015b24365552ab2424a04dfa3725c0ab4c2ca83177de",
+      "OAI.GroupTheory.PeriodicGroups.Rules.TableEncoding": "7491d7fdcc8efaf3c9efb94d96ecdc137cc912a7fbb0e7594c6e1a61b1e2a57e",
+      "OAI.GroupTheory.PeriodicGroups.Rules.TemplateHierarchy": "56aed392d926e69d6e8d6c27152c1f74eeadb07ea834e7ea387795b58bc4fb55",
+      "OAI.GroupTheory.PeriodicGroups.Rules.Transactions": "f8e5909f03df0f6a40fa535ddd9cb136f6fd69a56150dd0d350c97f2ee63f967",
+      "OAI.GroupTheory.PeriodicGroups.Rules.WordComponents": "798ccc6bcd96810f6e3a689527799dee7d5d4affd3dd0393897677d696e88309",
+      "OAI.GroupTheory.PeriodicGroups.Rules.WordRewriting": "f1a89843fcbc41b2c14cf3e98e7db31ea1b7875e0f9af483e67e5c6a608643d7",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.BandFactorization": "4d12a9b377e2aa1dd90bdbe42c56ef82ae2eaacb98bcdf4f8f6c1b39030429c7",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.BlockEmbeddings": "aa141fd2f40eff107d056985937e37252292fd6215adbcb0463322cec9858f68",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.CoefficientQuotients": "983d0de5304381b00c5a994f1125960570af626504f282e01017c58be408235c",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.DiagonalActions": "2e1a9f1032e933579731c485147303a059ffd23633439d238ef048c5c3cc379f",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.KernelRelations": "c9172c0d3d76d6dabeed9f4dc5b309d92705e1f23bef36ca696574db5bd7dd34",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.MatrixUnits": "87376db54c394137be7da21fd664926303b4cd1368b8cfee67d583c8c2032d0f",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.MonomialPresentation": "b29f0f6812d9b6d4b68eddac35bdeb6e6c1ee382505ae86681dd57d8e7f235f4",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.PresentationModel": "7da462efa749f2f3e2b7f8615ae7f143b0fceeef7a1bd9748ebebacf0ad0a9af",
+      "OAI.GroupTheory.PeriodicGroups.Steinberg.RankActions": "23612569cdf934fadd95098f8723624987509dc597d837d79bca327f74420232",
+      "AllPrimeGroups": "b902d117ee81ff3b9c5678deb154ff895b851683cb50e4ba9a946a43b783aa7f",
+      "Audit": "1aa07ff3d697aea6dd6bf1dc777f35d2e44e04ba4a05cb42f8b91c7bf0585c32",
+      "UpstreamAudit": "1acfe913458784cb50a1847a2af0757321eaaa3c9adc7dbc9aac978a6e72db23"
+    },
+    "inputs": {
+      "lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "lake-manifest.json": "f736fdbe89c943ea98030e050c35ca09b1a160022a2c813beb46429846c8fcfb",
+      "lakefile.toml": "72b060a4f050a07b5eb8437e07c7b4465ad113d6dba2067c01955d62138a7846",
+      "upstream/provenance.json": "19e4c4332f1c3b5a6cab29623b8e4ed46a8fae8222803b659c62a92827d73158",
+      "scripts/reproduce.py": "aa17159516f3338255641fc1d0556a9601536b5daded91606c687247c08b8105",
+      "scripts/axiom_audit.py": "ad1ca23d6cf8ad2fc5cc357e15e8b4703b4223c97a905c453c53a056b3e3f703",
+      "scripts/build_env.py": "e6c713b198319356ca027e00ea5bc24498784626bf167dc65694539468d9b5be"
+    },
+    "packages": [
+      {
+        "name": "plausible",
+        "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+      },
+      {
+        "name": "LeanSearchClient",
+        "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+      },
+      {
+        "name": "importGraph",
+        "rev": "e928b72544873815af278d38681b31c0293588e3"
+      },
+      {
+        "name": "proofwidgets",
+        "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+      },
+      {
+        "name": "aesop",
+        "rev": "355695d523e41d0554926416cba2a2b3544fbbc9"
+      },
+      {
+        "name": "Qq",
+        "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+      },
+      {
+        "name": "batteries",
+        "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+      },
+      {
+        "name": "Cli",
+        "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+      },
+      {
+        "name": "mathlib",
+        "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+      }
+    ]
+  },
+  "modules": {
+    "AllPrimeGroups.Target": {
+      "exit_code": 0,
+      "source_sha256": "61fb419a8c8cf452398e72b439edf505d2235dd476b324a938662b5b67cbf473",
+      "seconds": 3.34,
+      "checked_at_utc": "2026-10-15T02:54:34.291906+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "290541232a64ab7ed99482090255789be39cd8431b8a260a615b4104d1df3ab9"
+    },
+    "AllPrimeGroups.PrimePeriods": {
+      "exit_code": 0,
+      "source_sha256": "b673a2d786eb957d9d4c11639b550f6b3c7560b9d91e65384eb2a7a17ee1af72",
+      "seconds": 4.44,
+      "checked_at_utc": "2026-10-15T02:54:38.780718+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "aefd962589a663df3990e93672b548d6394f9e3da89c1acd9867b278ec4a968a"
+    },
+    "AllPrimeGroups.Symmetrization": {
+      "exit_code": 0,
+      "source_sha256": "444a6e0477d6a6ddc21492fde715af99e4cb3b10e83be96909b217f0da9eec55",
+      "seconds": 3.67,
+      "checked_at_utc": "2026-10-15T02:54:42.494512+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e594d2de8bd0cc51d117f35df2764a8916f3f547249a72a7e00254c80a7b74b6"
+    },
+    "AllPrimeGroups.CongruencePGroup": {
+      "exit_code": 0,
+      "source_sha256": "a453d5ad12d2d4f6797442ace5568bb43bb872acf6c42b0a155cbd79de4fc27e",
+      "seconds": 3.33,
+      "checked_at_utc": "2026-10-15T02:54:45.863258+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0d7a28173e317203510e7528a3bb975405dbbfa65630b81809ce34fcd980a057"
+    },
+    "AllPrimeGroups.RootCalculus": {
+      "exit_code": 0,
+      "source_sha256": "847a7cae28815c23a76092f9c42e363bbd567cd4adbdaf9be5b12c62ed8211c6",
+      "seconds": 2.81,
+      "checked_at_utc": "2026-10-15T02:54:48.719268+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "702b98bd791206ef082aef2a6e40040f4c0959bb4408859aca4bc4d1dbdc54ac"
+    },
+    "AllPrimeGroups.Separation": {
+      "exit_code": 0,
+      "source_sha256": "64451d2aa9da8f80d99edd39cae05c91b1f4d47bcfa7cab1ac80ae637dfb93b9",
+      "seconds": 2.68,
+      "checked_at_utc": "2026-10-15T02:54:51.447157+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "31efdf7f4fd082b5536a3fab380678cc1f515ad3c672b5787093aba5855a3f05"
+    },
+    "AllPrimeGroups.FinitePerfect": {
+      "exit_code": 0,
+      "source_sha256": "161daee9cc6a6a88dc6b92df9970231da4b8fdd0fb7b1901f343b288dd12300a",
+      "seconds": 3.35,
+      "checked_at_utc": "2026-10-15T02:54:54.839437+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "fd8f93107e17551c1e38fd95c233539739b0b2e51dfca1726167f6a8bc57421b"
+    },
+    "AllPrimeGroups.SteinbergCore": {
+      "exit_code": 0,
+      "source_sha256": "55a8c885e6f18c8efb81c740fd83a4a56233531c4630dfbc518f3479642beeec",
+      "seconds": 2.96,
+      "checked_at_utc": "2026-10-15T02:54:57.843378+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "51cfc9bbb22181624450a2fe99143d865826a8e3215442ecb5ee4d73f627e79a"
+    },
+    "AllPrimeGroups.MatrixModel": {
+      "exit_code": 0,
+      "source_sha256": "80c413c0423542835b87bf887218aea299c4ceb050e7eb4fc197508d46fdb6f6",
+      "seconds": 3.2,
+      "checked_at_utc": "2026-10-15T02:55:01.094307+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b77e1c1a0a4c87c2da61e61b552e056ab07661e9f64692aa41888193662eb842"
+    },
+    "AllPrimeGroups.FaithfulStrip": {
+      "exit_code": 0,
+      "source_sha256": "6371fc0bf56262b24acd8adcd190028c2b87d355a6476cedde7f100642a75a52",
+      "seconds": 3.68,
+      "checked_at_utc": "2026-10-15T02:55:04.822524+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b9c76eabb5ece49568f7af8577c9c8278066cde7ceb385744dd0eaf3df4ef49a"
+    },
+    "AllPrimeGroups.Stabilization": {
+      "exit_code": 0,
+      "source_sha256": "cebe356b6c4c91afc476394bf441f57125903884ddb01a42ab626a216a826bbc",
+      "seconds": 5.05,
+      "checked_at_utc": "2026-10-15T02:55:09.934513+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "9a03d3e59cb88c6a5a9ddcd4eb4a2e3f85c40869815423d87083bab8d633dae4"
+    },
+    "AllPrimeGroups.NilAugmentation": {
+      "exit_code": 0,
+      "source_sha256": "05abaecacb0fcb9823d38f72cf71eff275887c1cc9d0d001b8a2049bec4c956a",
+      "seconds": 2.98,
+      "checked_at_utc": "2026-10-15T02:55:12.972889+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "52c143c5c546bab4a0cc59d154a8dda16ae8684246c80b4261100cd31de7c398"
+    },
+    "AllPrimeGroups.ChainLimit": {
+      "exit_code": 0,
+      "source_sha256": "86336077f2341e3ad8b378aa58b7e8a66816e9f29f3ad2752749a23d641a35ba",
+      "seconds": 3.23,
+      "checked_at_utc": "2026-10-15T02:55:16.256786+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "6d4796ba22fa97fbe1833e8b66fb67f61317c0613444792d257af0c6589ba0a0"
+    },
+    "AllPrimeGroups.StableGroup": {
+      "exit_code": 0,
+      "source_sha256": "38975a1e302948d9b02b0d847a293e802795f7b44130cc4f045d2cfb5f0169b3",
+      "seconds": 5.09,
+      "checked_at_utc": "2026-10-15T02:55:21.408215+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "004ad7917a0104905590a8b6e8b0b39ae0a1b34078fe33a5d769565c7b69875d"
+    },
+    "AllPrimeGroups.FiniteStage": {
+      "exit_code": 0,
+      "source_sha256": "c4d0ed6a53fdc4cb3f1851df4939efb6bf708a47d89bd94c822d1660dec3b442",
+      "seconds": 4.51,
+      "checked_at_utc": "2026-10-15T02:55:25.981983+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "48ec10c273b334f4dab373973a66ed0867c63963ea28c78a58272276e50c0ee6"
+    },
+    "AllPrimeGroups.HierarchyGrowth": {
+      "exit_code": 0,
+      "source_sha256": "a72659b386125adfb8be01166ccac15593ff887adf12b017d2e73b01b6688136",
+      "seconds": 4.54,
+      "checked_at_utc": "2026-10-15T02:55:30.583228+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "4b3f74a117ed8b72d28db416c74a2b8a8a1eccf1a8ebb3e78d0dea8af6ad4cb7"
+    },
+    "AllPrimeGroups.Candidate": {
+      "exit_code": 0,
+      "source_sha256": "4fdce1be826462ab4ae898db9a5c3cf7dae0a019671b2f50c04662ce7f0397c7",
+      "seconds": 4.38,
+      "checked_at_utc": "2026-10-15T02:55:35.019658+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d7b84672b56deb3a52b13a1ed6a3f3e406071cf3afec622e96c8209e94e9d28b"
+    },
+    "AllPrimeGroups.FiniteIndexPresentation": {
+      "exit_code": 0,
+      "source_sha256": "53dae6950c6f0f47e72c0d3e1e6d6c1a350b0a4e6b6dc7ec45315141d64805f8",
+      "seconds": 4.44,
+      "checked_at_utc": "2026-10-15T02:55:39.512250+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "7931f5b9c2332f87751bbdc89da1f2ff069c0f33d8dace4c910ad5f85a054823"
+    },
+    "AllPrimeGroups.StableMap": {
+      "exit_code": 0,
+      "source_sha256": "13f9f00aa7de1f72e782ecf64461f4f06d63a4a0f20062deb2344e8e70ca4326",
+      "seconds": 4.12,
+      "checked_at_utc": "2026-10-15T02:55:43.698717+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d395a8421e6d4de79b05c256dde9b7aae16afde3dc24ed5f9aed747ed9b527a0"
+    },
+    "AllPrimeGroups.Assembly": {
+      "exit_code": 0,
+      "source_sha256": "fc670d8f7479c3fea90cf0cd3adbd5a23f9576b14806cad6fac65dd42bc61cd6",
+      "seconds": 4.79,
+      "checked_at_utc": "2026-10-15T02:55:48.551613+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "995e9c4eb34dc03082072f85b1e6959ffe462ba28b320226d200131f4c94c07e"
+    },
+    "AllPrimeGroups.MonomialPresentation": {
+      "exit_code": 0,
+      "source_sha256": "38dac2605bab651de1cd7f8ba8910bd06f19b7f789f383fa7e6f4be9c97a6e79",
+      "seconds": 5.2,
+      "checked_at_utc": "2026-10-15T02:55:53.826539+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "bf49928a4f8fa11c579786733a12dc7718d8f5dedae5f4985f531da35952d85f"
+    },
+    "AllPrimeGroups.SteinbergPresentation": {
+      "exit_code": 0,
+      "source_sha256": "a43aff97ba290a8524858f98d23f7ba18c6cb7cafa33eb7a86c1751065ba9d60",
+      "seconds": 5.15,
+      "checked_at_utc": "2026-10-15T02:55:59.047166+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1fb2785f67dc4378ec002dc477c58fcf02daf61d74e29971bebbda05eb333b2a"
+    },
+    "AllPrimeGroups.KernelExtras": {
+      "exit_code": 0,
+      "source_sha256": "ea54eb6f973d4201c14a2e31576c3c06639aa7d16d8d86f781da402467daae0e",
+      "seconds": 4.11,
+      "checked_at_utc": "2026-10-15T02:56:03.223010+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2b80abee47ff6a3e9585b69742a48795f473c15811c8433bc309ba78fb3942e0"
+    },
+    "AllPrimeGroups.BlockEmbeddings": {
+      "exit_code": 0,
+      "source_sha256": "1d75facb000657619537c7971b343e496fa3ead3892da3ae62e0faff716d5938",
+      "seconds": 8.92,
+      "checked_at_utc": "2026-10-15T02:56:12.208497+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "354bb86166b4b1bef1c02006a8d7f96c7601d594ae6479f66a7eca674ada7051"
+    },
+    "AllPrimeGroups.BandFactorization": {
+      "exit_code": 0,
+      "source_sha256": "254d4090492408a893a66d21ac5649118701799a0997cbda9f2e9dea03ab95d8",
+      "seconds": 7.92,
+      "checked_at_utc": "2026-10-15T02:56:20.191354+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "36b81532d5260c682b239f32b857b4717d753bfcd13d7f2babc91baa5e176344"
+    },
+    "AllPrimeGroups.SpecialLinearLift": {
+      "exit_code": 0,
+      "source_sha256": "5a9621d7e519ab85b77ebc60b0e7761404301c45aeb347f322a57ca3a3077ccc",
+      "seconds": 4.65,
+      "checked_at_utc": "2026-10-15T02:56:24.900914+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0a2145cd989d300dd908c4aac82dac2f69725201dd6dedc45ee1fbfd55c86c3b"
+    },
+    "AllPrimeGroups.SpecialLinearRealization": {
+      "exit_code": 0,
+      "source_sha256": "2321ae1aadab9b833741cc92466f193fc8e20d4439af1b61b2844e604aea2db2",
+      "seconds": 3.84,
+      "checked_at_utc": "2026-10-15T02:56:28.801928+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e4d590bb42881de2ddf603624a5ba4ac986647e59b3d2defe2746756797e145e"
+    },
+    "AllPrimeGroups.NumericalSimilarity": {
+      "exit_code": 0,
+      "source_sha256": "b157cf2e866411413281c9555d1363a9cd9c2b29eece566659bcc6f245595ea2",
+      "seconds": 4.84,
+      "checked_at_utc": "2026-10-15T02:56:33.708787+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "ef73180feb691ab48808e1fe682890df5b8da5fc46936c4a9f1a6754ea78c84e"
+    },
+    "AllPrimeGroups.CyclicTriangularization": {
+      "exit_code": 0,
+      "source_sha256": "39bdc90a0e16794a2904938dc9a755cb4a1b765b808e1222450b2f0097153cde",
+      "seconds": 4.5,
+      "checked_at_utc": "2026-10-15T02:56:38.264599+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "30b72cd11740145cb50dbd1b2cd7881e964a2fc95a0bb138eeca39658e4f1565"
+    },
+    "AllPrimeGroups.StablePermutation": {
+      "exit_code": 0,
+      "source_sha256": "a416049b32046501c0a07381b095d72fb5723ec5919400524b43a83cf16d0c4a",
+      "seconds": 9.33,
+      "checked_at_utc": "2026-10-15T02:56:47.662490+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "9d56bbac9052bb168f4b53940f418fd60d4098eb885ca56feb8298a54cfe53c7"
+    },
+    "AllPrimeGroups.PolynomialTorsion": {
+      "exit_code": 0,
+      "source_sha256": "d21af047fe91d33673ab8c7dfb6782a48d1173475146cf771de9b2107ec72b90",
+      "seconds": 6.18,
+      "checked_at_utc": "2026-10-15T02:56:53.893673+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "23610b5af72a8f1934d77be265d8acca7ec2a99d719fe5fa8f9a4cd7f48df2d6"
+    },
+    "AllPrimeGroups.RelativeTorsion": {
+      "exit_code": 0,
+      "source_sha256": "46cf27f621532535bf298924cc427c427555875fe1e04af5a0589db2aab77866",
+      "seconds": 5.54,
+      "checked_at_utc": "2026-10-15T02:56:59.504239+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "62d792b330dc395897e16c19efb4783ce7f7a19b6c44de6a6ac87df561169d4b"
+    },
+    "AllPrimeGroups.PhaseCommutators": {
+      "exit_code": 0,
+      "source_sha256": "9df55752dec287233e0137e2752ee824ec436408b27efdf51ddcc241e1150097",
+      "seconds": 3.29,
+      "checked_at_utc": "2026-10-15T02:57:02.862553+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "763966ffaa93621b68ef6905231ec1502718ace23a279eca53eb5a7e14da5640"
+    },
+    "AllPrimeGroups.SeparationCriterion": {
+      "exit_code": 0,
+      "source_sha256": "33612ddc080e272f7f0389c2ea0ff564c37d0b739b101f82628953b4a4a8f51e",
+      "seconds": 5.54,
+      "checked_at_utc": "2026-10-15T02:57:08.464138+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "056ea68d80d6b6c1def774ea48d55b23ce920439554098554a72d26c7bb07e05"
+    },
+    "AllPrimeGroups.LongRepresentatives": {
+      "exit_code": 0,
+      "source_sha256": "b76c208c4b388a2c466556cdcd1087a836cd2374b8d41ffdd7dd16c3e29d4ec2",
+      "seconds": 8.8,
+      "checked_at_utc": "2026-10-15T02:57:17.321849+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "4cae5d79fee4c084e314bc2c269d20556797a8d51a23e5235835cb81deb53bd1"
+    },
+    "AllPrimeGroups.OffsetCollection": {
+      "exit_code": 0,
+      "source_sha256": "dc20031d5e05c4030438084f667e003079d96f641d2b54819355fa9182c902bb",
+      "seconds": 6.62,
+      "checked_at_utc": "2026-10-15T02:57:23.997689+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "decee928e13b535b0f7421a86682c9d3b31c401564dbaf29d84c2c365557bfca"
+    },
+    "AllPrimeGroups.PhaseSeparation": {
+      "exit_code": 0,
+      "source_sha256": "6f903e27fa48c9f47a9afd762eeeda83620e6c9b0aaf16de8c12e879dbd0874d",
+      "seconds": 6.47,
+      "checked_at_utc": "2026-10-15T02:57:30.525383+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2ce0b6c70bdd27bada0958d4fd7ed5fe8404d7484e17321d65e2c762d0d3f706"
+    },
+    "AllPrimeGroups.RelocationFrames": {
+      "exit_code": 0,
+      "source_sha256": "4ebbf8c57946df9b0b0b6101e6c2d8c1c76a0b18c6a2d9f5ec2cf28e018348b8",
+      "seconds": 7.27,
+      "checked_at_utc": "2026-10-15T02:57:37.860479+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "5ecaed0ab7cb2a27bd0c8f766494c5320bc5f80aac5b46c2ee4ca984aad1a17a"
+    },
+    "AllPrimeGroups.RelocationMoves": {
+      "exit_code": 0,
+      "source_sha256": "2394c584ac8693a1d09709ea533f90cc723061245167d31321fa02b88d690ae7",
+      "seconds": 7.25,
+      "checked_at_utc": "2026-10-15T02:57:45.180383+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2746ed989c378f5adf22cb8f45cb2e854c4db20a3ee202dacebf9fe9744fa9a3"
+    },
+    "AllPrimeGroups.CorrectionSubgroup": {
+      "exit_code": 0,
+      "source_sha256": "f6eecb4047fd14ee2dac4f247402b868649b0fec9234bd9b78a129ec3d5b9ea9",
+      "seconds": 6.41,
+      "checked_at_utc": "2026-10-15T02:57:51.654898+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1faba5155a591db10cba5bfcf883ce86bd40abc77c9ee8ce4456af464f935d95"
+    },
+    "AllPrimeGroups.CorrectionFaithful": {
+      "exit_code": 0,
+      "source_sha256": "1d1b989645ee5b4fbde1ef6be2083c3360f383745ef5d417f3d12749dbb86cb3",
+      "seconds": 7.23,
+      "checked_at_utc": "2026-10-15T02:57:58.940313+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "8ae086bc3a2fbc0cf215c5d2fc7a4796e49b31fb975807684c80459ea5430fab"
+    },
+    "AllPrimeGroups.Relocation": {
+      "exit_code": 0,
+      "source_sha256": "d5af30eb7cbb6030ecaeba5dcf27f64fd23bcab0218465654e8fa4b2919172ae",
+      "seconds": 6.37,
+      "checked_at_utc": "2026-10-15T02:58:05.366693+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "32afa2bbaf73d50cc36c7668142a18a18838d5cc69b7dedfc89515693730b765"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.LocalSyntax": {
+      "exit_code": 0,
+      "source_sha256": "4c900835796ee5d756bf47067a0c18a219fe3475d0bbab1daad850b3a77add26",
+      "seconds": 50.43,
+      "checked_at_utc": "2026-10-15T02:58:55.872655+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "136157363ab4940e58e76c14d04134b6bdf64d3003d79a9ffbc41317a1f20c5d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.FiniteExtensions": {
+      "exit_code": 0,
+      "source_sha256": "7344ac9a321b741a8fc74ee507171b33ebabdb253942618966f9e274f1701ae5",
+      "seconds": 43.62,
+      "checked_at_utc": "2026-10-15T02:59:39.545010+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "899ecf54a9f676880dff6b7492c88367c587de475b40b791c8f6ae480d79b804"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.RelativeHomology": {
+      "exit_code": 0,
+      "source_sha256": "2a2940f8546667671d0ed7a497049971e983274aadcefa5d9f9e27cd0932bd9c",
+      "seconds": 59.66,
+      "checked_at_utc": "2026-10-15T03:00:39.268858+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d6752eb7935e94334b83f27d1add0382202b96935fc873157acb7bc86da7aee8"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.Palette": {
+      "exit_code": 0,
+      "source_sha256": "79ee942cdd754f95b5416da5947262c94924ab5490b2d1276a5403ee7f1fca34",
+      "seconds": 275.97,
+      "checked_at_utc": "2026-10-15T03:05:15.292498+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "735eb5f069095da95ca4c9eca6956815860755bea63d542a3fdb9d2915963f29"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.HeadTour": {
+      "exit_code": 0,
+      "source_sha256": "0ac2917787210067ca8e20e316f627bdaa97e9c6af08d2f2d7c93a6cb3b1208c",
+      "seconds": 106.95,
+      "checked_at_utc": "2026-10-15T03:07:02.367093+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e73fb5e5807ae1ca63499e23a73ccb812058b1f4b5a346cf1450acb9d31f9ae9"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.TableEncoding": {
+      "exit_code": 0,
+      "source_sha256": "7491d7fdcc8efaf3c9efb94d96ecdc137cc912a7fbb0e7594c6e1a61b1e2a57e",
+      "seconds": 166.43,
+      "checked_at_utc": "2026-10-15T03:09:48.877113+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "517e55d1303736735aa9c95e941fd6bdd4cb41808c2e65761c0c43be33e9b029"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.Recognizer": {
+      "exit_code": 0,
+      "source_sha256": "cb1978ba2d05c662b24d015b24365552ab2424a04dfa3725c0ab4c2ca83177de",
+      "seconds": 138.11,
+      "checked_at_utc": "2026-10-15T03:12:07.082986+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "df61f1e7676a7517fafd1f9e600188cdc490b5e153622fee0127beac46f1e460"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.TapePrograms": {
+      "exit_code": 0,
+      "source_sha256": "01f8ec39fcd612f8bc35d1ef5d420fb7619217c2555d908edde2c5ecd68aa149",
+      "seconds": 44.9,
+      "checked_at_utc": "2026-10-15T03:12:52.051091+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "ede7a6766b3d8174bfb1f0c485f134daf9d7905af006da9af75180986bd68244"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.UniversalStack": {
+      "exit_code": 0,
+      "source_sha256": "f35f0656898bdd7a0865134a6c43acc71879793d02c676e0bc19fbcd7e4ca8e6",
+      "seconds": 41.13,
+      "checked_at_utc": "2026-10-15T03:13:33.237255+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "9dfdff4e6914756b760c9a2e90bd27d6aff1ea59133879ccd29281f4c5ccc412"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.UniversalInput": {
+      "exit_code": 0,
+      "source_sha256": "f4dd8e1f3fcf755bc85736fb324615e62da418d9bb859ed07b961b2c38e7ae0a",
+      "seconds": 35.32,
+      "checked_at_utc": "2026-10-15T03:14:08.635909+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2cf049330ab0baa99f4e368223a57a081ada02c1e7ea7128bccf38e6d3f75702"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.BinaryRegisters": {
+      "exit_code": 0,
+      "source_sha256": "1c7a3a5da8ec811690c91deb5580a0da85fd9ef1426667eff53367e92f4849eb",
+      "seconds": 40.42,
+      "checked_at_utc": "2026-10-15T03:14:49.124257+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "8181ce798e75e14d6908900c27001ec4b77d17dc0bd2532169192bb490b7a915"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.ArithmeticDevices": {
+      "exit_code": 0,
+      "source_sha256": "401af54064fa88ce89d30fdcd3ab27baf771c9ca40c4d8c3227c9feb22278de7",
+      "seconds": 59.74,
+      "checked_at_utc": "2026-10-15T03:15:48.941766+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "8dd076cea764a97d069cfed41bd728526e358af97d5dfbbc3c26c374e642577a"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.RegisterOperators": {
+      "exit_code": 0,
+      "source_sha256": "7871047b3e9c432a8db1ad34bfb661b38e41d79791b23ae851278ed50ff04b0f",
+      "seconds": 70.77,
+      "checked_at_utc": "2026-10-15T03:16:59.791024+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "9ebf3c3c670531a9837c369cdeb65ecfcb520f4ebd2a303063e76d3f2d6e1355"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.RegisterLoops": {
+      "exit_code": 0,
+      "source_sha256": "41db474871aa2c75c0eaf82e8e60e3ab11fcbd7c1eb9aaeb9ce763303e4b698c",
+      "seconds": 101.39,
+      "checked_at_utc": "2026-10-15T03:18:41.280142+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "4fe5b8bb90278a95e1fb9d3ba50279a13349fc5d2cf16d6384395bcdef0a82d1"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.BooleanCircuits": {
+      "exit_code": 0,
+      "source_sha256": "407f81a24bffad54b8e953cc568c490fb0edca456010dfb8654d80733e72da6f",
+      "seconds": 82.64,
+      "checked_at_utc": "2026-10-15T03:20:03.996679+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3bb8001f7bbd24c27faf84183d3c877f9bb5357977e97eff20b16ecf9726ee24"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.Transactions": {
+      "exit_code": 0,
+      "source_sha256": "f8e5909f03df0f6a40fa535ddd9cb136f6fd69a56150dd0d350c97f2ee63f967",
+      "seconds": 44.02,
+      "checked_at_utc": "2026-10-15T03:20:48.106719+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3006c65e912427482d9409f8fe0ca0bdcbc28074036334b93735a91b893861c4"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.ConnectedWords": {
+      "exit_code": 0,
+      "source_sha256": "616db6858b21828a98dafff2d7d7de82857d55849fb1f73bd73753256646f58a",
+      "seconds": 49.71,
+      "checked_at_utc": "2026-10-15T03:21:37.874374+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "5c4661740feab1f1e7601272141347e81bce101ae2ab9d0cf7ea39fe9d18fe5d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.CommittedWords": {
+      "exit_code": 0,
+      "source_sha256": "30a2559af37495cbc06d550bb93b7e418afb916723a440deb70151fd35fdfc28",
+      "seconds": 32.25,
+      "checked_at_utc": "2026-10-15T03:22:10.182014+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "fa4f80527dc0c3bbc898bf19cd8b3163ec5ed7690013a0180c75c0c4e0a7b9ce"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.WordComponents": {
+      "exit_code": 0,
+      "source_sha256": "798ccc6bcd96810f6e3a689527799dee7d5d4affd3dd0393897677d696e88309",
+      "seconds": 29.46,
+      "checked_at_utc": "2026-10-15T03:22:39.697502+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "7eea298ae1219ef17dfdf0ce425f64c2bfcda4b9646d645df311eb1c4bae7179"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.Tableaux": {
+      "exit_code": 0,
+      "source_sha256": "063279d0e02524bd5f70e02c512efcd81e70264f6f1127723c4bfbc1e51e7152",
+      "seconds": 29.46,
+      "checked_at_utc": "2026-10-15T03:23:09.213450+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "40164e68e5e19d80c5b3e7af67ef5bfcfc2b6ed1d15bf46ed840bd26e4aaa43f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.Addressable": {
+      "exit_code": 0,
+      "source_sha256": "e2199ca3e4b19edae09760d1ed0af6802234955f10949bb8eef67e5a75eed9df",
+      "seconds": 81.29,
+      "checked_at_utc": "2026-10-15T03:24:30.558359+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "481d468444ccd5aa67de921767d8f5b3c285f09f9e6360a7a93222b9658c0a98"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.ClauseEncoding": {
+      "exit_code": 0,
+      "source_sha256": "149168a4a091887394d1207489d9afa60a629e389509b08967fce03d969f2136",
+      "seconds": 91.89,
+      "checked_at_utc": "2026-10-15T03:26:02.534183+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "cd049e62d49b1681850963c40c28de17f1c03f47291e7e32a8ae29aed6db25d9"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.LocalPredicates": {
+      "exit_code": 0,
+      "source_sha256": "3c10b0f458fcff6c5415adbe46102b5bb046ff8fa72354e1e0140d560401ccaa",
+      "seconds": 61.52,
+      "checked_at_utc": "2026-10-15T03:27:04.113361+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0a694ccc6cfd99e6944e5d9b4a9662466f3be4684c342903e1d4ebc6a7d5c5bb"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.PredicateCompilation": {
+      "exit_code": 0,
+      "source_sha256": "e9cd41917630448ea2ab035d04e8175b9428dec89248620cdd247a8f664c4ed4",
+      "seconds": 65.06,
+      "checked_at_utc": "2026-10-15T03:28:09.247812+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "cccdc5e9b0510cc2ad8a3530c21b9859ea587fa0983e8a3007ba7e237e59be74"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.Compilation": {
+      "exit_code": 0,
+      "source_sha256": "20853cac5bee64554a9c8eba06dc6e48ea6ef2ae721ca2d77c396440736b578b",
+      "seconds": 56.0,
+      "checked_at_utc": "2026-10-15T03:29:05.316965+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e6ceab29b1cd6dd5431134d968467b3bc8c8ce6e0189b87e3793ad76249a8493"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.InputEncoding": {
+      "exit_code": 0,
+      "source_sha256": "5c6bc6c9565c01af5a3765c581202bb03f378393ec3ed31afef8a479ca5de298",
+      "seconds": 35.69,
+      "checked_at_utc": "2026-10-15T03:29:41.072112+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3eb7da077773c5ca2a43e72ec6aadc8648df55ae84e927bf6b61914aa8feff6c"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.ProgramAssembly": {
+      "exit_code": 0,
+      "source_sha256": "1404c6b18c0cab5482d750fd6243796819b9c17606bc62d6b6890dfdb7f29214",
+      "seconds": 56.72,
+      "checked_at_utc": "2026-10-15T03:30:37.894592+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b22aecd791906d6cc81b218ee4703fac485aa07628bec87d90478204c048a467"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.StackCompression": {
+      "exit_code": 0,
+      "source_sha256": "79165803c4415956d3dd72f1c2f3165d32b7ef8333b725d2568562ef63faa0eb",
+      "seconds": 31.96,
+      "checked_at_utc": "2026-10-15T03:31:09.925428+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "407f3eae730c44e1ea0639f19fe152c8c8d447a3fc6d2a12c695bd4bba8cb1dd"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.ProgramFixedPoint": {
+      "exit_code": 0,
+      "source_sha256": "e61e0098b6cc3ecb4f5c936a5a58a7b4aa7bd1beb1134c0c7738d4ce58240878",
+      "seconds": 36.46,
+      "checked_at_utc": "2026-10-15T03:31:46.463804+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "484146b4a584f80e6ecdbe6f377edc7cf612a1bb92669bbcee3b8fdba821be6e"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.TimedExecution": {
+      "exit_code": 0,
+      "source_sha256": "aec9d26ee4b18e1aa53742298a819ab767b3df67ce0dcae14839b34047f85afb",
+      "seconds": 40.6,
+      "checked_at_utc": "2026-10-15T03:32:27.129818+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "70d67f98724576a6dddabd7ff51a99c91de940df9a398de01e0ce8b4653b2e73"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.WordRewriting": {
+      "exit_code": 0,
+      "source_sha256": "f1a89843fcbc41b2c14cf3e98e7db31ea1b7875e0f9af483e67e5c6a608643d7",
+      "seconds": 31.82,
+      "checked_at_utc": "2026-10-15T03:32:59.020944+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "baa00b5b502b35bb19be4b904d722f957ea04ecc1a8160e7cdd051639f7d6982"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.BoundaryCell": {
+      "exit_code": 0,
+      "source_sha256": "e2a7761d4a6f45b819a771a48f0c778ed91c6c3649af2f7fcdd2787b07936f99",
+      "seconds": 31.96,
+      "checked_at_utc": "2026-10-15T03:33:31.047975+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "775b60418f4ef2c71c0c255ac0daddd09b34bbe413f1ab93b44f9a8427ec6017"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.PrefixRewriting": {
+      "exit_code": 0,
+      "source_sha256": "ed3c889c22bd464a36ae9264261cf7d9cab94c69b77fd132b20b14e93c2d344d",
+      "seconds": 31.16,
+      "checked_at_utc": "2026-10-15T03:34:02.274701+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "715ff1cdad6eb99bdb544f1c570ca2d23836bc74a44acc8a018aa11756a015dc"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.GeometricRelations": {
+      "exit_code": 0,
+      "source_sha256": "695ab829b5ef377ee207087a8226afedb98eac23838d7712379b9245ae6b2a45",
+      "seconds": 29.84,
+      "checked_at_utc": "2026-10-15T03:34:32.175205+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e2d8b016ac124ee20a5fd9adfa79def7c5e1a0fd80ed94dea3338cf282ac29d2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.DataWords": {
+      "exit_code": 0,
+      "source_sha256": "cb9330d46efbe445ad1a64a82f76be4f867caca34789399aa2f7290227c86244",
+      "seconds": 27.95,
+      "checked_at_utc": "2026-10-15T03:35:00.181945+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "60fcbdca7f6a1d16001f4e610dc4e23dc4b5a3b1a25c74d318f211d2e5256c74"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.TemplateHierarchy": {
+      "exit_code": 0,
+      "source_sha256": "56aed392d926e69d6e8d6c27152c1f74eeadb07ea834e7ea387795b58bc4fb55",
+      "seconds": 32.84,
+      "checked_at_utc": "2026-10-15T03:35:33.079462+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "83328af166074c4c6852d5c53b203d6b87964cfa6d47fdd9afa28e55553d9fa7"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.WordAlgebra": {
+      "exit_code": 0,
+      "source_sha256": "e102b677781e9c2d7078f92b5b406c83413136f793a1290e48deb087f77fa388",
+      "seconds": 28.27,
+      "checked_at_utc": "2026-10-15T03:36:01.423439+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "cc12bc6a299a1dc46ee98259d6bc76c8742ae058d8f8570de8ffc8983c5109da"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.PacketIntervals": {
+      "exit_code": 0,
+      "source_sha256": "ccc9926fce91684513aaf8b515c4236b9a02db181a95992c8022792399d8c335",
+      "seconds": 28.25,
+      "checked_at_utc": "2026-10-15T03:36:29.723145+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "c1fdf8276c02e4c470c0fdd7a770927823b5c35d1faea3ab7041509e82470719"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.DirectCancellation": {
+      "exit_code": 0,
+      "source_sha256": "a2b2bb667cd9f248a69b62c92377a13da4b0c4088ac029525a2d931d88589b9e",
+      "seconds": 31.81,
+      "checked_at_utc": "2026-10-15T03:37:01.597846+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "dc42001eb9d97bd3b4a6bf2e33e6088c2334d1f71f2f605f9e855fa1f916ed2f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.HierarchyGrowth": {
+      "exit_code": 0,
+      "source_sha256": "a6c152e6d6b19c9d06a14f277b544eb4638148f37130059a93fd92924fd7b42b",
+      "seconds": 40.48,
+      "checked_at_utc": "2026-10-15T03:37:42.133591+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "4607a2affdebb9015c479c91c5163a983b3021fe29236dc601c2dbd75e50fb63"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.MatrixTests": {
+      "exit_code": 0,
+      "source_sha256": "8c5d7654c77d8f9fd642ecff27ab63707343acd4fe6a9d27a9d0112256ed9c5b",
+      "seconds": 31.72,
+      "checked_at_utc": "2026-10-15T03:38:13.905383+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "9abf62a7bc2e7add4f802644e16eb4f59921b0c14e94d474d210ebf22a4b757f"
+    },
+    "AllPrimeGroups.PrimeCancellation": {
+      "exit_code": 0,
+      "source_sha256": "26cb8fd4746cd11bf22416d783298818a38916ebbffab9ff77a5b96d34ffb57c",
+      "seconds": 27.37,
+      "checked_at_utc": "2026-10-15T03:38:41.341477+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "7763b05964fae1092cdcdc50b1daa5dfa603fbcaaf338ab1d154f5b19772e7c2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.PresentationModel": {
+      "exit_code": 0,
+      "source_sha256": "7da462efa749f2f3e2b7f8615ae7f143b0fceeef7a1bd9748ebebacf0ad0a9af",
+      "seconds": 29.38,
+      "checked_at_utc": "2026-10-15T03:39:10.776399+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d116b6ac19b81facd6623b01135fdbd443b46de15d500d44b7c6a85b797c19d2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.MonomialPresentation": {
+      "exit_code": 0,
+      "source_sha256": "b29f0f6812d9b6d4b68eddac35bdeb6e6c1ee382505ae86681dd57d8e7f235f4",
+      "seconds": 38.88,
+      "checked_at_utc": "2026-10-15T03:39:49.708523+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3ce60010ccdf951db7504eebf9177669ce706a5ade4b28f1c5996ad3779ffb76"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.CoefficientQuotients": {
+      "exit_code": 0,
+      "source_sha256": "983d0de5304381b00c5a994f1125960570af626504f282e01017c58be408235c",
+      "seconds": 234.41,
+      "checked_at_utc": "2026-10-15T03:43:44.177812+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "419d8eaa84b1ac963eed86c494a4abe620c9e979715b767e4cf13e8d5cb9017f"
+    },
+    "AllPrimeGroups.PrimeMatrixNil": {
+      "exit_code": 0,
+      "source_sha256": "9e85355482fc612168c8b515de62b0ae546ae22191a39e0c6aef4390e8d6cc41",
+      "seconds": 243.74,
+      "checked_at_utc": "2026-10-15T03:47:47.994486+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "09d59eb01e3d1750e6fb13d0196d02dfa544b0cf4d252283ce9affaa1c0a0f5a"
+    },
+    "AllPrimeGroups.PrimeAlgebra": {
+      "exit_code": 0,
+      "source_sha256": "8287bbefb0d5fe07562a83f5a9d795dbbf5a3f2a958de7b617b2b2b268ab6d96",
+      "seconds": 185.76,
+      "checked_at_utc": "2026-10-15T03:50:53.987333+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "70120c51c03ee731cfbd5edc25a49bfac42a9a4c07aad592a4bf5bbc4dce293e"
+    },
+    "AllPrimeGroups.PrimeReduction": {
+      "exit_code": 0,
+      "source_sha256": "6a1ea2518baff4b87c97a74a306fcfe1b2ffb81d3440b9f2522b3a4c2c8d42e2",
+      "seconds": 121.98,
+      "checked_at_utc": "2026-10-15T03:52:56.066333+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d4ef165345fb2275577e596eedb7828e02cb193350e407275318b0b328a3dc92"
+    },
+    "AllPrimeGroups.WordBasis": {
+      "exit_code": 0,
+      "source_sha256": "7913c4e76db4b94d271b4d4cf5c86a58cb03c669682b0027c764da88797f6f60",
+      "seconds": 168.37,
+      "checked_at_utc": "2026-10-15T03:55:44.543617+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "6dd42d791aa4ed659c2b1d61c49392b8a2ef898ab769983ad4f24205334b66ad"
+    },
+    "AllPrimeGroups.PhaseConstruction": {
+      "exit_code": 0,
+      "source_sha256": "ab557d8bc2f885cc8882fe7e1f6c7692cce66e4fbfa99db62c3a6ab7cf193c9a",
+      "seconds": 74.25,
+      "checked_at_utc": "2026-10-15T03:56:58.876531+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "40ed2c5c4ee805869548b6c4d1547d8b64d797d5a71747c143caef9160f67c96"
+    },
+    "AllPrimeGroups.HierarchyPhases": {
+      "exit_code": 0,
+      "source_sha256": "6f29cb00a4a6035accc0ce5c64db9243091d752787468e7824224233a49d8a0a",
+      "seconds": 122.58,
+      "checked_at_utc": "2026-10-15T03:59:01.589382+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "f60051b8533da1b669b8299933f038e63eaf47507b4d979395c0ac511812d046"
+    },
+    "AllPrimeGroups.HierarchyGrading": {
+      "exit_code": 0,
+      "source_sha256": "3befb3a80f6ce7c247128f0ace7c5280f6a673695a535d8990104bc7f993d1a5",
+      "seconds": 92.39,
+      "checked_at_utc": "2026-10-15T04:00:34.061259+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "8c03204a143687660db155593b88b06bf7321cf4b2233cf804df0efdbf61339d"
+    },
+    "AllPrimeGroups.PrimeSeparation": {
+      "exit_code": 0,
+      "source_sha256": "08ec10d66c226accd0c0e62a750ec4d5cabf63b49b7fbe818923f853817478da",
+      "seconds": 52.42,
+      "checked_at_utc": "2026-10-15T04:01:26.569202+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "51c0ddbe9036eb452f2f8e6f2522f814ee7147d3ed9264699d206d59c5ecbc30"
+    },
+    "AllPrimeGroups.ColumnComplex": {
+      "exit_code": 0,
+      "source_sha256": "806d7096be8a80e9fc607427bc6e649f55a39149e67ab4dfca81409c7b359744",
+      "seconds": 9.7,
+      "checked_at_utc": "2026-10-15T04:01:36.380791+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "90edea9bd2dfe7395e3f920b9e92ac65d4d3ff89a944b6ea320fc24ee781bda5"
+    },
+    "AllPrimeGroups.CosetTransport": {
+      "exit_code": 0,
+      "source_sha256": "321253a961fb8771b20acc53e6a2f4b47520e268702008682a897bb5ea68c547",
+      "seconds": 9.48,
+      "checked_at_utc": "2026-10-15T04:01:45.939822+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "39befe320cb1710ed64ab7aa8119f39f2f18981e46fb7d383d43047cfbec8f22"
+    },
+    "AllPrimeGroups.LocalColumns": {
+      "exit_code": 0,
+      "source_sha256": "7632b06758d3607ca8dfbd16d6f3508740759b1151c3ee3f46302252671520e1",
+      "seconds": 8.13,
+      "checked_at_utc": "2026-10-15T04:01:54.162661+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e35bd3cf8afc99bc0472bd0cd27f01fdd35532a6ee8dd86bad5ec6544e5eba9d"
+    },
+    "AllPrimeGroups.GLPresentation": {
+      "exit_code": 0,
+      "source_sha256": "fb8b592426b8f528f8f6099af8a0b038e7bcbe34c0e2a624ba5ea8369c3bdb89",
+      "seconds": 8.03,
+      "checked_at_utc": "2026-10-15T04:02:02.280921+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d5b72b9467591c9cda864b6534efc606add6898f06055127f32b2d0a9d2a47b9"
+    },
+    "AllPrimeGroups.GLTransport": {
+      "exit_code": 0,
+      "source_sha256": "063c3fda9f75d1f987eee3d6f20d56771828568f91fa59453e8d7d0bf7ee90d7",
+      "seconds": 6.92,
+      "checked_at_utc": "2026-10-15T04:02:09.283758+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e245532b752234020c91db2a533d77d6e2b724924d8335c818f54634738a7b40"
+    },
+    "AllPrimeGroups.GLSection": {
+      "exit_code": 0,
+      "source_sha256": "ff56ad2d752125cd49325d6c94e9d34757530a7f24543748287787b579898b5f",
+      "seconds": 7.52,
+      "checked_at_utc": "2026-10-15T04:02:16.899728+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e7d62156947299c2a4980e4bb3bbac421558eee0cdacf20a5fdc49c354aff159"
+    },
+    "AllPrimeGroups.GLLift": {
+      "exit_code": 0,
+      "source_sha256": "b9386b136e337c2cb215ce51ed9a48ef6e2ef14cc2176f98a024b71e43e73803",
+      "seconds": 10.54,
+      "checked_at_utc": "2026-10-15T04:02:27.501326+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e43eb43b72cd25a886214abe40dcc1dd17dca05853df926542727f54853b8253"
+    },
+    "AllPrimeGroups.GLSwap": {
+      "exit_code": 0,
+      "source_sha256": "7c829ddacd1756fade95120f583b509d8357af32d465eb0f03d2b05927f0bd2d",
+      "seconds": 8.21,
+      "checked_at_utc": "2026-10-15T04:02:35.809398+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "a55ade74f162d59cffe36b118fd9c291788f5017e474f0870b2ed51bf71daa4e"
+    },
+    "AllPrimeGroups.GLInduction": {
+      "exit_code": 0,
+      "source_sha256": "2a41bb0021e2cccdb1b0dedaf38ef0998762b539c63624e56c69a4e2679dc47d",
+      "seconds": 15.53,
+      "checked_at_utc": "2026-10-15T04:02:51.432780+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "de9ef1544a7eaa0111056f4bc241f7240f06885d9e4687fd6efeac1b0a441560"
+    },
+    "AllPrimeGroups.GLAction": {
+      "exit_code": 0,
+      "source_sha256": "5199698ba640cee37230806afbed0a6b33e4e655b8487de6cabe61d1bde178ce",
+      "seconds": 7.51,
+      "checked_at_utc": "2026-10-15T04:02:59.034187+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "537cc1a6150ee1f3a585a0902f21f3d89c306d6dc51b80514c925a30558ffc6e"
+    },
+    "AllPrimeGroups.GLRelabel": {
+      "exit_code": 0,
+      "source_sha256": "ab09bb2d353860be4ab6c0906e88b987b608277061d76691c8edc440365d8ea6",
+      "seconds": 6.52,
+      "checked_at_utc": "2026-10-15T04:03:05.636768+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "82bb279ac725f797f37e774194940f9f592cfce6174c5c39d75dfc85195a9fbf"
+    },
+    "AllPrimeGroups.K1Stability": {
+      "exit_code": 0,
+      "source_sha256": "0d66cc2a83f27419a40dca432b46ae7c5a251b558a95bd11755beb2f184166fd",
+      "seconds": 8.75,
+      "checked_at_utc": "2026-10-15T04:03:14.513240+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "097e4b4db16681a2004dbf32ea2826a55f3e8134c37ffccd88038a52f7043e4a"
+    },
+    "AllPrimeGroups.CentralClosed": {
+      "exit_code": 0,
+      "source_sha256": "4165161025744e967dd664cd27da71563f21ae0f7457c488aa81659e86f78e10",
+      "seconds": 8.26,
+      "checked_at_utc": "2026-10-15T04:03:22.855138+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3c238d3cc72bc961da2c521fc4c0992c18e24c93d5a9cf6fb3a62bc23c36271b"
+    },
+    "AllPrimeGroups.FrameComplex": {
+      "exit_code": 0,
+      "source_sha256": "bddd9aba181e8646fd69a9d3005bc6d0643043630c28469830dc2d8ec4553260",
+      "seconds": 7.96,
+      "checked_at_utc": "2026-10-15T04:03:30.902858+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1ef6df5a4cfe62bed7685e474f2d435c3ef2bba3bf4cbe6c9b8b636a27fac9da"
+    },
+    "AllPrimeGroups.FrameExactness": {
+      "exit_code": 0,
+      "source_sha256": "bf821a2a5d3c353ddaa8b48a96bc408756323848a83091a7417c5c0c006bd3fa",
+      "seconds": 15.13,
+      "checked_at_utc": "2026-10-15T04:03:46.123794+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2b49e53c4394801e10921449ab6e51b4e69f8d5ba4942816e6ed4a73b2c3dbe9"
+    },
+    "AllPrimeGroups.FrameSplit": {
+      "exit_code": 0,
+      "source_sha256": "3476036f9361f816e096b3f051e88b6fc2aa32e27d54ab4ccdfc7b29249a9ce8",
+      "seconds": 7.01,
+      "checked_at_utc": "2026-10-15T04:03:53.216802+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "4e3a7e931fafe0988c38a0254c847bd4ca62d81c0a5f447805339e5bd8cb2d9e"
+    },
+    "AllPrimeGroups.FrameLemma": {
+      "exit_code": 0,
+      "source_sha256": "2785be280d5545d2218b4eab8f5fb5da118d962907106f1af42ab9a5a6835fc9",
+      "seconds": 9.52,
+      "checked_at_utc": "2026-10-15T04:04:02.830463+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "a3228774976588e186ea1dfc5e71c6c4a5f1f4414ea16e20fb79765f7d48b829"
+    },
+    "AllPrimeGroups.FrameTheorem": {
+      "exit_code": 0,
+      "source_sha256": "2ae379aab5951024ec9f92b931557e437ed90acaad46af311428c29e4a28cc3f",
+      "seconds": 11.65,
+      "checked_at_utc": "2026-10-15T04:04:14.569977+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "9bb42768ecf7b4c82af6c8126bd19906185b9a42b981e9b5263f48a03edafb9f"
+    },
+    "AllPrimeGroups.RowStabilizer": {
+      "exit_code": 0,
+      "source_sha256": "a8c7af5459af879e58268f4fdc65c88b2a6c6283485881ac810356cd50e24951",
+      "seconds": 9.0,
+      "checked_at_utc": "2026-10-15T04:04:23.659761+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2fe72d3f0316ec1fe04da4e9dda097864858d5b4e9386920e3a1b08890a4b45c"
+    },
+    "AllPrimeGroups.MultiRowStabilizer": {
+      "exit_code": 0,
+      "source_sha256": "a2f6a3ec37af3feabd265cd7aa703053999d8779411466eb9f2cfd396616ea87",
+      "seconds": 7.06,
+      "checked_at_utc": "2026-10-15T04:04:30.816455+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b81911fd85f0834d2240c772a3ce951895e540031ac52cd98203fdcb462e97d1"
+    },
+    "AllPrimeGroups.StabilityCharacters": {
+      "exit_code": 0,
+      "source_sha256": "acdd264f3dda0d6ce40d3a279c1d38050b6be59e5612e0888ecf460d55c30666",
+      "seconds": 9.45,
+      "checked_at_utc": "2026-10-15T04:04:40.370361+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "da618221c286400fe7dca965e16a942751b2cc15a5964ff078965bddeed2119b"
+    },
+    "AllPrimeGroups.CocycleExtension": {
+      "exit_code": 0,
+      "source_sha256": "0a6bbe6ce8f4c2d0f485bfe75615e901821b17ced48e4be730127bd55b330f32",
+      "seconds": 15.71,
+      "checked_at_utc": "2026-10-15T04:04:56.167785+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1ba926e897ce8243b11bb572e74ae3f989828905d611449357231d7535dabd2e"
+    },
+    "AllPrimeGroups.ExtensionOperations": {
+      "exit_code": 0,
+      "source_sha256": "3780a5bd8d570fe6cbe1990393266d27e398595a2f8c42e21695029621fa209e",
+      "seconds": 7.35,
+      "checked_at_utc": "2026-10-15T04:05:03.603580+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0484fdcc43a5557e6a31ded3d00f1ad5290817dd533b32bebe9d85ac19d76bb1"
+    },
+    "AllPrimeGroups.ExtensionFactorSet": {
+      "exit_code": 0,
+      "source_sha256": "cde9a37aa7872077bee3bda59d77156ea0ff1daec8deb7ced8a16aef4c8fca68",
+      "seconds": 16.61,
+      "checked_at_utc": "2026-10-15T04:05:20.305168+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "368cb475d5e204c51e4e4a07641e97dfd1dee0e042b5c3f88316c706a731a123"
+    },
+    "AllPrimeGroups.ExtensionCohomology": {
+      "exit_code": 0,
+      "source_sha256": "3b004bc727e75c9ed0e0a123bfc4f27cbaf29685edf8a4c764032f4351a6ddd7",
+      "seconds": 12.64,
+      "checked_at_utc": "2026-10-15T04:05:33.053044+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "6a6cb03e2fdc1ec4c3ddb6d7aaa43c3a1b66891858bea4200b6fd2661bed0dc1"
+    },
+    "AllPrimeGroups.CocycleProducts": {
+      "exit_code": 0,
+      "source_sha256": "653c3e46636ad97555c86e4a7dc0c068195c0d8942e8659be9d4ce59161b07a3",
+      "seconds": 11.21,
+      "checked_at_utc": "2026-10-15T04:05:44.350749+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "fc4c262b1034ff5dbddea19ba694567314254aa6ac1b6d3de96d7bbbfb8a8749"
+    },
+    "AllPrimeGroups.PrimeCharacterReduction": {
+      "exit_code": 0,
+      "source_sha256": "470bce29e8ecfd9ce3d184bc11532e85658d2c09ffc188f96007d0ec13b6befd",
+      "seconds": 90.6,
+      "checked_at_utc": "2026-10-15T04:07:15.054094+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "bc705de9dec42833497c1685e3477f168a93c2ef609d519acef51232c3253b4a"
+    },
+    "AllPrimeGroups.MatrixGeometry": {
+      "exit_code": 0,
+      "source_sha256": "c5882d46c0aa5c8f8c56001aa33009914588e70092c00ffc019b58166593b30b",
+      "seconds": 6.75,
+      "checked_at_utc": "2026-10-15T04:07:21.874752+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "60be1759e7adc284ae1640cb1f9f4d83c474e00263e172f36790fac3d6a0690a"
+    },
+    "AllPrimeGroups.CoordinateStability": {
+      "exit_code": 0,
+      "source_sha256": "8a0de45431e01c1def5a630b74026a9f2aebd5132a11bc19a6f97cc1f58d45a8",
+      "seconds": 4.25,
+      "checked_at_utc": "2026-10-15T04:07:26.186814+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "931d6c474f683cd224669e00539f809cb91f87ee47a292b1dcdbac78527352a4"
+    },
+    "AllPrimeGroups.FrameBlockMatrices": {
+      "exit_code": 0,
+      "source_sha256": "3502f3f3422675acc4e62ed6cf1c3fb918f84c267a4f722cb7e61fbc40ad5dce",
+      "seconds": 5.24,
+      "checked_at_utc": "2026-10-15T04:07:31.489227+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "38aee9b872b9c9640a8bf766f06556c0ece7a60b3030dab236e52940daad72e2"
+    },
+    "AllPrimeGroups.BlockFaceMaps": {
+      "exit_code": 0,
+      "source_sha256": "6d09e5a36396e5cf19d6b91f3f92e601da8c7a59519044bea7b5f17ab1ae5c33",
+      "seconds": 4.91,
+      "checked_at_utc": "2026-10-15T04:07:36.455832+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "032f21edea085d9332db4c722f54718fdc2d8099c82b6d15690ce7eeb187e61d"
+    },
+    "AllPrimeGroups.FrameFaceGeometry": {
+      "exit_code": 0,
+      "source_sha256": "73e909d7063d6538b68a2e71d6dbd4849cbd2d4d3f31f388e4b133fff7c09f01",
+      "seconds": 5.16,
+      "checked_at_utc": "2026-10-15T04:07:41.666683+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "7c0da350b1be6f513aa1d7344d8666b770f631fbcde84309082336647cbb7e91"
+    },
+    "AllPrimeGroups.ScaledFrameFaces": {
+      "exit_code": 0,
+      "source_sha256": "56d8c717391a3a4149db82fd83af800b174b5760954b4bae610ec3cf31459712",
+      "seconds": 5.27,
+      "checked_at_utc": "2026-10-15T04:07:46.993786+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "901c1bc958aec3f475c8c70a30968af4d110e402e1db7b14811f33c3b04d6245"
+    },
+    "AllPrimeGroups.SignedFacePair": {
+      "exit_code": 0,
+      "source_sha256": "f703074df7b1e86e1aa02d574b66aab479c401667f5301480ecae021e151194e",
+      "seconds": 5.94,
+      "checked_at_utc": "2026-10-15T04:07:52.998991+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "23f8f707c1efe95e8acf1835f1e707180748e18becd274f638a8bb8bff422944"
+    },
+    "AllPrimeGroups.FrameActions": {
+      "exit_code": 0,
+      "source_sha256": "78baddd574dd61b36a1f062d55442a913fd6161e9d2b3d28ea9ac62f8ef37ba1",
+      "seconds": 4.66,
+      "checked_at_utc": "2026-10-15T04:07:57.723997+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "6e0779493e288dac347b693336cfc549a81c3a334ddba4fcaeb79e4ce35c3184"
+    },
+    "AllPrimeGroups.FrameActionStabilizers": {
+      "exit_code": 0,
+      "source_sha256": "7e289d77dbc68bf731f1326ab509b0e76ed430e42a0ce156dd4c91d88a8e8788",
+      "seconds": 5.67,
+      "checked_at_utc": "2026-10-15T04:08:03.446456+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "eaa174763409d9ea8698375bfdd33837e28503f46868ebc51f2409abb7c96a1e"
+    },
+    "AllPrimeGroups.FrameRepresentations": {
+      "exit_code": 0,
+      "source_sha256": "b69d6ccefd72b202183bea0a62246bc43be661275426c3e4e8918c15a6f5c861",
+      "seconds": 5.04,
+      "checked_at_utc": "2026-10-15T04:08:08.550646+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0546effb41d4dddddc553c4ac8f43ecbed15d97956a7f4ef68331bf3878192ac"
+    },
+    "AllPrimeGroups.NilMatrixLift": {
+      "exit_code": 0,
+      "source_sha256": "af123ef483c465221092baa5e9213516fd2bce8f1be2975077b088d9a9242e03",
+      "seconds": 3.19,
+      "checked_at_utc": "2026-10-15T04:08:11.797207+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2d60062287e322664ddc4f2adb72bc84778eabc172f9a4ff892c4b1804cba6e3"
+    },
+    "AllPrimeGroups.FieldFrameCompletion": {
+      "exit_code": 0,
+      "source_sha256": "e67ed2b9f546bda46584f77ae67a949a477c3791dd18774e092215b9bd5cd914",
+      "seconds": 3.94,
+      "checked_at_utc": "2026-10-15T04:08:15.796759+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "8bd3fe9336e5d2f2facd9d9cf3f1d1bec4b8b83fd86aee065492ce698bcd8848"
+    },
+    "AllPrimeGroups.SplitFrameCompletion": {
+      "exit_code": 0,
+      "source_sha256": "86194d29a94e36dc6fa44d7df6c5a71fab12ec1d4148d60253f7bd388fd7f928",
+      "seconds": 3.96,
+      "checked_at_utc": "2026-10-15T04:08:19.816794+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "4089ebb0f6f2ed1016a756c288ccf38444a5585a5128bc8d6834e9fe3fc2c017"
+    },
+    "AllPrimeGroups.FrameTransitivity": {
+      "exit_code": 0,
+      "source_sha256": "d078aa26a7acad271d01d78612a60df1338b01f1fccdebe66649f06549d2e4c8",
+      "seconds": 4.35,
+      "checked_at_utc": "2026-10-15T04:08:24.228759+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "72205a8a7b3b0440cdf6f4d1a0b71557475e317df0bca6e731cf1eabfcafd13c"
+    },
+    "AllPrimeGroups.FrameCosets": {
+      "exit_code": 0,
+      "source_sha256": "99bade0433e60bb0ff0b5742df03ce5b4e9c8f89caf36b86815fe82745c48832",
+      "seconds": 4.57,
+      "checked_at_utc": "2026-10-15T04:08:28.860352+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1626fdcf860a9703eaf54653fd8ea80d7b55ef0865edc646e869688d8148ffb3"
+    },
+    "AllPrimeGroups.PrimeFrameTransitivity": {
+      "exit_code": 0,
+      "source_sha256": "0c6dba62afb16562d9b17be00dff1061feff98c70b86fa5f8cb62a5370cdeac0",
+      "seconds": 63.48,
+      "checked_at_utc": "2026-10-15T04:09:32.397287+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "7d6a0264ea8a90403c0e8f3916dbdffe57952b8ca45893c3ee8e0b3762568fbe"
+    },
+    "AllPrimeGroups.FunctionCoinduction": {
+      "exit_code": 0,
+      "source_sha256": "a0111538b13855eb46638d12bff0eb453d9fc44dea57358eab278fe298810b5b",
+      "seconds": 6.32,
+      "checked_at_utc": "2026-10-15T04:09:38.861189+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "002d865845fc1b6a31bc197a062c438570e194a39885ebee571914b1c7ade7cf"
+    },
+    "AllPrimeGroups.HomologyUnop": {
+      "exit_code": 0,
+      "source_sha256": "43c936e7b0d43d11930bb0429eea93f07565189f81c21be36cc5b10fc33ced2b",
+      "seconds": 3.39,
+      "checked_at_utc": "2026-10-15T04:09:42.330720+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3c074b21537f0aad2f1155d546768450d6fdd5a6643673ef38447de3409cf85e"
+    },
+    "AllPrimeGroups.ProjectiveComparison": {
+      "exit_code": 0,
+      "source_sha256": "c9866731e6382e8bf176c39eb963c3fb7810edc1a60d28b328b755768f932de6",
+      "seconds": 5.36,
+      "checked_at_utc": "2026-10-15T04:09:47.762598+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "013a286011fa959e4e6900677193633a821114c6286e740f5ae46f4b53cfb039"
+    },
+    "AllPrimeGroups.BarRestriction": {
+      "exit_code": 0,
+      "source_sha256": "4c771ce3ea9d32763ee456e9e0c150634c1959f51c09577e84e01e303f2c2156",
+      "seconds": 8.02,
+      "checked_at_utc": "2026-10-15T04:09:55.845553+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "af6ed5e010c86b192db52fd927aa4182fc028112a6e403fc5ef529f8b488fa4b"
+    },
+    "AllPrimeGroups.CohomologyComparison": {
+      "exit_code": 0,
+      "source_sha256": "742d276906e27c421d6ef75d2e73d93763470b6dc0ee027f908f10a3bebc2844",
+      "seconds": 8.97,
+      "checked_at_utc": "2026-10-15T04:10:04.883798+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2fec69f9fafe78c5cdd500f0ee0a9c5140b629b156e0cabb2c0374106d2eca3a"
+    },
+    "AllPrimeGroups.ExplicitShapiro": {
+      "exit_code": 0,
+      "source_sha256": "71ff73cd54d62bb8e026b577f0381a2fdee6b389f32bf95330b9854d36924443",
+      "seconds": 10.21,
+      "checked_at_utc": "2026-10-15T04:10:15.163686+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "08f77474bc27bcae48f17ca51697de89e95cf5b4675becb850bddbb649eb473a"
+    },
+    "AllPrimeGroups.HomogeneousShapiro": {
+      "exit_code": 0,
+      "source_sha256": "2d3c0bfe3adc39b82c44792323c2be179cd7d07d4f7a9cbf6ecc2fae348f032b",
+      "seconds": 6.71,
+      "checked_at_utc": "2026-10-15T04:10:21.954499+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "74a3438969e262a212e87ecce648adc3aafea536241f5a4457a341f01b326244"
+    },
+    "AllPrimeGroups.FrameCochains": {
+      "exit_code": 0,
+      "source_sha256": "0fd07f3bf8dd6f6bb1197baebdeff7178142147856a190c5f09a4bbfb3b46a5d",
+      "seconds": 5.4,
+      "checked_at_utc": "2026-10-15T04:10:27.412744+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "ecc161885419d5a9bef2471adf51c9d1d5d68095f931bc11ff7e0ef1bbc768b9"
+    },
+    "AllPrimeGroups.FrameShapiro": {
+      "exit_code": 0,
+      "source_sha256": "de55e719545b7a76e65233fb14e334fd0b32e2e50a18750cb0b5a72fe7afcd7b",
+      "seconds": 7.72,
+      "checked_at_utc": "2026-10-15T04:10:35.193441+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "deb92f8fb6f424d67984dc20d4a6e7405402b0a3040596bae8da5774a55ee6bb"
+    },
+    "AllPrimeGroups.FrameLowDegree": {
+      "exit_code": 0,
+      "source_sha256": "3c9ccf78d2c3729d7c512c483ecc0fe49ad8e85fe999608223813b833eb6220d",
+      "seconds": 5.96,
+      "checked_at_utc": "2026-10-15T04:10:41.212430+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "36769111e608dad07bdb80e8c1a57c7e22a76c0d27407b93866247ef7ed3c437"
+    },
+    "AllPrimeGroups.PrimeFrameShapiro": {
+      "exit_code": 0,
+      "source_sha256": "cf647854a23f8345859254c53d9bfbc41060d76c9297095462fcffac1f2af345",
+      "seconds": 56.72,
+      "checked_at_utc": "2026-10-15T04:11:37.986423+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d5dfb02f4d791ecc94162c7f7c5b4bdd95ef7a635f80b5d1865d6aff7dcaae26"
+    },
+    "AllPrimeGroups.CohomologyConjugation": {
+      "exit_code": 0,
+      "source_sha256": "bbdd37b3f7c14fc912978ce786b45bb9c8fa35c768624878e95632fe14cca372",
+      "seconds": 9.66,
+      "checked_at_utc": "2026-10-15T04:11:47.716177+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1778152312bf28c34952a7993c0d8cc49ded6e7afeac3c1e2a91c60e4812feb0"
+    },
+    "AllPrimeGroups.SignedFrameShapiro": {
+      "exit_code": 0,
+      "source_sha256": "e531dab9516d9ef2eb51e4237a22139f07e2351aa3096072fc366ab519697b25",
+      "seconds": 7.35,
+      "checked_at_utc": "2026-10-15T04:11:55.126922+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "ce4539339e5dbba3523acfb7e1b1955f1afe0188e029ab7e0cf6d391423d3dc6"
+    },
+    "AllPrimeGroups.FactorSetPullback": {
+      "exit_code": 0,
+      "source_sha256": "cecc20c9ff89dd7ead817697a782a70da991ff2f616bd2366e1e79678551097d",
+      "seconds": 6.01,
+      "checked_at_utc": "2026-10-15T04:12:01.209851+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0b7cbae2665b5620b3b280a91cebe1670aa673250cf54c1b4ace8a348e385f87"
+    },
+    "AllPrimeGroups.CentralExtensionCharacters": {
+      "exit_code": 0,
+      "source_sha256": "21be0813df2c5f9da7dc50e244aece8a0867b824ebe83a76127192af297f66f2",
+      "seconds": 6.67,
+      "checked_at_utc": "2026-10-15T04:12:07.940685+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "c16eeedf5ef10d1eed4c6fe9b1272aa85d2e35bf2915f5a05889123bb28ca54d"
+    },
+    "AllPrimeGroups.FrameCharacterClasses": {
+      "exit_code": 0,
+      "source_sha256": "3249f56ff33e71dbff4f7ae2f7e6514a166966ceb3f7f500586c55b09d0f46b4",
+      "seconds": 7.07,
+      "checked_at_utc": "2026-10-15T04:12:15.076317+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "96a03e8a1f704f485b017452b2db44fcc60bd983c787fb9c4da24fcc2ad42313"
+    },
+    "AllPrimeGroups.FrameCharacterCocycle": {
+      "exit_code": 0,
+      "source_sha256": "573ee227bf8b3c8dfaa13a5ba75523687e692772779e113da1f436b1d9b2ee43",
+      "seconds": 7.06,
+      "checked_at_utc": "2026-10-15T04:12:22.190323+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "37967007ac53773053905272276a030a9f0f2d107a3a8827fb77a301d38ce3e7"
+    },
+    "AllPrimeGroups.PrimeFrameCharacterClasses": {
+      "exit_code": 0,
+      "source_sha256": "74e705e6c6fdebddfa10e5904e9cac4f5c4644e6e7224dec5f3ed1c63228d145",
+      "seconds": 55.13,
+      "checked_at_utc": "2026-10-15T04:13:17.388692+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "c3b0be935a9bdeae15d85572ebe30189ffaa8df0c2aa976a4a20a244d71aebdc"
+    },
+    "AllPrimeGroups.InjectiveDualExact": {
+      "exit_code": 0,
+      "source_sha256": "42d63fecd604535d51334ff839a9935b8035f0e00d18a1c1d83ed57993cd2377",
+      "seconds": 5.05,
+      "checked_at_utc": "2026-10-15T04:13:22.511645+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b2e372afd7ff16fedb33b6f843f1f4d866302e19fddc0730500685bb9a923e96"
+    },
+    "AllPrimeGroups.FrameChainDuality": {
+      "exit_code": 0,
+      "source_sha256": "597f18656c79505eb704f51f0aeaa1350c5ef510deb01728d2b33ebc239ade1a",
+      "seconds": 5.07,
+      "checked_at_utc": "2026-10-15T04:13:27.643057+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "044f42aa73b3943e80b859db710d29175eabdd792f8b2fb2c4b4db6a57449759"
+    },
+    "AllPrimeGroups.FrameCoefficientComplex": {
+      "exit_code": 0,
+      "source_sha256": "9f78b1eaf35a7d971b309a9ed76adbefe416e2bf65aff95a2eee57ee4c636f6d",
+      "seconds": 5.78,
+      "checked_at_utc": "2026-10-15T04:13:33.484569+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e9db5f70d35da3dcbf696d32dde1e281300d29184a65fbe0ed4c524731eb3dd4"
+    },
+    "AllPrimeGroups.FrameCochainRows": {
+      "exit_code": 0,
+      "source_sha256": "4ead1af23e0f11a3011d0a3c794e6826825dda13a26533620055202a9f7b94dc",
+      "seconds": 5.86,
+      "checked_at_utc": "2026-10-15T04:13:39.402422+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3c076a3efa0103a0b4be6aa4a9f1490c428e4f21965e8b66f59da941568b4591"
+    },
+    "AllPrimeGroups.FrameCoefficientH0": {
+      "exit_code": 0,
+      "source_sha256": "54ac6d63a26a2a749954e61fd7c04f997a9d3fb0d69e7c538194b3b60536bfd6",
+      "seconds": 5.9,
+      "checked_at_utc": "2026-10-15T04:13:45.366142+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b20b748b795e36987f2a390185f58eaccd6f313a0e96fc737009916a047aec95"
+    },
+    "AllPrimeGroups.CochainExactness": {
+      "exit_code": 0,
+      "source_sha256": "6fd86b29db25e9a3d85b8e93831350b35fc0b095234f21ea7d821a9a852f4162",
+      "seconds": 5.93,
+      "checked_at_utc": "2026-10-15T04:13:51.360867+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "40e32a22ca9ad7e40c2e8a69eca5dbbaec4db0b9482552a20ec5c4bf8b3ca0ae"
+    },
+    "AllPrimeGroups.LowDegreeChase": {
+      "exit_code": 0,
+      "source_sha256": "7725a2f607656e8860013509c210a6a0db360f2400b0c8dfb6cf18a2b89f4319",
+      "seconds": 1.45,
+      "checked_at_utc": "2026-10-15T04:13:52.874547+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e90150720cd5ce285258eaed300a20a2899f87deb22fbc43caf0dea91bb36448"
+    },
+    "AllPrimeGroups.FrameLowDegreeLift": {
+      "exit_code": 0,
+      "source_sha256": "f44e767e26c20d643b37e6250190058a1d3bcecaa15621e674e3cd71e646bc1f",
+      "seconds": 6.27,
+      "checked_at_utc": "2026-10-15T04:13:59.202434+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3de2f1fd70fcdbd8378fb8510047a028762f6b8a0c59511171dfc69075bb7a2e"
+    },
+    "AllPrimeGroups.FrameAugmentation": {
+      "exit_code": 0,
+      "source_sha256": "b81f794266047a7c4fe0ee3232da912a81414a3cf43e1edbd9fcaac589303616",
+      "seconds": 4.87,
+      "checked_at_utc": "2026-10-15T04:14:04.128978+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "ea55d1e05cd4e314f50337b54be779e2ce7b2a8fcb4fb8a615a632f6167e99f4"
+    },
+    "AllPrimeGroups.FrameH2Lift": {
+      "exit_code": 0,
+      "source_sha256": "545be11a95612d7e91b03e33cdb8b308cb3ab31a3e4580de98329d8ac54a4c8f",
+      "seconds": 7.55,
+      "checked_at_utc": "2026-10-15T04:14:11.741872+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "46e6acd4f52014d01f13b786adfab484f402f1466b4f4f31555c4473242c1dc3"
+    },
+    "AllPrimeGroups.PrimeFrameH2Lift": {
+      "exit_code": 0,
+      "source_sha256": "799d22050ccefb1a985aa23eff2d09f9395f853b3443f2ae0b05f97beb6c5725",
+      "seconds": 61.55,
+      "checked_at_utc": "2026-10-15T04:15:13.382765+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "903991b0cbb7d9cb1cb125fda405f1ff587b8b1d0afbfb8275c5b844a1afa258"
+    },
+    "AllPrimeGroups.CentralClassLifts": {
+      "exit_code": 0,
+      "source_sha256": "b8ddc91b7a6915a5696db79eb427cb32db5fab9b7a04c9cfa88729a88a617bc1",
+      "seconds": 6.18,
+      "checked_at_utc": "2026-10-15T04:15:19.633258+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3fd2185866b773cd30292fc6f577305b3c4dc570446f7f8223120468914ad1bd"
+    },
+    "AllPrimeGroups.OneRowFrameCover": {
+      "exit_code": 0,
+      "source_sha256": "78b3808e73b4bd58a5c22bdefa99c750e1a0b5adb72e181939af709381eb6dcd",
+      "seconds": 8.18,
+      "checked_at_utc": "2026-10-15T04:15:27.880959+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2c68a2d1c83b425f82ee2397f04b3d25684fcdad5cbb9ffb88a76d2dfff698c3"
+    },
+    "AllPrimeGroups.PrimeCharacterRealization": {
+      "exit_code": 0,
+      "source_sha256": "cf7ba6ed2c21726d8d6c6197b5d91d69adf7fd4e3777676cdaa074056cbe5d74",
+      "seconds": 32.91,
+      "checked_at_utc": "2026-10-15T04:16:00.849927+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "36a017506f8deb037afad0ad3e52ab97df97cc852fbe10009b4dfad4644e0776"
+    },
+    "AllPrimeGroups.PrimeCharacterExtensions": {
+      "exit_code": 0,
+      "source_sha256": "c7a210898511fc37475f0a5d80b909c5673d1ca2c4c56a0c8680cf1dcb8eda97",
+      "seconds": 34.68,
+      "checked_at_utc": "2026-10-15T04:16:35.594304+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "04edad26994c66076d01e4911ab5a48ebe7290897ff0604784e0a4e91594fd1c"
+    },
+    "AllPrimeGroups.FiniteLocal": {
+      "exit_code": 0,
+      "source_sha256": "4a305eb7508502ce686536cc3cce61f030d17760afe020ba3b4b94e009266e47",
+      "seconds": 4.1,
+      "checked_at_utc": "2026-10-15T04:16:39.764856+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "5a1111aab90f3a253a07f06c286d95ad63dffd750e7cd0ccbc76136e93891553"
+    },
+    "AllPrimeGroups.PrimeGroups": {
+      "exit_code": 0,
+      "source_sha256": "1c018b0f9210f78e3d0cb1ea91ce7381dd1aa65a4da2be6fab521cfc529a73d6",
+      "seconds": 30.06,
+      "checked_at_utc": "2026-10-15T04:17:09.884611+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "ffe7fc19d4ad90a230c9601b13f89191bf640f9adbf03d3aca8d364c24254688"
+    },
+    "AllPrimeGroups": {
+      "exit_code": 0,
+      "source_sha256": "b902d117ee81ff3b9c5678deb154ff895b851683cb50e4ba9a946a43b783aa7f",
+      "seconds": 25.1,
+      "checked_at_utc": "2026-10-15T04:17:35.193200+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "cbeb8906b91c2e906e4fe7471c164e03d4c1e00e047a6b8e2fa1cb07ac9b21f3"
+    },
+    "Audit": {
+      "exit_code": 0,
+      "source_sha256": "1aa07ff3d697aea6dd6bf1dc777f35d2e44e04ba4a05cb42f8b91c7bf0585c32",
+      "seconds": 25.51,
+      "checked_at_utc": "2026-10-15T04:18:00.763196+00:00",
+      "log_sha256": "a686a678ef0cb4172c23ae96a3c7c51a3876e45db551d03b5fe5392b8a1afbf5",
+      "olean_sha256": "e5b4c5619779762b90656ad6f4637cdfeaf624c73092c854d97ee543ce831af8"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Frames.ExteriorComplex": {
+      "exit_code": 0,
+      "source_sha256": "e713ca1e12542b0726806d0a63a019653933bd47cd77f8a2136fdb7fd77098f7",
+      "seconds": 54.39,
+      "checked_at_utc": "2026-10-15T04:18:55.221702+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "68469fc098dcf1e3ce37238b50432cd2a52322b7e3470c1389e0f243e6e5d41c"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Frames.AcyclicFrameEdge": {
+      "exit_code": 0,
+      "source_sha256": "a403aaaf15b2d09147b1cbc33a2966e82f407ea540a49ef9b8e6e2f8ee434ff6",
+      "seconds": 47.79,
+      "checked_at_utc": "2026-10-15T04:19:43.095792+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "f6e442b7e4632e080fec0bef907a4787c25f8169cc4ef1c056ad9ee4d5fc88c2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.KernelRelations": {
+      "exit_code": 0,
+      "source_sha256": "c9172c0d3d76d6dabeed9f4dc5b309d92705e1f23bef36ca696574db5bd7dd34",
+      "seconds": 31.4,
+      "checked_at_utc": "2026-10-15T04:20:14.569357+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e8c035dadd0fb7ebaf85de2c8f360ab4746674f16359aa5928d3b171b4be550b"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.BlockEmbeddings": {
+      "exit_code": 0,
+      "source_sha256": "aa141fd2f40eff107d056985937e37252292fd6215adbcb0463322cec9858f68",
+      "seconds": 32.03,
+      "checked_at_utc": "2026-10-15T04:20:46.667433+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "d52666f629a6305545978ab146bd0c49d88b2355493937e2fb9d1eb529b01811"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.BandFactorization": {
+      "exit_code": 0,
+      "source_sha256": "4d12a9b377e2aa1dd90bdbe42c56ef82ae2eaacb98bcdf4f8f6c1b39030429c7",
+      "seconds": 34.95,
+      "checked_at_utc": "2026-10-15T04:21:21.694343+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "0f47887abbc757889b5aa3618695f1caf7b0d71035c1d77932aa537b3c3e67af"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.MatrixUnits": {
+      "exit_code": 0,
+      "source_sha256": "87376db54c394137be7da21fd664926303b4cd1368b8cfee67d583c8c2032d0f",
+      "seconds": 41.19,
+      "checked_at_utc": "2026-10-15T04:22:02.955269+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "e51673449cd92cfb10020f20cbd28960e62ba874a43a0ca8b761a51adc66c5db"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Matrices.ElementaryGenerators": {
+      "exit_code": 0,
+      "source_sha256": "fd7afd54e53c626bfc7199df8506d571524cec8128d7932b9f03618102d16b33",
+      "seconds": 36.59,
+      "checked_at_utc": "2026-10-15T04:22:39.610426+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "72edbe26b460023575bbc10954b92217414be35c1354216ad0481d5667692b31"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.FinitePresentation": {
+      "exit_code": 0,
+      "source_sha256": "aa71b90a9bee269df07a3f0132f0d1b75dffc282cc8725b4511da1062a2e828d",
+      "seconds": 225.2,
+      "checked_at_utc": "2026-10-15T04:26:24.877138+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3434fcd2add7f1918ccdbd48b265d633dd9f31a60dc64ded7ddaacd7bd4a40df"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.MatrixStabilizers": {
+      "exit_code": 0,
+      "source_sha256": "08a7d248c41237c970fa10d8765edcc193800a7115178b366ec47be04249131e",
+      "seconds": 190.3,
+      "checked_at_utc": "2026-10-15T04:29:35.279653+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "c10ccf7a08021f8027e5712331df73ed1a8f89159eacf147a0e11b9a5b8617da"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.SmallSwapActions": {
+      "exit_code": 0,
+      "source_sha256": "82efae5e445ae3f2a60ee5a503fce9e6d5f7ebd1e3664c63ae12470af3ecf091",
+      "seconds": 158.67,
+      "checked_at_utc": "2026-10-15T04:32:14.060219+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "228cff8701cc70dfb8ebd114ea3072a9096bb256d0dcff30f36af04db5d295a1"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.SmallFaithful": {
+      "exit_code": 0,
+      "source_sha256": "ecda6bc8501fe38f0d096c8fffced488967c9aabe64553c5a69048007b243442",
+      "seconds": 49.23,
+      "checked_at_utc": "2026-10-15T04:33:03.479114+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "3879d64d2be1d40c76c1dd146402cae201d2a4813f59dec7621ead7887d82455"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.DiagonalActions": {
+      "exit_code": 0,
+      "source_sha256": "2e1a9f1032e933579731c485147303a059ffd23633439d238ef048c5c3cc379f",
+      "seconds": 34.9,
+      "checked_at_utc": "2026-10-15T04:33:38.453826+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "10a20f639c3af6736d3e8b28806f8209fb7e253a5de02e030e648ba9dfcb2cce"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Frames.ElementaryFrames": {
+      "exit_code": 0,
+      "source_sha256": "5303769d253832c7984ee5a630d5a28032b80b105f0d7cffa063232e98e2dbc4",
+      "seconds": 34.04,
+      "checked_at_utc": "2026-10-15T04:34:12.564194+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "661b4507d66399f996e8d1ed2888996449bfcd3e2691482bb7093ed5c1d4c312"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.LocallyFiniteActions": {
+      "exit_code": 0,
+      "source_sha256": "fd5fc14f35bfd3d75c87f19283afffcfd1a5479e69a0189c302322d1dc0fd51f",
+      "seconds": 42.17,
+      "checked_at_utc": "2026-10-15T04:34:54.795252+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "b3fb1345ecf9e0af7747a89c8e0062542c39eac70f579e75d1c5312aef5caf58"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.FiniteNormalHomology": {
+      "exit_code": 0,
+      "source_sha256": "f85280cb4fc1febe9e07dffb8feb2de21703924209d886c5873799eea2525dca",
+      "seconds": 60.68,
+      "checked_at_utc": "2026-10-15T04:35:55.545567+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "58c629dc721337b467ccf6c3e2b9d6721ddb1bc9d8561cc269f9d3af7df34d48"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.RankActions": {
+      "exit_code": 0,
+      "source_sha256": "23612569cdf934fadd95098f8723624987509dc597d837d79bca327f74420232",
+      "seconds": 42.59,
+      "checked_at_utc": "2026-10-15T04:36:38.227836+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "61fc2772be63902fc721efdc656135a2a0c7622759897aab6a8463426ab70644"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.KernelStability": {
+      "exit_code": 0,
+      "source_sha256": "4818df9ff71bc65c11b3c412bdbc785b45285afbcc32d070612cadff5c730a3f",
+      "seconds": 41.53,
+      "checked_at_utc": "2026-10-15T04:37:19.841278+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1523e14f4c58277fceb62843ab20731d6f44ed0f7a91b1742e348dd519b3349d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Periodicity.KernelTorsion": {
+      "exit_code": 0,
+      "source_sha256": "2537c2cf6186b9d2803fc7224930cb0aa8f63dc8efe5194790a2cb6023af519d",
+      "seconds": 41.29,
+      "checked_at_utc": "2026-10-15T04:38:01.224672+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "57f30ea1cd6791a1a2818cb8f3112c3b33c5f61033a210aa6ba7bf0da8e278f9"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Main": {
+      "exit_code": 0,
+      "source_sha256": "c10549fce81b0c9b4c0da5f3980bb49796c0e4c9651a0cf87f9309d2013b7f90",
+      "seconds": 37.64,
+      "checked_at_utc": "2026-10-15T04:38:38.926733+00:00",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "166172c16c74b6daf85ad1d36d343cd572c2ddfc4097f686a3846e7db07b7c50"
+    },
+    "UpstreamAudit": {
+      "exit_code": 0,
+      "source_sha256": "1acfe913458784cb50a1847a2af0757321eaaa3c9adc7dbc9aac978a6e72db23",
+      "seconds": 32.71,
+      "checked_at_utc": "2026-10-15T04:39:11.717782+00:00",
+      "log_sha256": "7d79390ebece2542a4db0e0d695d092b93158781379786438c9c28dfa6ef93e7",
+      "olean_sha256": "4c99f29ae0e19b111e0d0cad6654c3a969428295f0ce89da867d525c0738717b"
+    }
+  },
+  "audits": {
+    "Audit": {
+      "AllPrimeGroups.exists_prime_free_hierarchy": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.phasePeriod_coprime": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.phasePeriod_ge_two_pow": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.exists_large_prime_free_period": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.matrix_symmetrization_eq_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.one_add_nilpotent_pow_prime": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.units_congruence_isPGroup": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.RootFamily.move_cut": [
+        "propext"
+      ],
+      "AllPrimeGroups.RootFamily.opposite_commutator_centralizes": [
+        "propext"
+      ],
+      "AllPrimeGroups.RootFamily.root_pow_char": [
+        "propext"
+      ],
+      "AllPrimeGroups.RootFamily.opposite_commutator_pow_char": [
+        "propext"
+      ],
+      "AllPrimeGroups.finite_of_perfect_finite_center_quotient": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.separated_of_prime_power_and_cyclic_detection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.residuallyFinite_of_separating_family": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Steinberg.move_cut": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Steinberg.opposite_commutator_pow_char": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Elementary.x_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Elementary.steinberg_infinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.strip_faithful": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.supported_kernel_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.stabilized_kernel_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Steinberg.isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.isUnit_iff_augmentation_ne_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.isLocalRing_of_nil_augmentation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.unitStableRangeOne_of_nil_augmentation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Chain.of_eq_one_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Chain.of_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.kernel_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.of_injective_iff_kernelMap_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.root_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.stageImage_finite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.detector_kernel_finiteIndex": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.HierarchyGrowth.stopping_index": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.HierarchyGrowth.stopping_index_char": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Candidate.finiteIndex": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Candidate.infinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Candidate.matrixImage_isPGroup": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.finite_of_fg_freeGroup": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.isFinitelyPresented_of_finiteIndex": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.map_of": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.map_comp": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Candidate.finitelyPresented": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Candidate.isPGroup": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Candidate.residuallyFinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.target_of_obligations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MonomialCompletion.poly_product": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FiniteSteinbergPresentation.free_finitelyPresented": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.SteinbergQuotient.finitelyPresented": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.steinberg_finitelyPresented": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.triangular_evaluation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.wrap_removal": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.stable_basis_change": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Elementary.realized_of_det_eq_one": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.stable_numerical_similarity": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.cyclic_triangularization": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.stable_copy_to_standard": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.polynomial_kernel_standard_torsion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.relative_torsion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PhasedWords.cutValue_eq_one_of_mul_eq_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PhasedWords.cutValue_eq_of_mul_eq": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PhasedWords.cutValue_index": [
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.cyclic_evaluation_eq_one": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.eq_one_of_cyclic_evaluation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.pad_mem_rootsIn": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.SteinbergQuotient.mem_normal_of_map_eq_one": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.exists_long_representative": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.list_prod_interchange": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.CyclicPhases.cyclic_eval_eq_offsets": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.of_coordinatePerm": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.cyclic_eval_eq_offset_pow": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.exists_rootWord_of_mem_rootsIn": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.eq_one_of_cyclicEvalHom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.cyclicEvalHom_eq_pow": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.eq_one_of_phases": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.relocate_mul": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.frameWord_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeCancellation.direct_vanish_finite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeMatrixNil.matrix_nil": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.infinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.charP": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.matrix_nil": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.steinberg_finitelyPresented": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.relative_torsion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.coefficientObligations_of_open": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.target_of_open": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.frameWord_spread": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.stable_frameWord_ones_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.root_mem_normalizer": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.gens_commute": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.correction_faithful": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Kernel.PhaseGrading.relocates": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.eq_one_of_phaseGradings": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.WordBasis.linearIndependent_words": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.WordBasis.filterMap_word": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.TokenData.step": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.phases": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.period_coprime": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.phase_reach": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.oppositeCommute": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.cutIndependent": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.linearIndependent": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.phaseGrading": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.finite_trunc": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.Hierarchy.eq_zero_of_forall_mem": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.separation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.separation_obligation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Phases.target_of_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.ColumnComplex.simply_connected": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.ColumnComplex.TransportData.mem_range": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.ColumnComplex.TransportData.\u03c0_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.LocalGL.replaceCol_single": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.LocalGL.eq_pad": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.LocalGL.mem_GE": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.mk_eq_of_ev_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c0_injective_of_le": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c0_surjective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c0_shift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.tri_smul": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03b9_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.exists_\u03b9": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.shift_conj_rowLift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c0_\u03c3": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.conj_swap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.swap_sq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c3_val": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.mem_genSub_fixTwo": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.stab_conj": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.triangle_mem": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c0_injective_succ": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.\u03c0_injective_all": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLAct.actGL_representation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLAct.kernel_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.ev_relabel_eq_one_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GLPres.exists_relabel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.K1.mem_N_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.K1.E_normal": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.K1.mem_E_of_pad": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.K1.exists_mul_d_mem_E": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Central.lift_commute": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Central.exists_splitting": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Central.exists_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Central.lift_unique": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.bd_bd": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.bd_cone": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.bd_relabelC": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_relabelC": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.proj_faces_appF": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.proj_bd": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.finrank_le_fq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.rel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exact_of_finrank": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exact_of_independent": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.representation_rowLift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.pad_conj_rowLift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.representation_toSteinberg": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.toMatrix_eq_one_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.row_single_bracket": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.kernelInclusion_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.range_kernelInclusion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.kernel_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.exists_of_fixes_last": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.toLastColumn_surjective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.lastColumnExtension": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.lastColumn_isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockProjection_surjective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockProjection_eq_one_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockKernelInclusion_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.range_blockKernelInclusion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockExtension": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockCover_isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockStabilizer_isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.blockKernel_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Central.compatible_lift_kills_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Central.injective_of_character_extensions": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.toSteinberg_injective_of_characters": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameStabilizer.pad_injective_of_characters": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.Extension.instGroup": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.groupExtension": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.inl_range_le_center": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.mapExtension": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.nonempty_groupExtensionEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GroupExtension.isMulCocycle\u2082_factorSetFun": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GroupExtension.factorSetToGroupExtensionEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GroupExtension.exists_factorSet": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GroupExtension.isMulCoboundary\u2082_div": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.cohomologyClass_eq_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.exists_cohomologyClass_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.cohomologyClassEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.nonempty_splitting_iff_cohomologyClass_eq_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.GroupExtension.nonempty_equiv_iff_cohomologyClass_factorSet_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.toCocycles\u2082_product": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.cohomologyClass_product": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Chain.connect_injective_from": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Chain.of_injective_from": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Stable.of_injective_of_characters": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.augmentation_kernel_nil": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.unit_of_augmentation_ne_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.target_of_character_extensions": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "GroupExtension.surjective_of_comp_inl_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixGeometry.embed_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixGeometry.rightFixer_shape": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixGeometry.rightFixer_decomposition": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixCoordinates.\u03c0_presMap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixCoordinates.D_presMap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixCoordinates.representation_coordinateMap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixCoordinates.mem_E_of_embed": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.fullMatrix_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.exists_fullMatrix": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.matrixMap_mem_E": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.toStabilizer_surjective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.stabilizerEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.stabilizerExtension": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameBlocks.stabilizer_isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.extendRow_toSteinberg": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceCover": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceCover_inr": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceCover_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceBase": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceBase_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faces_agree_on_steinberg": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faces_agree_on_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceCoordinates": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.coverMatrix_face": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.faceBase_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.actualFace": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.actualFace_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.actualFace_val": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.actualFace_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixGeometry.singleDiagonal_conj_entry": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.scaleRow_act": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.scaleRowsAt_act": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.scaleCover": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.coverMatrix_scaleCover": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.scaledFaceBase_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.scaledFaceCover_inr": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.scaledFaces_agree_on_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.coverMatrix_scaledFace": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.swap_conjugates_matrix": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.signedSwap_eq_diagonal_swap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.signedSwap_mem_E": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.pairNormalizer": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.unsignedPair_matrix": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.firstFace_matrix": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.signedPair_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.signedPair_matrix": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.signedPair_agrees_on_steinberg": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.signedPair_agrees_on_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.actualFirstFace_inclusion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FrameFaces.actualSignedPair_conjugation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.IsFrame.map_of_linear": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.reducedLinear_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.columnFrameMulAction": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.elementaryFrameMulAction": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.face_elementaryFrame_smul": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.columnChainAct_mul": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.bd_columnChainAct": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.deg_columnChainAct": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardColumn_independent": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardFrame": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.pairNormalizer_basis": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.firstFace_standardFrame": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.signedSecondFace_standardFrame": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameStabilizerEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.blockFrameStabilizerEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardFrameExtension": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardFrameStabilizer_isPerfect": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.firstActionFace_inclusion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.signedActionFace_conjugation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameRepresentation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameBoundary_equivariant": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameBoundary_comp": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameChains_bound": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameBoundary_exact": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameBoundary_zero_surjective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixLifting.isUnit_iff_of_split_nil": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.MatrixLifting.isUnit_iff_matrix_reduction": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_linearEquiv_on_independent": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.linearEquivMatrix_mulVec": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_field_matrix_columns": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_split_matrix_columns": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_split_elementary_columns": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.IsFrame.linearIndependent_get": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameTuple_independent": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameTuple_ofFn": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.stabilizer_standardLengthFrame": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_split_elementary_from_standard": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.exists_split_elementary_between": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.lengthFrame_isPretransitive": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.cosetFrame_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.cosetFrame_equivariant": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.cosetFrame_surjective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameQuotientEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameQuotientEquiv_mk": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameQuotientEquiv_equivariant": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.augmentation_split": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.matrix_isUnit_iff_reduction": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.exists_frame_transport": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frame_isPretransitive": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frame_isPretransitive_of_lt": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameQuotientEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameQuotientEquiv_equivariant": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.HomologicalComplex.homologyUnop_inv_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "CategoryTheory.ProjectiveResolution.isoExt_hom_comp_homologyMap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Rep.barComplex.resHom_single": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Rep.barComplex.d_comp_resHom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Rep.barComplex.resChainMap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Rep.barComplex.resChainMap_f_zero_comp_\u03c0": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Rep.groupCohomologyIso_inv_eq_homologyMap": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.groupCohomology.coindIso_hom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.groupCohomology.coindIso_hom_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.groupCohomology.map_resCoindToHom_comp_coindIso_hom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.groupCohomology.map_unit_comp_coindIso_hom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "groupCohomology.map_id_eq_zero_iff_of_comp_eq_resCoindToHom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.functionPullback": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.functionIso": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.cosetCoindEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.cosetCoindIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.orbitCoindIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.orbitCoindIso_hom_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.orbitEvaluation_adjunct": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.orbitShapiroIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.orbitShapiroIso_hom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.orbitShapiroIso_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.lengthFace_equivariant": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameFacePullback_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoefficientsCoindIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoefficientsCoindIso_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameShapiroIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameShapiroIso_hom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.firstFaceStabilizer_le": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.firstActionFace_eq_inclusion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.firstFaceShapiro_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.firstActionFaceShapiro_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.perfect_hom_eq_one": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.perfect_addHom_eq_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.perfect_H1_subsingleton": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardFrameStabilizer_H1_subsingleton": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoefficient_H1_subsingleton": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCoefficientShapiroIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCoefficientShapiroIso_hom": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.firstFrameFaceShapiro_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCoefficient_H1_subsingleton": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CohomologyConjugation.innerCoefficient": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CohomologyConjugation.innerCocycle_difference": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CohomologyConjugation.inner_map_H2": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CohomologyConjugation.conjugate_map_H2": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.signedSecondLengthFace_standardFrame": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.signedSecondFaceShapiro_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.centralRestriction": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.FactorSet.cohomologyClass_comp_eq_of_lifts": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.characterData": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.characterData_cocycle_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.CharacterData.pullback_class_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardFrameExtension_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standardFrameExtension_central": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standard_firstCover_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standard_signedCover_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.standard_face_lifts_agree_on_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCharacterData": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCharacterClass": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCharacterClass_faces": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.equal_preimages_of_squares": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCharacterPreclass": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCharacterPreclass_faces": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.secondFrameFaceShapiro_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCharacterCycle": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCharacterCycle_faces": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.injective_dual_exact": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.divisible_dual_exact": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cochain_boundary_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cochain_class_eq_iff": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cochain_map_cocycle": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cochain_primitive_of_subsingleton": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cochainsIso\u2080_hom_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cochain_zero_invariant": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.low_degree_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.cohomology_map_sub": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.invariant_function_eq": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Homogeneous.functionInvariantsEquiv": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameChainsEquivFinsupp": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameChainSingle": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameChainsEquivFinsupp_symm_single": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameDualEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameDualEquiv_symm_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameDualEquiv_single": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameLinear_ext": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameBoundary_single": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameDualEquiv_coboundary": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary_comp": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary_exact": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary_zero_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCochainsCoboundary": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCochainsCoboundary_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCochainsCoboundary_comm": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCochainsCoboundary_comp": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCochainsCoboundary_exact": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCochainsCoboundary_zero_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameH0Equiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary_invariant_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameH0Equiv_coboundary": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frame_zero_cochain_eq_zero": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frame_low_degree_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.emptyLengthFrame": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.lengthFrame_zero_eq": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameEmptyEquiv": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameAugmentationIso": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameAugmentation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameAugmentation_apply": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameH2_lift_empty": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameH2_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameCoboundary_one": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.frameH2_cycle_of_faces": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameAugmentationShapiro_naturality": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCharacterCycle_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.frameCharacterClass_restriction_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.rationalCircle_frameCharacterClass_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.pullback": [
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.pullbackMap": [
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.pullback_class": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.CentralCocycles.CharacterData.exists_lift": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.rowInclusion_one_left": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.rowInclusion_one_matrix": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.rowInclusion_standard_projection": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.rowInclusion_kernel": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Frames.kernelCenterInclusion": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.block_character_realization": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.kernel_character_realization": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.character_extensions": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeAlgebra.stabilization_injective": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.primeCharacterExtensions": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.all_prime_groups": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Steinberg.finite_of_local_augmentation": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.Steinberg.finite_of_finite_field": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.subgroup": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.G": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.le_candidate": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.finiteIndex": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.infinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.finitelyPresented": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.candidate_residuallyFinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.residuallyFinite": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.isPGroup": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "AllPrimeGroups.PrimeGroups.properties": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "UpstreamAudit": {
+      "OAI.SourceBurnside.thm_main": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  }
+}

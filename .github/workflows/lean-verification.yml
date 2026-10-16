@@ -1,0 +1,54 @@
+name: Full Lean verification
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Check publication inventory
+        run: python3 scripts/check_publication.py
+      - name: Install elan and pinned Lean
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --proto '=https' --tlsv1.2 -sSfL https://elan.lean-lang.org/elan-init.sh -o "$RUNNER_TEMP/elan-init.sh"
+          sh "$RUNNER_TEMP/elan-init.sh" -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+          "$HOME/.elan/bin/elan" toolchain install "$(cat lean/lean-toolchain)"
+      - name: Obtain locked package artifacts
+        working-directory: lean
+        run: lake exe cache get
+      - name: Verifier regression tests
+        working-directory: lean
+        run: |
+          python3 scripts/test_verification.py
+          python3 scripts/test_release.py
+      - name: Full core build with fresh project outputs
+        working-directory: lean
+        run: python3 scripts/reproduce.py --name github-ci
+      - name: Check main and both variant proof connections
+        working-directory: lean
+        run: python3 scripts/check_fc.py --reproduction github-ci
+      - name: Check all three expanded FC statements against their proved theorems
+        working-directory: lean
+        run: python3 scripts/check_fc_proposal.py --reproduction github-ci
+      - name: Retain build and audit reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: lean-verification-receipts
+          path: |
+            lean/reports/reproduce/github-ci/
+            verification/fc-connection.json
+            verification/fc-connection.log
+            verification/fc-proposal.json
+            verification/fc-proposal.log
+          retention-days: 90
+          if-no-files-found: warn

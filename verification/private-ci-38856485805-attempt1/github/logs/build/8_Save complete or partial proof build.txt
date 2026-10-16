@@ -1,0 +1,16 @@
+﻿2026-10-16T06:13:24.3585486Z ##[group]Run actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+2026-10-16T06:13:24.3585720Z with:
+2026-10-16T06:13:24.3587302Z   path: lean/.lake/build
+2026-10-16T06:13:24.3587493Z   key: allprime-fc-986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d-38856485805-1
+2026-10-16T06:13:24.3587705Z   enableCrossOsArchive: false
+2026-10-16T06:13:24.3587832Z env:
+2026-10-16T06:13:24.3587933Z   LEAN_NUM_THREADS: 2
+2026-10-16T06:13:24.3588054Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T06:13:24.3588180Z ##[endgroup]
+2026-10-16T06:13:24.6335129Z (node:15699) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T06:13:24.6387325Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T06:13:24.6516481Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/ci-test-sandbox/ci-test-sandbox --files-from manifest.txt --use-compress-program zstdmt
+2026-10-16T06:13:29.1463313Z (node:15699) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-16T06:13:30.1394242Z Sent 54657024 of 96615384 (56.6%), 52.1 MBs/sec
+2026-10-16T06:13:30.7930083Z Sent 96615384 of 96615384 (100.0%), 55.7 MBs/sec
+2026-10-16T06:13:31.0188951Z Cache saved with key: allprime-fc-986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d-38856485805-1

@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "1506930330e2adc658cf056c96d3a48a21139267bd5db8f9e8378ebeb7e1e384",
+  "no_project_artifacts_copied": true,
+  "correspondence_inventory_passed": true,
+  "verification_regression_tests_passed": 8,
+  "release_tests_passed": 15,
+  "audit_without_artifacts_rejected": true,
+  "lean_smoke_passed": true,
+  "nil_congruence_fresh_output_passed": true,
+  "nil_congruence_axiom_audits": 20,
+  "verification_scope": "Extracted bundle; prime-period and generic nil-unit dependency closures; same host and pinned package cache. Not a full build.",
+  "archive_name": "all-prime-groups-lean-f584305072473392.zip",
+  "record_kind": "Producer portability check; the referenced development ZIP is identified by hash and is not included in this repository."
+}

@@ -1,0 +1,86 @@
+﻿2026-10-16T06:13:40.0091827Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+2026-10-16T06:13:40.0093402Z with:
+2026-10-16T06:13:40.0094208Z   persist-credentials: false
+2026-10-16T06:13:40.0095157Z   repository: KitaKen1/ci-test-sandbox
+2026-10-16T06:13:40.0102695Z   token: ***
+2026-10-16T06:13:40.0103455Z   ssh-strict: true
+2026-10-16T06:13:40.0104206Z   ssh-user: git
+2026-10-16T06:13:40.0104933Z   clean: true
+2026-10-16T06:13:40.0105700Z   sparse-checkout-cone-mode: true
+2026-10-16T06:13:40.0106605Z   fetch-depth: 1
+2026-10-16T06:13:40.0107370Z   fetch-tags: false
+2026-10-16T06:13:40.0108293Z   show-progress: true
+2026-10-16T06:13:40.0109068Z   lfs: false
+2026-10-16T06:13:40.0109815Z   submodules: false
+2026-10-16T06:13:40.0110973Z   set-safe-directory: true
+2026-10-16T06:13:40.0111892Z   allow-unsafe-pr-checkout: false
+2026-10-16T06:13:40.0113358Z env:
+2026-10-16T06:13:40.0114154Z   LEAN_NUM_THREADS: 2
+2026-10-16T06:13:40.0114990Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T06:13:40.0115850Z ##[endgroup]
+2026-10-16T06:13:40.1251907Z Syncing repository: KitaKen1/ci-test-sandbox
+2026-10-16T06:13:40.1254372Z ##[group]Getting Git version info
+2026-10-16T06:13:40.1255703Z Working directory is '/home/runner/work/ci-test-sandbox/ci-test-sandbox'
+2026-10-16T06:13:40.1257597Z [command]/usr/bin/git version
+2026-10-16T06:13:40.2563633Z git version 2.55.0
+2026-10-16T06:13:40.2583561Z ##[endgroup]
+2026-10-16T06:13:40.2602074Z Temporarily overriding HOME='/home/runner/work/_temp/6ef4aeef-fe5a-4662-9b8b-0abfda723a34' before making global git config changes
+2026-10-16T06:13:40.2609523Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-16T06:13:40.2614063Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ci-test-sandbox/ci-test-sandbox
+2026-10-16T06:13:40.2893020Z Deleting the contents of '/home/runner/work/ci-test-sandbox/ci-test-sandbox'
+2026-10-16T06:13:40.2899868Z ##[group]Initializing the repository
+2026-10-16T06:13:40.2912823Z [command]/usr/bin/git init /home/runner/work/ci-test-sandbox/ci-test-sandbox
+2026-10-16T06:13:40.3744829Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-16T06:13:40.3747253Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-16T06:13:40.3750297Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-16T06:13:40.3752032Z hint: call:
+2026-10-16T06:13:40.3753226Z hint:
+2026-10-16T06:13:40.3754967Z hint: 	git config --global init.defaultBranch <name>
+2026-10-16T06:13:40.3757314Z hint:
+2026-10-16T06:13:40.3761349Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-16T06:13:40.3765269Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-16T06:13:40.3768408Z hint:
+2026-10-16T06:13:40.3771474Z hint: 	git branch -m <name>
+2026-10-16T06:13:40.3773271Z hint:
+2026-10-16T06:13:40.3776441Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-16T06:13:40.3780200Z Initialized empty Git repository in /home/runner/work/ci-test-sandbox/ci-test-sandbox/.git/
+2026-10-16T06:13:40.3787471Z [command]/usr/bin/git remote add origin https://github.com/KitaKen1/ci-test-sandbox
+2026-10-16T06:13:40.4081395Z ##[endgroup]
+2026-10-16T06:13:40.4082672Z ##[group]Disabling automatic garbage collection
+2026-10-16T06:13:40.4152266Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-16T06:13:40.4239083Z ##[endgroup]
+2026-10-16T06:13:40.4240655Z ##[group]Setting up auth
+2026-10-16T06:13:40.4241799Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T06:13:40.4245509Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T06:13:40.6678414Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T06:13:40.6682003Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T06:13:40.6888315Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T06:13:40.6929325Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T06:13:40.7157137Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-16T06:13:40.7201234Z ##[endgroup]
+2026-10-16T06:13:40.7202484Z ##[group]Fetching the repository
+2026-10-16T06:13:40.7204418Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d:refs/remotes/origin/ci/all-prime-groups-lean4341
+2026-10-16T06:13:41.5199198Z From https://github.com/KitaKen1/ci-test-sandbox
+2026-10-16T06:13:41.5205978Z  * [new ref]         986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d -> origin/ci/all-prime-groups-lean4341
+2026-10-16T06:13:41.5318448Z ##[endgroup]
+2026-10-16T06:13:41.5319422Z ##[group]Determining the checkout info
+2026-10-16T06:13:41.5320577Z ##[endgroup]
+2026-10-16T06:13:41.5321072Z [command]/usr/bin/git sparse-checkout disable
+2026-10-16T06:13:41.5426510Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-16T06:13:41.5464330Z ##[group]Checking out the ref
+2026-10-16T06:13:41.5465635Z [command]/usr/bin/git checkout --progress --force -B ci/all-prime-groups-lean4341 refs/remotes/origin/ci/all-prime-groups-lean4341
+2026-10-16T06:13:41.5769219Z Switched to a new branch 'ci/all-prime-groups-lean4341'
+2026-10-16T06:13:41.5775990Z branch 'ci/all-prime-groups-lean4341' set up to track 'origin/ci/all-prime-groups-lean4341'.
+2026-10-16T06:13:41.5787210Z ##[endgroup]
+2026-10-16T06:13:41.5826902Z [command]/usr/bin/git log -1 --format=%H
+2026-10-16T06:13:41.5852263Z 986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d
+2026-10-16T06:13:41.5863318Z ##[group]Removing auth
+2026-10-16T06:13:41.5869155Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T06:13:41.5901760Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T06:13:41.6134046Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T06:13:41.6160798Z http.https://github.com/.extraheader
+2026-10-16T06:13:41.6170952Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-16T06:13:41.6205103Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T06:13:41.6433820Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T06:13:41.6463100Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T06:13:41.6713475Z ##[endgroup]

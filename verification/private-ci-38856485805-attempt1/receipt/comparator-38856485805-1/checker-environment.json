@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "required_version": "4.34.1",
+  "compiler_versions": {
+    "proof": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+    "comparator": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+    "lean4export": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)"
+  },
+  "binary_sha256": {
+    "comparator": "afa65e57a1770f5961efe7681626a9a1cd99705262421658abd30b705f66e4a2",
+    "lean4export": "8c5d64ba68f4d3a68b3bcb7e1c5f188e35ae573b29470b8d4530a62324c9ddd1"
+  },
+  "source_changes": [
+    "lean-toolchain"
+  ]
+}

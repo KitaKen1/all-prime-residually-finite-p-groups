@@ -1,0 +1,39 @@
+{
+  "status": "statement_checked",
+  "checked_at_utc": "2026-10-16T02:47:47.111193+00:00",
+  "proposal_sha256": "822078922eef75cc5ace0071254eaad68df81d35ee222f2ab1ef6493a6a4f6b1",
+  "challenge_sha256": "94300a7c669bd225cd730467be0b6b6e1bee1df19190846398ba62647ba960f7",
+  "solution_sha256": "4ffe0ebc3ec930681a2812ffce6b648ac2fc36efe9c3f8128d6eb0329d3e9dc2",
+  "proof_url": "https://github.com/KitaKen1/all-prime-residually-finite-p-groups/blob/main/lean/FCSolution.lean",
+  "proof_url_is_commit_pinned": false,
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "generated_check_source": "import FCSolution\n\nnamespace AllPrimeGroupsFCProposalCheck\n\ntheorem finitely_presented_burnside_problem :\n\u2203 (G : Type) (inst : Group G),\n      Infinite G \u2227 @Group.IsFinitelyPresented G inst \u2227\n        (\u2200 g : G, \u2203 m : \u2115, 0 < m \u2227 g ^ m = 1)\n :=\n  AllPrimeGroupsFC.finitely_presented_burnside_problem\n\n#print axioms AllPrimeGroupsFCProposalCheck.finitely_presented_burnside_problem\n\ntheorem variants.finitely_presented_burnside_problem_residually_finite :\n\u2203 (G : Type) (inst : Group G),\n      Infinite G \u2227 @Group.IsFinitelyPresented G inst \u2227\n        (\u2200 g : G, \u2203 m : \u2115, 0 < m \u2227 g ^ m = 1) \u2227\n        @Group.ResiduallyFinite G inst\n :=\n  AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite\n\n#print axioms AllPrimeGroupsFCProposalCheck.variants.finitely_presented_burnside_problem_residually_finite\n\ntheorem variants.finitely_presented_burnside_problem_all_primes :\n\u2200 p : \u2115, p.Prime \u2192\n      \u2203 (G : Type) (inst : Group G),\n        Infinite G \u2227 @Group.IsFinitelyPresented G inst \u2227\n          @Group.ResiduallyFinite G inst \u2227 @IsPGroup p G inst\n :=\n  AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes\n\n#print axioms AllPrimeGroupsFCProposalCheck.variants.finitely_presented_burnside_problem_all_primes\n\nend AllPrimeGroupsFCProposalCheck\n",
+  "generated_check_sha256": "32dbdf6c891fd7e0ae28a27bdbdb6d292550a73e79f000378a0b41ab610eb081",
+  "log_sha256": "07ada0bf1e834b691a8e43597d159bd1ebf949db1d756ff864385b23ab4bf2a4",
+  "axioms": {
+    "AllPrimeGroupsFCProposalCheck.finitely_presented_burnside_problem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFCProposalCheck.variants.finitely_presented_burnside_problem_residually_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFCProposalCheck.variants.finitely_presented_burnside_problem_all_primes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "checked_theorems": [
+    "finitely_presented_burnside_problem",
+    "variants.finitely_presented_burnside_problem_residually_finite",
+    "variants.finitely_presented_burnside_problem_all_primes"
+  ],
+  "proposal_has_statement_placeholder": true,
+  "fc_environment_compile_run": false,
+  "fc_environment_lint_run": false,
+  "verification_scope": "Expanded main and both variants checked against their proved solutions using checked proof-project artifacts; FC frontend not compiled."
+}

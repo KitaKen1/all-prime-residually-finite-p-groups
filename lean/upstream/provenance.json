@@ -1,0 +1,259 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "source_directory": "lean/OAI/GroupTheory/PeriodicGroups",
+  "files": [
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Algebra/DirectCancellation.lean",
+      "sha256": "a2b2bb667cd9f248a69b62c92377a13da4b0c4088ac029525a2d931d88589b9e"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Algebra/HierarchyGrowth.lean",
+      "sha256": "a6c152e6d6b19c9d06a14f277b544eb4638148f37130059a93fd92924fd7b42b"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Algebra/MatrixTests.lean",
+      "sha256": "8c5d7654c77d8f9fd642ecff27ab63707343acd4fe6a9d27a9d0112256ed9c5b"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Algebra/PacketIntervals.lean",
+      "sha256": "ccc9926fce91684513aaf8b515c4236b9a02db181a95992c8022792399d8c335"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Algebra/WordAlgebra.lean",
+      "sha256": "e102b677781e9c2d7078f92b5b406c83413136f793a1290e48deb087f77fa388"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Formulas/Addressable.lean",
+      "sha256": "e2199ca3e4b19edae09760d1ed0af6802234955f10949bb8eef67e5a75eed9df"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Formulas/BooleanCircuits.lean",
+      "sha256": "407f81a24bffad54b8e953cc568c490fb0edca456010dfb8654d80733e72da6f"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Formulas/ClauseEncoding.lean",
+      "sha256": "149168a4a091887394d1207489d9afa60a629e389509b08967fce03d969f2136"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Formulas/LocalPredicates.lean",
+      "sha256": "3c10b0f458fcff6c5415adbe46102b5bb046ff8fa72354e1e0140d560401ccaa"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Formulas/PredicateCompilation.lean",
+      "sha256": "e9cd41917630448ea2ab035d04e8175b9428dec89248620cdd247a8f664c4ed4"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Formulas/Tableaux.lean",
+      "sha256": "063279d0e02524bd5f70e02c512efcd81e70264f6f1127723c4bfbc1e51e7152"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Frames/AcyclicFrameEdge.lean",
+      "sha256": "a403aaaf15b2d09147b1cbc33a2966e82f407ea540a49ef9b8e6e2f8ee434ff6"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Frames/ElementaryFrames.lean",
+      "sha256": "5303769d253832c7984ee5a630d5a28032b80b105f0d7cffa063232e98e2dbc4"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Frames/ExteriorComplex.lean",
+      "sha256": "e713ca1e12542b0726806d0a63a019653933bd47cd77f8a2136fdb7fd77098f7"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Homology/FiniteExtensions.lean",
+      "sha256": "7344ac9a321b741a8fc74ee507171b33ebabdb253942618966f9e274f1701ae5"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Homology/FiniteNormalHomology.lean",
+      "sha256": "f85280cb4fc1febe9e07dffb8feb2de21703924209d886c5873799eea2525dca"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Homology/KernelStability.lean",
+      "sha256": "4818df9ff71bc65c11b3c412bdbc785b45285afbcc32d070612cadff5c730a3f"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Homology/LocallyFiniteActions.lean",
+      "sha256": "fd5fc14f35bfd3d75c87f19283afffcfd1a5479e69a0189c302322d1dc0fd51f"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Homology/RelativeHomology.lean",
+      "sha256": "2a2940f8546667671d0ed7a497049971e983274aadcefa5d9f9e27cd0932bd9c"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/ArithmeticDevices.lean",
+      "sha256": "401af54064fa88ce89d30fdcd3ab27baf771c9ca40c4d8c3227c9feb22278de7"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/BinaryRegisters.lean",
+      "sha256": "1c7a3a5da8ec811690c91deb5580a0da85fd9ef1426667eff53367e92f4849eb"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/Compilation.lean",
+      "sha256": "20853cac5bee64554a9c8eba06dc6e48ea6ef2ae721ca2d77c396440736b578b"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/InputEncoding.lean",
+      "sha256": "5c6bc6c9565c01af5a3765c581202bb03f378393ec3ed31afef8a479ca5de298"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/ProgramAssembly.lean",
+      "sha256": "1404c6b18c0cab5482d750fd6243796819b9c17606bc62d6b6890dfdb7f29214"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/ProgramFixedPoint.lean",
+      "sha256": "e61e0098b6cc3ecb4f5c936a5a58a7b4aa7bd1beb1134c0c7738d4ce58240878"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/RegisterLoops.lean",
+      "sha256": "41db474871aa2c75c0eaf82e8e60e3ab11fcbd7c1eb9aaeb9ce763303e4b698c"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/RegisterOperators.lean",
+      "sha256": "7871047b3e9c432a8db1ad34bfb661b38e41d79791b23ae851278ed50ff04b0f"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/StackCompression.lean",
+      "sha256": "79165803c4415956d3dd72f1c2f3165d32b7ef8333b725d2568562ef63faa0eb"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/TapePrograms.lean",
+      "sha256": "01f8ec39fcd612f8bc35d1ef5d420fb7619217c2555d908edde2c5ecd68aa149"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/TimedExecution.lean",
+      "sha256": "aec9d26ee4b18e1aa53742298a819ab767b3df67ce0dcae14839b34047f85afb"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/UniversalInput.lean",
+      "sha256": "f4dd8e1f3fcf755bc85736fb324615e62da418d9bb859ed07b961b2c38e7ae0a"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Machines/UniversalStack.lean",
+      "sha256": "f35f0656898bdd7a0865134a6c43acc71879793d02c676e0bc19fbcd7e4ca8e6"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Main.lean",
+      "sha256": "c10549fce81b0c9b4c0da5f3980bb49796c0e4c9651a0cf87f9309d2013b7f90"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Matrices/ElementaryGenerators.lean",
+      "sha256": "fd7afd54e53c626bfc7199df8506d571524cec8128d7932b9f03618102d16b33"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Periodicity/KernelTorsion.lean",
+      "sha256": "2537c2cf6186b9d2803fc7224930cb0aa8f63dc8efe5194790a2cb6023af519d"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Presentation/FinitePresentation.lean",
+      "sha256": "aa71b90a9bee269df07a3f0132f0d1b75dffc282cc8725b4511da1062a2e828d"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Presentation/MatrixStabilizers.lean",
+      "sha256": "08a7d248c41237c970fa10d8765edcc193800a7115178b366ec47be04249131e"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Presentation/SmallFaithful.lean",
+      "sha256": "ecda6bc8501fe38f0d096c8fffced488967c9aabe64553c5a69048007b243442"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Presentation/SmallSwapActions.lean",
+      "sha256": "82efae5e445ae3f2a60ee5a503fce9e6d5f7ebd1e3664c63ae12470af3ecf091"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/BoundaryCell.lean",
+      "sha256": "e2a7761d4a6f45b819a771a48f0c778ed91c6c3649af2f7fcdd2787b07936f99"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/CommittedWords.lean",
+      "sha256": "30a2559af37495cbc06d550bb93b7e418afb916723a440deb70151fd35fdfc28"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/ConnectedWords.lean",
+      "sha256": "616db6858b21828a98dafff2d7d7de82857d55849fb1f73bd73753256646f58a"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/DataWords.lean",
+      "sha256": "cb9330d46efbe445ad1a64a82f76be4f867caca34789399aa2f7290227c86244"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/GeometricRelations.lean",
+      "sha256": "695ab829b5ef377ee207087a8226afedb98eac23838d7712379b9245ae6b2a45"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/HeadTour.lean",
+      "sha256": "0ac2917787210067ca8e20e316f627bdaa97e9c6af08d2f2d7c93a6cb3b1208c"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/LocalSyntax.lean",
+      "sha256": "4c900835796ee5d756bf47067a0c18a219fe3475d0bbab1daad850b3a77add26"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/Palette.lean",
+      "sha256": "79ee942cdd754f95b5416da5947262c94924ab5490b2d1276a5403ee7f1fca34"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/PrefixRewriting.lean",
+      "sha256": "ed3c889c22bd464a36ae9264261cf7d9cab94c69b77fd132b20b14e93c2d344d"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/Recognizer.lean",
+      "sha256": "cb1978ba2d05c662b24d015b24365552ab2424a04dfa3725c0ab4c2ca83177de"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/TableEncoding.lean",
+      "sha256": "7491d7fdcc8efaf3c9efb94d96ecdc137cc912a7fbb0e7594c6e1a61b1e2a57e"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/TemplateHierarchy.lean",
+      "sha256": "56aed392d926e69d6e8d6c27152c1f74eeadb07ea834e7ea387795b58bc4fb55"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/Transactions.lean",
+      "sha256": "f8e5909f03df0f6a40fa535ddd9cb136f6fd69a56150dd0d350c97f2ee63f967"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/WordComponents.lean",
+      "sha256": "798ccc6bcd96810f6e3a689527799dee7d5d4affd3dd0393897677d696e88309"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Rules/WordRewriting.lean",
+      "sha256": "f1a89843fcbc41b2c14cf3e98e7db31ea1b7875e0f9af483e67e5c6a608643d7"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/BandFactorization.lean",
+      "sha256": "4d12a9b377e2aa1dd90bdbe42c56ef82ae2eaacb98bcdf4f8f6c1b39030429c7"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/BlockEmbeddings.lean",
+      "sha256": "aa141fd2f40eff107d056985937e37252292fd6215adbcb0463322cec9858f68"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/CoefficientQuotients.lean",
+      "sha256": "983d0de5304381b00c5a994f1125960570af626504f282e01017c58be408235c"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/DiagonalActions.lean",
+      "sha256": "2e1a9f1032e933579731c485147303a059ffd23633439d238ef048c5c3cc379f"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/KernelRelations.lean",
+      "sha256": "c9172c0d3d76d6dabeed9f4dc5b309d92705e1f23bef36ca696574db5bd7dd34"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/MatrixUnits.lean",
+      "sha256": "87376db54c394137be7da21fd664926303b4cd1368b8cfee67d583c8c2032d0f"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/MonomialPresentation.lean",
+      "sha256": "b29f0f6812d9b6d4b68eddac35bdeb6e6c1ee382505ae86681dd57d8e7f235f4"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/PresentationModel.lean",
+      "sha256": "7da462efa749f2f3e2b7f8615ae7f143b0fceeef7a1bd9748ebebacf0ad0a9af"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Steinberg/RankActions.lean",
+      "sha256": "23612569cdf934fadd95098f8723624987509dc597d837d79bca327f74420232"
+    }
+  ]
+}

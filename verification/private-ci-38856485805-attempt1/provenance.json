@@ -1,0 +1,42 @@
+{
+  "repository": "KitaKen1/ci-test-sandbox",
+  "run_id": 38856485805,
+  "run_attempt": 1,
+  "proof_commit": null,
+  "tested_commit": "986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d",
+  "archive_commit": null,
+  "run_url": "https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38856485805",
+  "conclusion": "success",
+  "artifacts": [
+    {
+      "id": 12030566743,
+      "name": "replay-38856485805-1",
+      "file": "artifacts/12030566743-replay-38856485805-1.zip",
+      "github_digest": "sha256:0c7b61309f25ed60c83ec0b20f43b0502ff13349efa49eb80955ff7befd5bd5f",
+      "sha256": "0c7b61309f25ed60c83ec0b20f43b0502ff13349efa49eb80955ff7befd5bd5f",
+      "digest_matches": true,
+      "expires_at": "2027-01-14T05:34:30Z"
+    },
+    {
+      "id": 12029217727,
+      "name": "comparator-38856485805-1",
+      "file": "artifacts/12029217727-comparator-38856485805-1.zip",
+      "github_digest": "sha256:a3e9118ae6218d1c07c2e93b765e36730d5f5b3a1c10beafd0297c54f625b1e8",
+      "sha256": "a3e9118ae6218d1c07c2e93b765e36730d5f5b3a1c10beafd0297c54f625b1e8",
+      "digest_matches": true,
+      "expires_at": "2027-01-14T05:34:30Z"
+    },
+    {
+      "id": 12029066221,
+      "name": "build-38856485805-1",
+      "file": "artifacts/12029066221-build-38856485805-1.zip",
+      "github_digest": "sha256:46493e98c25138930d61cca33f8befd1b69fc812f216336d12d7be312fabdc1c",
+      "sha256": "46493e98c25138930d61cca33f8befd1b69fc812f216336d12d7be312fabdc1c",
+      "digest_matches": true,
+      "expires_at": "2027-01-14T05:34:30Z"
+    }
+  ],
+  "retrieved_at_utc": "2026-10-16T07:01:54.838520+00:00",
+  "note": "API metadata, original ZIPs, full job logs and all extracted receipts preserved. SHA256SUMS are local file identities, not a signed GitHub attestation. Record the archive commit after committing.",
+  "target_scope": "Main and two variants: independent expanded FC statements, fixed standard Mathlib definitions, no definition holes."
+}

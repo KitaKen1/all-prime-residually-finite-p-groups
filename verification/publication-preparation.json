@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-10-16T02:48:01.008781+00:00",
+  "scope": "Publication preparation checks; canonical proof sources copied without changes.",
+  "canonical_lean_sources_byte_identical": 200,
+  "pdf_and_timestamp_byte_identical": true,
+  "core_module_audit_record": {
+    "local_modules": 134,
+    "axiom_declarations": 494
+  },
+  "reference_connection": {
+    "compiled_modules": 3,
+    "audited_theorems": 5,
+    "verification": "incremental, existing checked artifacts reused"
+  },
+  "regression_tests": {
+    "inherited_verifier": 8,
+    "inherited_release": 15,
+    "publication": 9,
+    "passed": 32
+  },
+  "yaml_syntax_parsed": [
+    ".github/workflows/source-checks.yml",
+    ".github/workflows/lean-verification.yml",
+    "CITATION.cff"
+  ],
+  "private_workspace_paths_in_public_text": false,
+  "github_actions_executed": false,
+  "lean_comparator_executed": false,
+  "independent_kernel_replay_executed": false,
+  "upstream_source_archive": {
+    "sha256": "1506930330e2adc658cf056c96d3a48a21139267bd5db8f9e8378ebeb7e1e384",
+    "scope": "Verified development ZIP used as the source input; publication docs and reference connection files were then added."
+  },
+  "documentation_language": "English",
+  "readme_layout_reference": "https://github.com/KitaKen1/entropic-rogers-shephard",
+  "fc_proposal": {
+    "format": "FormalConjecturesUtil problem file with main and two descriptively named variants, category/AMS and formal_proof attributes",
+    "statement_check": "all three expanded statements checked separately against independent references and proved solutions",
+    "statement_placeholder": true,
+    "fc_frontend_compile_run": false,
+    "fc_frontend_lint_run": false,
+    "checked_theorems": [
+      "finitely_presented_burnside_problem",
+      "variants.finitely_presented_burnside_problem_residually_finite",
+      "variants.finitely_presented_burnside_problem_all_primes"
+    ],
+    "main_source": "OpenAI PeriodicGroup challenge, abstract-group BurnsideStatement",
+    "variant_source": "Variant 1 is a residually finite periodic-group corollary at p=2; variant 2 is the all-prime theorem [Ki26].",
+    "references": "GitHub source pages and repository; no PDF reference in the FC problem file",
+    "naming_references": [
+      "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/BoundedBurnsideProblem.lean",
+      "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/GreensOpenProblems/24.lean"
+    ],
+    "variant1_source": "Residually finite periodic existence derived from the all-prime theorem at p=2, retaining residual finiteness.",
+    "variant2_source": "All-prime residually finite p-group theorem [Ki26]."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "claims": 41,
+  "status_counts": {
+    "proved": 19,
+    "partial": 12,
+    "specialized": 5,
+    "replaced": 4,
+    "unformalized": 1
+  },
+  "referenced_audit_declarations": 68,
+  "current_build_evidence_checked": true,
+  "assessment": "Scope classifications are manual mathematical assessments. The checker verifies the claim inventory, source hashes and audit references, not statement equivalence.",
+  "manifest_sha256": "795d389ec33899e4d18ec090b3012a319f74a9292ca887f323c0fccda3e6bc55"
+}

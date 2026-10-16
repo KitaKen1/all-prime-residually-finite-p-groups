@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "license": "Apache-2.0; upstream/OpenAI-LICENSE",
+  "sources": [
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Matrices/ElementaryGenerators.lean",
+      "sha256": "fd7afd54e53c626bfc7199df8506d571524cec8128d7932b9f03618102d16b33"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Presentation/FinitePresentation.lean",
+      "sha256": "aa71b90a9bee269df07a3f0132f0d1b75dffc282cc8725b4511da1062a2e828d"
+    },
+    {
+      "path": "OAI/GroupTheory/PeriodicGroups/Presentation/MatrixStabilizers.lean",
+      "sha256": "08a7d248c41237c970fa10d8765edcc193800a7115178b366ec47be04249131e"
+    }
+  ],
+  "adapted_file": "AllPrimeGroups/MatrixGeometry.lean",
+  "adaptation": "Generic matrix embeddings, rectangular shears, and block stabilizer proofs extracted into a separate namespace with narrow imports. Original OAI files are unchanged. CoordinateStability and the frame face maps are local extensions."
+}

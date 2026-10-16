@@ -1,0 +1,56 @@
+{
+  "commit": "4f1a681d10b8371c56bc49158b0481d18bd949f5",
+  "retrieved": "2026-10-15",
+  "files": [
+    {
+      "path": "TauCeti/GroupTheory/GroupExtension/Basic.lean",
+      "sha256": "6efed4bd400ca717507ee7fcf67fb9e52ab99e02bd905d9bb8c2c3649f9ee0df",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/GroupTheory/GroupExtension/Basic.lean"
+    },
+    {
+      "path": "TauCeti/GroupTheory/GroupExtension/Of/FactorSet.lean",
+      "sha256": "61f097a042748849351f1d1c800d135e21ff4d94e52db4425a3ee317d8a6b232",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/GroupTheory/GroupExtension/Of/FactorSet.lean"
+    },
+    {
+      "path": "TauCeti/GroupTheory/GroupExtension/FactorSetOfSection.lean",
+      "sha256": "a10951aa520480c41f71649810fa66023aca711d57914c16078d80053dde50e3",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/GroupTheory/GroupExtension/FactorSetOfSection.lean"
+    },
+    {
+      "path": "TauCeti/GroupTheory/GroupExtension/Cohomology.lean",
+      "sha256": "9191111476e99c1929d0e81b3dadb56fc1b10c27d7f41c075612e5a09345cac6",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/GroupTheory/GroupExtension/Cohomology.lean"
+    },
+    {
+      "path": "TauCeti/Algebra/Module/CharacterModule.lean",
+      "sha256": "6bc305bade83545d344f6a517d9a93c31e14777c88f8e7cd8a5b91e4f066bf9d",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/Algebra/Module/CharacterModule.lean"
+    },
+    {
+      "path": "TauCeti/Algebra/Homology/Opposite.lean",
+      "sha256": "aed1a65d60287430fda4ea0512001d6d47c5c15c606587e3d81adece5252812f",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/Algebra/Homology/Opposite.lean"
+    },
+    {
+      "path": "TauCeti/Algebra/Homology/Ext/ProjectiveResolution.lean",
+      "sha256": "65e4e7d08b0183508f80fc72285b7f7ba0106f7fc91a778490204f076c0006ba",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/Algebra/Homology/Ext/ProjectiveResolution.lean"
+    },
+    {
+      "path": "TauCeti/RepresentationTheory/Homological/Resolution.lean",
+      "sha256": "832ca786880ee43dfd74016df0a9fab0984d5d62c1028a2c63abeeb3b1cc1ba1",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/RepresentationTheory/Homological/Resolution.lean"
+    },
+    {
+      "path": "TauCeti/RepresentationTheory/Homological/GroupCohomology/Resolution.lean",
+      "sha256": "d5ae2aa4b56b587e3e69e3f38675847779245316131db457f3774fff6a419d56",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/RepresentationTheory/Homological/GroupCohomology/Resolution.lean"
+    },
+    {
+      "path": "TauCeti/RepresentationTheory/Homological/GroupCohomology/Shapiro.lean",
+      "sha256": "9ad87d0024ddcad93f13bc1681465ee7cb9d46519c4b793dcd4bc0f8bf5d0fd5",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/4f1a681d10b8371c56bc49158b0481d18bd949f5/TauCeti/RepresentationTheory/Homological/GroupCohomology/Shapiro.lean"
+    }
+  ]
+}

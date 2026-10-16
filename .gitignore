@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.lake/
+dist/
+*.tmp
+lean/reports/reproduce/
+lean/reports/upstream/
+lean/reports/*.log
+!lean/reports/Audit.log
+!lean/reports/upstream-axioms.log
+!verification/*.log

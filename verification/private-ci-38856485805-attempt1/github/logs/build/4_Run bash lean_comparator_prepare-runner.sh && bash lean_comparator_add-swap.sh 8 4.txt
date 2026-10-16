@@ -1,0 +1,22 @@
+﻿2026-10-16T05:35:13.2537874Z ##[group]Run bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 8 4
+2026-10-16T05:35:13.2538246Z [36;1mbash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 8 4[0m
+2026-10-16T05:35:13.2586546Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-16T05:35:13.2586880Z env:
+2026-10-16T05:35:13.2586989Z   LEAN_NUM_THREADS: 2
+2026-10-16T05:35:13.2587118Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T05:35:13.2587253Z ##[endgroup]
+2026-10-16T05:38:47.3771970Z info: downloading installer
+2026-10-16T05:38:47.8314166Z 2
+2026-10-16T05:38:47.8329196Z                total        used        free      shared  buff/cache   available
+2026-10-16T05:38:47.8329760Z Mem:           7.8Gi       896Mi       3.8Gi        46Mi       3.4Gi       6.9Gi
+2026-10-16T05:38:47.8332091Z Swap:          3.0Gi          0B       3.0Gi
+2026-10-16T05:38:47.9272322Z Filesystem      Size  Used Avail Use% Mounted on
+2026-10-16T05:38:47.9276535Z /dev/root        72G   23G   50G  32% /
+2026-10-16T05:38:47.9277178Z /dev/root        72G   23G   50G  32% /
+2026-10-16T05:38:47.9657422Z added 8 GB of swap on /
+2026-10-16T05:38:47.9682115Z                total        used        free      shared  buff/cache   available
+2026-10-16T05:38:47.9682630Z Mem:               7           0           3           0           3           6
+2026-10-16T05:38:47.9683085Z Swap:             10           0          10
+2026-10-16T05:38:47.9695194Z NAME             TYPE SIZE USED PRIO
+2026-10-16T05:38:47.9695780Z /swapfile        file   3G   0B   -2
+2026-10-16T05:38:47.9696129Z /swap-extra-5725 file   8G   0B   -3

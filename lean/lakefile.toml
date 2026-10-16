@@ -1,0 +1,35 @@
+name = "AllPrimeGroups"
+version = "0.1.0"
+defaultTargets = ["AllPrimeGroups"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
+
+[[lean_lib]]
+name = "AllPrimeGroups"
+
+[[lean_lib]]
+name = "OAI"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "FCSolution"
+
+[[lean_lib]]
+name = "FCAudit"
+
+[[lean_lib]]
+name = "Audit"
+
+[[lean_lib]]
+name = "UpstreamAudit"
+
+[[lean_lib]]
+name = "ComparatorChallenge"

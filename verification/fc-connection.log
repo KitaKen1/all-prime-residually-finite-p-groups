@@ -1,0 +1,13 @@
+'AllPrimeGroupsFC.finitely_presented_burnside_problem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AllPrimeGroupsFC.all_prime_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AllPrimeGroupsFC.concrete_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+AllPrimeGroupsFC.finitely_presented_burnside_problem : AllPrimeGroupsChallenge.MainStatement
+AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite : AllPrimeGroupsChallenge.ResiduallyFinitePeriodicStatement
+AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes : AllPrimeGroupsChallenge.Statement
+AllPrimeGroupsFC.all_prime_groups : AllPrimeGroupsChallenge.Statement

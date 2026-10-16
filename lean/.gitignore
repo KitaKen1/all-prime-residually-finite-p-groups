@@ -1,0 +1,8 @@
+.lake/
+dist/
+__pycache__/
+reports/reproduce/
+reports/upstream/
+reports/*.log
+!reports/Audit.log
+!reports/upstream-axioms.log

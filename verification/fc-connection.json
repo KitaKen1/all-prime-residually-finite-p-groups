@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-10-16T02:46:25.769395+00:00",
+  "status": "passed",
+  "verification_scope": "Incremental connection check using hash-checked existing project artifacts.",
+  "fresh_full_reproduction": false,
+  "modules": {
+    "Challenge": {
+      "source_sha256": "94300a7c669bd225cd730467be0b6b6e1bee1df19190846398ba62647ba960f7",
+      "olean_sha256": "60e39305bbad2b6be445c6befcf1d3426596936a57b80750d93a3bc19031f27c",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resolved_dependency_count": 4,
+      "exit_code": 0
+    },
+    "FCSolution": {
+      "source_sha256": "4ffe0ebc3ec930681a2812ffce6b648ac2fc36efe9c3f8128d6eb0329d3e9dc2",
+      "olean_sha256": "c15ccd13cf75c765c53385ff7be0dd268fb0aad7b9ccd4d8b64510e10ade5538",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resolved_dependency_count": 4,
+      "exit_code": 0
+    },
+    "FCAudit": {
+      "source_sha256": "39b3086a160dcf43723c733360cf162c8acdd09d4b184a00ffe17a3ee989b773",
+      "olean_sha256": "a17f2c0743a090c361c3dd2be38f49b94d27122aa82f797ab19395163f66c183",
+      "log_sha256": "2d72522e4d7fe3dfad142928dd13fc21abf77cbc78015b173389371fb26ea1c9",
+      "resolved_dependency_count": 2,
+      "exit_code": 0
+    }
+  },
+  "axioms": {
+    "AllPrimeGroupsFC.finitely_presented_burnside_problem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.all_prime_groups": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.concrete_groups": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "comparator_run": false,
+  "independent_kernel_replay_run": false
+}

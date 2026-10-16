@@ -1,0 +1,11 @@
+{
+  "commit": "d5a37097e93f6289425d25632df6c8bf00d749c0",
+  "retrieved": "2026-10-15",
+  "files": [
+    {
+      "path": "TauCeti/RepresentationTheory/Homological/ContCohomology/Conjugation.lean",
+      "sha256": "55bc8f7fe9a254820713b6410d36da4f358b360b49ba2e5354f684a8d6b6a644",
+      "url": "https://github.com/TauCetiProject/TauCeti/blob/d5a37097e93f6289425d25632df6c8bf00d749c0/TauCeti/RepresentationTheory/Homological/ContCohomology/Conjugation.lean"
+    }
+  ]
+}

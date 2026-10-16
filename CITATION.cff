@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this repository and identify the commit you used."
+type: software
+title: "Infinite finitely presented residually finite p-groups for every prime"
+authors:
+  - family-names: Kitamura
+    given-names: Kenta
+repository-code: "https://github.com/KitaKen1/all-prime-residually-finite-p-groups"
+url: "https://github.com/KitaKen1/all-prime-residually-finite-p-groups"
+license: Apache-2.0
+abstract: >-
+  Lean formalization of the existence, for every prime p, of an infinite
+  finitely presented residually finite abstract p-group. Includes the concrete
+  fixed-rank Steinberg reduction kernels, a paper manuscript, pinned sources,
+  provenance and reproducible verification scripts.
+keywords:
+  - Lean
+  - formal verification
+  - group theory
+  - p-groups
+  - residual finiteness

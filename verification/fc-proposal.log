@@ -1,0 +1,9 @@
+'AllPrimeGroupsFCProposalCheck.finitely_presented_burnside_problem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AllPrimeGroupsFCProposalCheck.variants.finitely_presented_burnside_problem_residually_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AllPrimeGroupsFCProposalCheck.variants.finitely_presented_burnside_problem_all_primes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

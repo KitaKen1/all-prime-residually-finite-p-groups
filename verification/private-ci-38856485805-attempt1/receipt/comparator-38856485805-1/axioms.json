@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "audited_targets": 5,
+  "sorryAx": false,
+  "new_axioms": false,
+  "axioms": {
+    "AllPrimeGroupsFC.finitely_presented_burnside_problem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.all_prime_groups": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AllPrimeGroupsFC.concrete_groups": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

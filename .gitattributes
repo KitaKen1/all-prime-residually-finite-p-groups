@@ -1,2 +1,8 @@
+* text=auto
+*.lean text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
 *.pdf binary
 *.ots binary

@@ -1,0 +1,20 @@
+Running as unit: run-u20.service; invocation ID: 8f5fae6cfd004f48ba84626a5f70770d
+Building ComparatorChallenge
+⚠ [1557/1558] Replayed ComparatorChallenge
+warning: ComparatorChallenge.lean:11:8: declaration uses `sorry`
+warning: ComparatorChallenge.lean:17:8: declaration uses `sorry`
+warning: ComparatorChallenge.lean:21:8: declaration uses `sorry`
+Build completed successfully (1558 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, AllPrimeGroupsFC.finitely_presented_burnside_problem, AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite, AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ComparatorChallenge
+Building FCSolution
+Build completed successfully (9116 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, AllPrimeGroupsFC.finitely_presented_burnside_problem, AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite, AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from FCSolution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 4min 27.398s
+CPU time consumed: 3min 40.098s
+Memory peak: 256.0K
+Memory swap peak: 0B

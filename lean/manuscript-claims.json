@@ -1,0 +1,889 @@
+{
+  "schema_version": 1,
+  "assessment": "Scope classifications are manual mathematical assessments. The checker verifies the claim inventory, source hashes and audit references, not statement equivalence.",
+  "manuscript_sources": {
+    "build_proof_manuscript.py": "7adf42776df634ac8802c770234567ceba14ee47133358070d0f9e2698084715",
+    "proof_extensions.py": "a1c8a6800a6b94ab3124a4c873a5c62c3e289da433c62f28f4eb7f70ba218e7d",
+    "algebra_construction.py": "7bea10854a980f2170b032bf38c9c52e76f58b77b2a277709e421e18757b769d",
+    "stable_detection.py": "e909229e9785dc6a39a2eb86056bfd25a3b86a755d31b85179814d7f0ff4bad1"
+  },
+  "claims": [
+    {
+      "id": "1.1",
+      "status": "proved",
+      "scope": "The existence statement and all four properties of the specified finite-rank reduction kernels are proved for every n >= 7, including the manuscript's n >= 12.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "Existence for every prime",
+        "file": "build_proof_manuscript.py",
+        "line": 49,
+        "heading_sha256": "f25884e9a5bb3b17700ce6e651ab21d280b724b7f543fd50d04fa138a4e5a572"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.all_prime_groups",
+          "file": "AllPrimeGroups/PrimeCharacterExtensions.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeGroups.properties",
+          "file": "AllPrimeGroups/PrimeGroups.lean"
+        }
+      ]
+    },
+    {
+      "id": "2.1",
+      "status": "proved",
+      "scope": "Perfectness for n >= 3 and injectivity of the parameter of a fixed root are proved.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 66,
+        "heading_sha256": "6a66dcb473a85263a2500b9c1c28176190d9a014b0d4523da4f9e366b9a3ed5b"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Steinberg.isPerfect",
+          "file": "AllPrimeGroups/Stabilization.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Elementary.x_injective",
+          "file": "AllPrimeGroups/MatrixModel.lean"
+        }
+      ]
+    },
+    {
+      "id": "3.1",
+      "status": "proved",
+      "scope": "Finite presentation of finite-index subgroups is proved using Mathlib's free-group and Schreier results.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 73,
+        "heading_sha256": "ae2a71ed34ad16935277777c97b29463fc0e6ed0a8c3c01e72bd6e3ff64e1341"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.isFinitelyPresented_of_finiteIndex",
+          "file": "AllPrimeGroups/FiniteIndexPresentation.lean"
+        }
+      ]
+    },
+    {
+      "id": "4.1",
+      "status": "proved",
+      "scope": "Finite p-group quotients separate the specified G(p,n) for every n >= 7. One quotient can be injective on any given finite subset, and quotient orders are unbounded.",
+      "manuscript": {
+        "kind": "Corollary",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 98,
+        "heading_sha256": "c4e439821d81d340df7c0d16ed6a22e85215c298b9234f8c387eb4cb831b943e"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeGroups.finite_p_quotient_separates",
+          "file": "AllPrimeGroups/PrimePQuotients.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeGroups.finite_p_quotient_injective_on",
+          "file": "AllPrimeGroups/PrimePQuotients.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeGroups.finite_p_quotients_unbounded",
+          "file": "AllPrimeGroups/PrimePQuotients.lean"
+        }
+      ]
+    },
+    {
+      "id": "5.1",
+      "status": "partial",
+      "scope": "Proves the set bijection between a nil augmentation kernel and its congruence units, residual finiteness from separating finite coefficient quotients, and the finite-dimensional cardinality p^dim. For R(p), infinitude, residual finiteness and the p-group property are combined. The construction of separating finite truncations for arbitrary positively graded nil algebras remains unregistered.",
+      "manuscript": {
+        "kind": "Proposition",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 102,
+        "heading_sha256": "2b1f4708b39490873cd82f85b5c28ee2c8b1d6e00b7c4ef8528099dfda69e532"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.units_congruence_isPGroup",
+          "file": "AllPrimeGroups/CongruencePGroup.lean"
+        },
+        {
+          "name": "AllPrimeGroups.NilCongruence.kernelEquiv",
+          "file": "AllPrimeGroups/NilCongruence.lean"
+        },
+        {
+          "name": "AllPrimeGroups.NilCongruence.properties",
+          "file": "AllPrimeGroups/NilCongruence.lean"
+        },
+        {
+          "name": "AllPrimeGroups.NilCongruence.card_eq_prime_pow_finrank",
+          "file": "AllPrimeGroups/NilCongruence.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.congruenceUnits_properties",
+          "file": "AllPrimeGroups/PrimeNilUnits.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.units_residuallyFinite",
+          "file": "AllPrimeGroups/PrimeNilUnits.lean"
+        }
+      ]
+    },
+    {
+      "id": "5.2",
+      "status": "partial",
+      "scope": "With matrix nilpotence explicit, proves the three congruence-unit properties and finite-dimensional cardinality p^(n^2 dim ker epsilon). For R(p), all n >= 1 give infinite residually finite p-groups with finite p-group quotients of unbounded order. Constructing degree-d truncations for arbitrary graded algebras remains unregistered.",
+      "manuscript": {
+        "kind": "Corollary",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 107,
+        "heading_sha256": "7ee6d039f543e4411a688de0971e571bfc915a2b6598f7ef042e7c31bcd914a6"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Candidate.matrixImage_isPGroup",
+          "file": "AllPrimeGroups/Candidate.lean"
+        },
+        {
+          "name": "AllPrimeGroups.NilCongruence.matrixKernelEquiv",
+          "file": "AllPrimeGroups/NilMatrixCongruence.lean"
+        },
+        {
+          "name": "AllPrimeGroups.NilCongruence.matrix_card_eq_prime_pow_finrank",
+          "file": "AllPrimeGroups/NilMatrixCongruence.lean"
+        },
+        {
+          "name": "AllPrimeGroups.NilCongruence.matrix_properties",
+          "file": "AllPrimeGroups/NilMatrixCongruence.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_properties",
+          "file": "AllPrimeGroups/PrimeNilUnits.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.matrixUnits_residuallyFinite",
+          "file": "AllPrimeGroups/PrimeNilUnits.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_finite_quotients_unbounded",
+          "file": "AllPrimeGroups/PrimeNilUnits.lean"
+        }
+      ]
+    },
+    {
+      "id": "5.3",
+      "status": "proved",
+      "scope": "Every finite homomorphic image of a p-group has p-power order. Only the image must be finite; the entire codomain need not be finite.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 110,
+        "heading_sha256": "88ece357fe442662684e68c6b3bac0845834d1b3918561f64ef39f0eb3e840b4"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.FinitePQuotients.finite_image_card",
+          "file": "AllPrimeGroups/FinitePQuotients.lean"
+        }
+      ]
+    },
+    {
+      "id": "6.1",
+      "status": "proved",
+      "scope": "Complete symmetrization of matrices in characteristic p vanishes when m > (p-1)d^2.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 115,
+        "heading_sha256": "40389ee2f131ca6e94f72c75d8b53c5f8d55ca5ac2c12ddf36e6b00479ea17d4"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.matrix_symmetrization_eq_zero",
+          "file": "AllPrimeGroups/Symmetrization.lean"
+        }
+      ]
+    },
+    {
+      "id": "6.2",
+      "status": "specialized",
+      "scope": "Permutation-orbit cancellation is proved for the finite packets used in the construction. A statement accepting an arbitrary abstract orbit partition is not separately registered.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "A free packet of chunks",
+        "file": "build_proof_manuscript.py",
+        "line": 118,
+        "heading_sha256": "a17c184efcc2d648fe40589199610b97dadfaef99d99e8a54fe70fdc49f45af1"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeCancellation.direct_vanish_finite",
+          "file": "AllPrimeGroups/PrimeCancellation.lean"
+        }
+      ]
+    },
+    {
+      "id": "6.3",
+      "status": "replaced",
+      "scope": "The general real-logarithmic asymptotic statement is replaced by a stopping index for the concrete hierarchy using natural-number inequalities. Multiplying the initial dimension by p absorbs the characteristic factor.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Absorbing a fixed prime",
+        "file": "build_proof_manuscript.py",
+        "line": 125,
+        "heading_sha256": "13b562d1fa4d28f787e4d1cc2837ed848c440f1564f6d3afa4deda7054a3b643"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.HierarchyGrowth.stopping_index",
+          "file": "AllPrimeGroups/HierarchyGrowth.lean"
+        },
+        {
+          "name": "AllPrimeGroups.HierarchyGrowth.stopping_index_char",
+          "file": "AllPrimeGroups/HierarchyGrowth.lean"
+        }
+      ]
+    },
+    {
+      "id": "7.1",
+      "status": "specialized",
+      "scope": "For the constructed word algebra, eventual vanishing by word length gives matrix nilpotence. Equivalence with the general statement for arbitrary generated algebras and linearly dependent word images has not been checked.",
+      "manuscript": {
+        "kind": "Proposition",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 135,
+        "heading_sha256": "29a8dfd19a63873149040e903c4bb4cbde188ef378b7a05a760eb50093f5947c"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeMatrixNil.matrix_nil",
+          "file": "AllPrimeGroups/PrimeMatrixNil.lean"
+        }
+      ]
+    },
+    {
+      "id": "8.1",
+      "status": "replaced",
+      "scope": "Instead of a uniform p-adic valuation estimate, the initial height is chosen so that every block length is already coprime to p. The manuscript's estimate for general m is not proved.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 146,
+        "heading_sha256": "359af83664ccf906a49ee4ffca8eb131499d74f1bb333194ef6314836c230be0"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.exists_prime_free_hierarchy",
+          "file": "AllPrimeGroups/PrimePeriods.lean"
+        }
+      ]
+    },
+    {
+      "id": "8.2",
+      "status": "replaced",
+      "scope": "Proves coprimality and unboundedness of the actual periods in the chosen concrete hierarchy, rather than prime-to-p parts of arbitrary height sequences.",
+      "manuscript": {
+        "kind": "Corollary",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 152,
+        "heading_sha256": "d330b3d9c6b915311d8c816378829712c12250c541b1466e4d028d91b45fc01d"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.phasePeriod_coprime",
+          "file": "AllPrimeGroups/PrimePeriods.lean"
+        },
+        {
+          "name": "AllPrimeGroups.phasePeriod_ge_two_pow",
+          "file": "AllPrimeGroups/PrimePeriods.lean"
+        }
+      ]
+    },
+    {
+      "id": "8.3",
+      "status": "replaced",
+      "scope": "The periods are chosen coprime to p, so phase reduction to a divisor is unnecessary. The required phases are constructed directly at the actual periods.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Reduction of phases",
+        "file": "build_proof_manuscript.py",
+        "line": 156,
+        "heading_sha256": "bf8b1d4823fd3a3d33a6859d938f3cc76d3fdecbd68ba0edd645d446651c28f5"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.phases",
+          "file": "AllPrimeGroups/HierarchyPhases.lean"
+        }
+      ]
+    },
+    {
+      "id": "9.1",
+      "status": "partial",
+      "scope": "The core argument deriving triviality from a p-power and a coprime power of the same element is proved. The full statement for arbitrary graded algebras is not packaged as a separate API. Separation for R(p) is completed in 22.2.",
+      "manuscript": {
+        "kind": "Proposition",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 160,
+        "heading_sha256": "6c7dd1b8ac80fa2cd71c6d6969d4fb5cfccfc40c768a92cbdb7ebf10c73aff42"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.separated_of_prime_power_and_cyclic_detection",
+          "file": "AllPrimeGroups/Separation.lean"
+        }
+      ]
+    },
+    {
+      "id": "10.1",
+      "status": "proved",
+      "scope": "Finite presentation of the Steinberg group for n >= 5 is proved for algebras presented by finitely many letters and finitely many relations.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 5,
+        "heading_sha256": "8aa1131ffd2928142bfd8c3e095b74126953fa9738f18321f7540b4ef995832d"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.steinberg_finitelyPresented",
+          "file": "AllPrimeGroups/SteinbergPresentation.lean"
+        }
+      ]
+    },
+    {
+      "id": "11.1",
+      "status": "proved",
+      "scope": "Injectivity of the presentation by local matrix relations is proved for field augmentations that reflect units.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 37,
+        "heading_sha256": "a4819de042a81c603f7f79ec1a5325ec2b6e372ffdd0b264f995fa06019b67f6"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.GLPres.π_injective_all",
+          "file": "AllPrimeGroups/GLInduction.lean"
+        }
+      ]
+    },
+    {
+      "id": "11.2",
+      "status": "proved",
+      "scope": "Centrality of the matrix kernel for n >= 6 and reflection of elementary-matrix membership under stabilization for n >= 5 are proved.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 44,
+        "heading_sha256": "70e796b1114634dea3d0c942b5dae9577b095b8a0cf7f5c759004c60276fad14"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.GLAct.kernel_central",
+          "file": "AllPrimeGroups/GLAction.lean"
+        },
+        {
+          "name": "AllPrimeGroups.K1.mem_E_of_pad",
+          "file": "AllPrimeGroups/K1Stability.lean"
+        }
+      ]
+    },
+    {
+      "id": "11.3",
+      "status": "proved",
+      "scope": "The stable matrix kernel is central over every ring. Coordinate transport and standardization of block copies are also proved.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 50,
+        "heading_sha256": "7d6794c7d5d4f8aec83f5519846a8421e2b2332918d9f72e2466644a2792ad5d"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Stable.kernel_central",
+          "file": "AllPrimeGroups/StableGroup.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Kernel.stable_copy_to_standard",
+          "file": "AllPrimeGroups/StablePermutation.lean"
+        }
+      ]
+    },
+    {
+      "id": "12.1",
+      "status": "specialized",
+      "scope": "Stabilization injectivity is proved for R(p) in ranks n >= 7. The manuscript's theorem for all augmented algebras B and its full homology isomorphism are not registered.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 54,
+        "heading_sha256": "b625f8bfea73005772677de8574a3e8cde41b5024cb892401094d9e5c62ac807"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.stabilization_injective",
+          "file": "AllPrimeGroups/PrimeCharacterExtensions.lean"
+        }
+      ]
+    },
+    {
+      "id": "12.2",
+      "status": "proved",
+      "scope": "The finite-rank ordered-frame complex is exact through rank minus two. This extends to any label set containing independent standard labels.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 66,
+        "heading_sha256": "154a986cd9c6e2b67a59cc5ebda16cff84de1f50e1c7403ec7cf8de501a16b76"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Frames.exact_of_finrank",
+          "file": "AllPrimeGroups/FrameTheorem.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Frames.exact_of_independent",
+          "file": "AllPrimeGroups/FrameTheorem.lean"
+        }
+      ]
+    },
+    {
+      "id": "13.1",
+      "status": "proved",
+      "scope": "A perfect group with finite central quotient is finite. Schur's theorem removes the manuscript's finite-generation assumption.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 85,
+        "heading_sha256": "a3e3faba9566cb30e95eebd487e5bfecc9524f0359f841ae36a478f065f8da10"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.finite_of_perfect_finite_center_quotient",
+          "file": "AllPrimeGroups/FinitePerfect.lean"
+        }
+      ]
+    },
+    {
+      "id": "13.2",
+      "status": "proved",
+      "scope": "Proved for finite coefficient rings with an augmentation that reflects nonzero values to units. A separate proved lemma derives this unit condition from a nil augmentation kernel.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 90,
+        "heading_sha256": "8c1139c70bc983fa7327d8976c8d0c751a027749c6ed5ca3c592d7d674ce5f20"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Steinberg.finite_of_local_augmentation",
+          "file": "AllPrimeGroups/FiniteLocal.lean"
+        },
+        {
+          "name": "AllPrimeGroups.isUnit_iff_augmentation_ne_zero",
+          "file": "AllPrimeGroups/NilAugmentation.lean"
+        }
+      ]
+    },
+    {
+      "id": "13.3",
+      "status": "specialized",
+      "scope": "Finiteness of the word-length truncations of R(p) is proved and can be combined with finiteness of Steinberg groups over finite local rings. The quotient identification for arbitrary graded algebras is not a separate corollary.",
+      "manuscript": {
+        "kind": "Corollary",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 92,
+        "heading_sha256": "5d30cd6d03b39a3a394e21e690813dec9c96873d83ee4b5ec0c138a2081d1e14"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.finite_trunc",
+          "file": "AllPrimeGroups/PrimeSeparation.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Steinberg.finite_of_local_augmentation",
+          "file": "AllPrimeGroups/FiniteLocal.lean"
+        }
+      ]
+    },
+    {
+      "id": "14.1",
+      "status": "specialized",
+      "scope": "Relative torsion is proved from a homogeneous substitution into polynomials with the required identity and augmentation values; these inputs are constructed for R(p). The bridge to arbitrary Mathlib graded algebras is not separately registered.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "",
+        "file": "proof_extensions.py",
+        "line": 117,
+        "heading_sha256": "bba89cc4fd9cbf281893b2bcf6acd9b896bb3598898ae994649b4c13f4eb7607"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Stable.relative_torsion",
+          "file": "AllPrimeGroups/RelativeTorsion.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.relative_torsion",
+          "file": "AllPrimeGroups/PrimeAlgebra.lean"
+        }
+      ]
+    },
+    {
+      "id": "15.1",
+      "status": "unformalized",
+      "scope": "This counterexample distinguishes general examples lacking finite presentation. It is not needed by the main theorem, and non-finite-generation of its group is not formalized.",
+      "manuscript": {
+        "kind": "Proposition",
+        "title": "",
+        "file": "build_proof_manuscript.py",
+        "line": 171,
+        "heading_sha256": "e268c7233fd7bdab354b6a1f6fa1b52eb772319813c9c0d38d286cb8170aff67"
+      },
+      "lean": []
+    },
+    {
+      "id": "16.1",
+      "status": "partial",
+      "scope": "Linear independence of nonzero word classes and word-selection maps are formalized. Remaining vanishing and replacement-reachability components occur in the pinned upstream sources. The general combined basis, spanning and zero-test correspondence remains to be checked.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Word basis",
+        "file": "algebra_construction.py",
+        "line": 6,
+        "heading_sha256": "8115d64e09da4b76286e76931efd3fffb7864e159b14c7d0419e96203c501eee"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.WordBasis.linearIndependent_words",
+          "file": "AllPrimeGroups/WordBasis.lean"
+        },
+        {
+          "name": "AllPrimeGroups.WordBasis.filterMap_word",
+          "file": "AllPrimeGroups/WordBasis.lean"
+        }
+      ]
+    },
+    {
+      "id": "16.2",
+      "status": "partial",
+      "scope": "The concrete machine hierarchy from the pinned OpenAI sources is reused and connected to R(p) and its phases. The correspondence combining the manuscript's three conditions into one general existence theorem remains to be organized.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "Hierarchy",
+        "file": "algebra_construction.py",
+        "line": 9,
+        "heading_sha256": "b0439877b0df11ffca0c2cf371d9ea03993ccbdf5e5916a3e11047e81313a604"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.infinite",
+          "file": "AllPrimeGroups/PrimeAlgebra.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.phases",
+          "file": "AllPrimeGroups/HierarchyPhases.lean"
+        }
+      ]
+    },
+    {
+      "id": "17.1",
+      "status": "proved",
+      "scope": "Long finite packets needed by the construction are partitioned into free permutation orbits and cancelled using the bound (p-1)d^2.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Direct cancellation",
+        "file": "algebra_construction.py",
+        "line": 116,
+        "heading_sha256": "b3ee9a975ac5bb31e830f1bbf3e863f830868020271d17f19ce561efafbfe474"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeCancellation.direct_vanish_finite",
+          "file": "AllPrimeGroups/PrimeCancellation.lean"
+        }
+      ]
+    },
+    {
+      "id": "17.2",
+      "status": "partial",
+      "scope": "Cut reduction reuses the pinned upstream implementation. The final matrix-nil result for R(p) is audited, but this manuscript lemma is not registered as an independent audit target.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Cut reduction",
+        "file": "algebra_construction.py",
+        "line": 124,
+        "heading_sha256": "00f84e1ec983efd5cec9edcff5a40adb1de72b1774421f165335a8b6021a0291"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeMatrixNil.matrix_nil",
+          "file": "AllPrimeGroups/PrimeMatrixNil.lean"
+        }
+      ]
+    },
+    {
+      "id": "17.3",
+      "status": "partial",
+      "scope": "The finite automata for chunks and letters reuse the pinned upstream implementation. Independent correspondence checking, including the manuscript's dimension bound, remains.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Finite automaton",
+        "file": "algebra_construction.py",
+        "line": 128,
+        "heading_sha256": "5305e50b306b961d380318acd0771de483935bb52ca0e148d867c0d10daf3cc6"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeMatrixNil.matrix_nil",
+          "file": "AllPrimeGroups/PrimeMatrixNil.lean"
+        }
+      ]
+    },
+    {
+      "id": "17.4",
+      "status": "partial",
+      "scope": "PrimeMatrixNil proves vanishing of the hierarchy's letter and chunk tests and applies it to the audited matrix_nil theorem. The manuscript's all-tests vanishing statement is not an independent audit target.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "",
+        "file": "algebra_construction.py",
+        "line": 133,
+        "heading_sha256": "08f7fe0ee18f92cadf0d18601e201d29488a97711eadc74ae2cbadd59cbbea33"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeMatrixNil.matrix_nil",
+          "file": "AllPrimeGroups/PrimeMatrixNil.lean"
+        }
+      ]
+    },
+    {
+      "id": "18.1",
+      "status": "partial",
+      "scope": "Infinitude, characteristic p, matrix nilpotence, word grading and finite presentation of R(p) are constructed and supplied to the main theorem. The combined correspondence for all graded-algebra attributes in the manuscript remains to be checked.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "",
+        "file": "algebra_construction.py",
+        "line": 145,
+        "heading_sha256": "0ed050ed6171b987c1df1497fcc8b9992c2da1c016af642a8eb1254eb6efcb03"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.infinite",
+          "file": "AllPrimeGroups/PrimeAlgebra.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.charP",
+          "file": "AllPrimeGroups/PrimeAlgebra.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.matrix_nil",
+          "file": "AllPrimeGroups/PrimeAlgebra.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PrimeAlgebra.steinberg_finitelyPresented",
+          "file": "AllPrimeGroups/PrimeAlgebra.lean"
+        }
+      ]
+    },
+    {
+      "id": "19.1",
+      "status": "proved",
+      "scope": "Phases for the concrete hierarchy are constructed and proved invariant under replacements of long words. Compatibility of the outer phases is connected to phaseGrading for R(p).",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "algebra_construction.py",
+        "line": 152,
+        "heading_sha256": "79bdad74113ea594e61bb6829780ba196c0534c35dfb8aa64fca1336e459c45e"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.phases",
+          "file": "AllPrimeGroups/HierarchyPhases.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.phase_reach",
+          "file": "AllPrimeGroups/HierarchyGrading.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.phaseGrading",
+          "file": "AllPrimeGroups/PrimeSeparation.lean"
+        }
+      ]
+    },
+    {
+      "id": "20.1",
+      "status": "partial",
+      "scope": "Cut moves and triviality of p-powers of opposite-root commutators are proved. The entire statement, including the matrix-image formula, is not one audit target.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "Moving a cut",
+        "file": "stable_detection.py",
+        "line": 6,
+        "heading_sha256": "ac5e43f1fa52186df3af5b1565145cb96487cc01d12d98d7f106974ff9c0f165"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Steinberg.move_cut",
+          "file": "AllPrimeGroups/SteinbergCore.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Steinberg.opposite_commutator_pow_char",
+          "file": "AllPrimeGroups/SteinbergCore.lean"
+        }
+      ]
+    },
+    {
+      "id": "20.2",
+      "status": "partial",
+      "scope": "The cut and replacement independence and zero-product cases required by the group calculations are proved, with hypotheses supplied for R(p). The combined correspondence for all correction-element attributes remains to be checked.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "stable_detection.py",
+        "line": 10,
+        "heading_sha256": "4bc5eabec69db9dff4f247d5d334b0505d0e933e70441e4822e59c970bc58ae4"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.PhasedWords.cutValue_eq_of_mul_eq",
+          "file": "AllPrimeGroups/PhaseCommutators.lean"
+        },
+        {
+          "name": "AllPrimeGroups.PhasedWords.cutValue_eq_one_of_mul_eq_zero",
+          "file": "AllPrimeGroups/PhaseCommutators.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Phases.Hierarchy.cutIndependent",
+          "file": "AllPrimeGroups/HierarchyGrading.lean"
+        }
+      ]
+    },
+    {
+      "id": "20.3",
+      "status": "partial",
+      "scope": "Commutativity of correction-subgroup generators, faithfulness in matrices and normalization by roots are proved. All attributes, including the manuscript's exponent, are not combined into one theorem.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "stable_detection.py",
+        "line": 25,
+        "heading_sha256": "35f4fafbd1a44e4e79215630af7ccf2c4e29af8eb7d461100194e3873f8fcc7e"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Kernel.PhaseGrading.gens_commute",
+          "file": "AllPrimeGroups/CorrectionSubgroup.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Kernel.PhaseGrading.correction_faithful",
+          "file": "AllPrimeGroups/CorrectionFaithful.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Kernel.PhaseGrading.root_mem_normalizer",
+          "file": "AllPrimeGroups/CorrectionSubgroup.lean"
+        }
+      ]
+    },
+    {
+      "id": "21.1",
+      "status": "proved",
+      "scope": "The relocates statement moves representatives of long words to phase-compatible coordinates, using vanishing of a correction subgroup faithful in matrices.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "stable_detection.py",
+        "line": 36,
+        "heading_sha256": "68867ee72c8baa8af411f2da232c958b0f4ab28878bbfd2c3b3c99a9b89c372c"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Kernel.PhaseGrading.relocates",
+          "file": "AllPrimeGroups/Relocation.lean"
+        }
+      ]
+    },
+    {
+      "id": "21.2",
+      "status": "proved",
+      "scope": "Cyclic evaluation is collected by offset and identified with a period power of the same stable-group element. The required zero-product commutator conditions are supplied for R(p).",
+      "manuscript": {
+        "kind": "Proposition",
+        "title": "",
+        "file": "stable_detection.py",
+        "line": 45,
+        "heading_sha256": "40a6b37caece5d564ddb871f479248513c9281cf2069b7e151f318dc35efce42"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Stable.cyclic_eval_eq_offset_pow",
+          "file": "AllPrimeGroups/OffsetCollection.lean"
+        }
+      ]
+    },
+    {
+      "id": "22.1",
+      "status": "proved",
+      "scope": "Existence of representatives in roots of long words is proved under general ideal-decomposition conditions. Long words of R(p) satisfy these conditions.",
+      "manuscript": {
+        "kind": "Lemma",
+        "title": "",
+        "file": "stable_detection.py",
+        "line": 53,
+        "heading_sha256": "cd630349df5e65718408845585204269abe195b27348efa4cf6268c701fc2d74"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Stable.exists_long_representative",
+          "file": "AllPrimeGroups/LongRepresentatives.lean"
+        }
+      ]
+    },
+    {
+      "id": "22.2",
+      "status": "proved",
+      "scope": "The finite word-length truncations of the constructed R(p) separate elements of its stable Steinberg group.",
+      "manuscript": {
+        "kind": "Theorem",
+        "title": "Stable separation",
+        "file": "stable_detection.py",
+        "line": 58,
+        "heading_sha256": "2bcd1675a719f660a93bc5d1c52882e0a0d5ee2960d4f2241a4808f93d4c7681"
+      },
+      "lean": [
+        {
+          "name": "AllPrimeGroups.Phases.separation",
+          "file": "AllPrimeGroups/PrimeSeparation.lean"
+        },
+        {
+          "name": "AllPrimeGroups.Phases.separation_obligation",
+          "file": "AllPrimeGroups/PrimeSeparation.lean"
+        }
+      ]
+    }
+  ]
+}
