@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 from check_publication import ROOT, MANIFEST, inventory, check_evidence, check_links
-from ci_receipt import check_private_ci
+from ci_receipt import check_private_ci, check_public_ci
 
 
 def main():
@@ -13,6 +13,10 @@ def main():
     private_ci = check_private_ci(ROOT)
     if private_ci is not None:
         evidence["private_ci"] = private_ci
+    public_ci = check_public_ci(ROOT)
+    if public_ci is not None:
+        evidence["public_ci"] = public_ci
+    ci_passed = private_ci is not None or public_ci is not None
     check_links(ROOT, allow_missing_manifest=True)
     baseline = json.loads((ROOT / 'verification/baseline-full-build.json').read_text())
     current = {p.relative_to(ROOT / 'lean').with_suffix('').as_posix().replace('/', '.'):
@@ -33,10 +37,10 @@ def main():
                   'changed_sources': sorted(m for m in old if m in current and old[m] != current[m]),
                   'added_sources': sorted(set(current) - set(old))},
               'verification_limits': {
-                  'latest_200_source_full_build_recorded': private_ci is not None,
-                  'github_actions_run': private_ci is not None, 'lean_comparator_run': private_ci is not None,
-                  'separate_fresh_lean_kernel_replay_run': private_ci is not None,
-                  'external_kernel_run': False, 'public_ci_run': False,
+                  'latest_200_source_full_build_recorded': ci_passed,
+                  'github_actions_run': ci_passed, 'lean_comparator_run': ci_passed,
+                  'separate_fresh_lean_kernel_replay_run': ci_passed,
+                  'external_kernel_run': False, 'public_ci_run': public_ci is not None,
                   'fc_proposal_frontend_compile_run': False,
                   'producer_records_are_not_recipient_builds': True},
               'files': inventory(ROOT)}

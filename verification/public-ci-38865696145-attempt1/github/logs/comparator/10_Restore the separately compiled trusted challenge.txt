@@ -1,0 +1,7 @@
+﻿2026-10-16T07:46:45.3426094Z ##[group]Run tar -xf "$RUNNER_TEMP/trusted-challenge/files.tar"
+2026-10-16T07:46:45.3426824Z [36;1mtar -xf "$RUNNER_TEMP/trusted-challenge/files.tar"[0m
+2026-10-16T07:46:45.3506200Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-16T07:46:45.3506558Z env:
+2026-10-16T07:46:45.3506762Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:46:45.3507206Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:46:45.3507463Z ##[endgroup]

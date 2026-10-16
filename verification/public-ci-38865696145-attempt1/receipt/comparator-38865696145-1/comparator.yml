@@ -1,0 +1,154 @@
+# LOCAL CANDIDATE: run privately first, then on public main; archive only after public success.
+# Checks the mathematical body of a proposed FC draft, not a submitted upstream FC file.
+name: All-prime groups Comparator verification
+
+on:
+  push:
+    branches: [main, ci/all-prime-groups-lean4341]
+    paths: ["lean/**", "FClikelean/**", ".github/workflows/comparator.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: allprime-fc-${{ github.ref }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  LEAN_NUM_THREADS: 2
+  PYTHONDONTWRITEBYTECODE: 1
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    outputs:
+      ready: ${{ steps.build.outputs.ready }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 lean/comparator/check-inputs.py --receipt-dir build-receipt
+      - run: bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 8 4
+      - run: lake exe cache get
+        working-directory: lean
+      - id: build_cache
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: lean/.lake/build
+          key: allprime-fc-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: allprime-fc-${{ github.sha }}-
+      - id: build
+        run: bash comparator/build-proof.sh
+        working-directory: lean
+      - name: Save complete or partial proof build
+        if: always()
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: lean/.lake/build
+          key: allprime-fc-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: build-${{ github.run_id }}-${{ github.run_attempt }}
+          path: build-receipt/
+          retention-days: 90
+          if-no-files-found: error
+
+  comparator:
+    needs: build
+    if: needs.build.outputs.ready == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 lean/comparator/check-inputs.py --receipt-dir comparator-receipt
+      - run: bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 8 4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - run: lake exe cache get
+        working-directory: lean
+      - name: Build trusted mathematical challenge before restoring solution products
+        working-directory: lean
+        run: |
+          lake build ComparatorChallenge
+          mkdir -p "$RUNNER_TEMP/trusted-challenge"
+          find .lake/build -type f \( -name 'ComparatorChallenge.*' -o -name 'Challenge.*' \) -print0 | tar --null -T - -cf "$RUNNER_TEMP/trusted-challenge/files.tar"
+      - name: Install pinned tools in fresh checker job
+        env:
+          COMPARATOR_TOOLS: ${{ runner.temp }}/comparator-tools
+        run: bash lean/comparator/install-tools.sh
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: lean/.lake/build
+          key: allprime-fc-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          fail-on-cache-miss: true
+      - name: Restore the separately compiled trusted challenge
+        working-directory: lean
+        run: tar -xf "$RUNNER_TEMP/trusted-challenge/files.tar"
+      - name: Compare target, audit all target axioms, replay built-in kernel
+        env:
+          COMPARATOR_TOOLS: ${{ runner.temp }}/comparator-tools
+        run: bash lean/comparator/run-check.sh
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: comparator-${{ github.run_id }}-${{ github.run_attempt }}
+          path: comparator-receipt/
+          retention-days: 90
+          if-no-files-found: error
+
+  replay:
+    needs: build
+    if: needs.build.outputs.ready == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 16 3
+      - run: lake exe cache get
+        working-directory: lean
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: lean/.lake/build
+          key: allprime-fc-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          fail-on-cache-miss: true
+      - name: Fresh replay of the complete target proof environment
+        working-directory: lean
+        run: |
+          mkdir -p ../replay-receipt
+          /usr/bin/time -v lake env leanchecker --fresh FCSolution > ../replay-receipt/replay.log 2> ../replay-receipt/time.log
+          grep -q 'Exit status: 0' ../replay-receipt/time.log
+          printf 'PASS\n' > ../replay-receipt/status.txt
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: replay-${{ github.run_id }}-${{ github.run_attempt }}
+          path: replay-receipt/
+          retention-days: 90
+          if-no-files-found: warn
+
+  verification_status:
+    needs: [build, comparator, replay]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Require completed build, Comparator and fresh replay
+        env:
+          READY: ${{ needs.build.outputs.ready }}
+          COMPARE: ${{ needs.comparator.result }}
+          REPLAY: ${{ needs.replay.result }}
+        run: |
+          test "$READY" = true
+          test "$COMPARE" = success
+          test "$REPLAY" = success

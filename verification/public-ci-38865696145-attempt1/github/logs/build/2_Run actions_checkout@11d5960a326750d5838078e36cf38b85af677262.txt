@@ -1,0 +1,86 @@
+﻿2026-10-16T07:12:07.0571844Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+2026-10-16T07:12:07.0572944Z with:
+2026-10-16T07:12:07.0573405Z   persist-credentials: false
+2026-10-16T07:12:07.0574087Z   repository: KitaKen1/all-prime-residually-finite-p-groups
+2026-10-16T07:12:07.0578660Z   token: ***
+2026-10-16T07:12:07.0579116Z   ssh-strict: true
+2026-10-16T07:12:07.0579561Z   ssh-user: git
+2026-10-16T07:12:07.0579996Z   clean: true
+2026-10-16T07:12:07.0580451Z   sparse-checkout-cone-mode: true
+2026-10-16T07:12:07.0580979Z   fetch-depth: 1
+2026-10-16T07:12:07.0581471Z   fetch-tags: false
+2026-10-16T07:12:07.0581928Z   show-progress: true
+2026-10-16T07:12:07.0582376Z   lfs: false
+2026-10-16T07:12:07.0582790Z   submodules: false
+2026-10-16T07:12:07.0583239Z   set-safe-directory: true
+2026-10-16T07:12:07.0583745Z   allow-unsafe-pr-checkout: false
+2026-10-16T07:12:07.0584557Z env:
+2026-10-16T07:12:07.0584983Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:12:07.0585454Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:12:07.0585946Z ##[endgroup]
+2026-10-16T07:12:07.1632770Z Syncing repository: KitaKen1/all-prime-residually-finite-p-groups
+2026-10-16T07:12:07.1634838Z ##[group]Getting Git version info
+2026-10-16T07:12:07.1635985Z Working directory is '/home/runner/work/all-prime-residually-finite-p-groups/all-prime-residually-finite-p-groups'
+2026-10-16T07:12:07.1637401Z [command]/usr/bin/git version
+2026-10-16T07:12:07.1704191Z git version 2.55.0
+2026-10-16T07:12:07.1724912Z ##[endgroup]
+2026-10-16T07:12:07.1739333Z Temporarily overriding HOME='/home/runner/work/_temp/e505796d-28c2-4ea5-bbbc-41dec1dadb8d' before making global git config changes
+2026-10-16T07:12:07.1741044Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-16T07:12:07.1744630Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/all-prime-residually-finite-p-groups/all-prime-residually-finite-p-groups
+2026-10-16T07:12:07.1793891Z Deleting the contents of '/home/runner/work/all-prime-residually-finite-p-groups/all-prime-residually-finite-p-groups'
+2026-10-16T07:12:07.1797440Z ##[group]Initializing the repository
+2026-10-16T07:12:07.1802087Z [command]/usr/bin/git init /home/runner/work/all-prime-residually-finite-p-groups/all-prime-residually-finite-p-groups
+2026-10-16T07:12:07.1907480Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-16T07:12:07.1909572Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-16T07:12:07.1911248Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-16T07:12:07.1912837Z hint: call:
+2026-10-16T07:12:07.1913491Z hint:
+2026-10-16T07:12:07.1914258Z hint: 	git config --global init.defaultBranch <name>
+2026-10-16T07:12:07.1915191Z hint:
+2026-10-16T07:12:07.1916172Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-16T07:12:07.1918732Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-16T07:12:07.1919707Z hint:
+2026-10-16T07:12:07.1920235Z hint: 	git branch -m <name>
+2026-10-16T07:12:07.1920875Z hint:
+2026-10-16T07:12:07.1922212Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-16T07:12:07.1924261Z Initialized empty Git repository in /home/runner/work/all-prime-residually-finite-p-groups/all-prime-residually-finite-p-groups/.git/
+2026-10-16T07:12:07.1927000Z [command]/usr/bin/git remote add origin https://github.com/KitaKen1/all-prime-residually-finite-p-groups
+2026-10-16T07:12:07.1970205Z ##[endgroup]
+2026-10-16T07:12:07.1971006Z ##[group]Disabling automatic garbage collection
+2026-10-16T07:12:07.1973922Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-16T07:12:07.2003239Z ##[endgroup]
+2026-10-16T07:12:07.2004062Z ##[group]Setting up auth
+2026-10-16T07:12:07.2010511Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T07:12:07.2039787Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T07:12:07.2402047Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T07:12:07.2436332Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T07:12:07.2680745Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T07:12:07.2713544Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T07:12:07.2957552Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-16T07:12:07.2994142Z ##[endgroup]
+2026-10-16T07:12:07.2995481Z ##[group]Fetching the repository
+2026-10-16T07:12:07.3003898Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c1ce611712e5a7804ed5056ad60600ffc941186a:refs/remotes/origin/main
+2026-10-16T07:12:07.8190633Z From https://github.com/KitaKen1/all-prime-residually-finite-p-groups
+2026-10-16T07:12:07.8192386Z  * [new ref]         c1ce611712e5a7804ed5056ad60600ffc941186a -> origin/main
+2026-10-16T07:12:07.8195323Z ##[endgroup]
+2026-10-16T07:12:07.8196423Z ##[group]Determining the checkout info
+2026-10-16T07:12:07.8198501Z ##[endgroup]
+2026-10-16T07:12:07.8205504Z [command]/usr/bin/git sparse-checkout disable
+2026-10-16T07:12:07.8256405Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-16T07:12:07.8285160Z ##[group]Checking out the ref
+2026-10-16T07:12:07.8299003Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-16T07:12:07.8684506Z Switched to a new branch 'main'
+2026-10-16T07:12:07.8691096Z branch 'main' set up to track 'origin/main'.
+2026-10-16T07:12:07.8701347Z ##[endgroup]
+2026-10-16T07:12:07.8743877Z [command]/usr/bin/git log -1 --format=%H
+2026-10-16T07:12:07.8768825Z c1ce611712e5a7804ed5056ad60600ffc941186a
+2026-10-16T07:12:07.8779358Z ##[group]Removing auth
+2026-10-16T07:12:07.8783361Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T07:12:07.8815964Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T07:12:07.9039488Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T07:12:07.9064620Z http.https://github.com/.extraheader
+2026-10-16T07:12:07.9074269Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-16T07:12:07.9110082Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T07:12:07.9329540Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T07:12:07.9361596Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T07:12:07.9591321Z ##[endgroup]

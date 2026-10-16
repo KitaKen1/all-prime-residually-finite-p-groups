@@ -131,12 +131,12 @@ dispatched full build: it installs the pinned toolchain, obtains locked package
 caches, builds the entire core into fresh outputs, audits the FC connection and
 checks main and both expanded FC variants against their proved theorems.
 The workflows have read-only repository permissions and upload verification
-reports. The [private Comparator CI](https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38856485805) passed; its source and
-checker identities are recorded in [the CI record](../verification/private-ci-verification.json).
-The successful run does not replace a later public run.
+reports. The [public Comparator CI](https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145) passed; its source and
+checker identities are recorded in [the public CI record](../verification/public-ci-verification.json).
+The earlier [private CI record](../verification/private-ci-verification.json) is retained separately.
 
 The reference repository's results remain separate from this proof. This
-publication has its own pinned tooling, successful private run and archived
+publication has its own pinned tooling, successful public and private runs, and archived
 receipts. The
 [Comparator CI appendix](../README.md#appendix-verification-by-lean-comparator-on-github-ci-runner)
 summarizes the CI and archive status.
@@ -163,10 +163,10 @@ the three expanded FC targets against a Mathlib-only
 4.34-compatible checker sources built on Lean 4.34.1. It builds all 204 project
 modules, compares the three theorems, checks 494 core and five connection axiom
 audits, and runs `leanchecker --fresh FCSolution` in a separate job. Both replay
-checks use Lean's kernel; Nanoda is not configured. The first private CI test is
-complete: [the private run](https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38856485805) passed. Its
-[archived record](../verification/private-ci-verification.json) covers all three
-targets, the full build, axiom audits and separate fresh replay. Public CI is pending.
+checks use Lean's kernel; Nanoda is not configured. Both the private test and
+[public main run](https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145) passed. The
+[public record](../verification/public-ci-verification.json) covers all three
+targets, the full build, axiom audits and separate fresh replay.
 See [the configuration guide](../lean/comparator/README.md) for input pins,
 the independently compiled challenge and the four required CI jobs.
 
@@ -174,8 +174,8 @@ Before GitHub's retention period expires, preserve the complete job logs,
 original artifact ZIPs, run metadata, extracted receipts and SHA-256 checksums.
 Archive provenance should fix the tested source commit, run and attempt and
 record the tool revisions. Check the original ZIP hashes against the GitHub
-API digests. The [private-run archive](../verification/private-ci-38856485805-attempt1/)
-preserves this evidence; no public CI result is claimed.
+API digests. The [public-run archive](../verification/public-ci-38865696145-attempt1/)
+preserves this evidence, alongside the earlier [private-run archive](../verification/private-ci-38856485805-attempt1/).
 
 Use [scripts/archive_ci.py](../scripts/archive_ci.py) to archive a completed run.
 It parses axiom logs independently of line wrapping. The original
@@ -183,12 +183,11 @@ It parses axiom logs independently of line wrapping. The original
 tested CI snapshot.
 
 ```sh
-python3 scripts/archive_ci.py --repo KitaKen1/ci-test-sandbox \
-  --run 38856485805 --attempt 1 \
-  --expected-commit 986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d \
-  --output verification/private-ci-archive
+python3 scripts/archive_ci.py --repo KitaKen1/all-prime-residually-finite-p-groups \
+  --run 38865696145 --attempt 1 \
+  --expected-commit c1ce611712e5a7804ed5056ad60600ffc941186a \
+  --output verification/public-ci-archive --public-success-only
 ```
 
-The output directory must be new. For a later public run, use its repository,
-run, attempt and tested commit; add `--public-success-only` to require success
-on public `main`.
+The output directory must be new. `--public-success-only` requires a successful
+run on public `main`. For another run, use its run, attempt and tested commit.

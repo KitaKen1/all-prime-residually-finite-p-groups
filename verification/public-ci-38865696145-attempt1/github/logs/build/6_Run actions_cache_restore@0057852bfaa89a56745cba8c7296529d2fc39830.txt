@@ -1,0 +1,15 @@
+﻿2026-10-16T07:15:31.3270093Z ##[group]Run actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+2026-10-16T07:15:31.3270534Z with:
+2026-10-16T07:15:31.3270732Z   path: lean/.lake/build
+2026-10-16T07:15:31.3271095Z   key: allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-38865696145-1
+2026-10-16T07:15:31.3271589Z   restore-keys: allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-
+2026-10-16T07:15:31.3271976Z   enableCrossOsArchive: false
+2026-10-16T07:15:31.3272226Z   fail-on-cache-miss: false
+2026-10-16T07:15:31.3272453Z   lookup-only: false
+2026-10-16T07:15:31.3272652Z env:
+2026-10-16T07:15:31.3272828Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:15:31.3273046Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:15:31.3273274Z ##[endgroup]
+2026-10-16T07:15:31.4421765Z (node:3382) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T07:15:31.4423147Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T07:15:31.6941241Z Cache not found for input keys: allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-38865696145-1, allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-

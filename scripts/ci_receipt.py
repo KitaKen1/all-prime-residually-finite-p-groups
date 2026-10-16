@@ -1,11 +1,22 @@
-"""Validate archived private CI receipts against the current proof and checker inputs."""
+"""Validate archived GitHub CI receipts against the current proof and checker inputs."""
 import hashlib
 import json
 from pathlib import Path
 
 
 def check_private_ci(root):
-    record_path = root / 'verification/private-ci-verification.json'
+    return check_ci(root, public=False)
+
+
+def check_public_ci(root):
+    return check_ci(root, public=True)
+
+
+def check_ci(root, *, public):
+    kind = 'public' if public else 'private'
+    repository = ('KitaKen1/all-prime-residually-finite-p-groups' if public
+                  else 'KitaKen1/ci-test-sandbox')
+    record_path = root / f'verification/{kind}-ci-verification.json'
     if not record_path.exists():
         return None
     record = json.loads(record_path.read_text())
@@ -30,11 +41,23 @@ def check_private_ci(root):
     require(run['id'] == record['run_id'] == provenance['run_id'] and
             run['run_attempt'] == record['run_attempt'] == provenance['run_attempt'],
             'CI run or attempt differs.')
-    require(provenance['repository'] == record['repository'] == 'KitaKen1/ci-test-sandbox',
-            'Unexpected private CI repository.')
+    require(provenance['repository'] == record['repository'] == repository,
+            f'Unexpected {kind} CI repository.')
     require(run['head_branch'] == record['branch'] and
             run['html_url'] == record['run_url'] == provenance['run_url'],
             'CI branch or run URL differs.')
+    if public:
+        metadata = load('github/repository.json')
+        require(metadata['full_name'] == repository and metadata['private'] is False
+                and metadata['visibility'] == 'public' and run['head_branch'] == 'main',
+                'Public CI must run on public main.')
+    expected = {'compiled_project_modules': 204, 'comparator_targets': 3,
+                'core_axiom_audits': 494, 'connection_axiom_audits': 5,
+                'comparator_builtin_kernel_replay': True,
+                'separate_fresh_lean_kernel_replay': True,
+                'external_kernel_run': False, 'public_ci_run': public}
+    require(all(record.get(key) == value for key, value in expected.items()),
+            'CI record verification scope differs.')
     jobs = load('github/jobs.json')['jobs']
     for name in ['build', 'comparator', 'replay', 'verification_status']:
         matches = [job for job in jobs if job['name'] == name]
@@ -91,4 +114,4 @@ def check_private_ci(root):
             'compiled_project_modules': 204, 'comparator_targets': 3,
             'core_axiom_audits': 494, 'connection_axiom_audits': 5,
             'separate_fresh_lean_kernel_replay': True,
-            'external_kernel_run': False, 'public_ci_run': False}
+            'external_kernel_run': False, 'public_ci_run': public}

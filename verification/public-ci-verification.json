@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "repository": "KitaKen1/all-prime-residually-finite-p-groups",
+  "branch": "main",
+  "run_id": 38865696145,
+  "run_attempt": 1,
+  "run_url": "https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145",
+  "tested_commit": "c1ce611712e5a7804ed5056ad60600ffc941186a",
+  "archive": "verification/public-ci-38865696145-attempt1",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "compiled_project_modules": 204,
+  "comparator_targets": 3,
+  "core_axiom_audits": 494,
+  "connection_axiom_audits": 5,
+  "comparator_builtin_kernel_replay": true,
+  "separate_fresh_lean_kernel_replay": true,
+  "external_kernel_run": false,
+  "public_ci_run": true,
+  "archive_provenance_sha256": "90eb443c637efe53885ba699047dde60562c297c99cd8b25e21f5ab3ec39ddd8",
+  "scope": "Public GitHub-hosted Linux CI on main. All 204 project sources, three Comparator targets, 499 axiom audits and a separate fresh Lean kernel replay passed. The proof and checker inputs match this publication. Original ZIPs, complete logs, API metadata and extracted receipts are retained."
+}

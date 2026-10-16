@@ -1,0 +1,8 @@
+﻿2026-10-16T07:41:55.4541892Z ##[group]Run python3 lean/comparator/check-inputs.py --receipt-dir comparator-receipt
+2026-10-16T07:41:55.4543240Z [36;1mpython3 lean/comparator/check-inputs.py --receipt-dir comparator-receipt[0m
+2026-10-16T07:41:55.4758677Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-16T07:41:55.4759574Z env:
+2026-10-16T07:41:55.4760175Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:41:55.4760822Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:41:55.4761474Z ##[endgroup]
+2026-10-16T07:41:55.5722509Z PASS: three FC/Comparator statements, pinned Lean 4.34.1 sources and independent Mathlib-only challenge.

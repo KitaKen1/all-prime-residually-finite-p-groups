@@ -1,0 +1,1215 @@
+﻿2026-10-16T07:15:31.7056315Z ##[group]Run bash comparator/build-proof.sh
+2026-10-16T07:15:31.7056707Z [36;1mbash comparator/build-proof.sh[0m
+2026-10-16T07:15:31.7150906Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-16T07:15:31.7151341Z env:
+2026-10-16T07:15:31.7151572Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:15:31.7151864Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:15:31.7152165Z ##[endgroup]
+2026-10-16T07:15:31.8441520Z [1/204] AllPrimeGroups.Target
+2026-10-16T07:15:34.2154596Z ✔ [1556/1556] Built AllPrimeGroups.Target (1.3s)
+2026-10-16T07:15:34.2178784Z Build completed successfully (1556 jobs).
+2026-10-16T07:15:34.2530788Z [2/204] AllPrimeGroups.PrimePeriods
+2026-10-16T07:15:37.3089099Z ✔ [1953/1953] Built AllPrimeGroups.PrimePeriods (1.8s)
+2026-10-16T07:15:37.3122122Z Build completed successfully (1953 jobs).
+2026-10-16T07:15:37.3496122Z [3/204] AllPrimeGroups.Symmetrization
+2026-10-16T07:15:40.1195661Z ✔ [1403/1403] Built AllPrimeGroups.Symmetrization (1.8s)
+2026-10-16T07:15:40.1380200Z Build completed successfully (1403 jobs).
+2026-10-16T07:15:40.1739194Z [4/204] AllPrimeGroups.CongruencePGroup
+2026-10-16T07:15:42.6512050Z ✔ [1534/1534] Built AllPrimeGroups.CongruencePGroup (1.4s)
+2026-10-16T07:15:42.6563777Z Build completed successfully (1534 jobs).
+2026-10-16T07:15:42.6933620Z [5/204] AllPrimeGroups.RootCalculus
+2026-10-16T07:15:45.0551772Z ✔ [765/765] Built AllPrimeGroups.RootCalculus (1.6s)
+2026-10-16T07:15:45.0574937Z Build completed successfully (765 jobs).
+2026-10-16T07:15:45.0931030Z [6/204] AllPrimeGroups.Separation
+2026-10-16T07:15:47.2558961Z ✔ [1132/1132] Built AllPrimeGroups.Separation (1.2s)
+2026-10-16T07:15:47.2591435Z Build completed successfully (1132 jobs).
+2026-10-16T07:15:47.2950024Z [7/204] AllPrimeGroups.FinitePerfect
+2026-10-16T07:15:49.6554034Z ✔ [1556/1556] Built AllPrimeGroups.FinitePerfect (1.3s)
+2026-10-16T07:15:49.6575718Z Build completed successfully (1556 jobs).
+2026-10-16T07:15:49.6932984Z [8/204] AllPrimeGroups.SteinbergCore
+2026-10-16T07:15:52.0377725Z ✔ [844/844] Built AllPrimeGroups.SteinbergCore (1.5s)
+2026-10-16T07:15:52.0396895Z Build completed successfully (844 jobs).
+2026-10-16T07:15:52.0751843Z [9/204] AllPrimeGroups.MatrixModel
+2026-10-16T07:15:54.5273149Z ✔ [1221/1221] Built AllPrimeGroups.MatrixModel (1.5s)
+2026-10-16T07:15:54.5301015Z Build completed successfully (1221 jobs).
+2026-10-16T07:15:54.5650382Z [10/204] AllPrimeGroups.FaithfulStrip
+2026-10-16T07:15:57.2173581Z ✔ [1306/1306] Built AllPrimeGroups.FaithfulStrip (1.7s)
+2026-10-16T07:15:57.2204102Z Build completed successfully (1306 jobs).
+2026-10-16T07:15:57.2567113Z [11/204] AllPrimeGroups.Stabilization
+2026-10-16T07:16:00.6083596Z ✔ [1617/1617] Built AllPrimeGroups.Stabilization (2.3s)
+2026-10-16T07:16:00.6112984Z Build completed successfully (1617 jobs).
+2026-10-16T07:16:00.6483978Z [12/204] AllPrimeGroups.NilAugmentation
+2026-10-16T07:16:02.9097137Z ✔ [1201/1201] Built AllPrimeGroups.NilAugmentation (1.3s)
+2026-10-16T07:16:02.9159530Z Build completed successfully (1201 jobs).
+2026-10-16T07:16:02.9527570Z [13/204] AllPrimeGroups.ChainLimit
+2026-10-16T07:16:05.6255448Z ✔ [995/995] Built AllPrimeGroups.ChainLimit (1.8s)
+2026-10-16T07:16:05.6285633Z Build completed successfully (995 jobs).
+2026-10-16T07:16:05.6637552Z [14/204] AllPrimeGroups.StableGroup
+2026-10-16T07:16:08.9392589Z ✔ [1622/1622] Built AllPrimeGroups.StableGroup (2.2s)
+2026-10-16T07:16:08.9416323Z Build completed successfully (1622 jobs).
+2026-10-16T07:16:08.9783777Z [15/204] AllPrimeGroups.FiniteStage
+2026-10-16T07:16:12.0735807Z ✔ [1627/1627] Built AllPrimeGroups.FiniteStage (1.9s)
+2026-10-16T07:16:12.0762982Z Build completed successfully (1627 jobs).
+2026-10-16T07:16:12.1128905Z [16/204] AllPrimeGroups.HierarchyGrowth
+2026-10-16T07:16:15.8747052Z ✔ [913/913] Built AllPrimeGroups.HierarchyGrowth (2.9s)
+2026-10-16T07:16:15.8768096Z Build completed successfully (913 jobs).
+2026-10-16T07:16:15.9125956Z [17/204] AllPrimeGroups.Candidate
+2026-10-16T07:16:19.1730876Z ✔ [1641/1641] Built AllPrimeGroups.Candidate (2.2s)
+2026-10-16T07:16:19.1763879Z Build completed successfully (1641 jobs).
+2026-10-16T07:16:19.2133594Z [18/204] AllPrimeGroups.FiniteIndexPresentation
+2026-10-16T07:16:22.0049571Z ✔ [1646/1646] Built AllPrimeGroups.FiniteIndexPresentation (1.7s)
+2026-10-16T07:16:22.0303522Z Build completed successfully (1646 jobs).
+2026-10-16T07:16:22.0666156Z [19/204] AllPrimeGroups.StableMap
+2026-10-16T07:16:24.9668669Z ✔ [1623/1623] Built AllPrimeGroups.StableMap (1.8s)
+2026-10-16T07:16:24.9691008Z Build completed successfully (1623 jobs).
+2026-10-16T07:16:25.0040931Z [20/204] AllPrimeGroups.Assembly
+2026-10-16T07:16:28.1655405Z ✔ [1741/1741] Built AllPrimeGroups.Assembly (2.0s)
+2026-10-16T07:16:28.1685410Z Build completed successfully (1741 jobs).
+2026-10-16T07:16:28.2050201Z [21/204] AllPrimeGroups.MonomialPresentation
+2026-10-16T07:16:31.8867571Z ✔ [1321/1321] Built AllPrimeGroups.MonomialPresentation (2.7s)
+2026-10-16T07:16:31.8895126Z Build completed successfully (1321 jobs).
+2026-10-16T07:16:31.9263009Z [22/204] AllPrimeGroups.SteinbergPresentation
+2026-10-16T07:16:35.6028418Z ✔ [1570/1570] Built AllPrimeGroups.SteinbergPresentation (2.6s)
+2026-10-16T07:16:35.6077365Z Build completed successfully (1570 jobs).
+2026-10-16T07:16:35.6454565Z [23/204] AllPrimeGroups.KernelExtras
+2026-10-16T07:16:38.3111637Z ✔ [1618/1618] Built AllPrimeGroups.KernelExtras (1.6s)
+2026-10-16T07:16:38.3345696Z Build completed successfully (1618 jobs).
+2026-10-16T07:16:38.3709523Z [24/204] AllPrimeGroups.BlockEmbeddings
+2026-10-16T07:16:44.1339179Z ✔ [1773/1773] Built AllPrimeGroups.BlockEmbeddings (4.6s)
+2026-10-16T07:16:44.1383074Z Build completed successfully (1773 jobs).
+2026-10-16T07:16:44.1751804Z [25/204] AllPrimeGroups.BandFactorization
+2026-10-16T07:16:49.6295259Z ✔ [1774/1774] Built AllPrimeGroups.BandFactorization (4.3s)
+2026-10-16T07:16:49.6330894Z Build completed successfully (1774 jobs).
+2026-10-16T07:16:49.6702385Z [26/204] AllPrimeGroups.SpecialLinearLift
+2026-10-16T07:16:53.0338713Z ✔ [1621/1621] Built AllPrimeGroups.SpecialLinearLift (2.2s)
+2026-10-16T07:16:53.0368357Z Build completed successfully (1621 jobs).
+2026-10-16T07:16:53.0726312Z [27/204] AllPrimeGroups.SpecialLinearRealization
+2026-10-16T07:16:55.8399999Z ✔ [1622/1622] Built AllPrimeGroups.SpecialLinearRealization (1.6s)
+2026-10-16T07:16:55.8454928Z Build completed successfully (1622 jobs).
+2026-10-16T07:16:55.8828490Z [28/204] AllPrimeGroups.NumericalSimilarity
+2026-10-16T07:16:58.9464750Z ✔ [1777/1777] Built AllPrimeGroups.NumericalSimilarity (1.9s)
+2026-10-16T07:16:58.9499636Z Build completed successfully (1777 jobs).
+2026-10-16T07:16:58.9859419Z [29/204] AllPrimeGroups.CyclicTriangularization
+2026-10-16T07:17:01.9545830Z ✔ [1783/1783] Built AllPrimeGroups.CyclicTriangularization (1.8s)
+2026-10-16T07:17:01.9574210Z Build completed successfully (1783 jobs).
+2026-10-16T07:17:01.9935795Z [30/204] AllPrimeGroups.StablePermutation
+2026-10-16T07:17:06.1974109Z ✔ [2470/2470] Built AllPrimeGroups.StablePermutation (2.8s)
+2026-10-16T07:17:06.2338856Z Build completed successfully (2470 jobs).
+2026-10-16T07:17:06.2698238Z [31/204] AllPrimeGroups.PolynomialTorsion
+2026-10-16T07:17:10.0787130Z ✔ [2472/2472] Built AllPrimeGroups.PolynomialTorsion (2.4s)
+2026-10-16T07:17:10.0968650Z Build completed successfully (2472 jobs).
+2026-10-16T07:17:10.1335615Z [32/204] AllPrimeGroups.RelativeTorsion
+2026-10-16T07:17:13.8152093Z ✔ [2478/2478] Built AllPrimeGroups.RelativeTorsion (2.2s)
+2026-10-16T07:17:13.8197688Z Build completed successfully (2478 jobs).
+2026-10-16T07:17:13.8578208Z [33/204] AllPrimeGroups.PhaseCommutators
+2026-10-16T07:17:16.4396782Z ✔ [770/770] Built AllPrimeGroups.PhaseCommutators (1.8s)
+2026-10-16T07:17:16.4426391Z Build completed successfully (770 jobs).
+2026-10-16T07:17:16.4796472Z [34/204] AllPrimeGroups.SeparationCriterion
+2026-10-16T07:17:20.0773316Z ✔ [2482/2482] Built AllPrimeGroups.SeparationCriterion (2.2s)
+2026-10-16T07:17:20.0801371Z Build completed successfully (2482 jobs).
+2026-10-16T07:17:20.1176370Z [35/204] AllPrimeGroups.LongRepresentatives
+2026-10-16T07:17:23.8826811Z ✔ [2485/2485] Built AllPrimeGroups.LongRepresentatives (2.4s)
+2026-10-16T07:17:23.9209064Z Build completed successfully (2485 jobs).
+2026-10-16T07:17:23.9575872Z [36/204] AllPrimeGroups.OffsetCollection
+2026-10-16T07:17:28.1428614Z ✔ [2490/2490] Built AllPrimeGroups.OffsetCollection (2.8s)
+2026-10-16T07:17:28.1478767Z Build completed successfully (2490 jobs).
+2026-10-16T07:17:28.1852416Z [37/204] AllPrimeGroups.PhaseSeparation
+2026-10-16T07:17:32.2691557Z ✔ [2491/2491] Built AllPrimeGroups.PhaseSeparation (2.7s)
+2026-10-16T07:17:32.2938975Z Build completed successfully (2491 jobs).
+2026-10-16T07:17:32.3288941Z [38/204] AllPrimeGroups.RelocationFrames
+2026-10-16T07:17:37.1053343Z ✔ [2492/2492] Built AllPrimeGroups.RelocationFrames (3.3s)
+2026-10-16T07:17:37.1102065Z Build completed successfully (2492 jobs).
+2026-10-16T07:17:37.1475154Z [39/204] AllPrimeGroups.RelocationMoves
+2026-10-16T07:17:41.7423970Z ✔ [2493/2493] Built AllPrimeGroups.RelocationMoves (3.2s)
+2026-10-16T07:17:41.7621816Z Build completed successfully (2493 jobs).
+2026-10-16T07:17:41.8004536Z [40/204] AllPrimeGroups.CorrectionSubgroup
+2026-10-16T07:17:45.9130742Z ✔ [2494/2494] Built AllPrimeGroups.CorrectionSubgroup (2.6s)
+2026-10-16T07:17:45.9193634Z Build completed successfully (2494 jobs).
+2026-10-16T07:17:45.9580090Z [41/204] AllPrimeGroups.CorrectionFaithful
+2026-10-16T07:17:51.2627573Z ✔ [2495/2495] Built AllPrimeGroups.CorrectionFaithful (3.8s)
+2026-10-16T07:17:51.2689677Z Build completed successfully (2495 jobs).
+2026-10-16T07:17:51.3076055Z [42/204] AllPrimeGroups.Relocation
+2026-10-16T07:17:55.3440318Z ✔ [2496/2496] Built AllPrimeGroups.Relocation (2.6s)
+2026-10-16T07:17:55.3869061Z Build completed successfully (2496 jobs).
+2026-10-16T07:17:55.4247248Z [43/204] OAI.GroupTheory.PeriodicGroups.Rules.LocalSyntax
+2026-10-16T07:18:06.9644755Z ✔ [8924/8924] Built OAI.GroupTheory.PeriodicGroups.Rules.LocalSyntax (7.1s)
+2026-10-16T07:18:07.0974778Z Build completed successfully (8924 jobs).
+2026-10-16T07:18:07.1364562Z [44/204] OAI.GroupTheory.PeriodicGroups.Homology.FiniteExtensions
+2026-10-16T07:18:23.0070711Z ✔ [8924/8924] Built OAI.GroupTheory.PeriodicGroups.Homology.FiniteExtensions (11s)
+2026-10-16T07:18:23.1606241Z Build completed successfully (8924 jobs).
+2026-10-16T07:18:23.2024831Z [45/204] OAI.GroupTheory.PeriodicGroups.Homology.RelativeHomology
+2026-10-16T07:18:41.4686806Z ✔ [8925/8925] Built OAI.GroupTheory.PeriodicGroups.Homology.RelativeHomology (13s)
+2026-10-16T07:18:41.5690789Z Build completed successfully (8925 jobs).
+2026-10-16T07:18:41.6107392Z [46/204] OAI.GroupTheory.PeriodicGroups.Rules.Palette
+2026-10-16T07:18:54.2573489Z ✔ [8926/8926] Built OAI.GroupTheory.PeriodicGroups.Rules.Palette (8.2s)
+2026-10-16T07:18:54.3489208Z Build completed successfully (8926 jobs).
+2026-10-16T07:18:54.3896300Z [47/204] OAI.GroupTheory.PeriodicGroups.Rules.HeadTour
+2026-10-16T07:19:05.8562908Z ✔ [8928/8928] Built OAI.GroupTheory.PeriodicGroups.Rules.HeadTour (7.1s)
+2026-10-16T07:19:05.9844836Z Build completed successfully (8928 jobs).
+2026-10-16T07:19:06.0277352Z [48/204] OAI.GroupTheory.PeriodicGroups.Rules.TableEncoding
+2026-10-16T07:19:18.0256460Z ✔ [8929/8929] Built OAI.GroupTheory.PeriodicGroups.Rules.TableEncoding (7.5s)
+2026-10-16T07:19:18.1053254Z Build completed successfully (8929 jobs).
+2026-10-16T07:19:18.1477685Z [49/204] OAI.GroupTheory.PeriodicGroups.Rules.Recognizer
+2026-10-16T07:19:33.0950632Z ✔ [8930/8930] Built OAI.GroupTheory.PeriodicGroups.Rules.Recognizer (10s)
+2026-10-16T07:19:33.2720289Z Build completed successfully (8930 jobs).
+2026-10-16T07:19:33.3163084Z [50/204] OAI.GroupTheory.PeriodicGroups.Machines.TapePrograms
+2026-10-16T07:19:44.0229203Z ✔ [8924/8924] Built OAI.GroupTheory.PeriodicGroups.Machines.TapePrograms (6.4s)
+2026-10-16T07:19:44.1442267Z Build completed successfully (8924 jobs).
+2026-10-16T07:19:44.1867356Z [51/204] OAI.GroupTheory.PeriodicGroups.Machines.UniversalStack
+2026-10-16T07:20:06.4687327Z ✔ [8925/8925] Built OAI.GroupTheory.PeriodicGroups.Machines.UniversalStack (17s)
+2026-10-16T07:20:06.5618033Z Build completed successfully (8925 jobs).
+2026-10-16T07:20:06.6045347Z [52/204] OAI.GroupTheory.PeriodicGroups.Machines.UniversalInput
+2026-10-16T07:20:18.4401821Z ✔ [8926/8926] Built OAI.GroupTheory.PeriodicGroups.Machines.UniversalInput (7.4s)
+2026-10-16T07:20:18.5235425Z Build completed successfully (8926 jobs).
+2026-10-16T07:20:18.5646132Z [53/204] OAI.GroupTheory.PeriodicGroups.Machines.BinaryRegisters
+2026-10-16T07:20:30.6993683Z ✔ [8927/8927] Built OAI.GroupTheory.PeriodicGroups.Machines.BinaryRegisters (7.8s)
+2026-10-16T07:20:30.7974762Z Build completed successfully (8927 jobs).
+2026-10-16T07:20:30.8371013Z [54/204] OAI.GroupTheory.PeriodicGroups.Machines.ArithmeticDevices
+2026-10-16T07:20:49.1249973Z ✔ [8928/8928] Built OAI.GroupTheory.PeriodicGroups.Machines.ArithmeticDevices (13s)
+2026-10-16T07:20:49.3109584Z Build completed successfully (8928 jobs).
+2026-10-16T07:20:49.3540498Z [55/204] OAI.GroupTheory.PeriodicGroups.Machines.RegisterOperators
+2026-10-16T07:21:03.0200522Z ✔ [8929/8929] Built OAI.GroupTheory.PeriodicGroups.Machines.RegisterOperators (9.3s)
+2026-10-16T07:21:03.1881088Z Build completed successfully (8929 jobs).
+2026-10-16T07:21:03.2311824Z [56/204] OAI.GroupTheory.PeriodicGroups.Machines.RegisterLoops
+2026-10-16T07:21:25.7856889Z ✔ [8930/8930] Built OAI.GroupTheory.PeriodicGroups.Machines.RegisterLoops (18s)
+2026-10-16T07:21:25.9494973Z Build completed successfully (8930 jobs).
+2026-10-16T07:21:25.9966281Z [57/204] OAI.GroupTheory.PeriodicGroups.Formulas.BooleanCircuits
+2026-10-16T07:21:55.8827669Z ✔ [8938/8938] Built OAI.GroupTheory.PeriodicGroups.Formulas.BooleanCircuits (25s)
+2026-10-16T07:21:56.0227420Z Build completed successfully (8938 jobs).
+2026-10-16T07:21:56.0681533Z [58/204] OAI.GroupTheory.PeriodicGroups.Rules.Transactions
+2026-10-16T07:22:06.3143989Z ✔ [8930/8930] Built OAI.GroupTheory.PeriodicGroups.Rules.Transactions (5.9s)
+2026-10-16T07:22:06.4724364Z Build completed successfully (8930 jobs).
+2026-10-16T07:22:06.5134179Z [59/204] OAI.GroupTheory.PeriodicGroups.Rules.ConnectedWords
+2026-10-16T07:22:17.8750995Z ✔ [8931/8931] Built OAI.GroupTheory.PeriodicGroups.Rules.ConnectedWords (6.9s)
+2026-10-16T07:22:17.9509589Z Build completed successfully (8931 jobs).
+2026-10-16T07:22:17.9916533Z [60/204] OAI.GroupTheory.PeriodicGroups.Rules.CommittedWords
+2026-10-16T07:22:28.5211333Z ✔ [8932/8932] Built OAI.GroupTheory.PeriodicGroups.Rules.CommittedWords (6.2s)
+2026-10-16T07:22:28.6038632Z Build completed successfully (8932 jobs).
+2026-10-16T07:22:28.6432519Z [61/204] OAI.GroupTheory.PeriodicGroups.Rules.WordComponents
+2026-10-16T07:22:39.2524586Z ✔ [8933/8933] Built OAI.GroupTheory.PeriodicGroups.Rules.WordComponents (6.2s)
+2026-10-16T07:22:39.3187686Z Build completed successfully (8933 jobs).
+2026-10-16T07:22:39.3574515Z [62/204] OAI.GroupTheory.PeriodicGroups.Formulas.Tableaux
+2026-10-16T07:22:49.4212008Z ✔ [8924/8924] Built OAI.GroupTheory.PeriodicGroups.Formulas.Tableaux (5.8s)
+2026-10-16T07:22:49.5440791Z Build completed successfully (8924 jobs).
+2026-10-16T07:22:49.5845208Z [63/204] OAI.GroupTheory.PeriodicGroups.Formulas.Addressable
+2026-10-16T07:22:59.9492124Z ✔ [8935/8935] Built OAI.GroupTheory.PeriodicGroups.Formulas.Addressable (6.2s)
+2026-10-16T07:23:00.0798018Z Build completed successfully (8935 jobs).
+2026-10-16T07:23:00.1195296Z [64/204] OAI.GroupTheory.PeriodicGroups.Formulas.ClauseEncoding
+2026-10-16T07:23:19.3132317Z ✔ [8945/8945] Built OAI.GroupTheory.PeriodicGroups.Formulas.ClauseEncoding (14s)
+2026-10-16T07:23:19.4537006Z Build completed successfully (8945 jobs).
+2026-10-16T07:23:19.4956568Z [65/204] OAI.GroupTheory.PeriodicGroups.Formulas.LocalPredicates
+2026-10-16T07:23:33.0691845Z ✔ [8946/8946] Built OAI.GroupTheory.PeriodicGroups.Formulas.LocalPredicates (9.1s)
+2026-10-16T07:23:33.1587531Z Build completed successfully (8946 jobs).
+2026-10-16T07:23:33.2002583Z [66/204] OAI.GroupTheory.PeriodicGroups.Formulas.PredicateCompilation
+2026-10-16T07:23:50.0035065Z ✔ [8947/8947] Built OAI.GroupTheory.PeriodicGroups.Formulas.PredicateCompilation (12s)
+2026-10-16T07:23:50.1494732Z Build completed successfully (8947 jobs).
+2026-10-16T07:23:50.1911851Z [67/204] OAI.GroupTheory.PeriodicGroups.Machines.Compilation
+2026-10-16T07:24:04.9772541Z ✔ [8948/8948] Built OAI.GroupTheory.PeriodicGroups.Machines.Compilation (10s)
+2026-10-16T07:24:05.0692656Z Build completed successfully (8948 jobs).
+2026-10-16T07:24:05.1116760Z [68/204] OAI.GroupTheory.PeriodicGroups.Machines.InputEncoding
+2026-10-16T07:24:19.4994746Z ✔ [8949/8949] Built OAI.GroupTheory.PeriodicGroups.Machines.InputEncoding (10s)
+2026-10-16T07:24:19.6026676Z Build completed successfully (8949 jobs).
+2026-10-16T07:24:19.6425884Z [69/204] OAI.GroupTheory.PeriodicGroups.Machines.ProgramAssembly
+2026-10-16T07:24:47.1556004Z ✔ [8950/8950] Built OAI.GroupTheory.PeriodicGroups.Machines.ProgramAssembly (23s)
+2026-10-16T07:24:47.2145244Z Build completed successfully (8950 jobs).
+2026-10-16T07:24:47.2556911Z [70/204] OAI.GroupTheory.PeriodicGroups.Machines.StackCompression
+2026-10-16T07:24:59.3569654Z ✔ [8951/8951] Built OAI.GroupTheory.PeriodicGroups.Machines.StackCompression (7.8s)
+2026-10-16T07:24:59.4423929Z Build completed successfully (8951 jobs).
+2026-10-16T07:24:59.4839890Z [71/204] OAI.GroupTheory.PeriodicGroups.Machines.ProgramFixedPoint
+2026-10-16T07:25:15.1623591Z ✔ [8952/8952] Built OAI.GroupTheory.PeriodicGroups.Machines.ProgramFixedPoint (11s)
+2026-10-16T07:25:15.2388384Z Build completed successfully (8952 jobs).
+2026-10-16T07:25:15.2784102Z [72/204] OAI.GroupTheory.PeriodicGroups.Machines.TimedExecution
+2026-10-16T07:25:35.3029259Z ✔ [8953/8953] Built OAI.GroupTheory.PeriodicGroups.Machines.TimedExecution (15s)
+2026-10-16T07:25:35.4609061Z Build completed successfully (8953 jobs).
+2026-10-16T07:25:35.5022528Z [73/204] OAI.GroupTheory.PeriodicGroups.Rules.WordRewriting
+2026-10-16T07:25:46.6786370Z ✔ [8934/8934] Built OAI.GroupTheory.PeriodicGroups.Rules.WordRewriting (6.0s)
+2026-10-16T07:25:46.8139609Z Build completed successfully (8934 jobs).
+2026-10-16T07:25:46.8541058Z [74/204] OAI.GroupTheory.PeriodicGroups.Rules.BoundaryCell
+2026-10-16T07:25:58.9618876Z ✔ [8935/8935] Built OAI.GroupTheory.PeriodicGroups.Rules.BoundaryCell (7.8s)
+2026-10-16T07:25:59.0893275Z Build completed successfully (8935 jobs).
+2026-10-16T07:25:59.1293683Z [75/204] OAI.GroupTheory.PeriodicGroups.Rules.PrefixRewriting
+2026-10-16T07:26:10.8499392Z ✔ [8936/8936] Built OAI.GroupTheory.PeriodicGroups.Rules.PrefixRewriting (7.4s)
+2026-10-16T07:26:10.9212667Z Build completed successfully (8936 jobs).
+2026-10-16T07:26:10.9613826Z [76/204] OAI.GroupTheory.PeriodicGroups.Rules.GeometricRelations
+2026-10-16T07:26:22.3694595Z ✔ [8937/8937] Built OAI.GroupTheory.PeriodicGroups.Rules.GeometricRelations (7.1s)
+2026-10-16T07:26:22.4968475Z Build completed successfully (8937 jobs).
+2026-10-16T07:26:22.5361257Z [77/204] OAI.GroupTheory.PeriodicGroups.Rules.DataWords
+2026-10-16T07:26:32.3457099Z ✔ [8938/8938] Built OAI.GroupTheory.PeriodicGroups.Rules.DataWords (5.5s)
+2026-10-16T07:26:32.4280774Z Build completed successfully (8938 jobs).
+2026-10-16T07:26:32.4674581Z [78/204] OAI.GroupTheory.PeriodicGroups.Rules.TemplateHierarchy
+2026-10-16T07:26:45.0236327Z ✔ [8959/8959] Built OAI.GroupTheory.PeriodicGroups.Rules.TemplateHierarchy (8.2s)
+2026-10-16T07:26:45.1589267Z Build completed successfully (8959 jobs).
+2026-10-16T07:26:45.2005809Z [79/204] OAI.GroupTheory.PeriodicGroups.Algebra.WordAlgebra
+2026-10-16T07:26:55.7109423Z ✔ [8960/8960] Built OAI.GroupTheory.PeriodicGroups.Algebra.WordAlgebra (6.2s)
+2026-10-16T07:26:55.7708936Z Build completed successfully (8960 jobs).
+2026-10-16T07:26:55.8091546Z [80/204] OAI.GroupTheory.PeriodicGroups.Algebra.PacketIntervals
+2026-10-16T07:27:05.9822560Z ✔ [8961/8961] Built OAI.GroupTheory.PeriodicGroups.Algebra.PacketIntervals (5.9s)
+2026-10-16T07:27:06.0929410Z Build completed successfully (8961 jobs).
+2026-10-16T07:27:06.1319358Z [81/204] OAI.GroupTheory.PeriodicGroups.Algebra.DirectCancellation
+2026-10-16T07:27:18.4247157Z ✔ [8962/8962] Built OAI.GroupTheory.PeriodicGroups.Algebra.DirectCancellation (8.0s)
+2026-10-16T07:27:18.5623015Z Build completed successfully (8962 jobs).
+2026-10-16T07:27:18.6024716Z [82/204] OAI.GroupTheory.PeriodicGroups.Algebra.HierarchyGrowth
+2026-10-16T07:27:35.0414704Z ✔ [8961/8961] Built OAI.GroupTheory.PeriodicGroups.Algebra.HierarchyGrowth (12s)
+2026-10-16T07:27:35.1523917Z Build completed successfully (8961 jobs).
+2026-10-16T07:27:35.1928694Z [83/204] OAI.GroupTheory.PeriodicGroups.Algebra.MatrixTests
+2026-10-16T07:27:48.6979649Z ✔ [8964/8964] Built OAI.GroupTheory.PeriodicGroups.Algebra.MatrixTests (9.2s)
+2026-10-16T07:27:48.7949563Z Build completed successfully (8964 jobs).
+2026-10-16T07:27:48.8350294Z [84/204] AllPrimeGroups.PrimeCancellation
+2026-10-16T07:27:58.7715054Z ✔ [8966/8966] Built AllPrimeGroups.PrimeCancellation (5.5s)
+2026-10-16T07:27:58.9063956Z Build completed successfully (8966 jobs).
+2026-10-16T07:27:58.9399213Z [85/204] OAI.GroupTheory.PeriodicGroups.Steinberg.PresentationModel
+2026-10-16T07:28:10.9910098Z ✔ [8965/8965] Built OAI.GroupTheory.PeriodicGroups.Steinberg.PresentationModel (7.6s)
+2026-10-16T07:28:11.0824054Z Build completed successfully (8965 jobs).
+2026-10-16T07:28:11.1216117Z [86/204] OAI.GroupTheory.PeriodicGroups.Steinberg.MonomialPresentation
+2026-10-16T07:28:22.9556055Z ✔ [8966/8966] Built OAI.GroupTheory.PeriodicGroups.Steinberg.MonomialPresentation (7.4s)
+2026-10-16T07:28:23.0561035Z Build completed successfully (8966 jobs).
+2026-10-16T07:28:23.0976292Z [87/204] OAI.GroupTheory.PeriodicGroups.Steinberg.CoefficientQuotients
+2026-10-16T07:28:41.6679563Z ✔ [8967/8967] Built OAI.GroupTheory.PeriodicGroups.Steinberg.CoefficientQuotients (14s)
+2026-10-16T07:28:41.8019115Z Build completed successfully (8967 jobs).
+2026-10-16T07:28:41.8401316Z [88/204] AllPrimeGroups.PrimeMatrixNil
+2026-10-16T07:28:51.2297587Z ✔ [8970/8970] Built AllPrimeGroups.PrimeMatrixNil (5.1s)
+2026-10-16T07:28:51.3540232Z Build completed successfully (8970 jobs).
+2026-10-16T07:28:51.3922751Z [89/204] AllPrimeGroups.PrimeAlgebra
+2026-10-16T07:29:00.7131968Z ✔ [8992/8992] Built AllPrimeGroups.PrimeAlgebra (4.9s)
+2026-10-16T07:29:00.8051557Z Build completed successfully (8992 jobs).
+2026-10-16T07:29:00.8451065Z [90/204] AllPrimeGroups.PrimeReduction
+2026-10-16T07:29:09.4915324Z ✔ [9001/9001] Built AllPrimeGroups.PrimeReduction (4.2s)
+2026-10-16T07:29:09.5672019Z Build completed successfully (9001 jobs).
+2026-10-16T07:29:09.6055545Z [91/204] AllPrimeGroups.WordBasis
+2026-10-16T07:29:20.3079260Z ✔ [8968/8968] Built AllPrimeGroups.WordBasis (6.4s)
+2026-10-16T07:29:20.4231109Z Build completed successfully (8968 jobs).
+2026-10-16T07:29:20.4625185Z [92/204] AllPrimeGroups.PhaseConstruction
+2026-10-16T07:29:30.0988189Z ✔ [8962/8962] Built AllPrimeGroups.PhaseConstruction (5.3s)
+2026-10-16T07:29:30.2508225Z Build completed successfully (8962 jobs).
+2026-10-16T07:29:30.2912293Z [93/204] AllPrimeGroups.HierarchyPhases
+2026-10-16T07:29:39.1558425Z ✔ [8966/8966] Built AllPrimeGroups.HierarchyPhases (4.5s)
+2026-10-16T07:29:39.3095427Z Build completed successfully (8966 jobs).
+2026-10-16T07:29:39.3499179Z [94/204] AllPrimeGroups.HierarchyGrading
+2026-10-16T07:29:49.0880067Z ✔ [9001/9001] Built AllPrimeGroups.HierarchyGrading (5.4s)
+2026-10-16T07:29:49.2340273Z Build completed successfully (9001 jobs).
+2026-10-16T07:29:49.2728268Z [95/204] AllPrimeGroups.PrimeSeparation
+2026-10-16T07:30:02.9814229Z ✔ [9016/9016] Built AllPrimeGroups.PrimeSeparation (9.4s)
+2026-10-16T07:30:03.0944369Z Build completed successfully (9016 jobs).
+2026-10-16T07:30:03.1333786Z [96/204] AllPrimeGroups.ColumnComplex
+2026-10-16T07:30:07.2484072Z ✔ [1552/1552] Built AllPrimeGroups.ColumnComplex (2.9s)
+2026-10-16T07:30:07.2534741Z Build completed successfully (1552 jobs).
+2026-10-16T07:30:07.2915124Z [97/204] AllPrimeGroups.CosetTransport
+2026-10-16T07:30:11.7906586Z ✔ [1554/1554] Built AllPrimeGroups.CosetTransport (3.3s)
+2026-10-16T07:30:11.7953887Z Build completed successfully (1554 jobs).
+2026-10-16T07:30:11.8344430Z [98/204] AllPrimeGroups.LocalColumns
+2026-10-16T07:30:15.9513087Z ✔ [1623/1623] Built AllPrimeGroups.LocalColumns (2.9s)
+2026-10-16T07:30:15.9556537Z Build completed successfully (1623 jobs).
+2026-10-16T07:30:15.9943883Z [99/204] AllPrimeGroups.GLPresentation
+2026-10-16T07:30:19.0540445Z ✔ [1722/1722] Built AllPrimeGroups.GLPresentation (1.8s)
+2026-10-16T07:30:19.0586719Z Build completed successfully (1722 jobs).
+2026-10-16T07:30:19.0975341Z [100/204] AllPrimeGroups.GLTransport
+2026-10-16T07:30:22.3656974Z ✔ [1723/1723] Built AllPrimeGroups.GLTransport (2.1s)
+2026-10-16T07:30:22.3962543Z Build completed successfully (1723 jobs).
+2026-10-16T07:30:22.4341745Z [101/204] AllPrimeGroups.GLSection
+2026-10-16T07:30:26.2768988Z ✔ [1727/1727] Built AllPrimeGroups.GLSection (2.6s)
+2026-10-16T07:30:26.2814017Z Build completed successfully (1727 jobs).
+2026-10-16T07:30:26.3200155Z [102/204] AllPrimeGroups.GLLift
+2026-10-16T07:30:30.3618247Z ✔ [1728/1728] Built AllPrimeGroups.GLLift (2.9s)
+2026-10-16T07:30:30.3796197Z Build completed successfully (1728 jobs).
+2026-10-16T07:30:30.4176081Z [103/204] AllPrimeGroups.GLSwap
+2026-10-16T07:30:33.4927439Z ✔ [1729/1729] Built AllPrimeGroups.GLSwap (1.9s)
+2026-10-16T07:30:33.4988712Z Build completed successfully (1729 jobs).
+2026-10-16T07:30:33.5355415Z [104/204] AllPrimeGroups.GLInduction
+2026-10-16T07:30:38.3390244Z ✔ [1730/1730] Built AllPrimeGroups.GLInduction (3.6s)
+2026-10-16T07:30:38.3426989Z Build completed successfully (1730 jobs).
+2026-10-16T07:30:38.3806218Z [105/204] AllPrimeGroups.GLAction
+2026-10-16T07:30:41.8987377Z ✔ [1731/1731] Built AllPrimeGroups.GLAction (2.3s)
+2026-10-16T07:30:41.9046447Z Build completed successfully (1731 jobs).
+2026-10-16T07:30:41.9426502Z [106/204] AllPrimeGroups.GLRelabel
+2026-10-16T07:30:45.0625486Z ✔ [1731/1731] Built AllPrimeGroups.GLRelabel (1.9s)
+2026-10-16T07:30:45.0670401Z Build completed successfully (1731 jobs).
+2026-10-16T07:30:45.1048879Z [107/204] AllPrimeGroups.K1Stability
+2026-10-16T07:30:48.8294002Z ✔ [1733/1733] Built AllPrimeGroups.K1Stability (2.5s)
+2026-10-16T07:30:48.8340866Z Build completed successfully (1733 jobs).
+2026-10-16T07:30:48.8712721Z [108/204] AllPrimeGroups.CentralClosed
+2026-10-16T07:30:52.4767363Z ✔ [1734/1734] Built AllPrimeGroups.CentralClosed (2.4s)
+2026-10-16T07:30:52.4975821Z Build completed successfully (1734 jobs).
+2026-10-16T07:30:52.5354646Z [109/204] AllPrimeGroups.FrameComplex
+2026-10-16T07:30:55.9407457Z ✔ [1552/1552] Built AllPrimeGroups.FrameComplex (2.3s)
+2026-10-16T07:30:55.9468666Z Build completed successfully (1552 jobs).
+2026-10-16T07:30:55.9819519Z [110/204] AllPrimeGroups.FrameExactness
+2026-10-16T07:31:05.0024498Z ✔ [1553/1553] Built AllPrimeGroups.FrameExactness (7.9s)
+2026-10-16T07:31:05.0100092Z Build completed successfully (1553 jobs).
+2026-10-16T07:31:05.0461844Z [111/204] AllPrimeGroups.FrameSplit
+2026-10-16T07:31:08.2882448Z ✔ [1554/1554] Built AllPrimeGroups.FrameSplit (2.0s)
+2026-10-16T07:31:08.2932930Z Build completed successfully (1554 jobs).
+2026-10-16T07:31:08.3308439Z [112/204] AllPrimeGroups.FrameLemma
+2026-10-16T07:31:11.6707028Z ✔ [1652/1652] Built AllPrimeGroups.FrameLemma (2.2s)
+2026-10-16T07:31:11.6822829Z Build completed successfully (1652 jobs).
+2026-10-16T07:31:11.7209191Z [113/204] AllPrimeGroups.FrameTheorem
+2026-10-16T07:31:17.3559647Z ✔ [1653/1653] Built AllPrimeGroups.FrameTheorem (4.5s)
+2026-10-16T07:31:17.3600970Z Build completed successfully (1653 jobs).
+2026-10-16T07:31:17.3991956Z [114/204] AllPrimeGroups.RowStabilizer
+2026-10-16T07:31:21.5372520Z ✔ [1736/1736] Built AllPrimeGroups.RowStabilizer (2.9s)
+2026-10-16T07:31:21.5416275Z Build completed successfully (1736 jobs).
+2026-10-16T07:31:21.5805397Z [115/204] AllPrimeGroups.MultiRowStabilizer
+2026-10-16T07:31:25.0008994Z ✔ [1737/1737] Built AllPrimeGroups.MultiRowStabilizer (2.2s)
+2026-10-16T07:31:25.0056104Z Build completed successfully (1737 jobs).
+2026-10-16T07:31:25.0443678Z [116/204] AllPrimeGroups.StabilityCharacters
+2026-10-16T07:31:28.5486804Z ✔ [2024/2024] Built AllPrimeGroups.StabilityCharacters (2.2s)
+2026-10-16T07:31:28.5524439Z Build completed successfully (2024 jobs).
+2026-10-16T07:31:28.5907073Z [117/204] AllPrimeGroups.CocycleExtension
+2026-10-16T07:31:34.0101359Z ✔ [2411/2411] Built AllPrimeGroups.CocycleExtension (4.0s)
+2026-10-16T07:31:34.0191030Z Build completed successfully (2411 jobs).
+2026-10-16T07:31:34.0583810Z [118/204] AllPrimeGroups.ExtensionOperations
+2026-10-16T07:31:36.8930951Z ✔ [1074/1074] Built AllPrimeGroups.ExtensionOperations (1.9s)
+2026-10-16T07:31:36.8966368Z Build completed successfully (1074 jobs).
+2026-10-16T07:31:36.9347275Z [119/204] AllPrimeGroups.ExtensionFactorSet
+2026-10-16T07:31:41.8765679Z ✔ [2414/2414] Built AllPrimeGroups.ExtensionFactorSet (3.4s)
+2026-10-16T07:31:41.8833130Z Build completed successfully (2414 jobs).
+2026-10-16T07:31:41.9215320Z [120/204] AllPrimeGroups.ExtensionCohomology
+2026-10-16T07:31:46.4848678Z ✔ [2415/2415] Built AllPrimeGroups.ExtensionCohomology (3.0s)
+2026-10-16T07:31:46.4891171Z Build completed successfully (2415 jobs).
+2026-10-16T07:31:46.5280298Z [121/204] AllPrimeGroups.CocycleProducts
+2026-10-16T07:31:49.9623677Z ✔ [2416/2416] Built AllPrimeGroups.CocycleProducts (2.0s)
+2026-10-16T07:31:50.0139165Z Build completed successfully (2416 jobs).
+2026-10-16T07:31:50.0526137Z [122/204] AllPrimeGroups.PrimeCharacterReduction
+2026-10-16T07:31:59.6405536Z ✔ [9033/9033] Built AllPrimeGroups.PrimeCharacterReduction (5.0s)
+2026-10-16T07:31:59.7899500Z Build completed successfully (9033 jobs).
+2026-10-16T07:31:59.8297630Z [123/204] AllPrimeGroups.MatrixGeometry
+2026-10-16T07:32:04.8838305Z ✔ [1729/1729] Built AllPrimeGroups.MatrixGeometry (3.9s)
+2026-10-16T07:32:04.9099647Z Build completed successfully (1729 jobs).
+2026-10-16T07:32:04.9481258Z [124/204] AllPrimeGroups.CoordinateStability
+2026-10-16T07:32:08.0587423Z ✔ [1736/1736] Built AllPrimeGroups.CoordinateStability (1.9s)
+2026-10-16T07:32:08.0728932Z Build completed successfully (1736 jobs).
+2026-10-16T07:32:08.1100604Z [125/204] AllPrimeGroups.FrameBlockMatrices
+2026-10-16T07:32:11.8395120Z ✔ [1742/1742] Built AllPrimeGroups.FrameBlockMatrices (2.5s)
+2026-10-16T07:32:11.8444262Z Build completed successfully (1742 jobs).
+2026-10-16T07:32:11.8845405Z [126/204] AllPrimeGroups.BlockFaceMaps
+2026-10-16T07:32:15.8452551Z ✔ [1738/1738] Built AllPrimeGroups.BlockFaceMaps (2.7s)
+2026-10-16T07:32:15.8488973Z Build completed successfully (1738 jobs).
+2026-10-16T07:32:15.8875364Z [127/204] AllPrimeGroups.FrameFaceGeometry
+2026-10-16T07:32:19.6319511Z ✔ [1744/1744] Built AllPrimeGroups.FrameFaceGeometry (2.5s)
+2026-10-16T07:32:19.6358610Z Build completed successfully (1744 jobs).
+2026-10-16T07:32:19.6755825Z [128/204] AllPrimeGroups.ScaledFrameFaces
+2026-10-16T07:32:24.0294586Z ✔ [1745/1745] Built AllPrimeGroups.ScaledFrameFaces (3.1s)
+2026-10-16T07:32:24.0599473Z Build completed successfully (1745 jobs).
+2026-10-16T07:32:24.0996237Z [129/204] AllPrimeGroups.SignedFacePair
+2026-10-16T07:32:28.3906350Z ✔ [1746/1746] Built AllPrimeGroups.SignedFacePair (3.0s)
+2026-10-16T07:32:28.3950714Z Build completed successfully (1746 jobs).
+2026-10-16T07:32:28.4347107Z [130/204] AllPrimeGroups.FrameActions
+2026-10-16T07:32:32.1119440Z ✔ [1741/1741] Built AllPrimeGroups.FrameActions (2.4s)
+2026-10-16T07:32:32.1179095Z Build completed successfully (1741 jobs).
+2026-10-16T07:32:32.1557575Z [131/204] AllPrimeGroups.FrameActionStabilizers
+2026-10-16T07:32:36.5001292Z ✔ [1755/1755] Built AllPrimeGroups.FrameActionStabilizers (3.1s)
+2026-10-16T07:32:36.5051536Z Build completed successfully (1755 jobs).
+2026-10-16T07:32:36.5449290Z [132/204] AllPrimeGroups.FrameRepresentations
+2026-10-16T07:32:39.7813766Z ✔ [1829/1829] Built AllPrimeGroups.FrameRepresentations (2.0s)
+2026-10-16T07:32:39.8021753Z Build completed successfully (1829 jobs).
+2026-10-16T07:32:39.8414219Z [133/204] AllPrimeGroups.NilMatrixLift
+2026-10-16T07:32:42.4001900Z ✔ [1290/1290] Built AllPrimeGroups.NilMatrixLift (1.5s)
+2026-10-16T07:32:42.4054513Z Build completed successfully (1290 jobs).
+2026-10-16T07:32:42.4456148Z [134/204] AllPrimeGroups.FieldFrameCompletion
+2026-10-16T07:32:45.4407582Z ✔ [1749/1749] Built AllPrimeGroups.FieldFrameCompletion (1.7s)
+2026-10-16T07:32:45.4683202Z Build completed successfully (1749 jobs).
+2026-10-16T07:32:45.5093778Z [135/204] AllPrimeGroups.SplitFrameCompletion
+2026-10-16T07:32:48.4935241Z ✔ [1751/1751] Built AllPrimeGroups.SplitFrameCompletion (1.7s)
+2026-10-16T07:32:48.4980181Z Build completed successfully (1751 jobs).
+2026-10-16T07:32:48.5356227Z [136/204] AllPrimeGroups.FrameTransitivity
+2026-10-16T07:32:51.6507396Z ✔ [1766/1766] Built AllPrimeGroups.FrameTransitivity (1.9s)
+2026-10-16T07:32:51.6720014Z Build completed successfully (1766 jobs).
+2026-10-16T07:32:51.7106382Z [137/204] AllPrimeGroups.FrameCosets
+2026-10-16T07:32:55.2302217Z ✔ [1767/1767] Built AllPrimeGroups.FrameCosets (2.3s)
+2026-10-16T07:32:55.2357119Z Build completed successfully (1767 jobs).
+2026-10-16T07:32:55.2749407Z [138/204] AllPrimeGroups.PrimeFrameTransitivity
+2026-10-16T07:33:08.3301701Z ✔ [9052/9052] Built AllPrimeGroups.PrimeFrameTransitivity (8.6s)
+2026-10-16T07:33:08.4795626Z Build completed successfully (9052 jobs).
+2026-10-16T07:33:08.5197692Z [139/204] AllPrimeGroups.FunctionCoinduction
+2026-10-16T07:33:12.3624227Z ✔ [1961/1961] Built AllPrimeGroups.FunctionCoinduction (2.5s)
+2026-10-16T07:33:12.3674785Z Build completed successfully (1961 jobs).
+2026-10-16T07:33:12.4066681Z [140/204] AllPrimeGroups.HomologyUnop
+2026-10-16T07:33:14.8598852Z ✔ [1198/1198] Built AllPrimeGroups.HomologyUnop (1.4s)
+2026-10-16T07:33:14.8713327Z Build completed successfully (1198 jobs).
+2026-10-16T07:33:14.9100692Z [141/204] AllPrimeGroups.ProjectiveComparison
+2026-10-16T07:33:18.7950477Z ✔ [1816/1816] Built AllPrimeGroups.ProjectiveComparison (2.6s)
+2026-10-16T07:33:18.7990027Z Build completed successfully (1816 jobs).
+2026-10-16T07:33:18.8377163Z [142/204] AllPrimeGroups.BarRestriction
+2026-10-16T07:33:23.5296088Z ✔ [2068/2068] Built AllPrimeGroups.BarRestriction (3.3s)
+2026-10-16T07:33:23.5669336Z Build completed successfully (2068 jobs).
+2026-10-16T07:33:23.6068421Z [143/204] AllPrimeGroups.CohomologyComparison
+2026-10-16T07:33:28.7762388Z ✔ [2225/2225] Built AllPrimeGroups.CohomologyComparison (3.7s)
+2026-10-16T07:33:28.7819427Z Build completed successfully (2225 jobs).
+2026-10-16T07:33:28.8201471Z [144/204] AllPrimeGroups.ExplicitShapiro
+2026-10-16T07:33:34.3656060Z ✔ [2527/2527] Built AllPrimeGroups.ExplicitShapiro (4.1s)
+2026-10-16T07:33:34.3780829Z Build completed successfully (2527 jobs).
+2026-10-16T07:33:34.4157694Z [145/204] AllPrimeGroups.HomogeneousShapiro
+2026-10-16T07:33:38.5257507Z ✔ [2529/2529] Built AllPrimeGroups.HomogeneousShapiro (2.6s)
+2026-10-16T07:33:38.5317572Z Build completed successfully (2529 jobs).
+2026-10-16T07:33:38.5696348Z [146/204] AllPrimeGroups.FrameCochains
+2026-10-16T07:33:42.1031109Z ✔ [2116/2116] Built AllPrimeGroups.FrameCochains (2.2s)
+2026-10-16T07:33:42.1059272Z Build completed successfully (2116 jobs).
+2026-10-16T07:33:42.1435747Z [147/204] AllPrimeGroups.FrameShapiro
+2026-10-16T07:33:47.6140562Z ✔ [2595/2595] Built AllPrimeGroups.FrameShapiro (3.9s)
+2026-10-16T07:33:47.6189549Z Build completed successfully (2595 jobs).
+2026-10-16T07:33:47.6577590Z [148/204] AllPrimeGroups.FrameLowDegree
+2026-10-16T07:33:51.2084597Z ✔ [2596/2596] Built AllPrimeGroups.FrameLowDegree (2.0s)
+2026-10-16T07:33:51.2141364Z Build completed successfully (2596 jobs).
+2026-10-16T07:33:51.2526300Z [149/204] AllPrimeGroups.PrimeFrameShapiro
+2026-10-16T07:34:01.3345868Z ✔ [9063/9063] Built AllPrimeGroups.PrimeFrameShapiro (5.5s)
+2026-10-16T07:34:01.4275495Z Build completed successfully (9063 jobs).
+2026-10-16T07:34:01.4663643Z [150/204] AllPrimeGroups.CohomologyConjugation
+2026-10-16T07:34:05.6858629Z ✔ [2408/2408] Built AllPrimeGroups.CohomologyConjugation (2.8s)
+2026-10-16T07:34:05.6920405Z Build completed successfully (2408 jobs).
+2026-10-16T07:34:05.7313683Z [151/204] AllPrimeGroups.SignedFrameShapiro
+2026-10-16T07:34:10.1485361Z ✔ [2597/2597] Built AllPrimeGroups.SignedFrameShapiro (2.9s)
+2026-10-16T07:34:10.1568763Z Build completed successfully (2597 jobs).
+2026-10-16T07:34:10.1951382Z [152/204] AllPrimeGroups.FactorSetPullback
+2026-10-16T07:34:14.2495171Z ✔ [2417/2417] Built AllPrimeGroups.FactorSetPullback (2.6s)
+2026-10-16T07:34:14.2555265Z Build completed successfully (2417 jobs).
+2026-10-16T07:34:14.2935611Z [153/204] AllPrimeGroups.CentralExtensionCharacters
+2026-10-16T07:34:17.9271002Z ✔ [2418/2418] Built AllPrimeGroups.CentralExtensionCharacters (2.1s)
+2026-10-16T07:34:17.9326289Z Build completed successfully (2418 jobs).
+2026-10-16T07:34:17.9712739Z [154/204] AllPrimeGroups.FrameCharacterClasses
+2026-10-16T07:34:22.2785635Z ✔ [2605/2605] Built AllPrimeGroups.FrameCharacterClasses (2.9s)
+2026-10-16T07:34:22.3076911Z Build completed successfully (2605 jobs).
+2026-10-16T07:34:22.3453634Z [155/204] AllPrimeGroups.FrameCharacterCocycle
+2026-10-16T07:34:26.6303851Z ✔ [2606/2606] Built AllPrimeGroups.FrameCharacterCocycle (2.8s)
+2026-10-16T07:34:26.6365093Z Build completed successfully (2606 jobs).
+2026-10-16T07:34:26.6756914Z [156/204] AllPrimeGroups.PrimeFrameCharacterClasses
+2026-10-16T07:34:36.8815444Z ✔ [9073/9073] Built AllPrimeGroups.PrimeFrameCharacterClasses (5.8s)
+2026-10-16T07:34:37.0218787Z Build completed successfully (9073 jobs).
+2026-10-16T07:34:37.0604094Z [157/204] AllPrimeGroups.InjectiveDualExact
+2026-10-16T07:34:39.7454563Z ✔ [1566/1566] Built AllPrimeGroups.InjectiveDualExact (1.6s)
+2026-10-16T07:34:39.7508956Z Build completed successfully (1566 jobs).
+2026-10-16T07:34:39.7873736Z [158/204] AllPrimeGroups.FrameChainDuality
+2026-10-16T07:34:42.9665220Z ✔ [2121/2121] Built AllPrimeGroups.FrameChainDuality (1.9s)
+2026-10-16T07:34:42.9694354Z Build completed successfully (2121 jobs).
+2026-10-16T07:34:43.0069154Z [159/204] AllPrimeGroups.FrameCoefficientComplex
+2026-10-16T07:34:46.8006749Z ✔ [2128/2128] Built AllPrimeGroups.FrameCoefficientComplex (2.4s)
+2026-10-16T07:34:46.8078892Z Build completed successfully (2128 jobs).
+2026-10-16T07:34:46.8435896Z [160/204] AllPrimeGroups.FrameCochainRows
+2026-10-16T07:34:50.3533118Z ✔ [2486/2486] Built AllPrimeGroups.FrameCochainRows (2.1s)
+2026-10-16T07:34:50.3563591Z Build completed successfully (2486 jobs).
+2026-10-16T07:34:50.3932163Z [161/204] AllPrimeGroups.FrameCoefficientH0
+2026-10-16T07:34:54.1864191Z ✔ [2486/2486] Built AllPrimeGroups.FrameCoefficientH0 (2.3s)
+2026-10-16T07:34:54.1906554Z Build completed successfully (2486 jobs).
+2026-10-16T07:34:54.2289123Z [162/204] AllPrimeGroups.CochainExactness
+2026-10-16T07:34:57.7388293Z ✔ [2408/2408] Built AllPrimeGroups.CochainExactness (2.1s)
+2026-10-16T07:34:57.7622292Z Build completed successfully (2408 jobs).
+2026-10-16T07:34:57.8006376Z [163/204] AllPrimeGroups.LowDegreeChase
+2026-10-16T07:34:59.5094329Z ✔ [294/294] Built AllPrimeGroups.LowDegreeChase (933ms)
+2026-10-16T07:34:59.5118126Z Build completed successfully (294 jobs).
+2026-10-16T07:34:59.5487496Z [164/204] AllPrimeGroups.FrameLowDegreeLift
+2026-10-16T07:35:03.2581612Z ✔ [2490/2490] Built AllPrimeGroups.FrameLowDegreeLift (2.3s)
+2026-10-16T07:35:03.2635340Z Build completed successfully (2490 jobs).
+2026-10-16T07:35:03.3019509Z [165/204] AllPrimeGroups.FrameAugmentation
+2026-10-16T07:35:06.4120518Z ✔ [2129/2129] Built AllPrimeGroups.FrameAugmentation (1.8s)
+2026-10-16T07:35:06.4400845Z Build completed successfully (2129 jobs).
+2026-10-16T07:35:06.4784414Z [166/204] AllPrimeGroups.FrameH2Lift
+2026-10-16T07:35:10.5131000Z ✔ [2492/2492] Built AllPrimeGroups.FrameH2Lift (2.6s)
+2026-10-16T07:35:10.5300104Z Build completed successfully (2492 jobs).
+2026-10-16T07:35:10.5677147Z [167/204] AllPrimeGroups.PrimeFrameH2Lift
+2026-10-16T07:35:28.8912593Z ✔ [9088/9088] Built AllPrimeGroups.PrimeFrameH2Lift (13s)
+2026-10-16T07:35:29.0414386Z Build completed successfully (9088 jobs).
+2026-10-16T07:35:29.0803109Z [168/204] AllPrimeGroups.CentralClassLifts
+2026-10-16T07:35:32.7975065Z ✔ [2541/2541] Built AllPrimeGroups.CentralClassLifts (2.2s)
+2026-10-16T07:35:32.8011126Z Build completed successfully (2541 jobs).
+2026-10-16T07:35:32.8395906Z [169/204] AllPrimeGroups.OneRowFrameCover
+2026-10-16T07:35:36.5821203Z ✔ [2606/2606] Built AllPrimeGroups.OneRowFrameCover (2.2s)
+2026-10-16T07:35:36.5869921Z Build completed successfully (2606 jobs).
+2026-10-16T07:35:36.6253407Z [170/204] AllPrimeGroups.PrimeCharacterRealization
+2026-10-16T07:35:48.3523615Z ✔ [9091/9091] Built AllPrimeGroups.PrimeCharacterRealization (7.2s)
+2026-10-16T07:35:48.4737263Z Build completed successfully (9091 jobs).
+2026-10-16T07:35:48.5142889Z [171/204] AllPrimeGroups.PrimeCharacterExtensions
+2026-10-16T07:35:58.3415085Z ✔ [9092/9092] Built AllPrimeGroups.PrimeCharacterExtensions (5.3s)
+2026-10-16T07:35:58.4932067Z Build completed successfully (9092 jobs).
+2026-10-16T07:35:58.5336617Z [172/204] AllPrimeGroups.FiniteLocal
+2026-10-16T07:36:01.2748393Z ✔ [1735/1735] Built AllPrimeGroups.FiniteLocal (1.5s)
+2026-10-16T07:36:01.2793208Z Build completed successfully (1735 jobs).
+2026-10-16T07:36:01.3186128Z [173/204] AllPrimeGroups.PrimeGroups
+2026-10-16T07:36:10.3597316Z ✔ [9094/9094] Built AllPrimeGroups.PrimeGroups (4.6s)
+2026-10-16T07:36:10.5362837Z Build completed successfully (9094 jobs).
+2026-10-16T07:36:10.5785712Z [174/204] AllPrimeGroups.FinitePQuotients
+2026-10-16T07:36:13.4546921Z ✔ [1525/1525] Built AllPrimeGroups.FinitePQuotients (1.6s)
+2026-10-16T07:36:13.4575493Z Build completed successfully (1525 jobs).
+2026-10-16T07:36:13.4955131Z [175/204] AllPrimeGroups.PrimePQuotients
+2026-10-16T07:36:22.0519528Z ✔ [9096/9096] Built AllPrimeGroups.PrimePQuotients (4.1s)
+2026-10-16T07:36:22.2094332Z Build completed successfully (9096 jobs).
+2026-10-16T07:36:22.2500827Z [176/204] AllPrimeGroups.NilCongruence
+2026-10-16T07:36:25.2891194Z ✔ [1675/1675] Built AllPrimeGroups.NilCongruence (1.9s)
+2026-10-16T07:36:25.3125454Z Build completed successfully (1675 jobs).
+2026-10-16T07:36:25.3519616Z [177/204] AllPrimeGroups.NilMatrixCongruence
+2026-10-16T07:36:28.4103848Z ✔ [1677/1677] Built AllPrimeGroups.NilMatrixCongruence (1.8s)
+2026-10-16T07:36:28.4139648Z Build completed successfully (1677 jobs).
+2026-10-16T07:36:28.4530227Z [178/204] AllPrimeGroups.PrimeNilUnits
+2026-10-16T07:36:37.6080000Z ✔ [9037/9037] Built AllPrimeGroups.PrimeNilUnits (4.7s)
+2026-10-16T07:36:37.7025994Z Build completed successfully (9037 jobs).
+2026-10-16T07:36:37.7420381Z [179/204] AllPrimeGroups
+2026-10-16T07:36:46.0115112Z ✔ [9102/9102] Built AllPrimeGroups (3.8s)
+2026-10-16T07:36:46.1140819Z Build completed successfully (9102 jobs).
+2026-10-16T07:36:46.1547175Z [180/204] Audit
+2026-10-16T07:36:54.8747627Z ℹ [9103/9103] Built Audit (4.4s)
+2026-10-16T07:36:54.8748895Z info: Audit.lean:3:0: def AllPrimeGroups.Target : Prop :=
+2026-10-16T07:36:54.8750759Z ∀ (p : ℕ), Nat.Prime p → ∃ G inst, Infinite G ∧ Group.IsFinitelyPresented G ∧ Group.ResiduallyFinite G ∧ IsPGroup p G
+2026-10-16T07:36:54.8753320Z info: Audit.lean:4:0: 'AllPrimeGroups.exists_prime_free_hierarchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8755957Z info: Audit.lean:5:0: 'AllPrimeGroups.phasePeriod_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8757970Z info: Audit.lean:6:0: 'AllPrimeGroups.phasePeriod_ge_two_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8759702Z info: Audit.lean:7:0: 'AllPrimeGroups.exists_large_prime_free_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8760848Z info: Audit.lean:8:0: 'AllPrimeGroups.matrix_symmetrization_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8761904Z info: Audit.lean:9:0: 'AllPrimeGroups.one_add_nilpotent_pow_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8762913Z info: Audit.lean:10:0: 'AllPrimeGroups.units_congruence_isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8763766Z info: Audit.lean:11:0: 'AllPrimeGroups.RootFamily.move_cut' depends on axioms: [propext]
+2026-10-16T07:36:54.8764958Z info: Audit.lean:12:0: 'AllPrimeGroups.RootFamily.opposite_commutator_centralizes' depends on axioms: [propext]
+2026-10-16T07:36:54.8765799Z info: Audit.lean:13:0: 'AllPrimeGroups.RootFamily.root_pow_char' depends on axioms: [propext]
+2026-10-16T07:36:54.8766623Z info: Audit.lean:14:0: 'AllPrimeGroups.RootFamily.opposite_commutator_pow_char' depends on axioms: [propext]
+2026-10-16T07:36:54.8768842Z info: Audit.lean:15:0: 'AllPrimeGroups.finite_of_perfect_finite_center_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8770208Z info: Audit.lean:16:0: 'AllPrimeGroups.separated_of_prime_power_and_cyclic_detection' depends on axioms: [propext,
+2026-10-16T07:36:54.8770761Z  Classical.choice,
+2026-10-16T07:36:54.8770975Z  Quot.sound]
+2026-10-16T07:36:54.8771542Z info: Audit.lean:17:0: 'AllPrimeGroups.residuallyFinite_of_separating_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8772462Z info: Audit.lean:19:0: 'AllPrimeGroups.Steinberg.move_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8773366Z info: Audit.lean:20:0: 'AllPrimeGroups.Steinberg.opposite_commutator_pow_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8774292Z info: Audit.lean:22:0: 'AllPrimeGroups.Elementary.x_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8775190Z info: Audit.lean:23:0: 'AllPrimeGroups.Elementary.steinberg_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8776069Z info: Audit.lean:24:0: 'AllPrimeGroups.Kernel.strip_faithful' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8776948Z info: Audit.lean:25:0: 'AllPrimeGroups.Kernel.supported_kernel_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8778063Z info: Audit.lean:26:0: 'AllPrimeGroups.Kernel.stabilized_kernel_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8778964Z info: Audit.lean:27:0: 'AllPrimeGroups.Steinberg.isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8779862Z info: Audit.lean:28:0: 'AllPrimeGroups.isUnit_iff_augmentation_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8780750Z info: Audit.lean:29:0: 'AllPrimeGroups.isLocalRing_of_nil_augmentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8781628Z info: Audit.lean:30:0: 'AllPrimeGroups.unitStableRangeOne_of_nil_augmentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8782446Z info: Audit.lean:31:0: 'AllPrimeGroups.Chain.of_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8783188Z info: Audit.lean:32:0: 'AllPrimeGroups.Chain.of_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8783947Z info: Audit.lean:33:0: 'AllPrimeGroups.Stable.kernel_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8784801Z info: Audit.lean:34:0: 'AllPrimeGroups.Stable.of_injective_iff_kernelMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8785645Z info: Audit.lean:35:0: 'AllPrimeGroups.Stable.root_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8786431Z info: Audit.lean:36:0: 'AllPrimeGroups.Stable.stageImage_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8787388Z info: Audit.lean:37:0: 'AllPrimeGroups.Stable.detector_kernel_finiteIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8788876Z info: Audit.lean:38:0: 'AllPrimeGroups.HierarchyGrowth.stopping_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8789848Z info: Audit.lean:39:0: 'AllPrimeGroups.HierarchyGrowth.stopping_index_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8790931Z info: Audit.lean:40:0: 'AllPrimeGroups.Candidate.finiteIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8791695Z info: Audit.lean:41:0: 'AllPrimeGroups.Candidate.infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8792498Z info: Audit.lean:42:0: 'AllPrimeGroups.Candidate.matrixImage_isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8793433Z info: Audit.lean:43:0: 'AllPrimeGroups.finite_of_fg_freeGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8794259Z info: Audit.lean:44:0: 'AllPrimeGroups.isFinitelyPresented_of_finiteIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8795046Z info: Audit.lean:45:0: 'AllPrimeGroups.Stable.map_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8795757Z info: Audit.lean:46:0: 'AllPrimeGroups.Stable.map_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8796544Z info: Audit.lean:47:0: 'AllPrimeGroups.Candidate.finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8797340Z info: Audit.lean:48:0: 'AllPrimeGroups.Candidate.isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8798534Z info: Audit.lean:49:0: 'AllPrimeGroups.Candidate.residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8799441Z info: Audit.lean:51:0: def AllPrimeGroups.CoefficientObligations : ℕ → Prop :=
+2026-10-16T07:36:54.8799827Z fun p =>
+2026-10-16T07:36:54.8800031Z   ∃ R x,
+2026-10-16T07:36:54.8800272Z     ∃ (_ : CharP R p) (_ : Infinite R),
+2026-10-16T07:36:54.8800553Z       ∃ ε n,
+2026-10-16T07:36:54.8800761Z         3 ≤ n ∧
+2026-10-16T07:36:54.8801075Z           Group.IsFinitelyPresented (AllPrimeGroups.Steinberg n R) ∧
+2026-10-16T07:36:54.8804836Z             (∀ (A : Matrix (Fin n) (Fin n) R), ε.mapMatrix A = 0 → IsNilpotent A) ∧
+2026-10-16T07:36:54.8805436Z               Function.Injective ⇑(AllPrimeGroups.Stable.of R n) ∧
+2026-10-16T07:36:54.8805864Z                 (∀ (z : AllPrimeGroups.StableSteinberg R),
+2026-10-16T07:36:54.8806258Z                     (AllPrimeGroups.Stable.representation R) z = 1 →
+2026-10-16T07:36:54.8806741Z                       (AllPrimeGroups.Stable.map ε) z = 1 → ∃ a, z ^ p ^ a = 1) ∧
+2026-10-16T07:36:54.8807137Z                   ∃ ι Q x_3,
+2026-10-16T07:36:54.8807427Z                     ∃ (_ : ∀ (i : ι), Finite (Q i)),
+2026-10-16T07:36:54.8807725Z                       ∃ q,
+2026-10-16T07:36:54.8808402Z                         ∀ (z : AllPrimeGroups.StableSteinberg R),
+2026-10-16T07:36:54.8808905Z                           (∀ (i : ι), (AllPrimeGroups.Stable.map (q i)) z = 1) → z = 1
+2026-10-16T07:36:54.8809642Z info: Audit.lean:52:0: 'AllPrimeGroups.target_of_obligations' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8810488Z info: Audit.lean:54:0: 'AllPrimeGroups.MonomialCompletion.poly_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8811340Z info: Audit.lean:55:0: 'AllPrimeGroups.FiniteSteinbergPresentation.free_finitelyPresented' depends on axioms: [propext,
+2026-10-16T07:36:54.8811883Z  Classical.choice,
+2026-10-16T07:36:54.8812084Z  Quot.sound]
+2026-10-16T07:36:54.8812615Z info: Audit.lean:56:0: 'AllPrimeGroups.SteinbergQuotient.finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8813491Z info: Audit.lean:57:0: 'AllPrimeGroups.steinberg_finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8814323Z info: Audit.lean:59:0: 'AllPrimeGroups.Kernel.triangular_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8815111Z info: Audit.lean:60:0: 'AllPrimeGroups.Kernel.wrap_removal' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8816124Z info: Audit.lean:61:0: 'AllPrimeGroups.Kernel.stable_basis_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8816954Z info: Audit.lean:62:0: 'AllPrimeGroups.Elementary.realized_of_det_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8818035Z info: Audit.lean:63:0: 'AllPrimeGroups.Kernel.stable_numerical_similarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8819123Z info: Audit.lean:64:0: 'AllPrimeGroups.Kernel.cyclic_triangularization' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8820003Z info: Audit.lean:65:0: 'AllPrimeGroups.Kernel.stable_copy_to_standard' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8820931Z info: Audit.lean:66:0: 'AllPrimeGroups.Kernel.polynomial_kernel_standard_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8821799Z info: Audit.lean:67:0: 'AllPrimeGroups.Stable.relative_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8822658Z info: Audit.lean:69:0: 'AllPrimeGroups.PhasedWords.cutValue_eq_one_of_mul_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8823493Z info: Audit.lean:70:0: 'AllPrimeGroups.PhasedWords.cutValue_eq_of_mul_eq' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8824180Z info: Audit.lean:71:0: 'AllPrimeGroups.PhasedWords.cutValue_index' depends on axioms: [propext]
+2026-10-16T07:36:54.8824908Z info: Audit.lean:72:0: 'AllPrimeGroups.Kernel.cyclic_evaluation_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8825758Z info: Audit.lean:73:0: 'AllPrimeGroups.Stable.eq_one_of_cyclic_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8826591Z info: Audit.lean:74:0: 'AllPrimeGroups.Kernel.pad_mem_rootsIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8827452Z info: Audit.lean:75:0: 'AllPrimeGroups.SteinbergQuotient.mem_normal_of_map_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8828522Z info: Audit.lean:76:0: 'AllPrimeGroups.Stable.exists_long_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8829289Z info: Audit.lean:77:0: 'AllPrimeGroups.list_prod_interchange' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8830089Z info: Audit.lean:78:0: 'AllPrimeGroups.Kernel.CyclicPhases.cyclic_eval_eq_offsets' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8830966Z info: Audit.lean:79:0: 'AllPrimeGroups.Stable.of_coordinatePerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8831788Z info: Audit.lean:80:0: 'AllPrimeGroups.Stable.cyclic_eval_eq_offset_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8832648Z info: Audit.lean:81:0: 'AllPrimeGroups.Kernel.exists_rootWord_of_mem_rootsIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8833503Z info: Audit.lean:82:0: 'AllPrimeGroups.Stable.eq_one_of_cyclicEvalHom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8834350Z info: Audit.lean:83:0: 'AllPrimeGroups.Stable.cyclicEvalHom_eq_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8835199Z info: Audit.lean:84:0: 'AllPrimeGroups.Stable.eq_one_of_phases' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8836038Z info: Audit.lean:85:0: 'AllPrimeGroups.Kernel.PhaseGrading.relocate_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8836933Z info: Audit.lean:86:0: 'AllPrimeGroups.Kernel.PhaseGrading.frameWord_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8837975Z info: Audit.lean:87:0: 'AllPrimeGroups.PrimeCancellation.direct_vanish_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8839060Z info: Audit.lean:88:0: 'AllPrimeGroups.PrimeMatrixNil.matrix_nil' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8839874Z info: Audit.lean:89:0: 'AllPrimeGroups.PrimeAlgebra.infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8840655Z info: Audit.lean:90:0: 'AllPrimeGroups.PrimeAlgebra.charP' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8841577Z info: Audit.lean:91:0: 'AllPrimeGroups.PrimeAlgebra.matrix_nil' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8842447Z info: Audit.lean:92:0: 'AllPrimeGroups.PrimeAlgebra.steinberg_finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8843344Z info: Audit.lean:93:0: 'AllPrimeGroups.PrimeAlgebra.relative_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8844197Z info: Audit.lean:94:0: 'AllPrimeGroups.coefficientObligations_of_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8844989Z info: Audit.lean:95:0: 'AllPrimeGroups.target_of_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8845801Z info: Audit.lean:96:0: 'AllPrimeGroups.Kernel.PhaseGrading.frameWord_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8846738Z info: Audit.lean:97:0: 'AllPrimeGroups.Kernel.PhaseGrading.stable_frameWord_ones_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8847672Z info: Audit.lean:98:0: 'AllPrimeGroups.Kernel.PhaseGrading.root_mem_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8848697Z info: Audit.lean:99:0: 'AllPrimeGroups.Kernel.PhaseGrading.gens_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8849604Z info: Audit.lean:100:0: 'AllPrimeGroups.Kernel.PhaseGrading.correction_faithful' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8850507Z info: Audit.lean:101:0: 'AllPrimeGroups.Kernel.PhaseGrading.relocates' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8851355Z info: Audit.lean:102:0: 'AllPrimeGroups.Stable.eq_one_of_phaseGradings' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8852245Z info: Audit.lean:103:0: 'AllPrimeGroups.WordBasis.linearIndependent_words' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8853113Z info: Audit.lean:104:0: 'AllPrimeGroups.WordBasis.filterMap_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8853927Z info: Audit.lean:105:0: 'AllPrimeGroups.Phases.TokenData.step' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8854732Z info: Audit.lean:106:0: 'AllPrimeGroups.Phases.Hierarchy.phases' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8855517Z info: Audit.lean:107:0: 'AllPrimeGroups.Phases.Hierarchy.period_coprime' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8856324Z info: Audit.lean:108:0: 'AllPrimeGroups.Phases.Hierarchy.phase_reach' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8857195Z info: Audit.lean:109:0: 'AllPrimeGroups.Phases.Hierarchy.oppositeCommute' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8858251Z info: Audit.lean:110:0: 'AllPrimeGroups.Phases.Hierarchy.cutIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8859155Z info: Audit.lean:111:0: 'AllPrimeGroups.Phases.Hierarchy.linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8860047Z info: Audit.lean:112:0: 'AllPrimeGroups.Phases.Hierarchy.phaseGrading' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8860898Z info: Audit.lean:113:0: 'AllPrimeGroups.Phases.Hierarchy.finite_trunc' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8861917Z info: Audit.lean:114:0: 'AllPrimeGroups.Phases.Hierarchy.eq_zero_of_forall_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8862752Z info: Audit.lean:115:0: 'AllPrimeGroups.Phases.separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8863563Z info: Audit.lean:116:0: 'AllPrimeGroups.Phases.separation_obligation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8864513Z info: Audit.lean:117:0: 'AllPrimeGroups.Phases.target_of_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8865348Z info: Audit.lean:118:0: 'AllPrimeGroups.ColumnComplex.simply_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8866235Z info: Audit.lean:119:0: 'AllPrimeGroups.ColumnComplex.TransportData.mem_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8867675Z info: Audit.lean:120:0: 'AllPrimeGroups.ColumnComplex.TransportData.π_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8868807Z info: Audit.lean:121:0: 'AllPrimeGroups.LocalGL.replaceCol_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8869594Z info: Audit.lean:122:0: 'AllPrimeGroups.LocalGL.eq_pad' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8870335Z info: Audit.lean:123:0: 'AllPrimeGroups.LocalGL.mem_GE' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8883724Z info: Audit.lean:124:0: 'AllPrimeGroups.GLPres.mk_eq_of_ev_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8884863Z info: Audit.lean:125:0: 'AllPrimeGroups.GLPres.π_injective_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8885778Z info: Audit.lean:126:0: 'AllPrimeGroups.GLPres.π_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8886655Z info: Audit.lean:127:0: 'AllPrimeGroups.GLPres.π_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8887395Z info: Audit.lean:128:0: 'AllPrimeGroups.GLPres.tri_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8888434Z info: Audit.lean:129:0: 'AllPrimeGroups.GLPres.ι_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8889291Z info: Audit.lean:130:0: 'AllPrimeGroups.GLPres.exists_ι' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8890089Z info: Audit.lean:131:0: 'AllPrimeGroups.GLPres.shift_conj_rowLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8890923Z info: Audit.lean:132:0: 'AllPrimeGroups.GLPres.π_σ' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8891648Z info: Audit.lean:133:0: 'AllPrimeGroups.GLPres.conj_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8892393Z info: Audit.lean:134:0: 'AllPrimeGroups.GLPres.swap_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8893201Z info: Audit.lean:135:0: 'AllPrimeGroups.GLPres.σ_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8893955Z info: Audit.lean:136:0: 'AllPrimeGroups.GLPres.mem_genSub_fixTwo' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8894728Z info: Audit.lean:137:0: 'AllPrimeGroups.GLPres.stab_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8895512Z info: Audit.lean:138:0: 'AllPrimeGroups.GLPres.triangle_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8896398Z info: Audit.lean:139:0: 'AllPrimeGroups.GLPres.π_injective_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8897279Z info: Audit.lean:140:0: 'AllPrimeGroups.GLPres.π_injective_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8898513Z info: Audit.lean:141:0: 'AllPrimeGroups.GLAct.actGL_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8899369Z info: Audit.lean:142:0: 'AllPrimeGroups.GLAct.kernel_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8900176Z info: Audit.lean:143:0: 'AllPrimeGroups.GLPres.ev_relabel_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8901125Z info: Audit.lean:144:0: 'AllPrimeGroups.GLPres.exists_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8901871Z info: Audit.lean:145:0: 'AllPrimeGroups.K1.mem_N_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8902577Z info: Audit.lean:146:0: 'AllPrimeGroups.K1.E_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8903280Z info: Audit.lean:147:0: 'AllPrimeGroups.K1.mem_E_of_pad' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8904039Z info: Audit.lean:148:0: 'AllPrimeGroups.K1.exists_mul_d_mem_E' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8904814Z info: Audit.lean:149:0: 'AllPrimeGroups.Central.lift_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8905612Z info: Audit.lean:150:0: 'AllPrimeGroups.Central.exists_splitting' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8906409Z info: Audit.lean:151:0: 'AllPrimeGroups.Central.exists_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8907177Z info: Audit.lean:152:0: 'AllPrimeGroups.Central.lift_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8908104Z info: Audit.lean:153:0: 'AllPrimeGroups.Frames.bd_bd' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8908837Z info: Audit.lean:154:0: 'AllPrimeGroups.Frames.bd_cone' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8909590Z info: Audit.lean:155:0: 'AllPrimeGroups.Frames.bd_relabelC' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8910379Z info: Audit.lean:156:0: 'AllPrimeGroups.Frames.exists_relabelC' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8911162Z info: Audit.lean:157:0: 'AllPrimeGroups.Frames.proj_faces_appF' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8911918Z info: Audit.lean:158:0: 'AllPrimeGroups.Frames.proj_bd' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8912668Z info: Audit.lean:159:0: 'AllPrimeGroups.Frames.finrank_le_fq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8913399Z info: Audit.lean:160:0: 'AllPrimeGroups.Frames.rel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8914157Z info: Audit.lean:161:0: 'AllPrimeGroups.Frames.exact_of_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8914971Z info: Audit.lean:162:0: 'AllPrimeGroups.Frames.exact_of_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8915858Z info: Audit.lean:165:0: 'AllPrimeGroups.FrameStabilizer.representation_rowLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8916784Z info: Audit.lean:166:0: 'AllPrimeGroups.FrameStabilizer.pad_conj_rowLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8917709Z info: Audit.lean:167:0: 'AllPrimeGroups.FrameStabilizer.representation_toSteinberg' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8919025Z info: Audit.lean:168:0: 'AllPrimeGroups.FrameStabilizer.toMatrix_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8919939Z info: Audit.lean:169:0: 'AllPrimeGroups.FrameStabilizer.row_single_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8921046Z info: Audit.lean:170:0: 'AllPrimeGroups.FrameStabilizer.isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8921953Z info: Audit.lean:171:0: 'AllPrimeGroups.FrameStabilizer.kernelInclusion_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8922886Z info: Audit.lean:172:0: 'AllPrimeGroups.FrameStabilizer.range_kernelInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8923895Z info: Audit.lean:173:0: 'AllPrimeGroups.FrameStabilizer.kernel_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8924772Z info: Audit.lean:174:0: 'AllPrimeGroups.FrameStabilizer.exists_of_fixes_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8925694Z info: Audit.lean:175:0: 'AllPrimeGroups.FrameStabilizer.toLastColumn_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8926632Z info: Audit.lean:176:0: 'AllPrimeGroups.FrameStabilizer.lastColumnExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8927548Z info: Audit.lean:177:0: 'AllPrimeGroups.FrameStabilizer.lastColumn_isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8928631Z info: Audit.lean:178:0: 'AllPrimeGroups.FrameStabilizer.blockProjection_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8929586Z info: Audit.lean:179:0: 'AllPrimeGroups.FrameStabilizer.blockProjection_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8930469Z info: Audit.lean:180:0: 'AllPrimeGroups.FrameStabilizer.blockKernelInclusion_injective' depends on axioms: [propext,
+2026-10-16T07:36:54.8931024Z  Classical.choice,
+2026-10-16T07:36:54.8931302Z  Quot.sound]
+2026-10-16T07:36:54.8931851Z info: Audit.lean:181:0: 'AllPrimeGroups.FrameStabilizer.range_blockKernelInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8932775Z info: Audit.lean:182:0: 'AllPrimeGroups.FrameStabilizer.blockExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8933676Z info: Audit.lean:183:0: 'AllPrimeGroups.FrameStabilizer.blockCover_isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8934603Z info: Audit.lean:184:0: 'AllPrimeGroups.FrameStabilizer.blockStabilizer_isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8935537Z info: Audit.lean:185:0: 'AllPrimeGroups.FrameStabilizer.blockKernel_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8936430Z info: Audit.lean:186:0: 'AllPrimeGroups.Central.compatible_lift_kills_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8937335Z info: Audit.lean:187:0: 'AllPrimeGroups.Central.injective_of_character_extensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8938371Z info: Audit.lean:188:0: 'AllPrimeGroups.FrameStabilizer.toSteinberg_injective_of_characters' depends on axioms: [propext,
+2026-10-16T07:36:54.8938917Z  Classical.choice,
+2026-10-16T07:36:54.8939110Z  Quot.sound]
+2026-10-16T07:36:54.8939642Z info: Audit.lean:189:0: 'AllPrimeGroups.FrameStabilizer.pad_injective_of_characters' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8940496Z info: Audit.lean:190:0: 'AllPrimeGroups.FactorSet.Extension.instGroup' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8941282Z info: Audit.lean:191:0: 'AllPrimeGroups.FactorSet.groupExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8942109Z info: Audit.lean:192:0: 'AllPrimeGroups.FactorSet.inl_range_le_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8942872Z info: Audit.lean:193:0: 'AllPrimeGroups.FactorSet.mapExtension' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8943825Z info: Audit.lean:194:0: 'AllPrimeGroups.FactorSet.nonempty_groupExtensionEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8945008Z info: Audit.lean:195:0: 'AllPrimeGroups.GroupExtension.isMulCocycle₂_factorSetFun' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8945902Z info: Audit.lean:196:0: 'AllPrimeGroups.GroupExtension.factorSetToGroupExtensionEquiv' depends on axioms: [propext,
+2026-10-16T07:36:54.8946563Z  Classical.choice,
+2026-10-16T07:36:54.8946760Z  Quot.sound]
+2026-10-16T07:36:54.8947257Z info: Audit.lean:197:0: 'AllPrimeGroups.GroupExtension.exists_factorSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8948411Z info: Audit.lean:198:0: 'AllPrimeGroups.GroupExtension.isMulCoboundary₂_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8949324Z info: Audit.lean:199:0: 'AllPrimeGroups.FactorSet.cohomologyClass_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8950213Z info: Audit.lean:200:0: 'AllPrimeGroups.FactorSet.exists_cohomologyClass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8951089Z info: Audit.lean:201:0: 'AllPrimeGroups.FactorSet.cohomologyClassEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8951946Z info: Audit.lean:202:0: 'AllPrimeGroups.FactorSet.nonempty_splitting_iff_cohomologyClass_eq_zero' depends on axioms: [propext,
+2026-10-16T07:36:54.8952498Z  Classical.choice,
+2026-10-16T07:36:54.8952688Z  Quot.sound]
+2026-10-16T07:36:54.8953185Z info: Audit.lean:203:0: 'AllPrimeGroups.GroupExtension.nonempty_equiv_iff_cohomologyClass_factorSet_eq' depends on axioms: [propext,
+2026-10-16T07:36:54.8953759Z  Classical.choice,
+2026-10-16T07:36:54.8953943Z  Quot.sound]
+2026-10-16T07:36:54.8954453Z info: Audit.lean:204:0: 'AllPrimeGroups.FactorSet.toCocycles₂_product' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8955275Z info: Audit.lean:205:0: 'AllPrimeGroups.FactorSet.cohomologyClass_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8956077Z info: Audit.lean:206:0: 'AllPrimeGroups.Chain.connect_injective_from' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.8956823Z info: Audit.lean:207:0: 'AllPrimeGroups.Chain.of_injective_from' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8957656Z info: Audit.lean:208:0: 'AllPrimeGroups.Stable.of_injective_of_characters' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8958945Z info: Audit.lean:209:0: 'AllPrimeGroups.PrimeAlgebra.augmentation_kernel_nil' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8959872Z info: Audit.lean:210:0: 'AllPrimeGroups.PrimeAlgebra.unit_of_augmentation_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8960750Z info: Audit.lean:211:0: 'AllPrimeGroups.target_of_character_extensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8961569Z info: Audit.lean:212:0: 'GroupExtension.surjective_of_comp_inl_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8962387Z info: Audit.lean:213:0: 'AllPrimeGroups.MatrixGeometry.embed_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8963255Z info: Audit.lean:214:0: 'AllPrimeGroups.MatrixGeometry.rightFixer_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8964165Z info: Audit.lean:215:0: 'AllPrimeGroups.MatrixGeometry.rightFixer_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8965181Z info: Audit.lean:216:0: 'AllPrimeGroups.MatrixCoordinates.π_presMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8966043Z info: Audit.lean:217:0: 'AllPrimeGroups.MatrixCoordinates.D_presMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8967050Z info: Audit.lean:218:0: 'AllPrimeGroups.MatrixCoordinates.representation_coordinateMap' depends on axioms: [propext,
+2026-10-16T07:36:54.8967580Z  Classical.choice,
+2026-10-16T07:36:54.8967977Z  Quot.sound]
+2026-10-16T07:36:54.8968481Z info: Audit.lean:219:0: 'AllPrimeGroups.MatrixCoordinates.mem_E_of_embed' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8969483Z info: Audit.lean:220:0: 'AllPrimeGroups.FrameBlocks.fullMatrix_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8970354Z info: Audit.lean:221:0: 'AllPrimeGroups.FrameBlocks.exists_fullMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8971190Z info: Audit.lean:222:0: 'AllPrimeGroups.FrameBlocks.matrixMap_mem_E' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8972054Z info: Audit.lean:223:0: 'AllPrimeGroups.FrameBlocks.toStabilizer_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8972926Z info: Audit.lean:224:0: 'AllPrimeGroups.FrameBlocks.stabilizerEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8973790Z info: Audit.lean:225:0: 'AllPrimeGroups.FrameBlocks.stabilizerExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8974667Z info: Audit.lean:226:0: 'AllPrimeGroups.FrameBlocks.stabilizer_isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8975534Z info: Audit.lean:227:0: 'AllPrimeGroups.FrameFaces.extendRow_toSteinberg' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8976363Z info: Audit.lean:228:0: 'AllPrimeGroups.FrameFaces.faceCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8977157Z info: Audit.lean:229:0: 'AllPrimeGroups.FrameFaces.faceCover_inr' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8978156Z info: Audit.lean:230:0: 'AllPrimeGroups.FrameFaces.faceCover_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8978967Z info: Audit.lean:231:0: 'AllPrimeGroups.FrameFaces.faceBase' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8979792Z info: Audit.lean:232:0: 'AllPrimeGroups.FrameFaces.faceBase_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8980658Z info: Audit.lean:233:0: 'AllPrimeGroups.FrameFaces.faces_agree_on_steinberg' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8981702Z info: Audit.lean:234:0: 'AllPrimeGroups.FrameFaces.faces_agree_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8982676Z info: Audit.lean:235:0: 'AllPrimeGroups.FrameFaces.faceCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8983512Z info: Audit.lean:236:0: 'AllPrimeGroups.FrameFaces.coverMatrix_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8984357Z info: Audit.lean:237:0: 'AllPrimeGroups.FrameFaces.faceBase_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8985186Z info: Audit.lean:238:0: 'AllPrimeGroups.FrameFaces.actualFace' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8986011Z info: Audit.lean:239:0: 'AllPrimeGroups.FrameFaces.actualFace_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8986851Z info: Audit.lean:240:0: 'AllPrimeGroups.FrameFaces.actualFace_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8987687Z info: Audit.lean:241:0: 'AllPrimeGroups.FrameFaces.actualFace_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8988735Z info: Audit.lean:242:0: 'AllPrimeGroups.MatrixGeometry.singleDiagonal_conj_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8989609Z info: Audit.lean:243:0: 'AllPrimeGroups.FrameFaces.scaleRow_act' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8990600Z info: Audit.lean:244:0: 'AllPrimeGroups.FrameFaces.scaleRowsAt_act' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8991407Z info: Audit.lean:245:0: 'AllPrimeGroups.FrameFaces.scaleCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8992359Z info: Audit.lean:246:0: 'AllPrimeGroups.FrameFaces.coverMatrix_scaleCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8993252Z info: Audit.lean:247:0: 'AllPrimeGroups.FrameFaces.scaledFaceBase_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8994133Z info: Audit.lean:248:0: 'AllPrimeGroups.FrameFaces.scaledFaceCover_inr' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8995014Z info: Audit.lean:249:0: 'AllPrimeGroups.FrameFaces.scaledFaces_agree_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8995915Z info: Audit.lean:250:0: 'AllPrimeGroups.FrameFaces.coverMatrix_scaledFace' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8996782Z info: Audit.lean:251:0: 'AllPrimeGroups.FrameFaces.swap_conjugates_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8997666Z info: Audit.lean:252:0: 'AllPrimeGroups.FrameFaces.signedSwap_eq_diagonal_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8998839Z info: Audit.lean:253:0: 'AllPrimeGroups.FrameFaces.signedSwap_mem_E' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.8999710Z info: Audit.lean:254:0: 'AllPrimeGroups.FrameFaces.pairNormalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9000561Z info: Audit.lean:255:0: 'AllPrimeGroups.FrameFaces.unsignedPair_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9001420Z info: Audit.lean:256:0: 'AllPrimeGroups.FrameFaces.firstFace_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9002269Z info: Audit.lean:257:0: 'AllPrimeGroups.FrameFaces.signedPair_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9003119Z info: Audit.lean:258:0: 'AllPrimeGroups.FrameFaces.signedPair_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9004011Z info: Audit.lean:259:0: 'AllPrimeGroups.FrameFaces.signedPair_agrees_on_steinberg' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9004917Z info: Audit.lean:260:0: 'AllPrimeGroups.FrameFaces.signedPair_agrees_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9005820Z info: Audit.lean:261:0: 'AllPrimeGroups.FrameFaces.actualFirstFace_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9006746Z info: Audit.lean:262:0: 'AllPrimeGroups.FrameFaces.actualSignedPair_conjugation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9007621Z info: Audit.lean:263:0: 'AllPrimeGroups.Frames.IsFrame.map_of_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9008597Z info: Audit.lean:264:0: 'AllPrimeGroups.Frames.reducedLinear_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9009450Z info: Audit.lean:265:0: 'AllPrimeGroups.Frames.columnFrameMulAction' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9010321Z info: Audit.lean:266:0: 'AllPrimeGroups.Frames.elementaryFrameMulAction' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9011187Z info: Audit.lean:267:0: 'AllPrimeGroups.Frames.face_elementaryFrame_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9012025Z info: Audit.lean:268:0: 'AllPrimeGroups.Frames.columnChainAct_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9013030Z info: Audit.lean:269:0: 'AllPrimeGroups.Frames.bd_columnChainAct' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9013831Z info: Audit.lean:270:0: 'AllPrimeGroups.Frames.deg_columnChainAct' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9014672Z info: Audit.lean:271:0: 'AllPrimeGroups.Frames.standardColumn_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9015618Z info: Audit.lean:272:0: 'AllPrimeGroups.Frames.standardFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9016424Z info: Audit.lean:273:0: 'AllPrimeGroups.Frames.pairNormalizer_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9017267Z info: Audit.lean:274:0: 'AllPrimeGroups.Frames.firstFace_standardFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9018350Z info: Audit.lean:275:0: 'AllPrimeGroups.Frames.signedSecondFace_standardFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9019237Z info: Audit.lean:276:0: 'AllPrimeGroups.Frames.frameStabilizerEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9020099Z info: Audit.lean:277:0: 'AllPrimeGroups.Frames.blockFrameStabilizerEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9020978Z info: Audit.lean:278:0: 'AllPrimeGroups.Frames.standardFrameExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9021885Z info: Audit.lean:279:0: 'AllPrimeGroups.Frames.standardFrameStabilizer_isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9022791Z info: Audit.lean:280:0: 'AllPrimeGroups.Frames.firstActionFace_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9023679Z info: Audit.lean:281:0: 'AllPrimeGroups.Frames.signedActionFace_conjugation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9024552Z info: Audit.lean:282:0: 'AllPrimeGroups.Frames.frameRepresentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9025399Z info: Audit.lean:283:0: 'AllPrimeGroups.Frames.frameBoundary_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9026242Z info: Audit.lean:284:0: 'AllPrimeGroups.Frames.frameBoundary_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9027048Z info: Audit.lean:285:0: 'AllPrimeGroups.Frames.frameChains_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9028001Z info: Audit.lean:286:0: 'AllPrimeGroups.Frames.frameBoundary_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9028869Z info: Audit.lean:287:0: 'AllPrimeGroups.Frames.frameBoundary_zero_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9029763Z info: Audit.lean:288:0: 'AllPrimeGroups.MatrixLifting.isUnit_iff_of_split_nil' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9030669Z info: Audit.lean:289:0: 'AllPrimeGroups.MatrixLifting.isUnit_iff_matrix_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9031586Z info: Audit.lean:290:0: 'AllPrimeGroups.Frames.exists_linearEquiv_on_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9032477Z info: Audit.lean:291:0: 'AllPrimeGroups.Frames.linearEquivMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9033341Z info: Audit.lean:292:0: 'AllPrimeGroups.Frames.exists_field_matrix_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9034209Z info: Audit.lean:293:0: 'AllPrimeGroups.Frames.exists_split_matrix_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9035216Z info: Audit.lean:294:0: 'AllPrimeGroups.Frames.exists_split_elementary_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9036118Z info: Audit.lean:295:0: 'AllPrimeGroups.Frames.IsFrame.linearIndependent_get' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9036997Z info: Audit.lean:296:0: 'AllPrimeGroups.Frames.frameTuple_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9038176Z info: Audit.lean:297:0: 'AllPrimeGroups.Frames.frameTuple_ofFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9039112Z info: Audit.lean:298:0: 'AllPrimeGroups.Frames.stabilizer_standardLengthFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9040049Z info: Audit.lean:299:0: 'AllPrimeGroups.Frames.exists_split_elementary_from_standard' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9040966Z info: Audit.lean:300:0: 'AllPrimeGroups.Frames.exists_split_elementary_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9041859Z info: Audit.lean:301:0: 'AllPrimeGroups.Frames.lengthFrame_isPretransitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9042719Z info: Audit.lean:302:0: 'AllPrimeGroups.Frames.cosetFrame_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9043559Z info: Audit.lean:303:0: 'AllPrimeGroups.Frames.cosetFrame_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9044397Z info: Audit.lean:304:0: 'AllPrimeGroups.Frames.cosetFrame_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9045232Z info: Audit.lean:305:0: 'AllPrimeGroups.Frames.frameQuotientEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9046065Z info: Audit.lean:306:0: 'AllPrimeGroups.Frames.frameQuotientEquiv_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9046943Z info: Audit.lean:307:0: 'AllPrimeGroups.Frames.frameQuotientEquiv_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9048109Z info: Audit.lean:308:0: 'AllPrimeGroups.PrimeAlgebra.augmentation_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9049110Z info: Audit.lean:309:0: 'AllPrimeGroups.PrimeAlgebra.matrix_isUnit_iff_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9050040Z info: Audit.lean:310:0: 'AllPrimeGroups.PrimeAlgebra.exists_frame_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9050934Z info: Audit.lean:311:0: 'AllPrimeGroups.PrimeAlgebra.frame_isPretransitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9051831Z info: Audit.lean:312:0: 'AllPrimeGroups.PrimeAlgebra.frame_isPretransitive_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9052733Z info: Audit.lean:313:0: 'AllPrimeGroups.PrimeAlgebra.frameQuotientEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9053662Z info: Audit.lean:314:0: 'AllPrimeGroups.PrimeAlgebra.frameQuotientEquiv_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9054550Z info: Audit.lean:315:0: 'AllPrimeGroups.HomologicalComplex.homologyUnop_inv_naturality' depends on axioms: [propext,
+2026-10-16T07:36:54.9055089Z  Classical.choice,
+2026-10-16T07:36:54.9055285Z  Quot.sound]
+2026-10-16T07:36:54.9055748Z info: Audit.lean:316:0: 'CategoryTheory.ProjectiveResolution.isoExt_hom_comp_homologyMap' depends on axioms: [propext,
+2026-10-16T07:36:54.9056270Z  Classical.choice,
+2026-10-16T07:36:54.9056461Z  Quot.sound]
+2026-10-16T07:36:54.9056938Z info: Audit.lean:317:0: 'AllPrimeGroups.Rep.barComplex.resHom_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9057919Z info: Audit.lean:318:0: 'AllPrimeGroups.Rep.barComplex.d_comp_resHom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9058949Z info: Audit.lean:319:0: 'AllPrimeGroups.Rep.barComplex.resChainMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9060087Z info: Audit.lean:320:0: 'AllPrimeGroups.Rep.barComplex.resChainMap_f_zero_comp_π' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9061140Z info: Audit.lean:321:0: 'AllPrimeGroups.Rep.groupCohomologyIso_inv_eq_homologyMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9062033Z info: Audit.lean:322:0: 'AllPrimeGroups.groupCohomology.coindIso_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9062919Z info: Audit.lean:323:0: 'AllPrimeGroups.groupCohomology.coindIso_hom_naturality' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9063803Z info: Audit.lean:324:0: 'AllPrimeGroups.groupCohomology.map_resCoindToHom_comp_coindIso_hom' depends on axioms: [propext,
+2026-10-16T07:36:54.9064353Z  Classical.choice,
+2026-10-16T07:36:54.9064547Z  Quot.sound]
+2026-10-16T07:36:54.9065081Z info: Audit.lean:325:0: 'AllPrimeGroups.groupCohomology.map_unit_comp_coindIso_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9066026Z info: Audit.lean:326:0: 'groupCohomology.map_id_eq_zero_iff_of_comp_eq_resCoindToHom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9066863Z info: Audit.lean:327:0: 'AllPrimeGroups.Homogeneous.functionPullback' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9067580Z info: Audit.lean:328:0: 'AllPrimeGroups.Homogeneous.functionIso' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9068522Z info: Audit.lean:329:0: 'AllPrimeGroups.Homogeneous.cosetCoindEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9069365Z info: Audit.lean:330:0: 'AllPrimeGroups.Homogeneous.cosetCoindIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9070205Z info: Audit.lean:331:0: 'AllPrimeGroups.Homogeneous.orbitCoindIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9071074Z info: Audit.lean:332:0: 'AllPrimeGroups.Homogeneous.orbitCoindIso_hom_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9071980Z info: Audit.lean:333:0: 'AllPrimeGroups.Homogeneous.orbitEvaluation_adjunct' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9072849Z info: Audit.lean:334:0: 'AllPrimeGroups.Homogeneous.orbitShapiroIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9073707Z info: Audit.lean:335:0: 'AllPrimeGroups.Homogeneous.orbitShapiroIso_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9074610Z info: Audit.lean:336:0: 'AllPrimeGroups.Homogeneous.orbitShapiroIso_naturality' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9075503Z info: Audit.lean:337:0: 'AllPrimeGroups.Frames.lengthFace_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9076361Z info: Audit.lean:338:0: 'AllPrimeGroups.Frames.frameFacePullback_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9077246Z info: Audit.lean:339:0: 'AllPrimeGroups.Frames.frameCoefficientsCoindIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9078286Z info: Audit.lean:340:0: 'AllPrimeGroups.Frames.frameCoefficientsCoindIso_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9079166Z info: Audit.lean:341:0: 'AllPrimeGroups.Frames.frameShapiroIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9079981Z info: Audit.lean:342:0: 'AllPrimeGroups.Frames.frameShapiroIso_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9080821Z info: Audit.lean:343:0: 'AllPrimeGroups.Frames.firstFaceStabilizer_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9081833Z info: Audit.lean:344:0: 'AllPrimeGroups.Frames.firstActionFace_eq_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9082738Z info: Audit.lean:345:0: 'AllPrimeGroups.Frames.firstFaceShapiro_naturality' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9083764Z info: Audit.lean:346:0: 'AllPrimeGroups.Frames.firstActionFaceShapiro_naturality' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9084612Z info: Audit.lean:347:0: 'AllPrimeGroups.perfect_hom_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9085375Z info: Audit.lean:348:0: 'AllPrimeGroups.perfect_addHom_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9086158Z info: Audit.lean:349:0: 'AllPrimeGroups.perfect_H1_subsingleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9086957Z info: Audit.lean:350:0: 'AllPrimeGroups.Frames.standardFrameStabilizer_H1_subsingleton' depends on axioms: [propext,
+2026-10-16T07:36:54.9087483Z  Classical.choice,
+2026-10-16T07:36:54.9087677Z  Quot.sound]
+2026-10-16T07:36:54.9088342Z info: Audit.lean:351:0: 'AllPrimeGroups.Frames.frameCoefficient_H1_subsingleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9089294Z info: Audit.lean:352:0: 'AllPrimeGroups.PrimeAlgebra.frameCoefficientShapiroIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9090277Z info: Audit.lean:353:0: 'AllPrimeGroups.PrimeAlgebra.frameCoefficientShapiroIso_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9091162Z info: Audit.lean:354:0: 'AllPrimeGroups.PrimeAlgebra.firstFrameFaceShapiro_naturality' depends on axioms: [propext,
+2026-10-16T07:36:54.9091685Z  Classical.choice,
+2026-10-16T07:36:54.9091881Z  Quot.sound]
+2026-10-16T07:36:54.9092325Z info: Audit.lean:355:0: 'AllPrimeGroups.PrimeAlgebra.frameCoefficient_H1_subsingleton' depends on axioms: [propext,
+2026-10-16T07:36:54.9092839Z  Classical.choice,
+2026-10-16T07:36:54.9093023Z  Quot.sound]
+2026-10-16T07:36:54.9093488Z info: Audit.lean:356:0: 'AllPrimeGroups.CohomologyConjugation.innerCoefficient' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9094284Z info: Audit.lean:357:0: 'AllPrimeGroups.CohomologyConjugation.innerCocycle_difference' depends on axioms: [propext,
+2026-10-16T07:36:54.9094808Z  Classical.choice,
+2026-10-16T07:36:54.9094991Z  Quot.sound]
+2026-10-16T07:36:54.9095489Z info: Audit.lean:358:0: 'AllPrimeGroups.CohomologyConjugation.inner_map_H2' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9096405Z info: Audit.lean:359:0: 'AllPrimeGroups.CohomologyConjugation.conjugate_map_H2' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9097353Z info: Audit.lean:360:0: 'AllPrimeGroups.Frames.signedSecondLengthFace_standardFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9098496Z info: Audit.lean:361:0: 'AllPrimeGroups.Frames.signedSecondFaceShapiro_naturality' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9099417Z info: Audit.lean:362:0: 'AllPrimeGroups.FactorSet.centralRestriction' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9100290Z info: Audit.lean:363:0: 'AllPrimeGroups.FactorSet.cohomologyClass_comp_eq_of_lifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9101200Z info: Audit.lean:364:0: 'AllPrimeGroups.CentralCocycles.characterData' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9102129Z info: Audit.lean:365:0: 'AllPrimeGroups.CentralCocycles.characterData_cocycle_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9103014Z info: Audit.lean:366:0: 'AllPrimeGroups.CentralCocycles.CharacterData.pullback_class_eq' depends on axioms: [propext,
+2026-10-16T07:36:54.9103793Z  Classical.choice,
+2026-10-16T07:36:54.9103987Z  Quot.sound]
+2026-10-16T07:36:54.9104519Z info: Audit.lean:367:0: 'AllPrimeGroups.Frames.standardFrameExtension_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9105459Z info: Audit.lean:368:0: 'AllPrimeGroups.Frames.standardFrameExtension_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9106487Z info: Audit.lean:369:0: 'AllPrimeGroups.Frames.standard_firstCover_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9107395Z info: Audit.lean:370:0: 'AllPrimeGroups.Frames.standard_signedCover_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9108479Z info: Audit.lean:371:0: 'AllPrimeGroups.Frames.standard_face_lifts_agree_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9109357Z info: Audit.lean:372:0: 'AllPrimeGroups.Frames.frameCharacterData' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9110214Z info: Audit.lean:373:0: 'AllPrimeGroups.Frames.frameCharacterClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9111080Z info: Audit.lean:374:0: 'AllPrimeGroups.Frames.frameCharacterClass_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9111899Z info: Audit.lean:375:0: 'AllPrimeGroups.Frames.equal_preimages_of_squares' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9112712Z info: Audit.lean:376:0: 'AllPrimeGroups.Frames.frameCharacterPreclass' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9113602Z info: Audit.lean:377:0: 'AllPrimeGroups.Frames.frameCharacterPreclass_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9114457Z info: Audit.lean:378:0: 'AllPrimeGroups.PrimeAlgebra.secondFrameFaceShapiro_naturality' depends on axioms: [propext,
+2026-10-16T07:36:54.9114987Z  Classical.choice,
+2026-10-16T07:36:54.9115179Z  Quot.sound]
+2026-10-16T07:36:54.9115677Z info: Audit.lean:379:0: 'AllPrimeGroups.PrimeAlgebra.frameCharacterCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9116589Z info: Audit.lean:380:0: 'AllPrimeGroups.PrimeAlgebra.frameCharacterCycle_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9117462Z info: Audit.lean:381:0: 'AllPrimeGroups.injective_dual_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9118374Z info: Audit.lean:382:0: 'AllPrimeGroups.divisible_dual_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9119135Z info: Audit.lean:383:0: 'AllPrimeGroups.cochain_boundary_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9119891Z info: Audit.lean:384:0: 'AllPrimeGroups.cochain_class_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9120649Z info: Audit.lean:385:0: 'AllPrimeGroups.cochain_map_cocycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9121460Z info: Audit.lean:386:0: 'AllPrimeGroups.cochain_primitive_of_subsingleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9122496Z info: Audit.lean:387:0: 'AllPrimeGroups.cochainsIso₀_hom_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9123319Z info: Audit.lean:388:0: 'AllPrimeGroups.cochain_zero_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9124088Z info: Audit.lean:389:0: 'AllPrimeGroups.low_degree_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9124840Z info: Audit.lean:390:0: 'AllPrimeGroups.cohomology_map_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9125597Z info: Audit.lean:391:0: 'AllPrimeGroups.Homogeneous.invariant_function_eq' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9126534Z info: Audit.lean:392:0: 'AllPrimeGroups.Homogeneous.functionInvariantsEquiv' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9127376Z info: Audit.lean:393:0: 'AllPrimeGroups.Frames.frameChainsEquivFinsupp' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9128366Z info: Audit.lean:394:0: 'AllPrimeGroups.Frames.frameChainSingle' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9129381Z info: Audit.lean:395:0: 'AllPrimeGroups.Frames.frameChainsEquivFinsupp_symm_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9130274Z info: Audit.lean:396:0: 'AllPrimeGroups.Frames.frameDualEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9131120Z info: Audit.lean:397:0: 'AllPrimeGroups.Frames.frameDualEquiv_symm_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9131982Z info: Audit.lean:398:0: 'AllPrimeGroups.Frames.frameDualEquiv_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9132819Z info: Audit.lean:399:0: 'AllPrimeGroups.Frames.frameLinear_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9133653Z info: Audit.lean:400:0: 'AllPrimeGroups.Frames.frameBoundary_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9134478Z info: Audit.lean:401:0: 'AllPrimeGroups.Frames.frameCoboundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9135310Z info: Audit.lean:402:0: 'AllPrimeGroups.Frames.frameCoboundary_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9136176Z info: Audit.lean:403:0: 'AllPrimeGroups.Frames.frameDualEquiv_coboundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9137034Z info: Audit.lean:404:0: 'AllPrimeGroups.Frames.frameCoboundary_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9138024Z info: Audit.lean:405:0: 'AllPrimeGroups.Frames.frameCoboundary_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9138913Z info: Audit.lean:406:0: 'AllPrimeGroups.Frames.frameCoboundary_zero_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9139813Z info: Audit.lean:407:0: 'AllPrimeGroups.Frames.frameCochainsCoboundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9140764Z info: Audit.lean:408:0: 'AllPrimeGroups.Frames.frameCochainsCoboundary_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9141683Z info: Audit.lean:409:0: 'AllPrimeGroups.Frames.frameCochainsCoboundary_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9142595Z info: Audit.lean:410:0: 'AllPrimeGroups.Frames.frameCochainsCoboundary_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9143515Z info: Audit.lean:411:0: 'AllPrimeGroups.Frames.frameCochainsCoboundary_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9144371Z info: Audit.lean:412:0: 'AllPrimeGroups.Frames.frameCochainsCoboundary_zero_injective' depends on axioms: [propext,
+2026-10-16T07:36:54.9144896Z  Classical.choice,
+2026-10-16T07:36:54.9145089Z  Quot.sound]
+2026-10-16T07:36:54.9145545Z info: Audit.lean:413:0: 'AllPrimeGroups.Frames.frameH0Equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9146401Z info: Audit.lean:414:0: 'AllPrimeGroups.Frames.frameCoboundary_invariant_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9147288Z info: Audit.lean:415:0: 'AllPrimeGroups.Frames.frameH0Equiv_coboundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9148299Z info: Audit.lean:416:0: 'AllPrimeGroups.Frames.frame_zero_cochain_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9149299Z info: Audit.lean:417:0: 'AllPrimeGroups.Frames.frame_low_degree_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9150119Z info: Audit.lean:418:0: 'AllPrimeGroups.Frames.emptyLengthFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9150939Z info: Audit.lean:419:0: 'AllPrimeGroups.Frames.lengthFrame_zero_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9151863Z info: Audit.lean:420:0: 'AllPrimeGroups.Frames.frameEmptyEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9152698Z info: Audit.lean:421:0: 'AllPrimeGroups.Frames.frameAugmentationIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9153568Z info: Audit.lean:422:0: 'AllPrimeGroups.Frames.frameAugmentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9154433Z info: Audit.lean:423:0: 'AllPrimeGroups.Frames.frameAugmentation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9155285Z info: Audit.lean:424:0: 'AllPrimeGroups.Frames.frameH2_lift_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9156079Z info: Audit.lean:425:0: 'AllPrimeGroups.Frames.frameH2_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9156882Z info: Audit.lean:426:0: 'AllPrimeGroups.Frames.frameCoboundary_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9157720Z info: Audit.lean:427:0: 'AllPrimeGroups.Frames.frameH2_cycle_of_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9158674Z info: Audit.lean:428:0: 'AllPrimeGroups.PrimeAlgebra.frameAugmentationShapiro_naturality' depends on axioms: [propext,
+2026-10-16T07:36:54.9159219Z  Classical.choice,
+2026-10-16T07:36:54.9159416Z  Quot.sound]
+2026-10-16T07:36:54.9159943Z info: Audit.lean:429:0: 'AllPrimeGroups.PrimeAlgebra.frameCharacterCycle_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9160833Z info: Audit.lean:430:0: 'AllPrimeGroups.PrimeAlgebra.frameCharacterClass_restriction_lift' depends on axioms: [propext,
+2026-10-16T07:36:54.9161374Z  Classical.choice,
+2026-10-16T07:36:54.9161565Z  Quot.sound]
+2026-10-16T07:36:54.9162034Z info: Audit.lean:431:0: 'AllPrimeGroups.PrimeAlgebra.rationalCircle_frameCharacterClass_lift' depends on axioms: [propext,
+2026-10-16T07:36:54.9162587Z  Classical.choice,
+2026-10-16T07:36:54.9162773Z  Quot.sound]
+2026-10-16T07:36:54.9163142Z info: Audit.lean:432:0: 'AllPrimeGroups.CentralCocycles.pullback' depends on axioms: [propext]
+2026-10-16T07:36:54.9163834Z info: Audit.lean:433:0: 'AllPrimeGroups.CentralCocycles.pullbackMap' depends on axioms: [propext, Quot.sound]
+2026-10-16T07:36:54.9164639Z info: Audit.lean:434:0: 'AllPrimeGroups.CentralCocycles.pullback_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9165554Z info: Audit.lean:435:0: 'AllPrimeGroups.CentralCocycles.CharacterData.exists_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9166461Z info: Audit.lean:436:0: 'AllPrimeGroups.Frames.rowInclusion_one_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9167303Z info: Audit.lean:437:0: 'AllPrimeGroups.Frames.rowInclusion_one_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9168314Z info: Audit.lean:438:0: 'AllPrimeGroups.Frames.rowInclusion_standard_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9169201Z info: Audit.lean:439:0: 'AllPrimeGroups.Frames.rowInclusion_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9170043Z info: Audit.lean:440:0: 'AllPrimeGroups.Frames.kernelCenterInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9170946Z info: Audit.lean:441:0: 'AllPrimeGroups.PrimeAlgebra.block_character_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9172049Z info: Audit.lean:442:0: 'AllPrimeGroups.PrimeAlgebra.kernel_character_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9172968Z info: Audit.lean:443:0: 'AllPrimeGroups.PrimeAlgebra.character_extensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9173978Z info: Audit.lean:444:0: 'AllPrimeGroups.PrimeAlgebra.stabilization_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9174862Z info: Audit.lean:445:0: 'AllPrimeGroups.primeCharacterExtensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9175652Z info: Audit.lean:446:0: 'AllPrimeGroups.all_prime_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9176478Z info: Audit.lean:447:0: 'AllPrimeGroups.Steinberg.finite_of_local_augmentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9177366Z info: Audit.lean:448:0: 'AllPrimeGroups.Steinberg.finite_of_finite_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9178404Z info: Audit.lean:449:0: 'AllPrimeGroups.PrimeGroups.subgroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9179174Z info: Audit.lean:450:0: 'AllPrimeGroups.PrimeGroups.G' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9179964Z info: Audit.lean:451:0: 'AllPrimeGroups.PrimeGroups.le_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9180788Z info: Audit.lean:452:0: 'AllPrimeGroups.PrimeGroups.finiteIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9181593Z info: Audit.lean:453:0: 'AllPrimeGroups.PrimeGroups.infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9182427Z info: Audit.lean:454:0: 'AllPrimeGroups.PrimeGroups.finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9183334Z info: Audit.lean:455:0: 'AllPrimeGroups.PrimeGroups.candidate_residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9184229Z info: Audit.lean:456:0: 'AllPrimeGroups.PrimeGroups.residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9185051Z info: Audit.lean:457:0: 'AllPrimeGroups.PrimeGroups.isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9185861Z info: Audit.lean:458:0: 'AllPrimeGroups.PrimeGroups.properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9186707Z info: Audit.lean:459:0: 'AllPrimeGroups.FinitePQuotients.range_isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9187593Z info: Audit.lean:460:0: 'AllPrimeGroups.FinitePQuotients.finite_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9188652Z info: Audit.lean:461:0: 'AllPrimeGroups.FinitePQuotients.finite_quotient_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9189547Z info: Audit.lean:462:0: 'AllPrimeGroups.FinitePQuotients.separate_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9190411Z info: Audit.lean:463:0: 'AllPrimeGroups.FinitePQuotients.separate_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9191292Z info: Audit.lean:464:0: 'AllPrimeGroups.FinitePQuotients.separate_finset' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9192190Z info: Audit.lean:465:0: 'AllPrimeGroups.FinitePQuotients.unbounded_quotients' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9193113Z info: Audit.lean:466:0: 'AllPrimeGroups.FinitePQuotients.quotientProductMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9193976Z info: Audit.lean:467:0: 'AllPrimeGroups.FinitePQuotients.quotientProductMap_injective' depends on axioms: [propext,
+2026-10-16T07:36:54.9194655Z  Classical.choice,
+2026-10-16T07:36:54.9194847Z  Quot.sound]
+2026-10-16T07:36:54.9195336Z info: Audit.lean:468:0: 'AllPrimeGroups.PrimeGroups.finite_quotient_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9196238Z info: Audit.lean:469:0: 'AllPrimeGroups.PrimeGroups.finite_p_quotient_separates' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9197286Z info: Audit.lean:470:0: 'AllPrimeGroups.PrimeGroups.finite_p_quotient_injective_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9198405Z info: Audit.lean:471:0: 'AllPrimeGroups.PrimeGroups.finite_p_quotients_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9199262Z info: Audit.lean:472:0: 'AllPrimeGroups.PrimeGroups.finite_quotient_embedding_injective' depends on axioms: [propext,
+2026-10-16T07:36:54.9199824Z  Classical.choice,
+2026-10-16T07:36:54.9200023Z  Quot.sound]
+2026-10-16T07:36:54.9200377Z info: Audit.lean:474:0: 'AllPrimeGroups.NilCongruence.Group' depends on axioms: [propext]
+2026-10-16T07:36:54.9201100Z info: Audit.lean:475:0: 'AllPrimeGroups.NilCongruence.kernelEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9201916Z info: Audit.lean:476:0: 'AllPrimeGroups.NilCongruence.card' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9202730Z info: Audit.lean:477:0: 'AllPrimeGroups.NilCongruence.kernel_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9203559Z info: Audit.lean:478:0: 'AllPrimeGroups.NilCongruence.infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9204419Z info: Audit.lean:479:0: 'AllPrimeGroups.NilCongruence.units_residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9205318Z info: Audit.lean:480:0: 'AllPrimeGroups.NilCongruence.residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9206198Z info: Audit.lean:481:0: 'AllPrimeGroups.NilCongruence.card_eq_pow_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9207091Z info: Audit.lean:482:0: 'AllPrimeGroups.NilCongruence.card_eq_prime_pow_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9208320Z info: Audit.lean:483:0: 'AllPrimeGroups.NilCongruence.properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9209338Z info: Audit.lean:484:0: 'AllPrimeGroups.NilCongruence.MatrixGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9210210Z info: Audit.lean:485:0: 'AllPrimeGroups.NilCongruence.matrixKernelEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9211078Z info: Audit.lean:486:0: 'AllPrimeGroups.NilCongruence.matrix_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9211966Z info: Audit.lean:487:0: 'AllPrimeGroups.NilCongruence.matrix_card_eq_pow_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9212818Z info: Audit.lean:488:0: 'AllPrimeGroups.NilCongruence.matrix_card_eq_prime_pow_finrank' depends on axioms: [propext,
+2026-10-16T07:36:54.9213334Z  Classical.choice,
+2026-10-16T07:36:54.9213535Z  Quot.sound]
+2026-10-16T07:36:54.9214025Z info: Audit.lean:489:0: 'AllPrimeGroups.NilCongruence.matrix_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9214939Z info: Audit.lean:490:0: 'AllPrimeGroups.NilCongruence.matrix_units_residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9215879Z info: Audit.lean:491:0: 'AllPrimeGroups.NilCongruence.matrix_residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9216775Z info: Audit.lean:492:0: 'AllPrimeGroups.NilCongruence.matrix_isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9218166Z info: Audit.lean:493:0: 'AllPrimeGroups.NilCongruence.matrix_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9219373Z info: Audit.lean:494:0: 'AllPrimeGroups.PrimeAlgebra.CongruenceUnits' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9220644Z info: Audit.lean:495:0: 'AllPrimeGroups.PrimeAlgebra.MatrixCongruenceUnits' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9221565Z info: Audit.lean:496:0: 'AllPrimeGroups.PrimeAlgebra.truncations_separate' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9222467Z info: Audit.lean:497:0: 'AllPrimeGroups.PrimeAlgebra.units_residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9223386Z info: Audit.lean:498:0: 'AllPrimeGroups.PrimeAlgebra.congruenceUnits_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9224249Z info: Audit.lean:499:0: 'AllPrimeGroups.PrimeAlgebra.congruenceUnits_residuallyFinite' depends on axioms: [propext,
+2026-10-16T07:36:54.9224778Z  Classical.choice,
+2026-10-16T07:36:54.9224976Z  Quot.sound]
+2026-10-16T07:36:54.9225500Z info: Audit.lean:500:0: 'AllPrimeGroups.PrimeAlgebra.congruenceUnits_isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9226440Z info: Audit.lean:501:0: 'AllPrimeGroups.PrimeAlgebra.congruenceUnits_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9227390Z info: Audit.lean:502:0: 'AllPrimeGroups.PrimeAlgebra.matrixUnits_residuallyFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9228569Z info: Audit.lean:503:0: 'AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9229483Z info: Audit.lean:504:0: 'AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_residuallyFinite' depends on axioms: [propext,
+2026-10-16T07:36:54.9230044Z  Classical.choice,
+2026-10-16T07:36:54.9230237Z  Quot.sound]
+2026-10-16T07:36:54.9230783Z info: Audit.lean:505:0: 'AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_isPGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:36:54.9231671Z info: Audit.lean:506:0: 'AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_properties' depends on axioms: [propext,
+2026-10-16T07:36:54.9232204Z  Classical.choice,
+2026-10-16T07:36:54.9232396Z  Quot.sound]
+2026-10-16T07:36:54.9232905Z info: Audit.lean:507:0: 'AllPrimeGroups.PrimeAlgebra.matrixCongruenceUnits_finite_quotients_unbounded' depends on axioms: [propext,
+2026-10-16T07:36:54.9233487Z  Classical.choice,
+2026-10-16T07:36:54.9233672Z  Quot.sound]
+2026-10-16T07:36:54.9233982Z info: Audit.lean:510:0: AllPrimeGroups.all_prime_groups : AllPrimeGroups.Target
+2026-10-16T07:36:55.0460589Z Build completed successfully (9103 jobs).
+2026-10-16T07:36:55.0890155Z [181/204] Challenge
+2026-10-16T07:36:57.7510922Z ✔ [1556/1556] Built Challenge (1.4s)
+2026-10-16T07:36:57.7544888Z Build completed successfully (1556 jobs).
+2026-10-16T07:36:57.7922469Z [182/204] ComparatorChallenge
+2026-10-16T07:37:00.3271802Z ⚠ [1557/1557] Built ComparatorChallenge (1.4s)
+2026-10-16T07:37:00.3272684Z warning: ComparatorChallenge.lean:11:8: declaration uses `sorry`
+2026-10-16T07:37:00.3273530Z warning: ComparatorChallenge.lean:17:8: declaration uses `sorry`
+2026-10-16T07:37:00.3274304Z warning: ComparatorChallenge.lean:21:8: declaration uses `sorry`
+2026-10-16T07:37:00.3313013Z Build completed successfully (1557 jobs).
+2026-10-16T07:37:00.3696449Z [183/204] OAI.GroupTheory.PeriodicGroups.Frames.ExteriorComplex
+2026-10-16T07:37:14.4360424Z ✔ [8924/8924] Built OAI.GroupTheory.PeriodicGroups.Frames.ExteriorComplex (9.7s)
+2026-10-16T07:37:14.5135164Z Build completed successfully (8924 jobs).
+2026-10-16T07:37:14.5531924Z [184/204] OAI.GroupTheory.PeriodicGroups.Frames.AcyclicFrameEdge
+2026-10-16T07:37:30.2925696Z ✔ [8925/8925] Built OAI.GroupTheory.PeriodicGroups.Frames.AcyclicFrameEdge (11s)
+2026-10-16T07:37:30.4070875Z Build completed successfully (8925 jobs).
+2026-10-16T07:37:30.4464353Z [185/204] OAI.GroupTheory.PeriodicGroups.Steinberg.KernelRelations
+2026-10-16T07:37:42.6445201Z ✔ [8967/8967] Built OAI.GroupTheory.PeriodicGroups.Steinberg.KernelRelations (7.9s)
+2026-10-16T07:37:42.7806506Z Build completed successfully (8967 jobs).
+2026-10-16T07:37:42.8230907Z [186/204] OAI.GroupTheory.PeriodicGroups.Steinberg.BlockEmbeddings
+2026-10-16T07:37:56.0981874Z ✔ [8968/8968] Built OAI.GroupTheory.PeriodicGroups.Steinberg.BlockEmbeddings (8.8s)
+2026-10-16T07:37:56.1739262Z Build completed successfully (8968 jobs).
+2026-10-16T07:37:56.2149935Z [187/204] OAI.GroupTheory.PeriodicGroups.Steinberg.BandFactorization
+2026-10-16T07:38:11.4865339Z ✔ [8970/8970] Built OAI.GroupTheory.PeriodicGroups.Steinberg.BandFactorization (10s)
+2026-10-16T07:38:11.6322114Z Build completed successfully (8970 jobs).
+2026-10-16T07:38:11.6747758Z [188/204] OAI.GroupTheory.PeriodicGroups.Steinberg.MatrixUnits
+2026-10-16T07:38:24.2866154Z ✔ [8971/8971] Built OAI.GroupTheory.PeriodicGroups.Steinberg.MatrixUnits (8.1s)
+2026-10-16T07:38:24.4413262Z Build completed successfully (8971 jobs).
+2026-10-16T07:38:24.4831365Z [189/204] OAI.GroupTheory.PeriodicGroups.Matrices.ElementaryGenerators
+2026-10-16T07:38:37.3493309Z ✔ [8972/8972] Built OAI.GroupTheory.PeriodicGroups.Matrices.ElementaryGenerators (8.4s)
+2026-10-16T07:38:37.4289418Z Build completed successfully (8972 jobs).
+2026-10-16T07:38:37.4708866Z [190/204] OAI.GroupTheory.PeriodicGroups.Presentation.FinitePresentation
+2026-10-16T07:38:48.8393821Z ✔ [8973/8973] Built OAI.GroupTheory.PeriodicGroups.Presentation.FinitePresentation (6.0s)
+2026-10-16T07:38:48.9852682Z Build completed successfully (8973 jobs).
+2026-10-16T07:38:49.0266167Z [191/204] OAI.GroupTheory.PeriodicGroups.Presentation.MatrixStabilizers
+2026-10-16T07:39:04.2071210Z ✔ [8974/8974] Built OAI.GroupTheory.PeriodicGroups.Presentation.MatrixStabilizers (10s)
+2026-10-16T07:39:04.3692982Z Build completed successfully (8974 jobs).
+2026-10-16T07:39:04.4127028Z [192/204] OAI.GroupTheory.PeriodicGroups.Presentation.SmallSwapActions
+2026-10-16T07:39:19.0052259Z ✔ [8976/8976] Built OAI.GroupTheory.PeriodicGroups.Presentation.SmallSwapActions (10s)
+2026-10-16T07:39:19.1480526Z Build completed successfully (8976 jobs).
+2026-10-16T07:39:19.1899819Z [193/204] OAI.GroupTheory.PeriodicGroups.Presentation.SmallFaithful
+2026-10-16T07:39:30.2506573Z ✔ [8977/8977] Built OAI.GroupTheory.PeriodicGroups.Presentation.SmallFaithful (6.6s)
+2026-10-16T07:39:30.3374781Z Build completed successfully (8977 jobs).
+2026-10-16T07:39:30.3779201Z [194/204] OAI.GroupTheory.PeriodicGroups.Steinberg.DiagonalActions
+2026-10-16T07:39:40.1225395Z ✔ [8978/8978] Built OAI.GroupTheory.PeriodicGroups.Steinberg.DiagonalActions (5.4s)
+2026-10-16T07:39:40.2600710Z Build completed successfully (8978 jobs).
+2026-10-16T07:39:40.3015383Z [195/204] OAI.GroupTheory.PeriodicGroups.Frames.ElementaryFrames
+2026-10-16T07:39:52.5697374Z ✔ [8980/8980] Built OAI.GroupTheory.PeriodicGroups.Frames.ElementaryFrames (7.9s)
+2026-10-16T07:39:52.7297086Z Build completed successfully (8980 jobs).
+2026-10-16T07:39:52.7703579Z [196/204] OAI.GroupTheory.PeriodicGroups.Homology.LocallyFiniteActions
+2026-10-16T07:40:14.3374647Z ✔ [8981/8981] Built OAI.GroupTheory.PeriodicGroups.Homology.LocallyFiniteActions (17s)
+2026-10-16T07:40:14.4600870Z Build completed successfully (8981 jobs).
+2026-10-16T07:40:14.5006325Z [197/204] OAI.GroupTheory.PeriodicGroups.Homology.FiniteNormalHomology
+2026-10-16T07:40:33.6453858Z ✔ [8982/8982] Built OAI.GroupTheory.PeriodicGroups.Homology.FiniteNormalHomology (14s)
+2026-10-16T07:40:33.8014563Z Build completed successfully (8982 jobs).
+2026-10-16T07:40:33.8422975Z [198/204] OAI.GroupTheory.PeriodicGroups.Steinberg.RankActions
+2026-10-16T07:40:45.0719728Z ✔ [8983/8983] Built OAI.GroupTheory.PeriodicGroups.Steinberg.RankActions (6.9s)
+2026-10-16T07:40:45.2023454Z Build completed successfully (8983 jobs).
+2026-10-16T07:40:45.2416809Z [199/204] OAI.GroupTheory.PeriodicGroups.Homology.KernelStability
+2026-10-16T07:40:57.0165058Z ✔ [8984/8984] Built OAI.GroupTheory.PeriodicGroups.Homology.KernelStability (7.4s)
+2026-10-16T07:40:57.1615810Z Build completed successfully (8984 jobs).
+2026-10-16T07:40:57.2034058Z [200/204] OAI.GroupTheory.PeriodicGroups.Periodicity.KernelTorsion
+2026-10-16T07:41:06.5572953Z ✔ [8985/8985] Built OAI.GroupTheory.PeriodicGroups.Periodicity.KernelTorsion (4.9s)
+2026-10-16T07:41:06.6475025Z Build completed successfully (8985 jobs).
+2026-10-16T07:41:06.6887669Z [201/204] OAI.GroupTheory.PeriodicGroups.Main
+2026-10-16T07:41:15.4629071Z ✔ [8986/8986] Built OAI.GroupTheory.PeriodicGroups.Main (4.3s)
+2026-10-16T07:41:15.5612596Z Build completed successfully (8986 jobs).
+2026-10-16T07:41:15.6021566Z [202/204] FCSolution
+2026-10-16T07:41:24.2946185Z ✔ [9115/9115] Built FCSolution (4.1s)
+2026-10-16T07:41:24.3948853Z Build completed successfully (9115 jobs).
+2026-10-16T07:41:24.4356561Z [203/204] FCAudit
+2026-10-16T07:41:32.8285292Z ℹ [9116/9116] Built FCAudit (3.8s)
+2026-10-16T07:41:32.8287157Z info: FCAudit.lean:3:0: 'AllPrimeGroupsFC.finitely_presented_burnside_problem' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:41:32.8289654Z info: FCAudit.lean:4:0: 'AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite' depends on axioms: [propext,
+2026-10-16T07:41:32.8290953Z  Classical.choice,
+2026-10-16T07:41:32.8291360Z  Quot.sound]
+2026-10-16T07:41:32.8292400Z info: FCAudit.lean:5:0: 'AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes' depends on axioms: [propext,
+2026-10-16T07:41:32.8293583Z  Classical.choice,
+2026-10-16T07:41:32.8294022Z  Quot.sound]
+2026-10-16T07:41:32.8294942Z info: FCAudit.lean:6:0: 'AllPrimeGroupsFC.all_prime_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:41:32.8296349Z info: FCAudit.lean:7:0: 'AllPrimeGroupsFC.concrete_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:41:32.8297662Z info: FCAudit.lean:9:0: AllPrimeGroupsFC.finitely_presented_burnside_problem : AllPrimeGroupsChallenge.MainStatement
+2026-10-16T07:41:32.8299440Z info: FCAudit.lean:14:0: AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite : AllPrimeGroupsChallenge.ResiduallyFinitePeriodicStatement
+2026-10-16T07:41:32.8301196Z info: FCAudit.lean:20:0: AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes : AllPrimeGroupsChallenge.Statement
+2026-10-16T07:41:32.8302482Z info: FCAudit.lean:25:0: AllPrimeGroupsFC.all_prime_groups : AllPrimeGroupsChallenge.Statement
+2026-10-16T07:41:32.9163210Z Build completed successfully (9116 jobs).
+2026-10-16T07:41:32.9553913Z [204/204] UpstreamAudit
+2026-10-16T07:41:41.0943487Z ℹ [8987/8987] Built UpstreamAudit (3.7s)
+2026-10-16T07:41:41.0945278Z info: UpstreamAudit.lean:3:0: OAI.SourceBurnside.thm_main : OAI.SourceBurnside.MainStatement ∧ OAI.SourceBurnside.BurnsideStatement
+2026-10-16T07:41:41.0946839Z info: UpstreamAudit.lean:4:0: def OAI.SourceBurnside.MainStatement : Prop :=
+2026-10-16T07:41:41.0947662Z ∃ R x x_1,
+2026-10-16T07:41:41.0948443Z   Infinite (OAI.SourceBurnside.Steinberg 12 R) ∧
+2026-10-16T07:41:41.0949310Z     Group.IsFinitelyPresented (OAI.SourceBurnside.Steinberg 12 R) ∧
+2026-10-16T07:41:41.0950254Z       OAI.SourceBurnside.Periodic (OAI.SourceBurnside.Steinberg 12 R)
+2026-10-16T07:41:41.0951210Z info: UpstreamAudit.lean:5:0: def OAI.SourceBurnside.BurnsideStatement : Prop :=
+2026-10-16T07:41:41.0959243Z ∃ G x, Infinite G ∧ Group.IsFinitelyPresented G ∧ OAI.SourceBurnside.Periodic G
+2026-10-16T07:41:41.0960609Z info: UpstreamAudit.lean:6:0: 'OAI.SourceBurnside.thm_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-16T07:41:41.1999047Z Build completed successfully (8987 jobs).
+2026-10-16T07:41:41.2400437Z PASS: all 204 project sources built, including all three target proofs.

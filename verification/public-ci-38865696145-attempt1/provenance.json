@@ -1,0 +1,42 @@
+{
+  "repository": "KitaKen1/all-prime-residually-finite-p-groups",
+  "run_id": 38865696145,
+  "run_attempt": 1,
+  "proof_commit": null,
+  "tested_commit": "c1ce611712e5a7804ed5056ad60600ffc941186a",
+  "archive_commit": null,
+  "run_url": "https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145",
+  "conclusion": "success",
+  "artifacts": [
+    {
+      "id": 12032569548,
+      "name": "replay-38865696145-1",
+      "file": "artifacts/12032569548-replay-38865696145-1.zip",
+      "github_digest": "sha256:21490449f89156fc2ab94ee737ebd3fbf694b3fde931fee3fb2c34d5a8370d60",
+      "sha256": "21490449f89156fc2ab94ee737ebd3fbf694b3fde931fee3fb2c34d5a8370d60",
+      "digest_matches": true,
+      "expires_at": "2027-01-14T07:12:02Z"
+    },
+    {
+      "id": 12032536871,
+      "name": "comparator-38865696145-1",
+      "file": "artifacts/12032536871-comparator-38865696145-1.zip",
+      "github_digest": "sha256:bf3561442e82ab271a094da2c5a5cefe9b1e25c32bddd57079d41b6d026089cf",
+      "sha256": "bf3561442e82ab271a094da2c5a5cefe9b1e25c32bddd57079d41b6d026089cf",
+      "digest_matches": true,
+      "expires_at": "2027-01-14T07:12:02Z"
+    },
+    {
+      "id": 12031534556,
+      "name": "build-38865696145-1",
+      "file": "artifacts/12031534556-build-38865696145-1.zip",
+      "github_digest": "sha256:680f46c724ba2241c691f9c6cafa74883905d36bb3a347730b1dedbb18983967",
+      "sha256": "680f46c724ba2241c691f9c6cafa74883905d36bb3a347730b1dedbb18983967",
+      "digest_matches": true,
+      "expires_at": "2027-01-14T07:12:02Z"
+    }
+  ],
+  "retrieved_at_utc": "2026-10-16T08:12:29.755426+00:00",
+  "note": "API metadata, original ZIPs, full job logs and all extracted receipts preserved. SHA256SUMS are local file identities, not a signed GitHub attestation. Record the archive commit after committing.",
+  "target_scope": "Main and two variants: independent expanded FC statements, fixed standard Mathlib definitions, no definition holes."
+}

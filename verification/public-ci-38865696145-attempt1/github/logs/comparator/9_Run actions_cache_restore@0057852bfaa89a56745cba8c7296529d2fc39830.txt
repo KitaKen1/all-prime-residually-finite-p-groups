@@ -1,0 +1,20 @@
+﻿2026-10-16T07:46:42.4429031Z ##[group]Run actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+2026-10-16T07:46:42.4429675Z with:
+2026-10-16T07:46:42.4429995Z   path: lean/.lake/build
+2026-10-16T07:46:42.4430550Z   key: allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-38865696145-1
+2026-10-16T07:46:42.4431176Z   fail-on-cache-miss: true
+2026-10-16T07:46:42.4431565Z   enableCrossOsArchive: false
+2026-10-16T07:46:42.4431951Z   lookup-only: false
+2026-10-16T07:46:42.4432271Z env:
+2026-10-16T07:46:42.4432554Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:46:42.4432909Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:46:42.4433288Z ##[endgroup]
+2026-10-16T07:46:42.5609045Z (node:4764) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T07:46:42.5610141Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T07:46:42.7192688Z Cache hit for: allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-38865696145-1
+2026-10-16T07:46:42.7290604Z (node:4764) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-16T07:46:43.6762879Z Received 98038282 of 98038282 (100.0%), 110.3 MBs/sec
+2026-10-16T07:46:43.6764678Z Cache Size: ~93 MB (98038282 B)
+2026-10-16T07:46:43.6871976Z [command]/usr/bin/tar -xf /home/runner/work/_temp/eae6a648-8aad-437c-b08f-baad75a1f6fd/cache.tzst -P -C /home/runner/work/all-prime-residually-finite-p-groups/all-prime-residually-finite-p-groups --use-compress-program unzstd
+2026-10-16T07:46:45.3144503Z Cache restored successfully
+2026-10-16T07:46:45.3273196Z Cache restored from key: allprime-fc-c1ce611712e5a7804ed5056ad60600ffc941186a-38865696145-1

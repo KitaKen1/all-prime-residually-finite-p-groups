@@ -1,0 +1,14 @@
+{
+  "challenge_module": "ComparatorChallenge",
+  "solution_module": "FCSolution",
+  "theorem_names": [
+    "AllPrimeGroupsFC.finitely_presented_burnside_problem",
+    "AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_residually_finite",
+    "AllPrimeGroupsFC.variants.finitely_presented_burnside_problem_all_primes"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

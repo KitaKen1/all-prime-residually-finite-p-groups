@@ -1,0 +1,27 @@
+﻿2026-10-16T08:11:17.8694652Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-16T08:11:17.8694895Z with:
+2026-10-16T08:11:17.8695015Z   name: replay-38865696145-1
+2026-10-16T08:11:17.8695154Z   path: replay-receipt/
+2026-10-16T08:11:17.8695280Z   retention-days: 90
+2026-10-16T08:11:17.8695406Z   if-no-files-found: warn
+2026-10-16T08:11:17.8695536Z   compression-level: 6
+2026-10-16T08:11:17.8695670Z   overwrite: false
+2026-10-16T08:11:17.8695792Z   include-hidden-files: false
+2026-10-16T08:11:17.8695927Z env:
+2026-10-16T08:11:17.8696033Z   LEAN_NUM_THREADS: 2
+2026-10-16T08:11:17.8696159Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T08:11:17.8696294Z ##[endgroup]
+2026-10-16T08:11:18.1641525Z (node:3508) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T08:11:18.1641982Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T08:11:18.1721151Z With the provided path, there will be 3 files uploaded
+2026-10-16T08:11:18.1722154Z Artifact name is valid!
+2026-10-16T08:11:18.1722422Z Root directory input is valid!
+2026-10-16T08:11:18.5162174Z Beginning upload of artifact content to blob storage
+2026-10-16T08:11:18.5303941Z (node:3508) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-16T08:11:18.7708066Z Uploaded bytes 769
+2026-10-16T08:11:18.8336198Z Finished uploading artifact content to blob storage!
+2026-10-16T08:11:18.8336953Z SHA256 digest of uploaded artifact zip is 21490449f89156fc2ab94ee737ebd3fbf694b3fde931fee3fb2c34d5a8370d60
+2026-10-16T08:11:18.8337647Z Finalizing artifact upload
+2026-10-16T08:11:19.1064438Z Artifact replay-38865696145-1.zip successfully finalized. Artifact ID 12032569548
+2026-10-16T08:11:19.1065421Z Artifact replay-38865696145-1 has been successfully uploaded! Final size is 769 bytes. Artifact ID is 12032569548
+2026-10-16T08:11:19.1070630Z Artifact download URL: https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145/artifacts/12032569548

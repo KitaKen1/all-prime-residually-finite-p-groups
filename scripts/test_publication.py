@@ -122,6 +122,40 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Original CI artifact ZIP differs'):
             verify(self.root)
 
+    @unittest.skipUnless((ROOT / 'verification/public-ci-verification.json').exists(),
+                         'No public CI archive in this package')
+    def test_wrong_public_ci_commit_even_if_manifest_updated(self):
+        name = 'verification/public-ci-verification.json'
+        path = self.root / name
+        record = json.loads(path.read_text())
+        record['tested_commit'] = '0' * 40
+        path.write_text(json.dumps(record))
+        self.resign(name)
+        with self.assertRaisesRegex(ValueError, 'CI tested commit differs'):
+            verify(self.root)
+
+    @unittest.skipUnless((ROOT / 'verification/public-ci-verification.json').exists(),
+                         'No public CI archive in this package')
+    def test_private_run_cannot_be_public_evidence(self):
+        name = 'verification/public-ci-verification.json'
+        private = self.root / 'verification/private-ci-verification.json'
+        shutil.copyfile(private, self.root / name)
+        self.resign(name)
+        with self.assertRaisesRegex(ValueError, 'Unexpected public CI repository'):
+            verify(self.root)
+
+    @unittest.skipUnless((ROOT / 'verification/public-ci-verification.json').exists(),
+                         'No public CI archive in this package')
+    def test_changed_public_ci_zip_even_if_manifest_updated(self):
+        record = json.loads((self.root / 'verification/public-ci-verification.json').read_text())
+        provenance = json.loads((self.root / record['archive'] / 'provenance.json').read_text())
+        name = record['archive'] + '/' + provenance['artifacts'][0]['file']
+        path = self.root / name
+        path.write_bytes(path.read_bytes() + b'changed')
+        self.resign(name)
+        with self.assertRaisesRegex(ValueError, 'Original CI artifact ZIP differs'):
+            verify(self.root)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,15 @@
+﻿2026-10-16T07:46:14.4989011Z ##[group]Run lake build ComparatorChallenge
+2026-10-16T07:46:14.4989582Z [36;1mlake build ComparatorChallenge[0m
+2026-10-16T07:46:14.4990102Z [36;1mmkdir -p "$RUNNER_TEMP/trusted-challenge"[0m
+2026-10-16T07:46:14.4991272Z [36;1mfind .lake/build -type f \( -name 'ComparatorChallenge.*' -o -name 'Challenge.*' \) -print0 | tar --null -T - -cf "$RUNNER_TEMP/trusted-challenge/files.tar"[0m
+2026-10-16T07:46:14.5112749Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-16T07:46:14.5113120Z env:
+2026-10-16T07:46:14.5113328Z   LEAN_NUM_THREADS: 2
+2026-10-16T07:46:14.5113575Z   PYTHONDONTWRITEBYTECODE: 1
+2026-10-16T07:46:14.5113820Z ##[endgroup]
+2026-10-16T07:46:17.2928348Z ✔ [1556/1558] Built Challenge (1.5s)
+2026-10-16T07:46:18.5943248Z ⚠ [1557/1558] Built ComparatorChallenge (1.3s)
+2026-10-16T07:46:18.5943927Z warning: ComparatorChallenge.lean:11:8: declaration uses `sorry`
+2026-10-16T07:46:18.5944599Z warning: ComparatorChallenge.lean:17:8: declaration uses `sorry`
+2026-10-16T07:46:18.5945353Z warning: ComparatorChallenge.lean:21:8: declaration uses `sorry`
+2026-10-16T07:46:18.5985168Z Build completed successfully (1558 jobs).

@@ -153,7 +153,7 @@ dependencies, without using the proposal placeholders. See the
 [statement-check record](verification/fc-proposal.json) and the
 [proof-connection record](verification/fc-connection.json).
 FC-environment compilation and linting have not been run. The `formal_proof`
-links target the intended publication path on `main`; they should be pinned to
+links target the published proofs on `main`; they should be pinned to
 the tested commit before an FC submission.
 
 ## Mathematical explanation (AI generated)
@@ -252,13 +252,12 @@ rebuilt five modules and audited 20 generic nil-unit declarations. These checks
 used the same macOS host and pinned package caches. See the
 [verification records](verification/README.md) for their exact scopes.
 
-[Private Linux CI](https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38856485805) passed on Lean 4.34.1: all **204 project modules**
+[Public Linux CI](https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145) passed on Lean 4.34.1: all **204 project modules**
 built, Comparator accepted **main, variant 1 and variant 2**, the **494 core and
 five connection axiom audits** passed, and a separate
 `leanchecker --fresh FCSolution` replay succeeded. Both replay checks use Lean's
-kernel. See the [CI record](verification/private-ci-verification.json) and the
+kernel. See the [CI record](verification/public-ci-verification.json) and the
 [Comparator CI appendix](#appendix-verification-by-lean-comparator-on-github-ci-runner).
-Public CI has not yet been run.
 
 ### Reproduce the verification
 
@@ -515,20 +514,21 @@ Full certification also includes a separate fresh replay of the complete proof e
 
 ### Certification Within 90 days: CI results
 
-[Private Linux CI](https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38856485805) passed for commit
-`986a797c4c4e59b0e489f4f3bfb7a8b4017e6d9d` on Lean 4.34.1: the 204-source build, all three Comparator targets,
+[Public Linux CI](https://github.com/KitaKen1/all-prime-residually-finite-p-groups/actions/runs/38865696145) passed for commit
+`c1ce611712e5a7804ed5056ad60600ffc941186a` on Lean 4.34.1: the 204-source build, all three Comparator targets,
 499 axiom audits and separate fresh kernel replay succeeded.
 The [workflow](.github/workflows/comparator.yml) retains reports for 90 days.
-The [verification record](verification/private-ci-verification.json) fixes the
-tested commit, run and attempt. Public CI is pending.
+The [verification record](verification/public-ci-verification.json) fixes the
+tested commit, run and attempt. The earlier [private test](verification/private-ci-verification.json)
+passed with the same proof and checker inputs.
 
 ### Certification After 90 days: archive
 
-The private run is archived under [verification/private-ci-38856485805-attempt1/](verification/private-ci-38856485805-attempt1/):
+The public run is archived under [verification/public-ci-38865696145-attempt1/](verification/public-ci-38865696145-attempt1/):
 the original artifact ZIPs, complete job logs, API metadata, extracted receipts
-and SHA-256 checksums. [Provenance](verification/private-ci-38856485805-attempt1/provenance.json) fixes the tested
+and [SHA-256 checksums](verification/public-ci-38865696145-attempt1/SHA256SUMS). [Provenance](verification/public-ci-38865696145-attempt1/provenance.json) fixes the tested
 commit, run and attempt. Original ZIP hashes match the GitHub API digests.
-A later public CI run will require its own verification record and archive.
+The earlier [private-run archive](verification/private-ci-38856485805-attempt1/) is also retained.
 
 ### Reproduce the verification
 

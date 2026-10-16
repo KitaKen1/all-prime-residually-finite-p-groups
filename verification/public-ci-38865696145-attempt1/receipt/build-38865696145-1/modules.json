@@ -1,0 +1,1233 @@
+{
+  "status": "passed",
+  "total": 204,
+  "modules": {
+    "AllPrimeGroups.Target": {
+      "exit_code": 0,
+      "seconds": 2.41,
+      "source_sha256": "61fb419a8c8cf452398e72b439edf505d2235dd476b324a938662b5b67cbf473",
+      "olean_sha256": "f04bf620990d9ba7f765d29f460f2fa4b355022234ba53cc469f82c1589958c0"
+    },
+    "AllPrimeGroups.PrimePeriods": {
+      "exit_code": 0,
+      "seconds": 3.1,
+      "source_sha256": "b673a2d786eb957d9d4c11639b550f6b3c7560b9d91e65384eb2a7a17ee1af72",
+      "olean_sha256": "b0eb6c3c933edee0f2e4ce1b6cb3259e6d870849b3071a5c100ac4fdb4a40027"
+    },
+    "AllPrimeGroups.Symmetrization": {
+      "exit_code": 0,
+      "seconds": 2.82,
+      "source_sha256": "444a6e0477d6a6ddc21492fde715af99e4cb3b10e83be96909b217f0da9eec55",
+      "olean_sha256": "b05bac58c344a9bb3988b78848387cf607670d3fdbeec159ed0aa4b0f51d92fb"
+    },
+    "AllPrimeGroups.CongruencePGroup": {
+      "exit_code": 0,
+      "seconds": 2.52,
+      "source_sha256": "a453d5ad12d2d4f6797442ace5568bb43bb872acf6c42b0a155cbd79de4fc27e",
+      "olean_sha256": "b14472b9d7c15ceca33a1295750d43c4d7c7f7144f0c342f13f5295c294350f7"
+    },
+    "AllPrimeGroups.RootCalculus": {
+      "exit_code": 0,
+      "seconds": 2.4,
+      "source_sha256": "847a7cae28815c23a76092f9c42e363bbd567cd4adbdaf9be5b12c62ed8211c6",
+      "olean_sha256": "9d262cfe66349f679d67b4eb0b49244ea29103fb50453b4ffbf6edb930550cb2"
+    },
+    "AllPrimeGroups.Separation": {
+      "exit_code": 0,
+      "seconds": 2.2,
+      "source_sha256": "64451d2aa9da8f80d99edd39cae05c91b1f4d47bcfa7cab1ac80ae637dfb93b9",
+      "olean_sha256": "c5b87e8d948ef0225a6bbbd82442def80858ed5208cc8c91fc8adc7f988360a1"
+    },
+    "AllPrimeGroups.FinitePerfect": {
+      "exit_code": 0,
+      "seconds": 2.4,
+      "source_sha256": "161daee9cc6a6a88dc6b92df9970231da4b8fdd0fb7b1901f343b288dd12300a",
+      "olean_sha256": "ab948849f9d36275805e830116e83cd0ac519cba4ab683472b1f5b7a8aa82a50"
+    },
+    "AllPrimeGroups.SteinbergCore": {
+      "exit_code": 0,
+      "seconds": 2.38,
+      "source_sha256": "55a8c885e6f18c8efb81c740fd83a4a56233531c4630dfbc518f3479642beeec",
+      "olean_sha256": "c66351b142eb50875276737d1a79ee24ff84874f5fcc579048e432d4235f4b25"
+    },
+    "AllPrimeGroups.MatrixModel": {
+      "exit_code": 0,
+      "seconds": 2.49,
+      "source_sha256": "80c413c0423542835b87bf887218aea299c4ceb050e7eb4fc197508d46fdb6f6",
+      "olean_sha256": "d09ff859febbef094c4897e99466b3f7e87835cf32670bd2fbf62af4ad77a7a0"
+    },
+    "AllPrimeGroups.FaithfulStrip": {
+      "exit_code": 0,
+      "seconds": 2.69,
+      "source_sha256": "6371fc0bf56262b24acd8adcd190028c2b87d355a6476cedde7f100642a75a52",
+      "olean_sha256": "3f741930b82b4b4c48b0d36c953961192c16fefb18f01f5b1f73dca7e68fb27d"
+    },
+    "AllPrimeGroups.Stabilization": {
+      "exit_code": 0,
+      "seconds": 3.39,
+      "source_sha256": "cebe356b6c4c91afc476394bf441f57125903884ddb01a42ab626a216a826bbc",
+      "olean_sha256": "8eef22ce7f5c5ad76ede14c7136304a07b68474a01cb182ec13e2a54ebe01faa"
+    },
+    "AllPrimeGroups.NilAugmentation": {
+      "exit_code": 0,
+      "seconds": 2.3,
+      "source_sha256": "05abaecacb0fcb9823d38f72cf71eff275887c1cc9d0d001b8a2049bec4c956a",
+      "olean_sha256": "f263d6f67b3ccbe2f8b14b04aa584eb222b6c76b32ad0f03a83fa97cfbe968b6"
+    },
+    "AllPrimeGroups.ChainLimit": {
+      "exit_code": 0,
+      "seconds": 2.71,
+      "source_sha256": "86336077f2341e3ad8b378aa58b7e8a66816e9f29f3ad2752749a23d641a35ba",
+      "olean_sha256": "763291e8c04bfd3c489d0a4653df51ee691acd4f4207187aa433ba8f9431ec1d"
+    },
+    "AllPrimeGroups.StableGroup": {
+      "exit_code": 0,
+      "seconds": 3.31,
+      "source_sha256": "38975a1e302948d9b02b0d847a293e802795f7b44130cc4f045d2cfb5f0169b3",
+      "olean_sha256": "cbbcb5da4d6a0767db14bb9de3810f040a828709e0b1101d16dd163282b210e5"
+    },
+    "AllPrimeGroups.FiniteStage": {
+      "exit_code": 0,
+      "seconds": 3.13,
+      "source_sha256": "c4d0ed6a53fdc4cb3f1851df4939efb6bf708a47d89bd94c822d1660dec3b442",
+      "olean_sha256": "8d136c0707668fc33b5b840857ab86abb3b08a3177ca39d35f6e72d5f0366494"
+    },
+    "AllPrimeGroups.HierarchyGrowth": {
+      "exit_code": 0,
+      "seconds": 3.8,
+      "source_sha256": "a72659b386125adfb8be01166ccac15593ff887adf12b017d2e73b01b6688136",
+      "olean_sha256": "ed89daf0c7d585221456b035642539b101d6e988a3b951f0668a92ccb1c1a13e"
+    },
+    "AllPrimeGroups.Candidate": {
+      "exit_code": 0,
+      "seconds": 3.3,
+      "source_sha256": "4fdce1be826462ab4ae898db9a5c3cf7dae0a019671b2f50c04662ce7f0397c7",
+      "olean_sha256": "d0c638ad4914dc990a13bccc364010d6190461dbc9d8ff9c2b77b725a11600de"
+    },
+    "AllPrimeGroups.FiniteIndexPresentation": {
+      "exit_code": 0,
+      "seconds": 2.85,
+      "source_sha256": "53dae6950c6f0f47e72c0d3e1e6d6c1a350b0a4e6b6dc7ec45315141d64805f8",
+      "olean_sha256": "764c357e71e686b88dda8fd8f48b5eb7bc943ae715c703cfa0a4ad0244d0753c"
+    },
+    "AllPrimeGroups.StableMap": {
+      "exit_code": 0,
+      "seconds": 2.94,
+      "source_sha256": "13f9f00aa7de1f72e782ecf64461f4f06d63a4a0f20062deb2344e8e70ca4326",
+      "olean_sha256": "214317f891e3a6a9283e3d340645bd615d6b0ba28bcdcc233a6d02973e19264f"
+    },
+    "AllPrimeGroups.Assembly": {
+      "exit_code": 0,
+      "seconds": 3.2,
+      "source_sha256": "fc670d8f7479c3fea90cf0cd3adbd5a23f9576b14806cad6fac65dd42bc61cd6",
+      "olean_sha256": "b91df88307b535ea83d14321e41d84e61b3687081226772a6c324b614768e127"
+    },
+    "AllPrimeGroups.MonomialPresentation": {
+      "exit_code": 0,
+      "seconds": 3.72,
+      "source_sha256": "38dac2605bab651de1cd7f8ba8910bd06f19b7f789f383fa7e6f4be9c97a6e79",
+      "olean_sha256": "ff40d7caf1e7e5b95c61e2b6a5fd733ecdcec44b76e3948ac9a19709e36b0a90"
+    },
+    "AllPrimeGroups.SteinbergPresentation": {
+      "exit_code": 0,
+      "seconds": 3.72,
+      "source_sha256": "a43aff97ba290a8524858f98d23f7ba18c6cb7cafa33eb7a86c1751065ba9d60",
+      "olean_sha256": "ecc0dfd22af9f29cdc4261aace58386fb6f2c951f1f638bf1886ef4ee723c7ce"
+    },
+    "AllPrimeGroups.KernelExtras": {
+      "exit_code": 0,
+      "seconds": 2.72,
+      "source_sha256": "ea54eb6f973d4201c14a2e31576c3c06639aa7d16d8d86f781da402467daae0e",
+      "olean_sha256": "714a47bb3929b6687d872c95e676c28c8c99efeb270320cfecb887436020e167"
+    },
+    "AllPrimeGroups.BlockEmbeddings": {
+      "exit_code": 0,
+      "seconds": 5.8,
+      "source_sha256": "1d75facb000657619537c7971b343e496fa3ead3892da3ae62e0faff716d5938",
+      "olean_sha256": "874945e1c092b0e568508086be70913e4b84166ebd10ce39016381062150d16f"
+    },
+    "AllPrimeGroups.BandFactorization": {
+      "exit_code": 0,
+      "seconds": 5.49,
+      "source_sha256": "254d4090492408a893a66d21ac5649118701799a0997cbda9f2e9dea03ab95d8",
+      "olean_sha256": "5644d29e923f2d75ffe0d25e9e175b653a0416964da37b5645714b3d5cce8028"
+    },
+    "AllPrimeGroups.SpecialLinearLift": {
+      "exit_code": 0,
+      "seconds": 3.4,
+      "source_sha256": "5a9621d7e519ab85b77ebc60b0e7761404301c45aeb347f322a57ca3a3077ccc",
+      "olean_sha256": "a34ce8354eb72b04c195b767e4d71d726bc31ed96581bbc31817d15be8273f7b"
+    },
+    "AllPrimeGroups.SpecialLinearRealization": {
+      "exit_code": 0,
+      "seconds": 2.81,
+      "source_sha256": "2321ae1aadab9b833741cc92466f193fc8e20d4439af1b61b2844e604aea2db2",
+      "olean_sha256": "1cb2821f5bc3575a6004c2a03f2361e590c90d23e4e66799d92cecf587b3bba4"
+    },
+    "AllPrimeGroups.NumericalSimilarity": {
+      "exit_code": 0,
+      "seconds": 3.1,
+      "source_sha256": "b157cf2e866411413281c9555d1363a9cd9c2b29eece566659bcc6f245595ea2",
+      "olean_sha256": "02c2569c4a446e6e822c32e93b2fe181978aa4c83b5c9ed7a3dad40d6d114df0"
+    },
+    "AllPrimeGroups.CyclicTriangularization": {
+      "exit_code": 0,
+      "seconds": 3.01,
+      "source_sha256": "39bdc90a0e16794a2904938dc9a755cb4a1b765b808e1222450b2f0097153cde",
+      "olean_sha256": "fc504d5a984c6f00f5927843ed2ceb418f9a9def1aa999fb5da19972d7ff7de2"
+    },
+    "AllPrimeGroups.StablePermutation": {
+      "exit_code": 0,
+      "seconds": 4.28,
+      "source_sha256": "a416049b32046501c0a07381b095d72fb5723ec5919400524b43a83cf16d0c4a",
+      "olean_sha256": "17f9a631e58cb0a45c75864b0bcacb1bc26f972e239afe8ab46538ddc3e81ddf"
+    },
+    "AllPrimeGroups.PolynomialTorsion": {
+      "exit_code": 0,
+      "seconds": 3.86,
+      "source_sha256": "d21af047fe91d33673ab8c7dfb6782a48d1173475146cf771de9b2107ec72b90",
+      "olean_sha256": "60b408029e228b1d07af27dced748db7328608e3ccd58fbe0d898c050099d89e"
+    },
+    "AllPrimeGroups.RelativeTorsion": {
+      "exit_code": 0,
+      "seconds": 3.72,
+      "source_sha256": "46cf27f621532535bf298924cc427c427555875fe1e04af5a0589db2aab77866",
+      "olean_sha256": "adb6107f22c04c67076c8dc90b2050b26d9bf5e1f790c1da27623a94dff1be8e"
+    },
+    "AllPrimeGroups.PhaseCommutators": {
+      "exit_code": 0,
+      "seconds": 2.62,
+      "source_sha256": "9df55752dec287233e0137e2752ee824ec436408b27efdf51ddcc241e1150097",
+      "olean_sha256": "41b3021eefbfda9563c6d515e0f0c78d9580daa1b4daf8585da04db349e84cde"
+    },
+    "AllPrimeGroups.SeparationCriterion": {
+      "exit_code": 0,
+      "seconds": 3.64,
+      "source_sha256": "33612ddc080e272f7f0389c2ea0ff564c37d0b739b101f82628953b4a4a8f51e",
+      "olean_sha256": "c009625ba54ea0969e624c8bda4f83db59cd19dc8b11dd9304da187ca02b0270"
+    },
+    "AllPrimeGroups.LongRepresentatives": {
+      "exit_code": 0,
+      "seconds": 3.84,
+      "source_sha256": "b76c208c4b388a2c466556cdcd1087a836cd2374b8d41ffdd7dd16c3e29d4ec2",
+      "olean_sha256": "02c0e825af6267f6bef8641e9aa67eb5cc250d8bed9602a6acfdaa78c791d48c"
+    },
+    "AllPrimeGroups.OffsetCollection": {
+      "exit_code": 0,
+      "seconds": 4.23,
+      "source_sha256": "dc20031d5e05c4030438084f667e003079d96f641d2b54819355fa9182c902bb",
+      "olean_sha256": "974877887fdc5ca8d663922806a1352b1e0b8604d40cf677cf90ad879a460787"
+    },
+    "AllPrimeGroups.PhaseSeparation": {
+      "exit_code": 0,
+      "seconds": 4.14,
+      "source_sha256": "6f903e27fa48c9f47a9afd762eeeda83620e6c9b0aaf16de8c12e879dbd0874d",
+      "olean_sha256": "f8b4224a5d1438650af370052d956aa48646a2d6f6ef5354aa00e0fc0b2110d1"
+    },
+    "AllPrimeGroups.RelocationFrames": {
+      "exit_code": 0,
+      "seconds": 4.82,
+      "source_sha256": "4ebbf8c57946df9b0b0b6101e6c2d8c1c76a0b18c6a2d9f5ec2cf28e018348b8",
+      "olean_sha256": "106531f87c15dbd0e0110085076c573ec6177aff6639e7481e0ddfab0a6d8e5f"
+    },
+    "AllPrimeGroups.RelocationMoves": {
+      "exit_code": 0,
+      "seconds": 4.65,
+      "source_sha256": "2394c584ac8693a1d09709ea533f90cc723061245167d31321fa02b88d690ae7",
+      "olean_sha256": "cb5cc9ee043abeac43a234dc568af151c9cd6d46d015704ede7d0c1ac0d956c4"
+    },
+    "AllPrimeGroups.CorrectionSubgroup": {
+      "exit_code": 0,
+      "seconds": 4.16,
+      "source_sha256": "f6eecb4047fd14ee2dac4f247402b868649b0fec9234bd9b78a129ec3d5b9ea9",
+      "olean_sha256": "ce16ff3f095302c31cc00082ee46b7fd0dff1fad1fc0123c86deb1867014cc2f"
+    },
+    "AllPrimeGroups.CorrectionFaithful": {
+      "exit_code": 0,
+      "seconds": 5.35,
+      "source_sha256": "1d1b989645ee5b4fbde1ef6be2083c3360f383745ef5d417f3d12749dbb86cb3",
+      "olean_sha256": "6f67e0c3e961c212a61a30dfc734babfb9dec4151d78330e6deaa1b652aa542e"
+    },
+    "AllPrimeGroups.Relocation": {
+      "exit_code": 0,
+      "seconds": 4.12,
+      "source_sha256": "d5af30eb7cbb6030ecaeba5dcf27f64fd23bcab0218465654e8fa4b2919172ae",
+      "olean_sha256": "6814f837881fd838829cb4b7781726936841a2db7e5dc712434a6f0b1c269aca"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.LocalSyntax": {
+      "exit_code": 0,
+      "seconds": 11.71,
+      "source_sha256": "4c900835796ee5d756bf47067a0c18a219fe3475d0bbab1daad850b3a77add26",
+      "olean_sha256": "ef61f969ddfbc898968b91c00b662f7c8e8a15b5d1f9772eafa02ab947081329"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.FiniteExtensions": {
+      "exit_code": 0,
+      "seconds": 16.06,
+      "source_sha256": "7344ac9a321b741a8fc74ee507171b33ebabdb253942618966f9e274f1701ae5",
+      "olean_sha256": "7dbdbde5082aad2b15c08cc469c064fdaeb183922fe3c8a3ad8b1147f5c90db3"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.RelativeHomology": {
+      "exit_code": 0,
+      "seconds": 18.4,
+      "source_sha256": "2a2940f8546667671d0ed7a497049971e983274aadcefa5d9f9e27cd0932bd9c",
+      "olean_sha256": "bebff935b3e190b0a72ae4023267e34b179de2b6ae4f5f2e24bc04ff7bc3420f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.Palette": {
+      "exit_code": 0,
+      "seconds": 12.78,
+      "source_sha256": "79ee942cdd754f95b5416da5947262c94924ab5490b2d1276a5403ee7f1fca34",
+      "olean_sha256": "cfa4af594d47bc48f99483d0a0f8545f45bc561dddb89ac3b89e8bbb6e61c6e4"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.HeadTour": {
+      "exit_code": 0,
+      "seconds": 11.63,
+      "source_sha256": "0ac2917787210067ca8e20e316f627bdaa97e9c6af08d2f2d7c93a6cb3b1208c",
+      "olean_sha256": "11d6628a7ba8f47aa1ee06cf1112f62de6d59ba9431f970f1e02c908a8a3be8f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.TableEncoding": {
+      "exit_code": 0,
+      "seconds": 12.12,
+      "source_sha256": "7491d7fdcc8efaf3c9efb94d96ecdc137cc912a7fbb0e7594c6e1a61b1e2a57e",
+      "olean_sha256": "12e28289fac8f24e0e5a7fa172be79e31bceca5aa2d6b67e915986519870b4b5"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.Recognizer": {
+      "exit_code": 0,
+      "seconds": 15.16,
+      "source_sha256": "cb1978ba2d05c662b24d015b24365552ab2424a04dfa3725c0ab4c2ca83177de",
+      "olean_sha256": "bf3ebdae29018bdfa331beb8b6f1622089a9f2c478e13d18ab80cc544d2ece4d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.TapePrograms": {
+      "exit_code": 0,
+      "seconds": 10.87,
+      "source_sha256": "01f8ec39fcd612f8bc35d1ef5d420fb7619217c2555d908edde2c5ecd68aa149",
+      "olean_sha256": "57ed9525834ffcb8902db64475667eb6a248596a1c1b42548392def842f6f667"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.UniversalStack": {
+      "exit_code": 0,
+      "seconds": 22.41,
+      "source_sha256": "f35f0656898bdd7a0865134a6c43acc71879793d02c676e0bc19fbcd7e4ca8e6",
+      "olean_sha256": "75fa38678b2d0bc06e2d23f7fadd6b5a20e588c07d583dfc3cfecfcf26482bb2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.UniversalInput": {
+      "exit_code": 0,
+      "seconds": 11.96,
+      "source_sha256": "f4dd8e1f3fcf755bc85736fb324615e62da418d9bb859ed07b961b2c38e7ae0a",
+      "olean_sha256": "f7f2938a2e663a26324c823e7c9bed0af58e70f89c4e9afcf6034411e000db73"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.BinaryRegisters": {
+      "exit_code": 0,
+      "seconds": 12.27,
+      "source_sha256": "1c7a3a5da8ec811690c91deb5580a0da85fd9ef1426667eff53367e92f4849eb",
+      "olean_sha256": "c0290f8d3fe44229cc669fd312fe24e63d4ae5e3d838d80c8af027cee887ab4d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.ArithmeticDevices": {
+      "exit_code": 0,
+      "seconds": 18.51,
+      "source_sha256": "401af54064fa88ce89d30fdcd3ab27baf771c9ca40c4d8c3227c9feb22278de7",
+      "olean_sha256": "5815e05c20651558bbef2a5ca450e4288f00f5812c700945a39c2bf1f5cf9f8e"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.RegisterOperators": {
+      "exit_code": 0,
+      "seconds": 13.87,
+      "source_sha256": "7871047b3e9c432a8db1ad34bfb661b38e41d79791b23ae851278ed50ff04b0f",
+      "olean_sha256": "f362c150021f0872ae85032a0e80d36eb10a53b764688d4db1a0aadf3ef5da55"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.RegisterLoops": {
+      "exit_code": 0,
+      "seconds": 22.76,
+      "source_sha256": "41db474871aa2c75c0eaf82e8e60e3ab11fcbd7c1eb9aaeb9ce763303e4b698c",
+      "olean_sha256": "66ba91b9262f835ad3934aa58c451095733fbaf2fc1e2283b5e95d82e5acb993"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.BooleanCircuits": {
+      "exit_code": 0,
+      "seconds": 30.07,
+      "source_sha256": "407f81a24bffad54b8e953cc568c490fb0edca456010dfb8654d80733e72da6f",
+      "olean_sha256": "f4d6a510127152520a70eca83396c8bc57411cdb7a51b14b053e568499c6d0a7"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.Transactions": {
+      "exit_code": 0,
+      "seconds": 10.44,
+      "source_sha256": "f8e5909f03df0f6a40fa535ddd9cb136f6fd69a56150dd0d350c97f2ee63f967",
+      "olean_sha256": "ea4a4e52e4f44e57c198864d01c2c1538c5961c68d0dd753d62096ee51950f5b"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.ConnectedWords": {
+      "exit_code": 0,
+      "seconds": 11.48,
+      "source_sha256": "616db6858b21828a98dafff2d7d7de82857d55849fb1f73bd73753256646f58a",
+      "olean_sha256": "29c6aa09cb1fe83c3c1f8a6109e5f398065dc964cc312e3e6b8dbeeceab01c5f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.CommittedWords": {
+      "exit_code": 0,
+      "seconds": 10.65,
+      "source_sha256": "30a2559af37495cbc06d550bb93b7e418afb916723a440deb70151fd35fdfc28",
+      "olean_sha256": "9d07664b0526949d0c5600554da1346d4b04303e5bef9d63ea6b958868cabbf1"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.WordComponents": {
+      "exit_code": 0,
+      "seconds": 10.71,
+      "source_sha256": "798ccc6bcd96810f6e3a689527799dee7d5d4affd3dd0393897677d696e88309",
+      "olean_sha256": "b58f848986bb2a63881cfdfba195b7e77b514554b0cab9ffd54177f1dd81e9a8"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.Tableaux": {
+      "exit_code": 0,
+      "seconds": 10.23,
+      "source_sha256": "063279d0e02524bd5f70e02c512efcd81e70264f6f1127723c4bfbc1e51e7152",
+      "olean_sha256": "889b43a5fb602777388d977d902013b13c2bd5d9b2ba3d4ec74ce66688511f6d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.Addressable": {
+      "exit_code": 0,
+      "seconds": 10.53,
+      "source_sha256": "e2199ca3e4b19edae09760d1ed0af6802234955f10949bb8eef67e5a75eed9df",
+      "olean_sha256": "4e67fdb0a94e49efb46d856cf6fe9bb1ea8aefb8ecd9a8ab525e14bc36813de0"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.ClauseEncoding": {
+      "exit_code": 0,
+      "seconds": 19.37,
+      "source_sha256": "149168a4a091887394d1207489d9afa60a629e389509b08967fce03d969f2136",
+      "olean_sha256": "5f5a52684f1f021a9b555e00a700d2f7cf6ad34818e57193db195d0058f6fdce"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.LocalPredicates": {
+      "exit_code": 0,
+      "seconds": 13.7,
+      "source_sha256": "3c10b0f458fcff6c5415adbe46102b5bb046ff8fa72354e1e0140d560401ccaa",
+      "olean_sha256": "b8e0d085f8bf3db806aced6df3362d9c2d15937c4d16806be29c0dbb22f9bee0"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Formulas.PredicateCompilation": {
+      "exit_code": 0,
+      "seconds": 16.99,
+      "source_sha256": "e9cd41917630448ea2ab035d04e8175b9428dec89248620cdd247a8f664c4ed4",
+      "olean_sha256": "46f20f563b1ad7eb779fe9918e4df869eb024a67031b3907dc695bba2511d51b"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.Compilation": {
+      "exit_code": 0,
+      "seconds": 14.91,
+      "source_sha256": "20853cac5bee64554a9c8eba06dc6e48ea6ef2ae721ca2d77c396440736b578b",
+      "olean_sha256": "081b1a3c003176dd7db62cbb1f9027fc2d6c61e9286fd37bb246a618d7e73270"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.InputEncoding": {
+      "exit_code": 0,
+      "seconds": 14.53,
+      "source_sha256": "5c6bc6c9565c01af5a3765c581202bb03f378393ec3ed31afef8a479ca5de298",
+      "olean_sha256": "7e674dd138f0c9c0a10850ad1320d9551e56b0f79f4fad965e12a6634e03b2ff"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.ProgramAssembly": {
+      "exit_code": 0,
+      "seconds": 27.61,
+      "source_sha256": "1404c6b18c0cab5482d750fd6243796819b9c17606bc62d6b6890dfdb7f29214",
+      "olean_sha256": "196a720572a3160126f2c0b89c0879d9a23d0d35f81ef50b57840b1b6cb44e64"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.StackCompression": {
+      "exit_code": 0,
+      "seconds": 12.22,
+      "source_sha256": "79165803c4415956d3dd72f1c2f3165d32b7ef8333b725d2568562ef63faa0eb",
+      "olean_sha256": "81bf5c2f20fb5b8ad5bd67324e845812479d32a3a94bed77a6801a346f47581f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.ProgramFixedPoint": {
+      "exit_code": 0,
+      "seconds": 15.79,
+      "source_sha256": "e61e0098b6cc3ecb4f5c936a5a58a7b4aa7bd1beb1134c0c7738d4ce58240878",
+      "olean_sha256": "3bb6875a08d00ccea0aceb9a17c5feeabdb16e263031b78abfa5c3a53fbf60d8"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Machines.TimedExecution": {
+      "exit_code": 0,
+      "seconds": 20.22,
+      "source_sha256": "aec9d26ee4b18e1aa53742298a819ab767b3df67ce0dcae14839b34047f85afb",
+      "olean_sha256": "f3275e3b63f68457020d5ad22b92ead84422ed70c73bf3a47f1a96a424bfce70"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.WordRewriting": {
+      "exit_code": 0,
+      "seconds": 11.35,
+      "source_sha256": "f1a89843fcbc41b2c14cf3e98e7db31ea1b7875e0f9af483e67e5c6a608643d7",
+      "olean_sha256": "d15b39c547597719b52e8518cee0868d1ea33332d39cc874e67c7d3457d0a48c"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.BoundaryCell": {
+      "exit_code": 0,
+      "seconds": 12.27,
+      "source_sha256": "e2a7761d4a6f45b819a771a48f0c778ed91c6c3649af2f7fcdd2787b07936f99",
+      "olean_sha256": "1f629226d5d04c8c0739d907abfc0f81e95d9aea654c6f206e29b799370f3ecb"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.PrefixRewriting": {
+      "exit_code": 0,
+      "seconds": 11.83,
+      "source_sha256": "ed3c889c22bd464a36ae9264261cf7d9cab94c69b77fd132b20b14e93c2d344d",
+      "olean_sha256": "5227357fe83c7bfce4324e15fb81222344e36f7e795505a18390489cc11715af"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.GeometricRelations": {
+      "exit_code": 0,
+      "seconds": 11.57,
+      "source_sha256": "695ab829b5ef377ee207087a8226afedb98eac23838d7712379b9245ae6b2a45",
+      "olean_sha256": "c2556dd2b6c67eb8d306888ae292f4fe9fe0b1e71503de9b5dbbc4297f1e4554"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.DataWords": {
+      "exit_code": 0,
+      "seconds": 9.93,
+      "source_sha256": "cb9330d46efbe445ad1a64a82f76be4f867caca34789399aa2f7290227c86244",
+      "olean_sha256": "d046f10f261a76d361404d0fee948501d390fcf52b4639585030fac159c24e4d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Rules.TemplateHierarchy": {
+      "exit_code": 0,
+      "seconds": 12.73,
+      "source_sha256": "56aed392d926e69d6e8d6c27152c1f74eeadb07ea834e7ea387795b58bc4fb55",
+      "olean_sha256": "5ece8a57f4d6a2b30f68d8c5ac16a6eb3db8ef818d493f3c82a468d80d352df2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.WordAlgebra": {
+      "exit_code": 0,
+      "seconds": 10.61,
+      "source_sha256": "e102b677781e9c2d7078f92b5b406c83413136f793a1290e48deb087f77fa388",
+      "olean_sha256": "fe3a0b872d04aabe5aaf5e21bc6a3d7be1eb968be2c720bdc3b9320ac7a933e8"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.PacketIntervals": {
+      "exit_code": 0,
+      "seconds": 10.32,
+      "source_sha256": "ccc9926fce91684513aaf8b515c4236b9a02db181a95992c8022792399d8c335",
+      "olean_sha256": "893be7e9c907e60908f4331c912de6a96c0147f31b6bef2ead7903df45de5ab2"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.DirectCancellation": {
+      "exit_code": 0,
+      "seconds": 12.47,
+      "source_sha256": "a2b2bb667cd9f248a69b62c92377a13da4b0c4088ac029525a2d931d88589b9e",
+      "olean_sha256": "4e41424924a67017474135aead0063b0ce68a761d33b466cf5351ed43b6c4600"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.HierarchyGrowth": {
+      "exit_code": 0,
+      "seconds": 16.59,
+      "source_sha256": "a6c152e6d6b19c9d06a14f277b544eb4638148f37130059a93fd92924fd7b42b",
+      "olean_sha256": "b7a0c40388bbb39b44059e28f04c95fb7d1c6bb6ed8c4257b1d3314754a15d09"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Algebra.MatrixTests": {
+      "exit_code": 0,
+      "seconds": 13.64,
+      "source_sha256": "8c5d7654c77d8f9fd642ecff27ab63707343acd4fe6a9d27a9d0112256ed9c5b",
+      "olean_sha256": "acad5f5eb613ecf982b460b9c0def7d569f056368134789bf1fd66964e5e87f6"
+    },
+    "AllPrimeGroups.PrimeCancellation": {
+      "exit_code": 0,
+      "seconds": 10.1,
+      "source_sha256": "26cb8fd4746cd11bf22416d783298818a38916ebbffab9ff77a5b96d34ffb57c",
+      "olean_sha256": "db2748559721b71a9333b322848a05f3720e068b690a3142e906970be90a11eb"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.PresentationModel": {
+      "exit_code": 0,
+      "seconds": 12.18,
+      "source_sha256": "7da462efa749f2f3e2b7f8615ae7f143b0fceeef7a1bd9748ebebacf0ad0a9af",
+      "olean_sha256": "d4f2b80f4d64a701eaa8d53bd181877e4670f50ff80dff71dd8434abad9ff8e5"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.MonomialPresentation": {
+      "exit_code": 0,
+      "seconds": 11.97,
+      "source_sha256": "b29f0f6812d9b6d4b68eddac35bdeb6e6c1ee382505ae86681dd57d8e7f235f4",
+      "olean_sha256": "e42b32d4b7151d163b092d7044fb0e032b203512fda09157221624c31df9c6f8"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.CoefficientQuotients": {
+      "exit_code": 0,
+      "seconds": 18.74,
+      "source_sha256": "983d0de5304381b00c5a994f1125960570af626504f282e01017c58be408235c",
+      "olean_sha256": "cbddcfcb59f7b6eb90e107c71dd30f067be774e7189b0b8148a6174086495829"
+    },
+    "AllPrimeGroups.PrimeMatrixNil": {
+      "exit_code": 0,
+      "seconds": 9.55,
+      "source_sha256": "9e85355482fc612168c8b515de62b0ae546ae22191a39e0c6aef4390e8d6cc41",
+      "olean_sha256": "51385cdfa66335004d1299384510c852c2da475e467648d0dfe941c56813b31d"
+    },
+    "AllPrimeGroups.PrimeAlgebra": {
+      "exit_code": 0,
+      "seconds": 9.45,
+      "source_sha256": "8287bbefb0d5fe07562a83f5a9d795dbbf5a3f2a958de7b617b2b2b268ab6d96",
+      "olean_sha256": "5f235a445a9a528228939f1ea4ebf9959f8277d4bb181402a0b05c287673e3d0"
+    },
+    "AllPrimeGroups.PrimeReduction": {
+      "exit_code": 0,
+      "seconds": 8.76,
+      "source_sha256": "6a1ea2518baff4b87c97a74a306fcfe1b2ffb81d3440b9f2522b3a4c2c8d42e2",
+      "olean_sha256": "ef94371ec3682813faaf45db1757f817c4628e33d2951ac433c06134c4b03b2e"
+    },
+    "AllPrimeGroups.WordBasis": {
+      "exit_code": 0,
+      "seconds": 10.86,
+      "source_sha256": "7913c4e76db4b94d271b4d4cf5c86a58cb03c669682b0027c764da88797f6f60",
+      "olean_sha256": "7f1d8a1b64b86bce4dab2329069f904e780b2efba748c887ef546858da8a5568"
+    },
+    "AllPrimeGroups.PhaseConstruction": {
+      "exit_code": 0,
+      "seconds": 9.83,
+      "source_sha256": "ab557d8bc2f885cc8882fe7e1f6c7692cce66e4fbfa99db62c3a6ab7cf193c9a",
+      "olean_sha256": "d059356f172d7c8ad8f3d9815cd76fb5a01f4c4c38d4d91859dde9e2d44115e5"
+    },
+    "AllPrimeGroups.HierarchyPhases": {
+      "exit_code": 0,
+      "seconds": 9.06,
+      "source_sha256": "6f29cb00a4a6035accc0ce5c64db9243091d752787468e7824224233a49d8a0a",
+      "olean_sha256": "a1f5809ed469da360fbae887ebb59d26fb34e25b654356b0938c5b8cdbfac8fd"
+    },
+    "AllPrimeGroups.HierarchyGrading": {
+      "exit_code": 0,
+      "seconds": 9.92,
+      "source_sha256": "3befb3a80f6ce7c247128f0ace7c5280f6a673695a535d8990104bc7f993d1a5",
+      "olean_sha256": "81bb174e50c84517d2742ab437b51732c6c5ca8bde30cf8c55d398d66e5539db"
+    },
+    "AllPrimeGroups.PrimeSeparation": {
+      "exit_code": 0,
+      "seconds": 13.86,
+      "source_sha256": "08ec10d66c226accd0c0e62a750ec4d5cabf63b49b7fbe818923f853817478da",
+      "olean_sha256": "b88e982fb9db446688e8610e346cbf000bc49b2f84d749057bd6873cfddfdbea"
+    },
+    "AllPrimeGroups.ColumnComplex": {
+      "exit_code": 0,
+      "seconds": 4.16,
+      "source_sha256": "806d7096be8a80e9fc607427bc6e649f55a39149e67ab4dfca81409c7b359744",
+      "olean_sha256": "f452afdf5009af3fbf887d1088a7e11558e4104383cb46c99941b824dc59c637"
+    },
+    "AllPrimeGroups.CosetTransport": {
+      "exit_code": 0,
+      "seconds": 4.54,
+      "source_sha256": "321253a961fb8771b20acc53e6a2f4b47520e268702008682a897bb5ea68c547",
+      "olean_sha256": "5825348554f7cf385a80bed268f5260a5072056bbd24074f8ded7ad19d2aef07"
+    },
+    "AllPrimeGroups.LocalColumns": {
+      "exit_code": 0,
+      "seconds": 4.16,
+      "source_sha256": "7632b06758d3607ca8dfbd16d6f3508740759b1151c3ee3f46302252671520e1",
+      "olean_sha256": "5e845b8994d3ed361eda425adf366f1eac93cbe4cceafd7bf7e9b3b6b74401ea"
+    },
+    "AllPrimeGroups.GLPresentation": {
+      "exit_code": 0,
+      "seconds": 3.1,
+      "source_sha256": "fb8b592426b8f528f8f6099af8a0b038e7bcbe34c0e2a624ba5ea8369c3bdb89",
+      "olean_sha256": "6e5333208f68cc5dff393688f0af7b41276681fa7527b2e59ba7a76ede830466"
+    },
+    "AllPrimeGroups.GLTransport": {
+      "exit_code": 0,
+      "seconds": 3.34,
+      "source_sha256": "063c3fda9f75d1f987eee3d6f20d56771828568f91fa59453e8d7d0bf7ee90d7",
+      "olean_sha256": "b424a9dc3764bec8eedb9a3318b037279c882888ddfd2efec262756ee00133c3"
+    },
+    "AllPrimeGroups.GLSection": {
+      "exit_code": 0,
+      "seconds": 3.88,
+      "source_sha256": "ff56ad2d752125cd49325d6c94e9d34757530a7f24543748287787b579898b5f",
+      "olean_sha256": "60d87d5dbefc6610627e670c362597ad0d93ccf04222b0654ade47672ddee381"
+    },
+    "AllPrimeGroups.GLLift": {
+      "exit_code": 0,
+      "seconds": 4.1,
+      "source_sha256": "b9386b136e337c2cb215ce51ed9a48ef6e2ef14cc2176f98a024b71e43e73803",
+      "olean_sha256": "7a672b91bb687df349682a62356e50fe5eac453bdc13b12462ab5bf39dd4d3ec"
+    },
+    "AllPrimeGroups.GLSwap": {
+      "exit_code": 0,
+      "seconds": 3.12,
+      "source_sha256": "7c829ddacd1756fade95120f583b509d8357af32d465eb0f03d2b05927f0bd2d",
+      "olean_sha256": "13187aa4457bfbb94db9dd42ef0c2d865f35c706cb065ccf15f3808fa2a52479"
+    },
+    "AllPrimeGroups.GLInduction": {
+      "exit_code": 0,
+      "seconds": 4.84,
+      "source_sha256": "2a41bb0021e2cccdb1b0dedaf38ef0998762b539c63624e56c69a4e2679dc47d",
+      "olean_sha256": "78fd009d18faf6bf1fc11e44e7f655a66112ab9275edebb885ecea16411a3106"
+    },
+    "AllPrimeGroups.GLAction": {
+      "exit_code": 0,
+      "seconds": 3.56,
+      "source_sha256": "5199698ba640cee37230806afbed0a6b33e4e655b8487de6cabe61d1bde178ce",
+      "olean_sha256": "b29c4be2f40c270a33b8c750bb8f15f816a279cdf45741501f04368b9d88472d"
+    },
+    "AllPrimeGroups.GLRelabel": {
+      "exit_code": 0,
+      "seconds": 3.16,
+      "source_sha256": "ab09bb2d353860be4ab6c0906e88b987b608277061d76691c8edc440365d8ea6",
+      "olean_sha256": "09139fb840dc2cadb1c30befa9825d06bce027ee55f01dc3a8d1d5fffb99a01c"
+    },
+    "AllPrimeGroups.K1Stability": {
+      "exit_code": 0,
+      "seconds": 3.76,
+      "source_sha256": "0d66cc2a83f27419a40dca432b46ae7c5a251b558a95bd11755beb2f184166fd",
+      "olean_sha256": "e1f30cdf6d0ddcee71665d4b721b9f6b72edee197f7b1405a602b3da29655804"
+    },
+    "AllPrimeGroups.CentralClosed": {
+      "exit_code": 0,
+      "seconds": 3.66,
+      "source_sha256": "4165161025744e967dd664cd27da71563f21ae0f7457c488aa81659e86f78e10",
+      "olean_sha256": "ded1632728642bcfb7833ab10064742fa0b357e88759c170390de42e379ae859"
+    },
+    "AllPrimeGroups.FrameComplex": {
+      "exit_code": 0,
+      "seconds": 3.44,
+      "source_sha256": "bddd9aba181e8646fd69a9d3005bc6d0643043630c28469830dc2d8ec4553260",
+      "olean_sha256": "f4ac03496885c902340a7703e15258e1ff28f0ff807b5d59aa13837d43fcda90"
+    },
+    "AllPrimeGroups.FrameExactness": {
+      "exit_code": 0,
+      "seconds": 9.06,
+      "source_sha256": "bf821a2a5d3c353ddaa8b48a96bc408756323848a83091a7417c5c0c006bd3fa",
+      "olean_sha256": "ceb294897e024bbe1eaba7373113ade0d1979dc4aa9a4147945413fc28df04bd"
+    },
+    "AllPrimeGroups.FrameSplit": {
+      "exit_code": 0,
+      "seconds": 3.28,
+      "source_sha256": "3476036f9361f816e096b3f051e88b6fc2aa32e27d54ab4ccdfc7b29249a9ce8",
+      "olean_sha256": "d3af7b623a1bf088ca48b3928f2ecd9d40b3aa4e9fea05f1c57c0025ee73c08b"
+    },
+    "AllPrimeGroups.FrameLemma": {
+      "exit_code": 0,
+      "seconds": 3.39,
+      "source_sha256": "2785be280d5545d2218b4eab8f5fb5da118d962907106f1af42ab9a5a6835fc9",
+      "olean_sha256": "9df8a720fbb33087f2e31a40fc52b735c70693cb72222e18a4b2f08c9bae200d"
+    },
+    "AllPrimeGroups.FrameTheorem": {
+      "exit_code": 0,
+      "seconds": 5.68,
+      "source_sha256": "2ae379aab5951024ec9f92b931557e437ed90acaad46af311428c29e4a28cc3f",
+      "olean_sha256": "b7bafedf4260b438aed93180ca0adf853bc5f16e6f9bdbf618031a236c9c0c06"
+    },
+    "AllPrimeGroups.RowStabilizer": {
+      "exit_code": 0,
+      "seconds": 4.18,
+      "source_sha256": "a8c7af5459af879e58268f4fdc65c88b2a6c6283485881ac810356cd50e24951",
+      "olean_sha256": "d03e430b9695c8940a6e5df1e5a4a4ce96ab25e970e3671414d7e94929e00ca7"
+    },
+    "AllPrimeGroups.MultiRowStabilizer": {
+      "exit_code": 0,
+      "seconds": 3.46,
+      "source_sha256": "a2f6a3ec37af3feabd265cd7aa703053999d8779411466eb9f2cfd396616ea87",
+      "olean_sha256": "c2b199c2035b597de6ddf224c08586e04d8fc62de9b0599de42dedd82e1d65e7"
+    },
+    "AllPrimeGroups.StabilityCharacters": {
+      "exit_code": 0,
+      "seconds": 3.54,
+      "source_sha256": "acdd264f3dda0d6ce40d3a279c1d38050b6be59e5612e0888ecf460d55c30666",
+      "olean_sha256": "e0fad94d5564908f90f23ee3c794cf631e6b7a50e0c83347bfc1e97def4f70c1"
+    },
+    "AllPrimeGroups.CocycleExtension": {
+      "exit_code": 0,
+      "seconds": 5.47,
+      "source_sha256": "0a6bbe6ce8f4c2d0f485bfe75615e901821b17ced48e4be730127bd55b330f32",
+      "olean_sha256": "d22fe2b1c88ee1cce9d40e6097c879c09d20e6e3ec61c05b435c91c17a76c098"
+    },
+    "AllPrimeGroups.ExtensionOperations": {
+      "exit_code": 0,
+      "seconds": 2.87,
+      "source_sha256": "3780a5bd8d570fe6cbe1990393266d27e398595a2f8c42e21695029621fa209e",
+      "olean_sha256": "f5f122808766eaa6ca808634c24df10ae5e25caa4c8927e214763edcb71d8cfa"
+    },
+    "AllPrimeGroups.ExtensionFactorSet": {
+      "exit_code": 0,
+      "seconds": 4.99,
+      "source_sha256": "cde9a37aa7872077bee3bda59d77156ea0ff1daec8deb7ced8a16aef4c8fca68",
+      "olean_sha256": "c65687c1c13e692f842d8c3964cde58a325b6f6a85901b24b1fb9c49dcbb42cf"
+    },
+    "AllPrimeGroups.ExtensionCohomology": {
+      "exit_code": 0,
+      "seconds": 4.6,
+      "source_sha256": "3b004bc727e75c9ed0e0a123bfc4f27cbaf29685edf8a4c764032f4351a6ddd7",
+      "olean_sha256": "bae3f7d6a09098704be2a7b5da0145bf4223694fdebaaf47f5888099aafce4c5"
+    },
+    "AllPrimeGroups.CocycleProducts": {
+      "exit_code": 0,
+      "seconds": 3.52,
+      "source_sha256": "653c3e46636ad97555c86e4a7dc0c068195c0d8942e8659be9d4ce59161b07a3",
+      "olean_sha256": "4765c53b14dbe0c491764b880f20422d09211e46a814bff94e4e37b4b3d37d6d"
+    },
+    "AllPrimeGroups.PrimeCharacterReduction": {
+      "exit_code": 0,
+      "seconds": 9.78,
+      "source_sha256": "470bce29e8ecfd9ce3d184bc11532e85658d2c09ffc188f96007d0ec13b6befd",
+      "olean_sha256": "d0a6f44742a71cbf4788f99fd393602a21b6f0e59c29f0f72a60446408dd9a6f"
+    },
+    "AllPrimeGroups.MatrixGeometry": {
+      "exit_code": 0,
+      "seconds": 5.12,
+      "source_sha256": "c5882d46c0aa5c8f8c56001aa33009914588e70092c00ffc019b58166593b30b",
+      "olean_sha256": "11e68e65fd13db9719c962e3b33a9da1099248031db6e9c7197278f8283b8cf9"
+    },
+    "AllPrimeGroups.CoordinateStability": {
+      "exit_code": 0,
+      "seconds": 3.16,
+      "source_sha256": "8a0de45431e01c1def5a630b74026a9f2aebd5132a11bc19a6f97cc1f58d45a8",
+      "olean_sha256": "868393a072c88d722aac380496a936ee19924f52c8ff99c40f339aa69964b7c5"
+    },
+    "AllPrimeGroups.FrameBlockMatrices": {
+      "exit_code": 0,
+      "seconds": 3.77,
+      "source_sha256": "3502f3f3422675acc4e62ed6cf1c3fb918f84c267a4f722cb7e61fbc40ad5dce",
+      "olean_sha256": "4d345c9edb2718f58832692151bf213e1ba984c89ca60cf1173272d432abdf88"
+    },
+    "AllPrimeGroups.BlockFaceMaps": {
+      "exit_code": 0,
+      "seconds": 4.0,
+      "source_sha256": "6d09e5a36396e5cf19d6b91f3f92e601da8c7a59519044bea7b5f17ab1ae5c33",
+      "olean_sha256": "e31f6bd3b3b2103d90ccee69aad7fdc11e3ff0abd750b8df9c364343ee77690c"
+    },
+    "AllPrimeGroups.FrameFaceGeometry": {
+      "exit_code": 0,
+      "seconds": 3.79,
+      "source_sha256": "73e909d7063d6538b68a2e71d6dbd4849cbd2d4d3f31f388e4b133fff7c09f01",
+      "olean_sha256": "0dc0572a9c87ac48b1bf10128debff36f0ffd86bcecf58f67ca35f9b898503c8"
+    },
+    "AllPrimeGroups.ScaledFrameFaces": {
+      "exit_code": 0,
+      "seconds": 4.42,
+      "source_sha256": "56d8c717391a3a4149db82fd83af800b174b5760954b4bae610ec3cf31459712",
+      "olean_sha256": "8fb254477e70a1c617c3b1ad8078a291be46f29db4e09a2f8979268f4ddc4f14"
+    },
+    "AllPrimeGroups.SignedFacePair": {
+      "exit_code": 0,
+      "seconds": 4.33,
+      "source_sha256": "f703074df7b1e86e1aa02d574b66aab479c401667f5301480ecae021e151194e",
+      "olean_sha256": "3c8731628ea5e68f858192e806dab445ad90fb684397339e76b12a10deba5133"
+    },
+    "AllPrimeGroups.FrameActions": {
+      "exit_code": 0,
+      "seconds": 3.72,
+      "source_sha256": "78baddd574dd61b36a1f062d55442a913fd6161e9d2b3d28ea9ac62f8ef37ba1",
+      "olean_sha256": "bea74cf28f79cb3107c15c34d651086cc02f0f8a3b80661f43830e28a175ac57"
+    },
+    "AllPrimeGroups.FrameActionStabilizers": {
+      "exit_code": 0,
+      "seconds": 4.39,
+      "source_sha256": "7e289d77dbc68bf731f1326ab509b0e76ed430e42a0ce156dd4c91d88a8e8788",
+      "olean_sha256": "8b4c95d717a947395770e243b3a0254f100f0c4b19a39c9202f75ad17c2b1c0e"
+    },
+    "AllPrimeGroups.FrameRepresentations": {
+      "exit_code": 0,
+      "seconds": 3.3,
+      "source_sha256": "b69d6ccefd72b202183bea0a62246bc43be661275426c3e4e8918c15a6f5c861",
+      "olean_sha256": "b36500afbf3246e1ea75be56e51b5c7c293c4392f3ad62a4358b6cdd98bc3a58"
+    },
+    "AllPrimeGroups.NilMatrixLift": {
+      "exit_code": 0,
+      "seconds": 2.6,
+      "source_sha256": "af123ef483c465221092baa5e9213516fd2bce8f1be2975077b088d9a9242e03",
+      "olean_sha256": "c157eb8bed2033ababfafe94ad1685091003faa8f15a087c8d5363e9575c38b0"
+    },
+    "AllPrimeGroups.FieldFrameCompletion": {
+      "exit_code": 0,
+      "seconds": 3.06,
+      "source_sha256": "e67ed2b9f546bda46584f77ae67a949a477c3791dd18774e092215b9bd5cd914",
+      "olean_sha256": "f051b3703e607f7c6f16d9921b1dd8fc925948f9b10532e514e91dda96004646"
+    },
+    "AllPrimeGroups.SplitFrameCompletion": {
+      "exit_code": 0,
+      "seconds": 3.02,
+      "source_sha256": "86194d29a94e36dc6fa44d7df6c5a71fab12ec1d4148d60253f7bd388fd7f928",
+      "olean_sha256": "44c56dac7b0f9ae4ae280e4ec4e8cea7ed34af08b7b36ec358ffbf4a026112e0"
+    },
+    "AllPrimeGroups.FrameTransitivity": {
+      "exit_code": 0,
+      "seconds": 3.17,
+      "source_sha256": "d078aa26a7acad271d01d78612a60df1338b01f1fccdebe66649f06549d2e4c8",
+      "olean_sha256": "285c2967608b0e09f1facd8322a9d4f960333f410c6ec0d61f51b215bfa72f0c"
+    },
+    "AllPrimeGroups.FrameCosets": {
+      "exit_code": 0,
+      "seconds": 3.56,
+      "source_sha256": "99bade0433e60bb0ff0b5742df03ce5b4e9c8f89caf36b86815fe82745c48832",
+      "olean_sha256": "b3981dc84128be828269d0e8d80abb04577c922e07183cc5a372f63891d007a1"
+    },
+    "AllPrimeGroups.PrimeFrameTransitivity": {
+      "exit_code": 0,
+      "seconds": 13.24,
+      "source_sha256": "0c6dba62afb16562d9b17be00dff1061feff98c70b86fa5f8cb62a5370cdeac0",
+      "olean_sha256": "3f1c10526e0d970c6b8438f408a81292a074961b7f939615cad0906f9f8062ab"
+    },
+    "AllPrimeGroups.FunctionCoinduction": {
+      "exit_code": 0,
+      "seconds": 3.89,
+      "source_sha256": "a0111538b13855eb46638d12bff0eb453d9fc44dea57358eab278fe298810b5b",
+      "olean_sha256": "1e6b86e6be1f41c300f282f9fa658c11e214e8f9097ff0d44baed918f078518b"
+    },
+    "AllPrimeGroups.HomologyUnop": {
+      "exit_code": 0,
+      "seconds": 2.5,
+      "source_sha256": "43c936e7b0d43d11930bb0429eea93f07565189f81c21be36cc5b10fc33ced2b",
+      "olean_sha256": "68ad202641567ed4cbdc16cf805e71f450dfc1f894a70ed5eac1a51a4b558f20"
+    },
+    "AllPrimeGroups.ProjectiveComparison": {
+      "exit_code": 0,
+      "seconds": 3.93,
+      "source_sha256": "c9866731e6382e8bf176c39eb963c3fb7810edc1a60d28b328b755768f932de6",
+      "olean_sha256": "e2c79d5347e0b8f19f29d9fd248572315326352cd3fd3605e4f04def5054ca02"
+    },
+    "AllPrimeGroups.BarRestriction": {
+      "exit_code": 0,
+      "seconds": 4.77,
+      "source_sha256": "4c771ce3ea9d32763ee456e9e0c150634c1959f51c09577e84e01e303f2c2156",
+      "olean_sha256": "d811c3f1b7d4ed77fe7772dc88c09db827dac440d3246adb05a926a123c42ad4"
+    },
+    "AllPrimeGroups.CohomologyComparison": {
+      "exit_code": 0,
+      "seconds": 5.21,
+      "source_sha256": "742d276906e27c421d6ef75d2e73d93763470b6dc0ee027f908f10a3bebc2844",
+      "olean_sha256": "cde52e73c40fee69dd42b44a3ff505129b44decafa4d2570d85c384e1feb3e3f"
+    },
+    "AllPrimeGroups.ExplicitShapiro": {
+      "exit_code": 0,
+      "seconds": 5.59,
+      "source_sha256": "71ff73cd54d62bb8e026b577f0381a2fdee6b389f32bf95330b9854d36924443",
+      "olean_sha256": "983298562cf2a0dfb493980584ef0339fa7db11fb201e4a34945260379855457"
+    },
+    "AllPrimeGroups.HomogeneousShapiro": {
+      "exit_code": 0,
+      "seconds": 4.15,
+      "source_sha256": "2d3c0bfe3adc39b82c44792323c2be179cd7d07d4f7a9cbf6ecc2fae348f032b",
+      "olean_sha256": "1b471a43ba4f575b3b1ed97ecd673ec9f9ebd5570fc4bd9cf2c61df9e3554253"
+    },
+    "AllPrimeGroups.FrameCochains": {
+      "exit_code": 0,
+      "seconds": 3.57,
+      "source_sha256": "0fd07f3bf8dd6f6bb1197baebdeff7178142147856a190c5f09a4bbfb3b46a5d",
+      "olean_sha256": "3ca28f02a3bb89065deb014236b00f1fbabb7e5f8877b973d8da0860663213dc"
+    },
+    "AllPrimeGroups.FrameShapiro": {
+      "exit_code": 0,
+      "seconds": 5.51,
+      "source_sha256": "de55e719545b7a76e65233fb14e334fd0b32e2e50a18750cb0b5a72fe7afcd7b",
+      "olean_sha256": "4efacb5275c04602b11716916c0adc4298431234a015f0cb386c3f6e4639c30a"
+    },
+    "AllPrimeGroups.FrameLowDegree": {
+      "exit_code": 0,
+      "seconds": 3.59,
+      "source_sha256": "3c9ccf78d2c3729d7c512c483ecc0fe49ad8e85fe999608223813b833eb6220d",
+      "olean_sha256": "04a02db0fc93e32f289ebb108f6c9f8c85d01a357c42320ed914a32fcea077cd"
+    },
+    "AllPrimeGroups.PrimeFrameShapiro": {
+      "exit_code": 0,
+      "seconds": 10.21,
+      "source_sha256": "cf647854a23f8345859254c53d9bfbc41060d76c9297095462fcffac1f2af345",
+      "olean_sha256": "653a9910b50b614f12a11eff91093b3b5b1f9cab28b0310fe258f8aab33c87dd"
+    },
+    "AllPrimeGroups.CohomologyConjugation": {
+      "exit_code": 0,
+      "seconds": 4.26,
+      "source_sha256": "bbdd37b3f7c14fc912978ce786b45bb9c8fa35c768624878e95632fe14cca372",
+      "olean_sha256": "81d17dbfbdd7876f142d9a200fcbffd964cb3609a876635d413a949504c8be37"
+    },
+    "AllPrimeGroups.SignedFrameShapiro": {
+      "exit_code": 0,
+      "seconds": 4.46,
+      "source_sha256": "e531dab9516d9ef2eb51e4237a22139f07e2351aa3096072fc366ab519697b25",
+      "olean_sha256": "000c876222932b4fd654a7faead435a0d51c3c341e229f8daf37481173acaa90"
+    },
+    "AllPrimeGroups.FactorSetPullback": {
+      "exit_code": 0,
+      "seconds": 4.1,
+      "source_sha256": "cecc20c9ff89dd7ead817697a782a70da991ff2f616bd2366e1e79678551097d",
+      "olean_sha256": "9222f1719fa144999ec8024cca19d771301ca8e4de2e577722e8d2742ffb9a39"
+    },
+    "AllPrimeGroups.CentralExtensionCharacters": {
+      "exit_code": 0,
+      "seconds": 3.68,
+      "source_sha256": "21be0813df2c5f9da7dc50e244aece8a0867b824ebe83a76127192af297f66f2",
+      "olean_sha256": "4559f8f4329f1fe340ef632426de5f7414043e29587638d48405e0a1fc8c6028"
+    },
+    "AllPrimeGroups.FrameCharacterClasses": {
+      "exit_code": 0,
+      "seconds": 4.37,
+      "source_sha256": "3249f56ff33e71dbff4f7ae2f7e6514a166966ceb3f7f500586c55b09d0f46b4",
+      "olean_sha256": "00ff6528bb051e1b9dfe127d273abfc19bc8ed50b0052cefccd3c3b23cecc830"
+    },
+    "AllPrimeGroups.FrameCharacterCocycle": {
+      "exit_code": 0,
+      "seconds": 4.33,
+      "source_sha256": "573ee227bf8b3c8dfaa13a5ba75523687e692772779e113da1f436b1d9b2ee43",
+      "olean_sha256": "6fccae57e13df5d3c7066223bb7f4fc26cf9dee2d04c80d46758b6b36ca7a3c1"
+    },
+    "AllPrimeGroups.PrimeFrameCharacterClasses": {
+      "exit_code": 0,
+      "seconds": 10.38,
+      "source_sha256": "74e705e6c6fdebddfa10e5904e9cac4f5c4644e6e7224dec5f3ed1c63228d145",
+      "olean_sha256": "d10fc5b952dfe00c122c585954ee8cb31309d8f2954787b9d62d4a5593f4aac8"
+    },
+    "AllPrimeGroups.InjectiveDualExact": {
+      "exit_code": 0,
+      "seconds": 2.73,
+      "source_sha256": "42d63fecd604535d51334ff839a9935b8035f0e00d18a1c1d83ed57993cd2377",
+      "olean_sha256": "e04b25f4eba52efe868e510bb8b1408b20fb77f3b744d82e753c3b0372213fa1"
+    },
+    "AllPrimeGroups.FrameChainDuality": {
+      "exit_code": 0,
+      "seconds": 3.22,
+      "source_sha256": "597f18656c79505eb704f51f0aeaa1350c5ef510deb01728d2b33ebc239ade1a",
+      "olean_sha256": "17de59e5adfe498b15416e9dd7cb22e306f92ac9f313feb2ed5201eb22db3368"
+    },
+    "AllPrimeGroups.FrameCoefficientComplex": {
+      "exit_code": 0,
+      "seconds": 3.84,
+      "source_sha256": "9f78b1eaf35a7d971b309a9ed76adbefe416e2bf65aff95a2eee57ee4c636f6d",
+      "olean_sha256": "7c14c18d9d25f98f9f844855fdd8240217a2a0ef789ed09b28a0b1ad0b048ee2"
+    },
+    "AllPrimeGroups.FrameCochainRows": {
+      "exit_code": 0,
+      "seconds": 3.55,
+      "source_sha256": "4ead1af23e0f11a3011d0a3c794e6826825dda13a26533620055202a9f7b94dc",
+      "olean_sha256": "dd6eb96d879ba8ede343621710cb08393c92be906b1826d0a185cabddb6da4c7"
+    },
+    "AllPrimeGroups.FrameCoefficientH0": {
+      "exit_code": 0,
+      "seconds": 3.83,
+      "source_sha256": "54ac6d63a26a2a749954e61fd7c04f997a9d3fb0d69e7c538194b3b60536bfd6",
+      "olean_sha256": "35034c1afec7ab0c50e5bab78e98729d093ea536f65775702c84f2a84bdd5b09"
+    },
+    "AllPrimeGroups.CochainExactness": {
+      "exit_code": 0,
+      "seconds": 3.57,
+      "source_sha256": "6fd86b29db25e9a3d85b8e93831350b35fc0b095234f21ea7d821a9a852f4162",
+      "olean_sha256": "f477583596f9937b3898179431a1e4199e4c748b3d834a0db1324bb434100f51"
+    },
+    "AllPrimeGroups.LowDegreeChase": {
+      "exit_code": 0,
+      "seconds": 1.75,
+      "source_sha256": "7725a2f607656e8860013509c210a6a0db360f2400b0c8dfb6cf18a2b89f4319",
+      "olean_sha256": "d507fbb0429b65d0f6ace86d98f63dba9a4bb7f64f70bfc3717559c96d6aeb78"
+    },
+    "AllPrimeGroups.FrameLowDegreeLift": {
+      "exit_code": 0,
+      "seconds": 3.75,
+      "source_sha256": "f44e767e26c20d643b37e6250190058a1d3bcecaa15621e674e3cd71e646bc1f",
+      "olean_sha256": "df3cb0e008fae881c28c172eed0c9ff4aeb1c935a0cbd26c59bf9ed2838b24cf"
+    },
+    "AllPrimeGroups.FrameAugmentation": {
+      "exit_code": 0,
+      "seconds": 3.17,
+      "source_sha256": "b81f794266047a7c4fe0ee3232da912a81414a3cf43e1edbd9fcaac589303616",
+      "olean_sha256": "987765f57028fd5a245a6f416a2d201ed3ab3fe319d486fbc355288c8fe1affc"
+    },
+    "AllPrimeGroups.FrameH2Lift": {
+      "exit_code": 0,
+      "seconds": 4.09,
+      "source_sha256": "545be11a95612d7e91b03e33cdb8b308cb3ab31a3e4580de98329d8ac54a4c8f",
+      "olean_sha256": "06cc567c19a84052c607a6a2ffec5119d19007203417487041f80f3ccf87a754"
+    },
+    "AllPrimeGroups.PrimeFrameH2Lift": {
+      "exit_code": 0,
+      "seconds": 18.51,
+      "source_sha256": "799d22050ccefb1a985aa23eff2d09f9395f853b3443f2ae0b05f97beb6c5725",
+      "olean_sha256": "8bd55661b9756c80cde985c15bff2e9030d5a5d36544f7be058812d54921e94a"
+    },
+    "AllPrimeGroups.CentralClassLifts": {
+      "exit_code": 0,
+      "seconds": 3.76,
+      "source_sha256": "b8ddc91b7a6915a5696db79eb427cb32db5fab9b7a04c9cfa88729a88a617bc1",
+      "olean_sha256": "68e514b8e0c61a28b37a2e75f78bf4c62c176592c4665241a23e41d5a2a8a1e3"
+    },
+    "AllPrimeGroups.OneRowFrameCover": {
+      "exit_code": 0,
+      "seconds": 3.78,
+      "source_sha256": "78b3808e73b4bd58a5c22bdefa99c750e1a0b5adb72e181939af709381eb6dcd",
+      "olean_sha256": "cd7871fb3423aa0e877350ca0f7b5cfd0608b7d17ae83c104f3811be9bba99dd"
+    },
+    "AllPrimeGroups.PrimeCharacterRealization": {
+      "exit_code": 0,
+      "seconds": 11.89,
+      "source_sha256": "cf7ba6ed2c21726d8d6c6197b5d91d69adf7fd4e3777676cdaa074056cbe5d74",
+      "olean_sha256": "ab59ab121d5a9647a81255b86baf255f91bb2751aa6cbaf2518b557878a7792d"
+    },
+    "AllPrimeGroups.PrimeCharacterExtensions": {
+      "exit_code": 0,
+      "seconds": 10.02,
+      "source_sha256": "c7a210898511fc37475f0a5d80b909c5673d1ca2c4c56a0c8680cf1dcb8eda97",
+      "olean_sha256": "cdab1ee03eba4369a917496e2192a5b05c832369145304da100e50afbf598a38"
+    },
+    "AllPrimeGroups.FiniteLocal": {
+      "exit_code": 0,
+      "seconds": 2.78,
+      "source_sha256": "4a305eb7508502ce686536cc3cce61f030d17760afe020ba3b4b94e009266e47",
+      "olean_sha256": "24bf3a742ec19547126553bd3ff7c3605415ec1d2f68e757e3a5228105da9fd2"
+    },
+    "AllPrimeGroups.PrimeGroups": {
+      "exit_code": 0,
+      "seconds": 9.26,
+      "source_sha256": "1c018b0f9210f78e3d0cb1ea91ce7381dd1aa65a4da2be6fab521cfc529a73d6",
+      "olean_sha256": "be20cd46ea310171e166355c47bb353f36f1370e8051edddce741ccdf86f35a5"
+    },
+    "AllPrimeGroups.FinitePQuotients": {
+      "exit_code": 0,
+      "seconds": 2.92,
+      "source_sha256": "62a12cf40409cc674e05962beb60548b3e7263d19551401d30a01cdc0704a7d2",
+      "olean_sha256": "cc14bda18562194f555cec695eed58cee8b14633cf4a48078022cc266b47de31"
+    },
+    "AllPrimeGroups.PrimePQuotients": {
+      "exit_code": 0,
+      "seconds": 8.75,
+      "source_sha256": "0708cc702edb2c3603c1d26cc5097530b569e0d8acade2f5d8e7d3b0ae8b3190",
+      "olean_sha256": "d1dcaf29139ba7fc9a41d4f549d8cc5071b74ad4d7da338b0a872654f7631b6d"
+    },
+    "AllPrimeGroups.NilCongruence": {
+      "exit_code": 0,
+      "seconds": 3.1,
+      "source_sha256": "03c2d95fc948657ababf86b3a19a9aab0e16f89e6c159ea6fbc1e6fbf5877692",
+      "olean_sha256": "12ba06585a42d8b02915f55c44056b288bee7f674defd6635088af7a72250608"
+    },
+    "AllPrimeGroups.NilMatrixCongruence": {
+      "exit_code": 0,
+      "seconds": 3.1,
+      "source_sha256": "32597fd62bb1bdf9282ec65995b62b62892685c8fc53451ab689d0110a18aaff",
+      "olean_sha256": "dabd9b8ed801e42f3e5f7035cf7f94b4c89d0d0768e072fbbcd0efed905c1b57"
+    },
+    "AllPrimeGroups.PrimeNilUnits": {
+      "exit_code": 0,
+      "seconds": 9.29,
+      "source_sha256": "109205e5d1854f81039b1165c25e3631f26cec2a4bc4ce394f7d5329453e2c0e",
+      "olean_sha256": "19568d983184ef125ba29ff2bb53d8e21d111d0872602cbb3011aafda0a14865"
+    },
+    "AllPrimeGroups": {
+      "exit_code": 0,
+      "seconds": 8.41,
+      "source_sha256": "c9ed1eb888ad18a5b880a020a86a42dd3ddb7c0fbf9429d515536fde386ad69c",
+      "olean_sha256": "cbacd7bfed6909377063b5d5f3712e26f336ec5331e92bec102dd57f066efd02"
+    },
+    "Audit": {
+      "exit_code": 0,
+      "seconds": 8.93,
+      "source_sha256": "268043e969e3d0d32f328bc5b2b59f91e53430ea5f00e4e3bfdbc18faa5b582f",
+      "olean_sha256": "6467fea76dfadeabb9c57b27e0ea358815c700551c760e4d859d49d291e568c0"
+    },
+    "Challenge": {
+      "exit_code": 0,
+      "seconds": 2.7,
+      "source_sha256": "94300a7c669bd225cd730467be0b6b6e1bee1df19190846398ba62647ba960f7",
+      "olean_sha256": "54575573900e0bc40a11d62bf451480b171a2ed1fc7658e6166c9e51d144ee3d"
+    },
+    "ComparatorChallenge": {
+      "exit_code": 0,
+      "seconds": 2.58,
+      "source_sha256": "09c96e05045c7089632810044d7555aa0a76c292ccdbb6f9c1eb447e0c6436a0",
+      "olean_sha256": "62f8697c20e9535eb6ace0cb17c9ae709629d0830570c120f3d81a2a09db2a28"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Frames.ExteriorComplex": {
+      "exit_code": 0,
+      "seconds": 14.18,
+      "source_sha256": "e713ca1e12542b0726806d0a63a019653933bd47cd77f8a2136fdb7fd77098f7",
+      "olean_sha256": "2e3dcc77067cb59d991aced42ea2c0820bed92e8f1b56c6f88f808e95627eece"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Frames.AcyclicFrameEdge": {
+      "exit_code": 0,
+      "seconds": 15.89,
+      "source_sha256": "a403aaaf15b2d09147b1cbc33a2966e82f407ea540a49ef9b8e6e2f8ee434ff6",
+      "olean_sha256": "f49abd81ef5d04c463f1c753a7e5b9faf1827be2b7b81843147b886024cf7ce4"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.KernelRelations": {
+      "exit_code": 0,
+      "seconds": 12.37,
+      "source_sha256": "c9172c0d3d76d6dabeed9f4dc5b309d92705e1f23bef36ca696574db5bd7dd34",
+      "olean_sha256": "1a82dc0e44902cbb45b867cd5832675bfdb3fe1c9775048122dc070ff97d095e"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.BlockEmbeddings": {
+      "exit_code": 0,
+      "seconds": 13.39,
+      "source_sha256": "aa141fd2f40eff107d056985937e37252292fd6215adbcb0463322cec9858f68",
+      "olean_sha256": "5c1e64d7c915d90e0c1056e56bb0be631117c8bdb26e0d99b11c69cf052b4830"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.BandFactorization": {
+      "exit_code": 0,
+      "seconds": 15.46,
+      "source_sha256": "4d12a9b377e2aa1dd90bdbe42c56ef82ae2eaacb98bcdf4f8f6c1b39030429c7",
+      "olean_sha256": "c25317366ac3a9663c2ea73fdd42730efe9a10a46c0b5f7689db5830b3b511aa"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.MatrixUnits": {
+      "exit_code": 0,
+      "seconds": 12.81,
+      "source_sha256": "87376db54c394137be7da21fd664926303b4cd1368b8cfee67d583c8c2032d0f",
+      "olean_sha256": "a5faa4af09852d078322e32ea47fd63f086d00b03f6c159fcec717c324010df4"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Matrices.ElementaryGenerators": {
+      "exit_code": 0,
+      "seconds": 12.98,
+      "source_sha256": "fd7afd54e53c626bfc7199df8506d571524cec8128d7932b9f03618102d16b33",
+      "olean_sha256": "f63d5d8149785956b9002219ddbb4120029902d0fa83cf894bc72cc48291992d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.FinitePresentation": {
+      "exit_code": 0,
+      "seconds": 11.55,
+      "source_sha256": "aa71b90a9bee269df07a3f0132f0d1b75dffc282cc8725b4511da1062a2e828d",
+      "olean_sha256": "79a601aa1a6d42195dbd6d79eda2bce50925663ff9dd70d58b17ef1bddff4a1f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.MatrixStabilizers": {
+      "exit_code": 0,
+      "seconds": 15.38,
+      "source_sha256": "08a7d248c41237c970fa10d8765edcc193800a7115178b366ec47be04249131e",
+      "olean_sha256": "5ede93cba37f82019ff572b22c59207a148fb4a342d006d81de83e291aae632f"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.SmallSwapActions": {
+      "exit_code": 0,
+      "seconds": 14.77,
+      "source_sha256": "82efae5e445ae3f2a60ee5a503fce9e6d5f7ebd1e3664c63ae12470af3ecf091",
+      "olean_sha256": "0de19edf9a9c758c18e399a2a80cdfec203193923e79c11318fd34f026b7a76d"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Presentation.SmallFaithful": {
+      "exit_code": 0,
+      "seconds": 11.19,
+      "source_sha256": "ecda6bc8501fe38f0d096c8fffced488967c9aabe64553c5a69048007b243442",
+      "olean_sha256": "7791bca4d7322f022bd569352f55f78a07e11e329bb5de98501857bde49aa2dd"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.DiagonalActions": {
+      "exit_code": 0,
+      "seconds": 9.92,
+      "source_sha256": "2e1a9f1032e933579731c485147303a059ffd23633439d238ef048c5c3cc379f",
+      "olean_sha256": "54c8ee4714be929893625d7cb46af9bd53fcb90df74f70fbceef3306f7f11754"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Frames.ElementaryFrames": {
+      "exit_code": 0,
+      "seconds": 12.47,
+      "source_sha256": "5303769d253832c7984ee5a630d5a28032b80b105f0d7cffa063232e98e2dbc4",
+      "olean_sha256": "18378131b1351d0d5a7ac47ca0186f67df86662412a6182efe9bbb88d943e3fb"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.LocallyFiniteActions": {
+      "exit_code": 0,
+      "seconds": 21.73,
+      "source_sha256": "fd5fc14f35bfd3d75c87f19283afffcfd1a5479e69a0189c302322d1dc0fd51f",
+      "olean_sha256": "3fa5fcd474ce0b6a167c5da55db17bac303006271d5f1b18088b3c29d34ce651"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.FiniteNormalHomology": {
+      "exit_code": 0,
+      "seconds": 19.34,
+      "source_sha256": "f85280cb4fc1febe9e07dffb8feb2de21703924209d886c5873799eea2525dca",
+      "olean_sha256": "42a06def7520693017708133d56063203772bc0144fb3ae4fbc2b9d092062cee"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Steinberg.RankActions": {
+      "exit_code": 0,
+      "seconds": 11.4,
+      "source_sha256": "23612569cdf934fadd95098f8723624987509dc597d837d79bca327f74420232",
+      "olean_sha256": "1d5aff6586c598286ecdefee2734f29d3ded66f6ebdf4e931d8a5713a6f001a6"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Homology.KernelStability": {
+      "exit_code": 0,
+      "seconds": 11.96,
+      "source_sha256": "4818df9ff71bc65c11b3c412bdbc785b45285afbcc32d070612cadff5c730a3f",
+      "olean_sha256": "5746617ee0e15c00ef5eb6b0294ce51178194e3bac6b98836e30cf8854f90f68"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Periodicity.KernelTorsion": {
+      "exit_code": 0,
+      "seconds": 9.48,
+      "source_sha256": "2537c2cf6186b9d2803fc7224930cb0aa8f63dc8efe5194790a2cb6023af519d",
+      "olean_sha256": "1f67c360992904577196c59600069877b585f5e821f9b3ef19accf8f5fa90244"
+    },
+    "OAI.GroupTheory.PeriodicGroups.Main": {
+      "exit_code": 0,
+      "seconds": 8.91,
+      "source_sha256": "c10549fce81b0c9b4c0da5f3980bb49796c0e4c9651a0cf87f9309d2013b7f90",
+      "olean_sha256": "6e9722e4e938354e87aa4430533a0c556def0dc6548c5d575aa3a8630cd19d67"
+    },
+    "FCSolution": {
+      "exit_code": 0,
+      "seconds": 8.83,
+      "source_sha256": "4ffe0ebc3ec930681a2812ffce6b648ac2fc36efe9c3f8128d6eb0329d3e9dc2",
+      "olean_sha256": "d0234dfc4cd414fae553fc794a3d1bfb68c7ac2adfa6bfe5993e50c1f1ae39d8"
+    },
+    "FCAudit": {
+      "exit_code": 0,
+      "seconds": 8.52,
+      "source_sha256": "39b3086a160dcf43723c733360cf162c8acdd09d4b184a00ffe17a3ee989b773",
+      "olean_sha256": "562c17c7fd80f3ad536e64d05e67193806e3e51a97a39c4c6f784e7b2f5553e6"
+    },
+    "UpstreamAudit": {
+      "exit_code": 0,
+      "seconds": 8.28,
+      "source_sha256": "1acfe913458784cb50a1847a2af0757321eaaa3c9adc7dbc9aac978a6e72db23",
+      "olean_sha256": "fcd7e620a2d502caefbed58069d00b5d444eaa639074412b1a0e169de0ae70bb"
+    }
+  },
+  "tested_commit": "c1ce611712e5a7804ed5056ad60600ffc941186a",
+  "complete": true,
+  "seconds": 1569.39
+}

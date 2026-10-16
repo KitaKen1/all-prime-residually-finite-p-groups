@@ -8,7 +8,7 @@ import re
 import sys
 from urllib.parse import unquote, urlsplit
 from fc_proposal import check_proposal
-from ci_receipt import check_private_ci
+from ci_receipt import check_private_ci, check_public_ci
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = 'PUBLICATION-MANIFEST.json'
@@ -153,6 +153,9 @@ def verify(root=ROOT):
     private_ci = check_private_ci(root)
     if private_ci is not None:
         result["private_ci"] = private_ci
+    public_ci = check_public_ci(root)
+    if public_ci is not None:
+        result["public_ci"] = public_ci
     result.update(files=len(actual), local_links=check_links(root),
                   verification_scope='Source integrity and producer evidence only; no new Lean build.')
     return result
