@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "prepared_at_utc": "2026-10-16T08:12:37.350126+00:00",
+  "prepared_at_utc": "2026-10-16T08:36:32.157582+00:00",
   "title": "Infinite finitely presented residually finite p-groups for every prime",
   "intended_repository": "https://github.com/KitaKen1/all-prime-residually-finite-p-groups",
   "toolchain": "leanprover/lean4:v4.34.1",
@@ -119,8 +119,8 @@
       "sha256": "2ae95a9bd528a3d9ef7b2474dfc6e4ee8b86eed8cb5cf844c81d1be955f5cfa6"
     },
     "README.md": {
-      "bytes": 29645,
-      "sha256": "0d2aae987880bf7a1a3ede6d831e7b888e90628537a5ebc27644d1ff40c20279"
+      "bytes": 29609,
+      "sha256": "3374195cc2a3b9f133e918036da18292be8523a9224debcb2b5df72b5ee8922f"
     },
     "docs/ATTRIBUTION.md": {
       "bytes": 2904,

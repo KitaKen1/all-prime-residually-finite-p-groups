@@ -170,8 +170,8 @@ and finite word-length truncations give
 
 ```math
 \bigcap_d\ker\!\left[
-\operatorname{St}(R(p))\longrightarrow
-\operatorname{St}(R(p)/I_{\ge d})
+\mathrm{St}(R(p))\longrightarrow
+\mathrm{St}(R(p)/I_{\ge d})
 \right]=\{1\}.
 ```
 
@@ -183,7 +183,7 @@ stabilizers and their face maps supply a low-degree cochain argument. Explicit
 Shapiro maps and central-extension characters then give
 
 ```math
-\operatorname{St}_n(R(p))\hookrightarrow\operatorname{St}(R(p)),\qquad n\ge7.
+\mathrm{St}_n(R(p))\hookrightarrow\mathrm{St}(R(p)),\qquad n\ge7.
 ```
 
 This uses adapted extension and Shapiro code from Tau Ceti, its algebraic
@@ -195,7 +195,7 @@ The source revisions and adaptation details are recorded in
 
 ```math
 G(p,n)=\ker\!\left[
-\operatorname{St}_n(R(p))\longrightarrow\operatorname{St}_n(\mathbb F_p)
+\mathrm{St}_n(R(p))\longrightarrow\mathrm{St}_n(\mathbb F_p)
 \right].
 ```
 
